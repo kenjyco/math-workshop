@@ -1,0 +1,18 @@
+web/node_modules/
+web/dist/
+.output/
+.cache/
+.venv/
+__pycache__/
+.DS_Store
+# Retained runs belong outside source; these are defense in depth.
+test-results/
+playwright-report/
+coverage/
+blob-report/
+*.log
+*.trace
+*.sqlite*
+*.db
+*.db-*
+*.pyc
