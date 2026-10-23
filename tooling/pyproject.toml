@@ -1,0 +1,9 @@
+[project]
+name = "math-workshop-tooling"
+version = "0.1.0"
+description = "Development-only inspection and recovery smoke checks"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.uv]
+package = false
