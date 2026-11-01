@@ -4,6 +4,10 @@ Read what is relevant; source remains authoritative. Workspace instructions may
 identify optional external handoffs and run records. No sibling folder is needed
 to understand, build or test a standalone clone.
 
+Use the [fresh-session sequence](workflow.md#fresh-session-and-interruption) as the
+opening part of an authorized task; it also provides a short instruction for goal
+authors.
+
 | Need | Start here |
 | --- | --- |
 | Product purpose and scope | [NORTH_STAR](../NORTH_STAR.md) |

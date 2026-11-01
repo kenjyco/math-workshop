@@ -28,21 +28,13 @@ requires its own explicit assignment. Adult preview feedback is not family-use e
 
 ### Foundation closeout — 2026-10-23
 
-The owner explicitly accepted the foundation in the 2026-10-23 closeout instruction,
-having reviewed the application, corrected counting activity, all four factor pairs,
-saved progress and final readability changes. The owner approved the initial A/B
-commit structure and exactly one documentation closeout commit in this session.
-This one-time exception leaves the standing no-commit restriction in force for future
-tasks. No numbered goal was executed or completed.
-
-Delivered scope includes independent counting addends 0–5 with answers 0–10,
-server-resolved parameterized factor rectangles with default total 24, local synthetic
-profiles, help, saved drafts, submitted-attempt history and persisted factor discoveries.
-Go owns mathematics, session rules and SQLite persistence; the embedded Svelte interface
-owns transient interaction. Immutable legacy lessons, pinned sessions and recorded
-attempts retain their meaning. Host build, source export and packaging tools, reusable
-tests and durable guides complete the foundation; adult setup and later teaching
-extensions remain numbered work.
+Owner accepted on **2026-10-23** after reviewing counting, all four default factor
+pairs, saved progress and readability. Delivered independent addends 0–5 with answers
+0–10, parameterized factor rectangles (default 24), synthetic local profiles, help,
+acknowledged drafts, submitted-attempt history and persisted discoveries. Immutable
+lessons and pinned sessions preserve historical meaning. Host build, source export
+and packaging tools complete the foundation; adult setup and teaching extensions
+remain numbered work.
 
 Implementation commits:
 
@@ -51,38 +43,24 @@ Implementation commits:
 - B: `cfb0a450b62676b18c7fa82424e8e8020e51d41a` — Add the interactive packaged math
   workshop.
 
-Closeout verification matched the exact 15-file A and 71-file B sets to the approved
-source inventory. A's exact staged-source export passed Go race tests and vet. The
-cumulative tree passed the normal locked build, Svelte/TypeScript checks with zero
-errors or warnings, all 17 frontend unit tests, Go race tests, vet, executable build,
-documentation/source checks and all four tooling tests. The executable smoke passed
-with disposable synthetic data, including both activities, replay/conflict behavior,
-draft/attempt separation, persisted discoveries, stopped-app backup/restore, integrity
-and newer-schema refusal. An initial sandbox cache-access failure was resolved by
-rerunning vet with the explicitly supplied external Go cache and required access;
-no source diagnostic or check weakening was involved.
-
-Remaining limits: browser suites were preserved but not rerun for this closeout.
-Actual iPad, other-browser and assistive-technology checks, browser-menu zoom and
-observed family use remain unverified. Local profiles are not authentication; network
-pairing, accounts, multiplayer, offline synchronization, online backup and populated
-upgrade tooling remain outside the foundation. Public VERSION remains 0.1.0; no new
-release package or publication was made. Previous releases, including the immutable
-owner-tested 0.1.0-dev.4 artifact, and owner data remain unchanged. Source acceptance
-does not certify destination portability, accessibility or educational efficacy.
-
-A goal may span several commits and a commit may contribute to several goals.
-Record actual IDs; a metadata commit need not contain its own hash. Never invent
-approval or infer completion from a commit or an agent status banner.
+Actual-device, assistive-technology and family-use acceptance remain unverified;
+see [QA limits](../.context/qa.md). Profiles are not authentication; network access,
+offline synchronization, online backup and populated upgrade tooling remain outside
+the foundation. [Architecture](../.context/architecture.md) and
+[DESIGN](../DESIGN.md) describe current behavior and limits. Source acceptance does
+not certify portability, accessibility or educational efficacy.
 
 ## Executing and adding goals
 
-Read the entire authorized goal and reconcile its prerequisites with source.
+Use the shared [orientation sequence](../.context/workflow.md#fresh-session-and-interruption)
+within the authorized goal's execution, including its task-specific source and checks.
 The practical order can change without renumbering stable IDs. Record justified
 scope/order changes in [decisions](../.context/decisions.md), preserving acceptance
 criteria. Future bounded goals use the next unused ID (currently 008), with actual
-dependencies and a stopping point. No goal automatically starts another or grants
-commit authority. Current definitions do not authorize execution by themselves.
+dependencies, starting assumptions, scope/exclusions, preservation requirements,
+automated checks, owner QA, permitted operations and a stopping point. No goal
+automatically starts another or grants commit authority. Current definitions do not
+authorize execution by themselves.
 
 ## Later directions, not execution commitments
 
