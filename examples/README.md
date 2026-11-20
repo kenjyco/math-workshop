@@ -18,6 +18,8 @@
 |---|---|
 | [Two counters make ten](grade-1/making-ten-and-equality.md) | G08 · Properties, missing addends and equality |
 | [What do we need to find?](grade-1/stories-with-unknowns.md) | G09 · Quantities in additive stories |
+| [How many sticks are in the bundles?](grade-1/bundles-and-counting.md) | G10 · Counting through 120 and reading tens and ones |
+| [What changes when a bundle is tied?](grade-1/bundle-arithmetic.md) | G11 · Addition and subtraction with place value |
 
 ## Grade 4 pilot
 
