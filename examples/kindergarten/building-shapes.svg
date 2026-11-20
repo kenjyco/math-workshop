@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 352" role="img" aria-labelledby="title desc">
+  <title id="title">Build a triangle and fit two triangles into a rectangle</title>
+  <desc id="desc">Three sticks meet at three joints. Their outline is drawn alongside. Below, two right triangles appear apart, then together along diagonal AC, then as the exterior rectangle ABCD.</desc>
+  <rect width="540" height="352" fill="white"/>
+  <g font-family="sans-serif" font-size="17" fill="#222" text-anchor="middle">
+    <text x="140" y="29">Three sticks</text><text x="390" y="29">Drawn outline</text>
+    <text x="86" y="202">Separate pieces</text><text x="270" y="202">Join along AC</text>
+    <text x="445" y="202">Trace the outside</text>
+  </g>
+  <g id="sticks" stroke="#444444" stroke-opacity="1" stroke-width="5">
+    <line x1="80" y1="134" x2="140" y2="54"/>
+    <line x1="140" y1="54" x2="200" y2="134"/>
+    <line x1="200" y1="134" x2="80" y2="134"/>
+  </g>
+  <g fill="#222"><circle cx="80" cy="134" r="5"/><circle cx="140" cy="54" r="5"/><circle cx="200" cy="134" r="5"/></g>
+  <polygon id="drawing" points="330,134 390,54 450,134" stroke="#222222" stroke-opacity="1" stroke-width="2.5" fill="none"/>
+  <g stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round">
+    <polygon id="loose-abc" points="50,222 146,222 146,286" fill="#ddd"/>
+    <polygon id="loose-acd" points="24,253 120,317 24,317" fill="#fff"/>
+    <polygon id="joined-abc" points="222,238 318,238 318,302" fill="#ddd"/>
+    <polygon id="joined-acd" points="222,238 318,302 222,302" fill="#fff"/>
+    <polygon id="boundary" points="397,238 493,238 493,302 397,302" fill="none" stroke-width="3"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#222" text-anchor="middle">
+    <text x="214" y="233">A</text><text x="327" y="233">B</text>
+    <text x="327" y="317">C</text><text x="214" y="317">D</text>
+    <text x="389" y="233">A</text><text x="502" y="233">B</text>
+    <text x="502" y="317">C</text><text x="389" y="317">D</text>
+  </g>
+</svg>

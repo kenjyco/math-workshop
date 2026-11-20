@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 355" role="img" aria-labelledby="title desc">
+  <title id="title">Flat shapes and views of solids</title>
+  <desc id="desc">Five plane figures across the top, including a square on a corner. Below them are a smaller turned triangle and a smaller cylinder on its side. At the bottom a cylinder stands beside a cube, followed by a cone and a sphere. Solid sketches show depth.</desc>
+  <rect width="570" height="355" fill="white"/>
+  <g stroke="#222222" stroke-opacity="1" stroke-width="2.5" fill="#eee" stroke-linejoin="round">
+    <polygon id="square" points="62,16 92,46 62,76 32,46"/>
+    <circle cx="171" cy="46" r="30"/>
+    <polygon id="triangle" points="249,72 309,72 249,27"/>
+    <rect x="354" y="27" width="72" height="44"/>
+    <polygon id="hexagon" points="464,46 483,18 519,18 538,46 519,74 483,74"/>
+    <!-- A half-size copy of the top triangle, rotated around its right angle. -->
+    <polygon id="turned-triangle" points="160,162 178,138 142,148.5"/>
+  </g>
+  <g fill="#222" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="62" y="101">Square</text><text x="171" y="101">Circle</text>
+    <text x="279" y="101">Triangle</text><text x="390" y="101">Rectangle</text>
+    <text x="501" y="101">Hexagon</text>
+    <text x="155" y="190">Smaller triangle, turned</text>
+    <text x="405" y="190">Small cylinder on its side</text>
+  </g>
+  <g stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round">
+    <g id="cylinder">
+      <path fill="#eee" d="M 40,238 L 40,289 A 34,10 0 0 0 108,289 L 108,238 Z"/>
+      <ellipse cx="74" cy="238" rx="34" ry="10" fill="#fff"/>
+    </g>
+    <!-- The upright cylinder, scaled by half and turned a quarter-turn. -->
+    <g id="side-cylinder">
+      <path fill="#eee" d="M 392,166 L 417.5,166 A 5,17 0 0 0 417.5,132 L 392,132 Z"/>
+      <ellipse cx="392" cy="149" rx="5" ry="17" fill="#fff"/>
+    </g>
+    <g id="cube">
+      <rect x="166" y="248" width="51" height="51" fill="#eee"/>
+      <path fill="#fff" d="M 166,248 l 23,-18 h 51 l -23,18 Z"/>
+      <path fill="#ccc" d="M 217,248 l 23,-18 v 51 l -23,18 Z"/>
+    </g>
+    <g id="cone">
+      <path fill="#eee" d="M 344,217 L 309,290 A 35,10 0 0 0 379,290 Z"/>
+      <path fill="none" stroke-dasharray="4 4" d="M 309,290 A 35,10 0 0 1 379,290"/>
+    </g>
+    <g id="sphere">
+      <circle cx="479" cy="259" r="40" fill="#eee"/>
+      <path fill="none" d="M 479,219 A 16,40 0 0 1 479,299"/>
+      <path fill="none" stroke-dasharray="4 4" d="M 479,299 A 16,40 0 0 1 479,219"/>
+    </g>
+  </g>
+  <g font-family="sans-serif" font-size="16" fill="#222" text-anchor="middle">
+    <text x="74" y="329">Cylinder</text><text x="201" y="329">Cube</text>
+    <text x="344" y="329">Cone</text><text x="479" y="329">Sphere</text>
+  </g>
+</svg>

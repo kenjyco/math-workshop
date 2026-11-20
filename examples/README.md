@@ -6,8 +6,11 @@
 |---|---|
 | [Counting on the number path and on the mat](kindergarten/counting.md) | G01 · Counting and cardinality |
 | [A cup for each spoon](kindergarten/comparing-and-sorting.md) | G02 · Comparison and classification |
+| [Shapes on a classroom shelf](kindergarten/shapes.md) | G03 · Shape names, positions and attributes |
+| [A longer book and a heavier book](kindergarten/length-and-weight.md) | G04 · Direct comparison of measurable attributes |
 | [What happens to the buttons?](kindergarten/joining-and-splitting.md) | G05 · Joining, separating and splitting |
 | [The empty spaces and the extra ones](kindergarten/tens-and-teens.md) | G06 · Making ten and building teen numbers |
+| [Three sticks and two paper triangles](kindergarten/building-shapes.md) | G07 · Construction and composition |
 
 ## Grade 4 pilot
 
