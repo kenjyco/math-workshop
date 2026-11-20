@@ -20,6 +20,9 @@
 | [What do we need to find?](grade-1/stories-with-unknowns.md) | G09 · Quantities in additive stories |
 | [How many sticks are in the bundles?](grade-1/bundles-and-counting.md) | G10 · Counting through 120 and reading tens and ones |
 | [What changes when a bundle is tied?](grade-1/bundle-arithmetic.md) | G11 · Addition and subtraction with place value |
+| [Which span reaches farther?](grade-1/length-strips.md) | G12 · Indirect comparison and equal length units |
+| [Where is the short hand at half past?](grade-1/clock-faces.md) | G13 · Hours and half-hours |
+| [Birds at the feeder](grade-1/bird-counts.md) | G14 · Organizing and comparing category counts |
 
 ## Grade 4 pilot
 

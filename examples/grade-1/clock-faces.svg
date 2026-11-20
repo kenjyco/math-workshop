@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="532" height="218" viewBox="0 0 532 218" role="img" aria-labelledby="title desc">
+  <title id="title">Three clock faces</title>
+  <desc id="desc">A has the long hand at twelve and short hand at three. B has the long hand at six and short hand halfway from three to four. C has the long hand at six and short hand halfway from twelve to one.</desc>
+  <rect width="532" height="218" fill="white"/>
+  <g font-family="sans-serif" font-size="18" fill="#18334a">
+    <g id="face-1" transform="translate(90 92)">
+      <circle cx="0" cy="0" r="77" fill="#fff" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="34.5" y1="-59.755753" x2="37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="-45.229" text-anchor="middle" font-size="16">1</text>
+      <line x1="59.755753" y1="-34.5" x2="64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="-24.000" text-anchor="middle" font-size="16">2</text>
+      <line x1="69" y1="0" x2="74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="58.000" y="5.000" text-anchor="middle" font-size="16">3</text>
+      <line x1="59.755753" y1="34.5" x2="64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="34.000" text-anchor="middle" font-size="16">4</text>
+      <line x1="34.5" y1="59.755753" x2="37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="55.229" text-anchor="middle" font-size="16">5</text>
+      <line x1="0" y1="69" x2="0" y2="74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="0.000" y="63.000" text-anchor="middle" font-size="16">6</text>
+      <line x1="-34.5" y1="59.755753" x2="-37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="55.229" text-anchor="middle" font-size="16">7</text>
+      <line x1="-59.755753" y1="34.5" x2="-64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="34.000" text-anchor="middle" font-size="16">8</text>
+      <line x1="-69" y1="0" x2="-74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-58.000" y="5.000" text-anchor="middle" font-size="16">9</text>
+      <line x1="-59.755753" y1="-34.5" x2="-64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="-24.000" text-anchor="middle" font-size="16">10</text>
+      <line x1="-34.5" y1="-59.755753" x2="-37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="-45.229" text-anchor="middle" font-size="16">11</text>
+      <line x1="0" y1="-69" x2="0" y2="-74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-0.000" y="-53.000" text-anchor="middle" font-size="16">12</text>
+      <line x1="0" y1="0" x2="34" y2="0" id="hour0" stroke="#18334a" stroke-opacity="1" stroke-width="7" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="0" y2="-48" id="minute0" stroke="#9c4b27" stroke-opacity="1" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="4" fill="#18334a"/>
+    </g>
+    <text x="90" y="201" text-anchor="middle">Face A</text>
+    <g id="face-2" transform="translate(266 92)">
+      <circle cx="0" cy="0" r="77" fill="#fff" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="34.5" y1="-59.755753" x2="37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="-45.229" text-anchor="middle" font-size="16">1</text>
+      <line x1="59.755753" y1="-34.5" x2="64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="-24.000" text-anchor="middle" font-size="16">2</text>
+      <line x1="69" y1="0" x2="74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="58.000" y="5.000" text-anchor="middle" font-size="16">3</text>
+      <line x1="59.755753" y1="34.5" x2="64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="34.000" text-anchor="middle" font-size="16">4</text>
+      <line x1="34.5" y1="59.755753" x2="37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="55.229" text-anchor="middle" font-size="16">5</text>
+      <line x1="0" y1="69" x2="0" y2="74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="0.000" y="63.000" text-anchor="middle" font-size="16">6</text>
+      <line x1="-34.5" y1="59.755753" x2="-37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="55.229" text-anchor="middle" font-size="16">7</text>
+      <line x1="-59.755753" y1="34.5" x2="-64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="34.000" text-anchor="middle" font-size="16">8</text>
+      <line x1="-69" y1="0" x2="-74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-58.000" y="5.000" text-anchor="middle" font-size="16">9</text>
+      <line x1="-59.755753" y1="-34.5" x2="-64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="-24.000" text-anchor="middle" font-size="16">10</text>
+      <line x1="-34.5" y1="-59.755753" x2="-37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="-45.229" text-anchor="middle" font-size="16">11</text>
+      <line x1="0" y1="-69" x2="0" y2="-74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-0.000" y="-53.000" text-anchor="middle" font-size="16">12</text>
+      <line x1="0" y1="0" x2="32.841478" y2="8.799848" id="hour1" stroke="#18334a" stroke-opacity="1" stroke-width="7" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="0" y2="48" id="minute1" stroke="#9c4b27" stroke-opacity="1" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="4" fill="#18334a"/>
+    </g>
+    <text x="266" y="201" text-anchor="middle">Face B</text>
+    <g id="face-3" transform="translate(442 92)">
+      <circle cx="0" cy="0" r="77" fill="#fff" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="34.5" y1="-59.755753" x2="37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="-45.229" text-anchor="middle" font-size="16">1</text>
+      <line x1="59.755753" y1="-34.5" x2="64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="-24.000" text-anchor="middle" font-size="16">2</text>
+      <line x1="69" y1="0" x2="74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="58.000" y="5.000" text-anchor="middle" font-size="16">3</text>
+      <line x1="59.755753" y1="34.5" x2="64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="50.229" y="34.000" text-anchor="middle" font-size="16">4</text>
+      <line x1="34.5" y1="59.755753" x2="37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="29.000" y="55.229" text-anchor="middle" font-size="16">5</text>
+      <line x1="0" y1="69" x2="0" y2="74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="0.000" y="63.000" text-anchor="middle" font-size="16">6</text>
+      <line x1="-34.5" y1="59.755753" x2="-37" y2="64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="55.229" text-anchor="middle" font-size="16">7</text>
+      <line x1="-59.755753" y1="34.5" x2="-64.08588" y2="37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="34.000" text-anchor="middle" font-size="16">8</text>
+      <line x1="-69" y1="0" x2="-74" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-58.000" y="5.000" text-anchor="middle" font-size="16">9</text>
+      <line x1="-59.755753" y1="-34.5" x2="-64.08588" y2="-37" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-50.229" y="-24.000" text-anchor="middle" font-size="16">10</text>
+      <line x1="-34.5" y1="-59.755753" x2="-37" y2="-64.08588" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-29.000" y="-45.229" text-anchor="middle" font-size="16">11</text>
+      <line x1="0" y1="-69" x2="0" y2="-74" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <text x="-0.000" y="-53.000" text-anchor="middle" font-size="16">12</text>
+      <line x1="0" y1="0" x2="8.799848" y2="-32.841478" id="hour2" stroke="#18334a" stroke-opacity="1" stroke-width="7" stroke-linecap="round"/>
+      <line x1="0" y1="0" x2="0" y2="48" id="minute2" stroke="#9c4b27" stroke-opacity="1" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="4" fill="#18334a"/>
+    </g>
+    <text x="442" y="201" text-anchor="middle">Face C</text>
+  </g>
+</svg>
