@@ -26,6 +26,14 @@
 | [Which edges belong to the shape?](grade-1/triangles-and-composites.md) | G15 · Defining attributes and composition |
 | [Half of which whole?](grade-1/equal-shares.md) | G16 · Halves and fourths |
 
+## Grade 2
+
+| Worked example | Goal |
+|---|---|
+| [Which quantity does the box stand for?](grade-2/fact-families-and-stories.md) | G17 · Mental facts and additive stories |
+| [What does the zero in 406 hold open?](grade-2/hundreds.md) | G18 · Hundreds and three-digit place value |
+| [How can a tray with no tens give up four tens?](grade-2/place-value-trades.md) | G19 · Partial sums and place-value exchanges |
+
 ## Grade 4 pilot
 
 | Worked example | Goal slice |
