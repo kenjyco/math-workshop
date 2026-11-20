@@ -1,5 +1,14 @@
 # Foundational examples
 
+## Kindergarten
+
+| Worked example | Goal |
+|---|---|
+| [Counting on the number path and on the mat](kindergarten/counting.md) | G01 · Counting and cardinality |
+| [A cup for each spoon](kindergarten/comparing-and-sorting.md) | G02 · Comparison and classification |
+
+## Grade 4 pilot
+
 | Worked example | Goal slice |
 |---|---|
 | [23 × 14 in four regions](four-region-multiplication.md) | G46 · Partial products and stacked rows |
