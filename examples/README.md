@@ -6,6 +6,8 @@
 |---|---|
 | [Counting on the number path and on the mat](kindergarten/counting.md) | G01 · Counting and cardinality |
 | [A cup for each spoon](kindergarten/comparing-and-sorting.md) | G02 · Comparison and classification |
+| [What happens to the buttons?](kindergarten/joining-and-splitting.md) | G05 · Joining, separating and splitting |
+| [The empty spaces and the extra ones](kindergarten/tens-and-teens.md) | G06 · Making ten and building teen numbers |
 
 ## Grade 4 pilot
 
