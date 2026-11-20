@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="820" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Morning and evening at the station</title>
+  <desc id="desc">Twelve clock faces show seven in the morning through seven fifty-five, at five-minute intervals. An evening face repeats seven fifty-five. Long, thin minute hands and short, thick hour hands share a pivot.</desc>
+  <rect width="640" height="820" fill="white" />
+  <text x="22" y="27" font-family="sans-serif" font-size="20" text-anchor="start" fill="#222222" font-weight="bold">Morning at the station</text>
+  <circle cx="110" cy="99" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="110.0" y1="50.0" x2="110.0" y2="47.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="63.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="134.5" y1="56.56476" x2="136.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="152.43524" y1="74.5" x2="155.03332" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="159.0" y1="99.0" x2="162.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="150.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="152.43524" y1="123.5" x2="155.03332" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="134.5" y1="141.43524" x2="136.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="110.0" y1="148.0" x2="110.0" y2="151.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="143.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="85.5" y1="141.43524" x2="84.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="67.56476" y1="123.5" x2="64.96668" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="61.0" y1="99.0" x2="58.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="70.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="67.56476" y1="74.5" x2="64.96668" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="85.5" y1="56.56476" x2="84.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="110" y1="99" x2="98.5" y2="118.91858" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="110" y1="99" x2="110.0" y2="67.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="110" cy="99" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="110" y="173" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:00 a.m.</text>
+  <circle cx="320" cy="99" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="320.0" y1="50.0" x2="320.0" y2="47.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="63.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="344.5" y1="56.56476" x2="346.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="362.43524" y1="74.5" x2="365.03332" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="369.0" y1="99.0" x2="372.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="360.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="362.43524" y1="123.5" x2="365.03332" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="344.5" y1="141.43524" x2="346.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="320.0" y1="148.0" x2="320.0" y2="151.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="143.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="295.5" y1="141.43524" x2="294.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="277.56476" y1="123.5" x2="274.96668" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="271.0" y1="99.0" x2="268.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="280.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="277.56476" y1="74.5" x2="274.96668" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="295.5" y1="56.56476" x2="294.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="320" y1="99" x2="307.64211" y2="118.398" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="320" y1="99" x2="336.0" y2="71.28719" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="320" cy="99" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="320" y="173" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:05 a.m.</text>
+  <circle cx="530" cy="99" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="530.0" y1="50.0" x2="530.0" y2="47.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="63.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="554.5" y1="56.56476" x2="556.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="572.43524" y1="74.5" x2="575.03332" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="579.0" y1="99.0" x2="582.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="570.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="572.43524" y1="123.5" x2="575.03332" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="554.5" y1="141.43524" x2="556.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="530.0" y1="148.0" x2="530.0" y2="151.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="143.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="505.5" y1="141.43524" x2="504.0" y2="144.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="137.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="487.56476" y1="123.5" x2="484.96668" y2="125.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="123.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="481.0" y1="99.0" x2="478.0" y2="99.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="490.0" y="103.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="487.56476" y1="74.5" x2="484.96668" y2="73.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="83.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="505.5" y1="56.56476" x2="504.0" y2="53.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="68.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="530" y1="99" x2="516.80774" y2="117.8405" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="530" y1="99" x2="557.71281" y2="83.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="530" cy="99" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="530" y="173" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:10 a.m.</text>
+  <circle cx="110" cy="249" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="110.0" y1="200.0" x2="110.0" y2="197.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="213.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="134.5" y1="206.56476" x2="136.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="152.43524" y1="224.5" x2="155.03332" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="159.0" y1="249.0" x2="162.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="150.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="152.43524" y1="273.5" x2="155.03332" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="134.5" y1="291.43524" x2="136.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="110.0" y1="298.0" x2="110.0" y2="301.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="293.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="85.5" y1="291.43524" x2="84.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="67.56476" y1="273.5" x2="64.96668" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="61.0" y1="249.0" x2="58.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="70.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="67.56476" y1="224.5" x2="64.96668" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="85.5" y1="206.56476" x2="84.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="110" y1="249" x2="95.99849" y2="267.24713" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="110" y1="249" x2="142.0" y2="249.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="110" cy="249" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="110" y="323" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:15 a.m.</text>
+  <circle cx="320" cy="249" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="320.0" y1="200.0" x2="320.0" y2="197.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="213.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="344.5" y1="206.56476" x2="346.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="362.43524" y1="224.5" x2="365.03332" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="369.0" y1="249.0" x2="372.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="360.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="362.43524" y1="273.5" x2="365.03332" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="344.5" y1="291.43524" x2="346.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="320.0" y1="298.0" x2="320.0" y2="301.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="293.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="295.5" y1="291.43524" x2="294.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="277.56476" y1="273.5" x2="274.96668" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="271.0" y1="249.0" x2="268.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="280.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="277.56476" y1="224.5" x2="274.96668" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="295.5" y1="206.56476" x2="294.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="320" y1="249" x2="305.21588" y2="266.61902" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="320" y1="249" x2="347.71281" y2="265.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="320" cy="249" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="320" y="323" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:20 a.m.</text>
+  <circle cx="530" cy="249" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="530.0" y1="200.0" x2="530.0" y2="197.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="213.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="554.5" y1="206.56476" x2="556.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="572.43524" y1="224.5" x2="575.03332" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="579.0" y1="249.0" x2="582.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="570.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="572.43524" y1="273.5" x2="575.03332" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="554.5" y1="291.43524" x2="556.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="530.0" y1="298.0" x2="530.0" y2="301.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="293.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="505.5" y1="291.43524" x2="504.0" y2="294.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="287.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="487.56476" y1="273.5" x2="484.96668" y2="275.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="273.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="481.0" y1="249.0" x2="478.0" y2="249.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="490.0" y="253.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="487.56476" y1="224.5" x2="484.96668" y2="223.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="233.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="505.5" y1="206.56476" x2="504.0" y2="203.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="218.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="530" y1="249" x2="514.46143" y2="265.95738" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="530" y1="249" x2="546.0" y2="276.71281" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="530" cy="249" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="530" y="323" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:25 a.m.</text>
+  <circle cx="110" cy="399" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="110.0" y1="350.0" x2="110.0" y2="347.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="363.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="134.5" y1="356.56476" x2="136.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="152.43524" y1="374.5" x2="155.03332" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="159.0" y1="399.0" x2="162.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="150.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="152.43524" y1="423.5" x2="155.03332" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="134.5" y1="441.43524" x2="136.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="110.0" y1="448.0" x2="110.0" y2="451.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="443.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="85.5" y1="441.43524" x2="84.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="67.56476" y1="423.5" x2="64.96668" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="61.0" y1="399.0" x2="58.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="70.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="67.56476" y1="374.5" x2="64.96668" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="85.5" y1="356.56476" x2="84.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="110" y1="399" x2="93.73654" y2="415.26346" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="110" y1="399" x2="110.0" y2="431.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="110" cy="399" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="110" y="473" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:30 a.m.</text>
+  <circle cx="320" cy="399" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="320.0" y1="350.0" x2="320.0" y2="347.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="363.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="344.5" y1="356.56476" x2="346.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="362.43524" y1="374.5" x2="365.03332" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="369.0" y1="399.0" x2="372.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="360.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="362.43524" y1="423.5" x2="365.03332" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="344.5" y1="441.43524" x2="346.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="320.0" y1="448.0" x2="320.0" y2="451.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="443.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="295.5" y1="441.43524" x2="294.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="277.56476" y1="423.5" x2="274.96668" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="271.0" y1="399.0" x2="268.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="280.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="277.56476" y1="374.5" x2="274.96668" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="295.5" y1="356.56476" x2="294.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="320" y1="399" x2="303.04262" y2="414.53857" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="320" y1="399" x2="304.0" y2="426.71281" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="320" cy="399" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="320" y="473" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:35 a.m.</text>
+  <circle cx="530" cy="399" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="530.0" y1="350.0" x2="530.0" y2="347.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="363.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="554.5" y1="356.56476" x2="556.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="572.43524" y1="374.5" x2="575.03332" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="579.0" y1="399.0" x2="582.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="570.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="572.43524" y1="423.5" x2="575.03332" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="554.5" y1="441.43524" x2="556.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="530.0" y1="448.0" x2="530.0" y2="451.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="443.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="505.5" y1="441.43524" x2="504.0" y2="444.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="437.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="487.56476" y1="423.5" x2="484.96668" y2="425.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="423.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="481.0" y1="399.0" x2="478.0" y2="399.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="490.0" y="403.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="487.56476" y1="374.5" x2="484.96668" y2="373.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="383.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="505.5" y1="356.56476" x2="504.0" y2="353.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="368.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="530" y1="399" x2="512.38098" y2="413.78412" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="530" y1="399" x2="502.28719" y2="415.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="530" cy="399" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="530" y="473" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:40 a.m.</text>
+  <circle cx="110" cy="549" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="110.0" y1="500.0" x2="110.0" y2="497.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="513.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="134.5" y1="506.56476" x2="136.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="152.43524" y1="524.5" x2="155.03332" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="159.0" y1="549.0" x2="162.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="150.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="152.43524" y1="573.5" x2="155.03332" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="134.5" y1="591.43524" x2="136.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="110.0" y1="598.0" x2="110.0" y2="601.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="593.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="85.5" y1="591.43524" x2="84.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="67.56476" y1="573.5" x2="64.96668" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="61.0" y1="549.0" x2="58.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="70.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="67.56476" y1="524.5" x2="64.96668" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="85.5" y1="506.56476" x2="84.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="110" y1="549" x2="91.75287" y2="563.00151" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="110" y1="549" x2="78.0" y2="549.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="110" cy="549" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="110" y="623" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:45 a.m.</text>
+  <circle cx="320" cy="549" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="320.0" y1="500.0" x2="320.0" y2="497.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="513.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="344.5" y1="506.56476" x2="346.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="362.43524" y1="524.5" x2="365.03332" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="369.0" y1="549.0" x2="372.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="360.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="362.43524" y1="573.5" x2="365.03332" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="354.64102" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="344.5" y1="591.43524" x2="346.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="340.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="320.0" y1="598.0" x2="320.0" y2="601.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="320.0" y="593.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="295.5" y1="591.43524" x2="294.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="277.56476" y1="573.5" x2="274.96668" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="271.0" y1="549.0" x2="268.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="280.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="277.56476" y1="524.5" x2="274.96668" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="285.35898" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="295.5" y1="506.56476" x2="294.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="300.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="320" y1="549" x2="301.1595" y2="562.19226" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="320" y1="549" x2="292.28719" y2="533.0" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="320" cy="549" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="320" y="623" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:50 a.m.</text>
+  <circle cx="530" cy="549" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="530.0" y1="500.0" x2="530.0" y2="497.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="513.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="554.5" y1="506.56476" x2="556.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="572.43524" y1="524.5" x2="575.03332" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="579.0" y1="549.0" x2="582.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="570.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="572.43524" y1="573.5" x2="575.03332" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="564.64102" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="554.5" y1="591.43524" x2="556.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="550.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="530.0" y1="598.0" x2="530.0" y2="601.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="530.0" y="593.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="505.5" y1="591.43524" x2="504.0" y2="594.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="587.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="487.56476" y1="573.5" x2="484.96668" y2="575.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="573.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="481.0" y1="549.0" x2="478.0" y2="549.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="490.0" y="553.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="487.56476" y1="524.5" x2="484.96668" y2="523.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="495.35898" y="533.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="505.5" y1="506.56476" x2="504.0" y2="503.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="510.0" y="518.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="530" y1="549" x2="510.602" y2="561.35789" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="530" y1="549" x2="514.0" y2="521.28719" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="530" cy="549" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="530" y="623" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:55 a.m.</text>
+  <line x1="22" y1="642" x2="618" y2="642" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <circle cx="110" cy="721" r="53" fill="none" stroke="#222222" stroke-width="2" class="dial" stroke-opacity="1" />
+  <line x1="110.0" y1="672.0" x2="110.0" y2="669.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="685.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="134.5" y1="678.56476" x2="136.0" y2="675.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="690.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="152.43524" y1="696.5" x2="155.03332" y2="695.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="705.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="159.0" y1="721.0" x2="162.0" y2="721.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="150.0" y="725.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="152.43524" y1="745.5" x2="155.03332" y2="747.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="144.64102" y="745.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="134.5" y1="763.43524" x2="136.0" y2="766.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="130.0" y="759.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="110.0" y1="770.0" x2="110.0" y2="773.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="110.0" y="765.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="85.5" y1="763.43524" x2="84.0" y2="766.03332" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="759.64102" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="67.56476" y1="745.5" x2="64.96668" y2="747.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="745.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="61.0" y1="721.0" x2="58.0" y2="721.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="70.0" y="725.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="67.56476" y1="696.5" x2="64.96668" y2="695.0" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="75.35898" y="705.0" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="85.5" y1="678.56476" x2="84.0" y2="675.96668" stroke="#222222" stroke-width="1" stroke-opacity="1" />
+  <text x="90.0" y="690.35898" font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="110" y1="721" x2="90.602" y2="733.35789" stroke="#222222" stroke-width="5" stroke-linecap="round" class="hour" stroke-opacity="1" />
+  <line x1="110" y1="721" x2="94.0" y2="693.28719" stroke="#222222" stroke-width="2" stroke-linecap="round" class="minute" stroke-opacity="1" />
+  <circle cx="110" cy="721" r="2" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="110" y="795" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">7:55 p.m.</text>
+  <text x="233" y="710" font-family="sans-serif" font-size="19" text-anchor="start" fill="#222222" font-weight="bold">Evening departure</text>
+  <text x="233" y="742" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">Same hands as the last morning train.</text>
+</svg>

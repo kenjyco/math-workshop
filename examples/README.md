@@ -37,6 +37,9 @@
 | [Can a triangle and a rectangle each be half?](grade-2/shapes-and-shares.md) | G21 · Shapes and equal-area shares |
 | [Where does the measurement begin?](grade-2/measuring-length.md) | G22 · Tools, units and length estimates |
 | [How far did the endpoint move?](grade-2/length-jumps.md) | G23 · Length arithmetic on a number line |
+| [Where are both hands at five to eight?](grade-2/five-minute-clocks.md) | G24 · Five-minute time readings |
+| [What can the change buy back?](grade-2/money-exchanges.md) | G25 · Money and purchase stories |
+| [What can you recover from a graph of strips?](grade-2/strip-graphs.md) | G26 · Measurement plots and category graphs |
 
 ## Grade 4 pilot
 
