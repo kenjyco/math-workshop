@@ -1,0 +1,21 @@
+# Local editor and operating-system artifacts
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Local secrets, when an application is added later
+.env
+.env.*
+!.env.example
+
+# Generated artifacts; source assets remain visible
+/node_modules/
+/.svelte-kit/
+/build/
+/dist/
+/coverage/
+
+# Workspace records belong outside this repository
+/development/
+/releases/
