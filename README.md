@@ -9,10 +9,10 @@ The initial content pass establishes accurate mathematical definitions, worked e
 - [North Star](NORTH_STAR.md): learning, exploration, parent support, and eventual product principles.
 - [Agent instructions](AGENTS.md): contribution, content, and authorization rules.
 - [Context entrypoint](.context/README.md): repository reading order and boundaries.
-- [Goals](goals/README.md): home for future authored implementation specifications.
+- [K–4 foundation goals](goals/README.md) in implementation order, with standards, examples to produce, and mathematical checks.
 - [Examples](examples/README.md): home for future verified mathematical examples.
 
-This repository currently contains the initial project scaffold. There is no application to install or run yet. Empty content scaffolds do not represent finished curriculum coverage.
+The goal specifications can be read directly in Markdown. Worked examples will be added under the examples directory during implementation.
 
 ## Content principles
 
