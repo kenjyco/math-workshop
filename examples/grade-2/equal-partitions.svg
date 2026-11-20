@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="408" viewBox="0 0 600 408" role="img" aria-labelledby="title desc">
+  <title id="title">Equal shares of matching wholes</title>
+  <desc id="desc">Two 120 by 60 rectangles have a middle cut and a diagonal cut. Below, circles of radius 38 are cut into two, three or four equal sectors. Matching 120 by 60 rectangles are cut into two, three or four equal strips.</desc>
+  <rect width="600" height="408" fill="white" />
+  <text x="146" y="32" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222222" font-weight="bold">Middle cut</text>
+  <rect x="86" y="50" width="120" height="60" fill="none" stroke="#222222" stroke-width="2" class="whole" stroke-opacity="1" />
+  <text x="434" y="32" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222222" font-weight="bold">Diagonal cut</text>
+  <rect x="374" y="50" width="120" height="60" fill="none" stroke="#222222" stroke-width="2" class="whole" stroke-opacity="1" />
+  <line x1="146" y1="50" x2="146" y2="110" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="374" y1="110" x2="494" y2="50" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="100" y="167" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222222" font-weight="bold">Halves</text>
+  <circle cx="100" cy="234" r="38" fill="none" stroke="#222222" stroke-width="2" class="whole-circle" stroke-opacity="1" />
+  <line x1="100" y1="234" x2="100.0" y2="196.0" stroke="#222222" stroke-width="2" class="ray-2" stroke-opacity="1" />
+  <line x1="100" y1="234" x2="100.0" y2="272.0" stroke="#222222" stroke-width="2" class="ray-2" stroke-opacity="1" />
+  <rect x="40" y="316" width="120" height="60" fill="none" stroke="#222222" stroke-width="2" class="whole" stroke-opacity="1" />
+  <line x1="100" y1="316" x2="100" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="300" y="167" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222222" font-weight="bold">Thirds</text>
+  <circle cx="300" cy="234" r="38" fill="none" stroke="#222222" stroke-width="2" class="whole-circle" stroke-opacity="1" />
+  <line x1="300" y1="234" x2="300.0" y2="196.0" stroke="#222222" stroke-width="2" class="ray-3" stroke-opacity="1" />
+  <line x1="300" y1="234" x2="332.908965343809" y2="253.0" stroke="#222222" stroke-width="2" class="ray-3" stroke-opacity="1" />
+  <line x1="300" y1="234" x2="267.091034656191" y2="253.0" stroke="#222222" stroke-width="2" class="ray-3" stroke-opacity="1" />
+  <rect x="240" y="316" width="120" height="60" fill="none" stroke="#222222" stroke-width="2" class="whole" stroke-opacity="1" />
+  <line x1="280" y1="316" x2="280" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="320" y1="316" x2="320" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="500" y="167" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222222" font-weight="bold">Fourths</text>
+  <circle cx="500" cy="234" r="38" fill="none" stroke="#222222" stroke-width="2" class="whole-circle" stroke-opacity="1" />
+  <line x1="500" y1="234" x2="500.0" y2="196.0" stroke="#222222" stroke-width="2" class="ray-4" stroke-opacity="1" />
+  <line x1="500" y1="234" x2="538.0" y2="234.0" stroke="#222222" stroke-width="2" class="ray-4" stroke-opacity="1" />
+  <line x1="500" y1="234" x2="500.0" y2="272.0" stroke="#222222" stroke-width="2" class="ray-4" stroke-opacity="1" />
+  <line x1="500" y1="234" x2="462.0" y2="234.0" stroke="#222222" stroke-width="2" class="ray-4" stroke-opacity="1" />
+  <rect x="440" y="316" width="120" height="60" fill="none" stroke="#222222" stroke-width="2" class="whole" stroke-opacity="1" />
+  <line x1="470" y1="316" x2="470" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="500" y1="316" x2="500" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="530" y1="316" x2="530" y2="376" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+</svg>

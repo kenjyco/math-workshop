@@ -33,6 +33,8 @@
 | [Which quantity does the box stand for?](grade-2/fact-families-and-stories.md) | G17 · Mental facts and additive stories |
 | [What does the zero in 406 hold open?](grade-2/hundreds.md) | G18 · Hundreds and three-digit place value |
 | [How can a tray with no tens give up four tens?](grade-2/place-value-trades.md) | G19 · Partial sums and place-value exchanges |
+| [What does one row count?](grade-2/pairs-and-arrays.md) | G20 · Pairs, arrays and tiled rectangles |
+| [Can a triangle and a rectangle each be half?](grade-2/shapes-and-shares.md) | G21 · Shapes and equal-area shares |
 
 ## Grade 4 pilot
 
