@@ -23,6 +23,8 @@
 | [Which span reaches farther?](grade-1/length-strips.md) | G12 · Indirect comparison and equal length units |
 | [Where is the short hand at half past?](grade-1/clock-faces.md) | G13 · Hours and half-hours |
 | [Birds at the feeder](grade-1/bird-counts.md) | G14 · Organizing and comparing category counts |
+| [Which edges belong to the shape?](grade-1/triangles-and-composites.md) | G15 · Defining attributes and composition |
+| [Half of which whole?](grade-1/equal-shares.md) | G16 · Halves and fourths |
 
 ## Grade 4 pilot
 

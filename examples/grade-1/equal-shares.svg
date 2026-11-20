@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="562" height="267" viewBox="0 0 562 267" role="img" aria-labelledby="title desc">
+  <title id="title">Equal and unequal shares of specified wholes</title>
+  <desc id="desc">Matching disks have a diameter or two perpendicular diameters. Matching wide rectangles have middle cuts or an off-center cut. A smaller square shown above the unequal pieces has half their rectangle width and the same height.</desc>
+  <rect width="562" height="267" fill="white"/>
+  <g font-family="sans-serif" font-size="18" fill="#18334a">
+    <text x="28" y="29">Circle halves</text>
+    <text x="212" y="29">Circle fourths</text>
+    <text x="406" y="29">Smaller whole</text>
+    <text x="406" y="123" font-size="15">One half shaded</text>
+    <text x="28" y="178">Rectangle halves</text>
+    <text x="212" y="178">Rectangle fourths</text>
+    <text x="406" y="178">Unequal pieces</text>
+    <g id="circle-halves" transform="translate(80 91)">
+      <circle cx="0" cy="0" r="40" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <path d="M 0,-40 A 40,40 0 0 1 0,40 Z" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="0" y1="-40" x2="0" y2="40" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+    <g id="circle-fourths" transform="translate(265 91)">
+      <circle cx="0" cy="0" r="40" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <path d="M 0,0 L 0,-40 A 40,40 0 0 1 40,0 Z" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="0" y1="-40" x2="0" y2="40" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="-40" y1="0" x2="40" y2="0" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+    <g id="small-half" transform="translate(431 60)">
+      <rect x="0" y="0" width="48" height="48" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <rect x="0" y="0" width="24" height="48" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="24" y1="0" x2="24" y2="48" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+    <g id="rect-halves" transform="translate(29 197)">
+      <rect x="0" y="0" width="96" height="48" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <rect x="0" y="0" width="48" height="48" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="48" y1="0" x2="48" y2="48" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+    <g id="rect-fourths" transform="translate(214 197)">
+      <rect x="0" y="0" width="96" height="48" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <rect x="0" y="0" width="48" height="24" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="48" y1="0" x2="48" y2="48" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="0" y1="24" x2="96" y2="24" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+    <g id="unequal" transform="translate(406 197)">
+      <rect x="0" y="0" width="96" height="48" fill="#f8fbfa" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <rect x="0" y="0" width="24" height="48" fill="#91cabc" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+      <line x1="24" y1="0" x2="24" y2="48" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

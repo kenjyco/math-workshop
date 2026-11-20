@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448" height="146" viewBox="0 0 448 146" role="img" aria-labelledby="title desc">
+  <title id="title">Three closed triangles and an open outline</title>
+  <desc id="desc">A and B have matching side lengths and different orientations. C is smaller and turned. Three segments in D leave a gap at the upper left.</desc>
+  <rect width="448" height="146" fill="white"/>
+  <g font-family="sans-serif" font-size="18" fill="#18334a">
+    <polygon points="22,96 82,96 22,51" id="triangle-A" fill="#b2dacf" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    <polygon points="146,42 146,102 191,42" id="triangle-B" fill="#d8b17a" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    <polygon points="274,80 244,80 274,102.5" id="triangle-C" fill="#b1c9df" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    <polyline id="open-D" points="355,51 355,96 415,96 363,57" fill="none" stroke="#18334a" stroke-opacity="1" stroke-width="2"/>
+    <text x="49" y="130" text-anchor="middle">A</text>
+    <text x="167" y="130" text-anchor="middle">B</text>
+    <text x="260" y="130" text-anchor="middle">C</text>
+    <text x="385" y="130" text-anchor="middle">D</text>
+  </g>
+</svg>
