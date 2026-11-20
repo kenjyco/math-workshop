@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 436 316" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">Fold lines on a 4-by-2 rectangle</title>
+  <desc id="diagram-description">A is upper left, B upper right, C lower right and D lower left. The two dashed midlines fold the rectangle exactly. The solid diagonal AC does not. A dotted perpendicular from B crosses AC at P and continues just as far to B prime, below the rectangle.</desc>
+
+  <rect x="-16" width="436" height="316" fill="#fff"/>
+  <rect x="82" y="80" width="240" height="120" fill="#edf3f5" stroke="#17252e" stroke-width="2.5" stroke-opacity="1"/>
+
+  <line id="horizontal-midline" x1="75" y1="140" x2="329" y2="140" stroke="#23546e" stroke-width="2.25" stroke-dasharray="10 5" stroke-opacity="1"/>
+  <line id="vertical-midline" x1="202" y1="73" x2="202" y2="207" stroke="#23546e" stroke-width="2.25" stroke-dasharray="10 5" stroke-opacity="1"/>
+  <line id="diagonal-ac" x1="82" y1="80" x2="322" y2="200" stroke="#17252e" stroke-width="2.25" stroke-opacity="1"/>
+
+  <!-- The perpendicular through B meets AC at P (274, 176). B′ is as far past P as B is before it. -->
+  <line id="diagonal-fold-path" x1="322" y1="80" x2="226" y2="272" stroke="#72402e" stroke-width="1.8" stroke-dasharray="2 4" stroke-linecap="round" stroke-opacity="1"/>
+  <path id="right-angle-at-p" d="M 278,168 L 286,172 L 282,180" fill="none" stroke="#72402e" stroke-width="1.8" stroke-opacity="1"/>
+  <path id="equal-length-marks" d="M 292,125 L 304,131 M 244,221 L 256,227" fill="none" stroke="#72402e" stroke-width="1.8" stroke-opacity="1"/>
+  <circle id="b-folded" cx="226" cy="272" r="4.5" fill="#fff" stroke="#72402e" stroke-width="1.8" stroke-opacity="1"/>
+
+  <g fill="#17252e">
+    <circle id="corner-a" cx="82" cy="80" r="3.5"/>
+    <circle id="corner-b" cx="322" cy="80" r="3.5"/>
+    <circle id="corner-c" cx="322" cy="200" r="3.5"/>
+    <circle id="corner-d" cx="82" cy="200" r="3.5"/>
+    <circle id="point-p" cx="274" cy="176" r="2.75"/>
+  </g>
+
+  <g font-family="sans-serif" fill="#17252e">
+    <g font-size="17" font-weight="bold">
+      <text x="62" y="77">A</text>
+      <text x="332" y="77">B</text>
+      <text x="332" y="215">C</text>
+      <text x="62" y="215">D</text>
+      <text x="254" y="165">P</text>
+      <text x="237" y="278" fill="#72402e">B′</text>
+    </g>
+    <g font-size="15">
+      <text x="202" y="60" text-anchor="middle">4 units</text>
+      <text x="335" y="122">2 units</text>
+      <text x="69" y="135" font-size="14" text-anchor="end" fill="#23546e"><tspan x="69">Horizontal</tspan><tspan x="69" dy="17">midline</tspan></text>
+      <text x="178" y="224" text-anchor="middle" fill="#23546e">Vertical midline</text>
+      <text x="237" y="298" fill="#72402e">After folding on AC</text>
+    </g>
+  </g>
+</svg>

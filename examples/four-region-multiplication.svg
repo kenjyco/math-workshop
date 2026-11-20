@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 330"
+     role="img" aria-labelledby="title description">
+  <title id="title">Four-region area model for 23 × 14</title>
+  <desc id="description">The 20-unit and 3-unit columns meet the 10-unit and 4-unit rows. Areas in square units are 200 and 30 across the top, and 80 and 12 across the bottom. All lengths use the same scale.</desc>
+  <rect width="500" height="330" fill="#fff"/>
+  <rect x="61" y="59" width="416" height="254" fill="#222222"/>
+  <rect x="63" y="61" width="412" height="250" fill="#f5f5f5"/>
+  <rect x="421" y="60" width="2" height="252" fill="#222222"/>
+  <rect x="62" y="239" width="414" height="2" fill="#222222"/>
+  <g fill="#171717" font-family="system-ui, sans-serif" font-size="23"
+     text-anchor="middle" dominant-baseline="central">
+    <text x="242" y="33">20</text>
+    <text x="449" y="33">3</text>
+    <text x="32" y="150">10</text>
+    <text x="32" y="276">4</text>
+    <text x="242" y="150">200</text>
+    <text x="449" y="150">30</text>
+    <text x="242" y="276">80</text>
+    <text x="449" y="276">12</text>
+  </g>
+</svg>
