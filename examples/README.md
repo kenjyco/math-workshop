@@ -35,6 +35,8 @@
 | [How can a tray with no tens give up four tens?](grade-2/place-value-trades.md) | G19 · Partial sums and place-value exchanges |
 | [What does one row count?](grade-2/pairs-and-arrays.md) | G20 · Pairs, arrays and tiled rectangles |
 | [Can a triangle and a rectangle each be half?](grade-2/shapes-and-shares.md) | G21 · Shapes and equal-area shares |
+| [Where does the measurement begin?](grade-2/measuring-length.md) | G22 · Tools, units and length estimates |
+| [How far did the endpoint move?](grade-2/length-jumps.md) | G23 · Length arithmetic on a number line |
 
 ## Grade 4 pilot
 

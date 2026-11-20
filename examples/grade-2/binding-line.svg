@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="238" viewBox="0 0 660 238" role="img" aria-labelledby="title desc">
+  <title id="title">A seam at eight centimeters</title>
+  <desc id="desc">A binding strip runs from zero to thirteen centimeters, with a seam at eight. Arrows span five equal tick intervals from eight to thirteen, and then return to eight.</desc>
+  <rect width="660" height="238" fill="white" />
+  <text x="24" y="27" font-family="sans-serif" font-size="18" text-anchor="start" fill="#222222" font-weight="bold">Binding laid end to end</text>
+  <rect x="64" y="45" width="320" height="30" fill="#dadada" stroke="#222222" stroke-width="2" id="first-piece" stroke-opacity="1" />
+  <rect x="384" y="45" width="200" height="30" fill="none" stroke="#222222" stroke-width="2" id="second-piece" stroke-opacity="1" />
+  <text x="224" y="66" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">8 cm</text>
+  <text x="484.0" y="66" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222222" font-weight="normal">5 cm</text>
+  <line x1="64" y1="147" x2="584" y2="147" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="64" y1="138" x2="64" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="64" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">0</text>
+  <line x1="104" y1="138" x2="104" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="104" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="144" y1="138" x2="144" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="144" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="184" y1="138" x2="184" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="184" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="224" y1="138" x2="224" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="224" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="264" y1="138" x2="264" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="264" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="304" y1="138" x2="304" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="304" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="344" y1="138" x2="344" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="344" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="384" y1="138" x2="384" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="384" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+  <line x1="424" y1="138" x2="424" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="424" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">9</text>
+  <line x1="464" y1="138" x2="464" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="464" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="504" y1="138" x2="504" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="504" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">11</text>
+  <line x1="544" y1="138" x2="544" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="544" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">12</text>
+  <line x1="584" y1="138" x2="584" y2="157" stroke="#222222" stroke-width="2" class="tick" stroke-opacity="1" />
+  <text x="584" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">13</text>
+  <text x="623" y="177" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">cm</text>
+  <line x1="384" y1="118" x2="584" y2="118" stroke="#222222" stroke-width="2" class="jump" stroke-opacity="1" />
+  <polygon points="584,118 574,113 574,123" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="384" y1="114" x2="384" y2="122" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="484.0" y="109" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">Forward 5 cm</text>
+  <line x1="584" y1="207" x2="384" y2="207" stroke="#222222" stroke-width="2" class="jump" stroke-opacity="1" />
+  <polygon points="384,207 394,202 394,212" fill="#222222" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <line x1="584" y1="203" x2="584" y2="211" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="484.0" y="198" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">Back 5 cm</text>
+</svg>

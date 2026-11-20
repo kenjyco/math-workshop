@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="665" height="372" viewBox="0 0 665 372" role="img" aria-labelledby="title desc">
+  <title id="title">Measuring from two endpoints</title>
+  <desc id="desc">The same upper strip spans six centimeters and sixty millimeters. Lower strips start at the two-centimeter mark and end at six and eight. The extra span between their ends is two centimeters.</desc>
+  <rect width="665" height="372" fill="white" />
+  <text x="20" y="30" font-family="sans-serif" font-size="19" text-anchor="start" fill="#222222" font-weight="bold">One strip, two unit sizes</text>
+  <rect x="128" y="89" width="360" height="19" fill="#dadada" stroke="#222222" stroke-width="2" id="fixed" stroke-opacity="1" />
+  <line x1="128" y1="68" x2="128" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="128" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">0</text>
+  <line x1="188" y1="68" x2="188" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="188" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="248" y1="68" x2="248" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="248" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="308" y1="68" x2="308" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="308" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="368" y1="68" x2="368" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="368" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="428" y1="68" x2="428" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="428" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="488" y1="68" x2="488" y2="83" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="488" y="59" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="128" y1="82" x2="488" y2="82" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="72" y="76" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">cm</text>
+  <line x1="128" y1="116" x2="488" y2="116" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="72" y="137" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">mm</text>
+  <line x1="128" y1="116" x2="128" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="128" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">0</text>
+  <line x1="134" y1="116" x2="134" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="140" y1="116" x2="140" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="146" y1="116" x2="146" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="152" y1="116" x2="152" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="158" y1="116" x2="158" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="164" y1="116" x2="164" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="170" y1="116" x2="170" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="176" y1="116" x2="176" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="182" y1="116" x2="182" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="188" y1="116" x2="188" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="188" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">10</text>
+  <line x1="194" y1="116" x2="194" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="200" y1="116" x2="200" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="206" y1="116" x2="206" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="212" y1="116" x2="212" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="218" y1="116" x2="218" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="224" y1="116" x2="224" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="230" y1="116" x2="230" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="236" y1="116" x2="236" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="242" y1="116" x2="242" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="248" y1="116" x2="248" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="248" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">20</text>
+  <line x1="254" y1="116" x2="254" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="260" y1="116" x2="260" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="266" y1="116" x2="266" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="272" y1="116" x2="272" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="278" y1="116" x2="278" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="284" y1="116" x2="284" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="290" y1="116" x2="290" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="296" y1="116" x2="296" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="302" y1="116" x2="302" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="308" y1="116" x2="308" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="308" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">30</text>
+  <line x1="314" y1="116" x2="314" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="320" y1="116" x2="320" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="326" y1="116" x2="326" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="332" y1="116" x2="332" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="338" y1="116" x2="338" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="344" y1="116" x2="344" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="350" y1="116" x2="350" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="356" y1="116" x2="356" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="362" y1="116" x2="362" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="368" y1="116" x2="368" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="368" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">40</text>
+  <line x1="374" y1="116" x2="374" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="380" y1="116" x2="380" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="386" y1="116" x2="386" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="392" y1="116" x2="392" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="398" y1="116" x2="398" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="404" y1="116" x2="404" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="410" y1="116" x2="410" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="416" y1="116" x2="416" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="422" y1="116" x2="422" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="428" y1="116" x2="428" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="428" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">50</text>
+  <line x1="434" y1="116" x2="434" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="440" y1="116" x2="440" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="446" y1="116" x2="446" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="452" y1="116" x2="452" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="458" y1="116" x2="458" y2="125" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="464" y1="116" x2="464" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="470" y1="116" x2="470" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="476" y1="116" x2="476" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="482" y1="116" x2="482" y2="121" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <line x1="488" y1="116" x2="488" y2="129" stroke="#222222" stroke-width="1" class="mm-tick" stroke-opacity="1" />
+  <text x="488" y="151" font-family="sans-serif" font-size="14" text-anchor="middle" fill="#222222" font-weight="normal">60</text>
+  <text x="20" y="207" font-family="sans-serif" font-size="19" text-anchor="start" fill="#222222" font-weight="bold">Two strips with a shifted start</text>
+  <line x1="248" y1="226" x2="248" y2="317" stroke="#222222" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="1" />
+  <line x1="488" y1="226" x2="488" y2="317" stroke="#222222" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="1" />
+  <line x1="608" y1="226" x2="608" y2="317" stroke="#222222" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="1" />
+  <text x="47" y="244" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">Short</text>
+  <rect x="248" y="229" width="240" height="16" fill="#dadada" stroke="#222222" stroke-width="2" id="short" stroke-opacity="1" />
+  <text x="47" y="283" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">Long</text>
+  <rect x="248" y="268" width="360" height="16" fill="#dadada" stroke="#222222" stroke-width="2" id="long" stroke-opacity="1" />
+  <line x1="128" y1="316" x2="608" y2="316" stroke="#222222" stroke-width="2" stroke-opacity="1" />
+  <text x="70" y="336" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222222" font-weight="normal">cm</text>
+  <line x1="128" y1="310" x2="128" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="128" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">0</text>
+  <line x1="188" y1="310" x2="188" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="188" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">1</text>
+  <line x1="248" y1="310" x2="248" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="248" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">2</text>
+  <line x1="308" y1="310" x2="308" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="308" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">3</text>
+  <line x1="368" y1="310" x2="368" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="368" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">4</text>
+  <line x1="428" y1="310" x2="428" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="428" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">5</text>
+  <line x1="488" y1="310" x2="488" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="488" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">6</text>
+  <line x1="548" y1="310" x2="548" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="548" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">7</text>
+  <line x1="608" y1="310" x2="608" y2="325" stroke="#222222" stroke-width="2" class="offset-tick" stroke-opacity="1" />
+  <text x="608" y="348" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222222" font-weight="normal">8</text>
+</svg>
