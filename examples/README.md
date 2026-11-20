@@ -12,6 +12,13 @@
 | [The empty spaces and the extra ones](kindergarten/tens-and-teens.md) | G06 · Making ten and building teen numbers |
 | [Three sticks and two paper triangles](kindergarten/building-shapes.md) | G07 · Construction and composition |
 
+## Grade 1
+
+| Worked example | Goal |
+|---|---|
+| [Two counters make ten](grade-1/making-ten-and-equality.md) | G08 · Properties, missing addends and equality |
+| [What do we need to find?](grade-1/stories-with-unknowns.md) | G09 · Quantities in additive stories |
+
 ## Grade 4 pilot
 
 | Worked example | Goal slice |
