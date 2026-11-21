@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="165" viewBox="0 0 656 165" role="img" aria-labelledby="title desc">
+<title id="title">Four shapes on matching square grids</title>
+<desc id="desc">A is a four-by-two rectangle. B turns through four equal diagonal sides. C is wider with acute tips. D has horizontal sides of unequal length.</desc>
+<rect x="0" y="0" width="656" height="165" fill="#ffffff" stroke="none" stroke-opacity="0" stroke-width="1"/>
+<g font-family="Arial, sans-serif" fill="#263843">
+<text x="20" y="28" font-size="18" text-anchor="start">A</text>
+<line x1="20" y1="43" x2="20" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="41" y1="43" x2="41" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="62" y1="43" x2="62" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="83" y1="43" x2="83" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="104" y1="43" x2="104" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="125" y1="43" x2="125" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="146" y1="43" x2="146" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="43" x2="146" y2="43" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="64" x2="146" y2="64" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="85" x2="146" y2="85" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="106" x2="146" y2="106" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="127" x2="146" y2="127" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="20" y1="148" x2="146" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<g id="shape-A">
+<polygon points="41,85 125,85 125,127 41,127" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<text x="182" y="28" font-size="18" text-anchor="start">B</text>
+<line x1="182" y1="43" x2="182" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="203" y1="43" x2="203" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="224" y1="43" x2="224" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="245" y1="43" x2="245" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="266" y1="43" x2="266" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="287" y1="43" x2="287" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="308" y1="43" x2="308" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="43" x2="308" y2="43" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="64" x2="308" y2="64" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="85" x2="308" y2="85" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="106" x2="308" y2="106" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="127" x2="308" y2="127" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="182" y1="148" x2="308" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<g id="shape-B">
+<polygon points="245,43 287,85 245,127 203,85" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<text x="344" y="28" font-size="18" text-anchor="start">C</text>
+<line x1="344" y1="43" x2="344" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="365" y1="43" x2="365" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="386" y1="43" x2="386" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="407" y1="43" x2="407" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="428" y1="43" x2="428" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="449" y1="43" x2="449" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="470" y1="43" x2="470" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="43" x2="470" y2="43" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="64" x2="470" y2="64" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="85" x2="470" y2="85" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="106" x2="470" y2="106" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="127" x2="470" y2="127" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="344" y1="148" x2="470" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<g id="shape-C">
+<polygon points="344,85 407,64 470,85 407,106" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3" stroke-linejoin="round"/>
+</g>
+<text x="506" y="28" font-size="18" text-anchor="start">D</text>
+<line x1="506" y1="43" x2="506" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="527" y1="43" x2="527" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="548" y1="43" x2="548" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="569" y1="43" x2="569" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="590" y1="43" x2="590" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="611" y1="43" x2="611" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="632" y1="43" x2="632" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="43" x2="632" y2="43" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="64" x2="632" y2="64" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="85" x2="632" y2="85" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="106" x2="632" y2="106" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="127" x2="632" y2="127" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<line x1="506" y1="148" x2="632" y2="148" stroke="#aab8be" stroke-opacity="1" stroke-width="1"/>
+<g id="shape-D">
+<polygon points="527,64 590,64 611,127 527,127" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

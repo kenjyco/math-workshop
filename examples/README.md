@@ -52,6 +52,9 @@
 | [Why is every fourth count even?](grade-3/tables-and-tens.md) | G29 |
 | [Which end of the line is closer?](grade-3/rounding-and-exchanges.md) | G30 |
 | [Which count answers the question?](grade-3/two-step-stories.md) | G31 |
+| [How many squares cover the floor?](grade-3/tiles-and-floor.md) | G32 |
+| [Can the same fence surround a different area?](grade-3/fences-and-coverings.md) | G33 |
+| [Which names fit a turned square?](grade-3/four-sided-figures.md) | G34 |
 
 ## Grade 4 pilot
 

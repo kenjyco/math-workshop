@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="182" viewBox="0 0 650 182" role="img" aria-labelledby="title desc">
+<title id="title">Three rectangular garden beds</title>
+<desc id="desc">The exterior stroke is the fence and the square interiors are ground covering. Every grid step is one meter.</desc>
+<rect x="0" y="0" width="650" height="182" fill="#ffffff" stroke="none" stroke-opacity="0" stroke-width="1"/>
+<g font-family="Arial, sans-serif" fill="#263843">
+<text x="35" y="32" font-size="18" text-anchor="start">Bed A</text>
+<g id="bed-A">
+<rect x="35" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="60" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="85" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="110" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="35" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="60" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="85" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="110" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="35" y="107" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="60" y="107" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="85" y="107" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="110" y="107" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="35" y="57" width="100" height="75" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3"/>
+</g>
+<text x="35" y="161" font-size="15" text-anchor="start">4 m wide × 3 m deep</text>
+<text x="230" y="32" font-size="18" text-anchor="start">Bed B</text>
+<g id="bed-B">
+<rect x="230" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="255" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="280" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="305" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="330" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="230" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="255" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="280" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="305" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="330" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="230" y="57" width="125" height="50" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3"/>
+</g>
+<text x="230" y="161" font-size="15" text-anchor="start">5 m wide × 2 m deep</text>
+<text x="435" y="32" font-size="18" text-anchor="start">Bed C</text>
+<g id="bed-C">
+<rect x="435" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="460" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="485" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="510" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="535" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="560" y="57" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="435" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="460" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="485" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="510" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="535" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="560" y="82" width="25" height="25" fill="#e2edf0" stroke="#536875" stroke-opacity="1" stroke-width="1"/>
+<rect x="435" y="57" width="150" height="50" fill="none" stroke="#263843" stroke-opacity="1" stroke-width="3"/>
+</g>
+<text x="435" y="161" font-size="15" text-anchor="start">6 m wide × 2 m deep</text>
+<circle cx="35" cy="57" r="5" fill="#263843"/>
+</g>
+</svg>
