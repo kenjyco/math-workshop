@@ -41,6 +41,16 @@
 | [What can the change buy back?](grade-2/money-exchanges.md) | G25 · Money and purchase stories |
 | [What can you recover from a graph of strips?](grade-2/strip-graphs.md) | G26 · Measurement plots and category graphs |
 
+## Grade 3
+
+### Operations and area
+
+| Worked example | Goal |
+|---|---|
+| [What does four count?](grade-3/bags-rows-and-lengths.md) | G27 |
+| [What stays the same when a tray turns?](grade-3/turning-and-splitting-arrays.md) | G28 |
+| [Why is every fourth count even?](grade-3/tables-and-tens.md) | G29 |
+
 ## Grade 4 pilot
 
 | Worked example | Goal slice |
