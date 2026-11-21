@@ -62,6 +62,10 @@
 |---|---|
 | [How far is one share on a line?](grade-3/shares-and-jumps.md) | G35 |
 | [How can two names mark one point?](grade-3/names-for-one-point.md) | G36 |
+| [How many minutes pass before the bell?](grade-3/minutes-across-four.md) | G37 |
+| [Which unit belongs beside the reading?](grade-3/weighing-and-pouring.md) | G38 |
+| [How many birds does one dot stand for?](grade-3/birds-in-scaled-graphs.md) | G39 |
+| [Which ruler marks hold two strips?](grade-3/strip-lengths.md) | G40 |
 
 ## Grade 4 pilot
 

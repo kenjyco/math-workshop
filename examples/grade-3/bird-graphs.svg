@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="323" viewBox="0 0 580 323" role="img" aria-labelledby="title desc">
+<title id="title">Bird sightings from one observation record</title>
+<desc id="desc">Each dot stands for two sightings. Four bars reach eight, six, four and two sightings from a zero baseline.</desc>
+<rect x="0" y="0" width="580" height="323" fill="#ffffff" stroke="none" stroke-opacity="0" stroke-width="1"/>
+<g font-family="Arial, sans-serif" fill="#263843">
+<text x="22" y="35" font-size="19" text-anchor="start">Picture graph</text>
+<text x="22" y="66" font-size="16" text-anchor="start">1 dot = 2 sightings</text>
+<text x="22" y="112" font-size="16" text-anchor="start">Robin</text>
+<g id="dots-Robin">
+<circle cx="90" cy="106" r="7" fill="#263843"/>
+<circle cx="114" cy="106" r="7" fill="#263843"/>
+<circle cx="138" cy="106" r="7" fill="#263843"/>
+<circle cx="162" cy="106" r="7" fill="#263843"/>
+</g>
+<text x="22" y="160" font-size="16" text-anchor="start">Finch</text>
+<g id="dots-Finch">
+<circle cx="90" cy="154" r="7" fill="#263843"/>
+<circle cx="114" cy="154" r="7" fill="#263843"/>
+<circle cx="138" cy="154" r="7" fill="#263843"/>
+</g>
+<text x="22" y="208" font-size="16" text-anchor="start">Wren</text>
+<g id="dots-Wren">
+<circle cx="90" cy="202" r="7" fill="#263843"/>
+<circle cx="114" cy="202" r="7" fill="#263843"/>
+</g>
+<text x="22" y="256" font-size="16" text-anchor="start">Jay</text>
+<g id="dots-Jay">
+<circle cx="90" cy="250" r="7" fill="#263843"/>
+</g>
+<text x="280" y="35" font-size="19" text-anchor="start">Bar graph</text>
+<text x="280" y="66" font-size="16" text-anchor="start">Sightings</text>
+<text x="277" y="263" font-size="14" text-anchor="end">0</text>
+<line x1="286" y1="258" x2="563" y2="258" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<text x="277" y="223" font-size="14" text-anchor="end">2</text>
+<line x1="286" y1="218" x2="563" y2="218" stroke="#8a9ba4" stroke-opacity="1" stroke-width="1"/>
+<text x="277" y="183" font-size="14" text-anchor="end">4</text>
+<line x1="286" y1="178" x2="563" y2="178" stroke="#8a9ba4" stroke-opacity="1" stroke-width="1"/>
+<text x="277" y="143" font-size="14" text-anchor="end">6</text>
+<line x1="286" y1="138" x2="563" y2="138" stroke="#8a9ba4" stroke-opacity="1" stroke-width="1"/>
+<text x="277" y="103" font-size="14" text-anchor="end">8</text>
+<line x1="286" y1="98" x2="563" y2="98" stroke="#8a9ba4" stroke-opacity="1" stroke-width="1"/>
+<g id="bar-Robin">
+<rect x="304" y="98" width="32" height="160" fill="#536875" stroke="#263843" stroke-opacity="1" stroke-width="1.5"/>
+</g>
+<text x="320" y="286" font-size="15" text-anchor="middle">Robin</text>
+<g id="bar-Finch">
+<rect x="371" y="138" width="32" height="120" fill="#536875" stroke="#263843" stroke-opacity="1" stroke-width="1.5"/>
+</g>
+<text x="387" y="286" font-size="15" text-anchor="middle">Finch</text>
+<g id="bar-Wren">
+<rect x="438" y="178" width="32" height="80" fill="#536875" stroke="#263843" stroke-opacity="1" stroke-width="1.5"/>
+</g>
+<text x="454" y="286" font-size="15" text-anchor="middle">Wren</text>
+<g id="bar-Jay">
+<rect x="505" y="218" width="32" height="40" fill="#536875" stroke="#263843" stroke-opacity="1" stroke-width="1.5"/>
+</g>
+<text x="521" y="286" font-size="15" text-anchor="middle">Jay</text>
+<line x1="286" y1="98" x2="286" y2="258" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="286" y1="258" x2="563" y2="258" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+</g>
+</svg>
