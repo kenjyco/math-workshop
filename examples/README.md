@@ -50,6 +50,8 @@
 | [What does four count?](grade-3/bags-rows-and-lengths.md) | G27 |
 | [What stays the same when a tray turns?](grade-3/turning-and-splitting-arrays.md) | G28 |
 | [Why is every fourth count even?](grade-3/tables-and-tens.md) | G29 |
+| [Which end of the line is closer?](grade-3/rounding-and-exchanges.md) | G30 |
+| [Which count answers the question?](grade-3/two-step-stories.md) | G31 |
 
 ## Grade 4 pilot
 
