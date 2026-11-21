@@ -56,6 +56,13 @@
 | [Can the same fence surround a different area?](grade-3/fences-and-coverings.md) | G33 |
 | [Which names fit a turned square?](grade-3/four-sided-figures.md) | G34 |
 
+### Fractions and measurement
+
+| Worked example | Goal |
+|---|---|
+| [How far is one share on a line?](grade-3/shares-and-jumps.md) | G35 |
+| [How can two names mark one point?](grade-3/names-for-one-point.md) | G36 |
+
 ## Grade 4 pilot
 
 | Worked example | Goal slice |

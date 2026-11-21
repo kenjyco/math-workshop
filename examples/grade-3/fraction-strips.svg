@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="368" viewBox="0 0 530 368" role="img" aria-labelledby="title desc">
+<title id="title">Two names for one endpoint</title>
+<desc id="desc">Thirds and sixths align at zero, at the end of the shading and at one. The halves of ribbons of six and four centimeters have unequal lengths.</desc>
+<rect x="0" y="0" width="530" height="368" fill="#ffffff" stroke="none" stroke-opacity="0" stroke-width="1"/>
+<g font-family="Arial, sans-serif" fill="#263843">
+<text x="28" y="31" font-size="18" text-anchor="start">One fixed whole</text>
+<g id="thirds">
+<rect x="69" y="52" width="120" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="189" y="52" width="120" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="309" y="52" width="120" height="30" fill="#ffffff" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+</g>
+<text x="445" y="73" font-size="16" text-anchor="start">thirds</text>
+<g id="sixths">
+<rect x="69" y="94" width="60" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="129" y="94" width="60" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="189" y="94" width="60" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="249" y="94" width="60" height="30" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="309" y="94" width="60" height="30" fill="#ffffff" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<rect x="369" y="94" width="60" height="30" fill="#ffffff" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+</g>
+<text x="445" y="115" font-size="16" text-anchor="start">sixths</text>
+<line x1="309" y1="52" x2="309" y2="159" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="69" y1="157" x2="429" y2="157" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="69" y1="151" x2="69" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="129" y1="151" x2="129" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="189" y1="151" x2="189" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="249" y1="151" x2="249" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="309" y1="151" x2="309" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="369" y1="151" x2="369" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<line x1="429" y1="151" x2="429" y2="163" stroke="#263843" stroke-opacity="1" stroke-width="2"/>
+<circle cx="309" cy="157" r="5" fill="#263843"/>
+<text x="69" y="185" font-size="16" text-anchor="middle">0</text>
+<text x="309" y="185" font-size="16" text-anchor="middle">2/3 = 4/6</text>
+<text x="429" y="185" font-size="16" text-anchor="middle">1</text>
+<text x="28" y="234" font-size="18" text-anchor="start">Halves of different ribbons</text>
+<g id="long-ribbon">
+<rect x="69" y="251" width="120" height="27" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="1"/>
+<rect x="189" y="251" width="120" height="27" fill="#ffffff" stroke="#263843" stroke-opacity="1" stroke-width="1"/>
+</g>
+<text x="325" y="271" font-size="16" text-anchor="start">6 cm whole</text>
+<g id="short-ribbon">
+<rect x="69" y="300" width="80" height="27" fill="#e2edf0" stroke="#263843" stroke-opacity="1" stroke-width="1"/>
+<rect x="149" y="300" width="80" height="27" fill="#ffffff" stroke="#263843" stroke-opacity="1" stroke-width="1"/>
+</g>
+<text x="245" y="320" font-size="16" text-anchor="start">4 cm whole</text>
+</g>
+</svg>
