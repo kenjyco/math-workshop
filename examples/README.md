@@ -73,6 +73,8 @@
 |---|---|
 | [What is a digit worth in this column?](grade-4/place-and-exchanges.md) | G41–G42 |
 | [Copies, factors and repeating changes](grade-4/bars-factors-and-patterns.md) | G43–G45 |
+| [What does each row count?](grade-4/products-and-quotients.md) | G46–G48 |
+| [Which total answers the order?](grade-4/shipment-and-capacity.md) | G49 |
 
 ## Grade 4 pilot
 
