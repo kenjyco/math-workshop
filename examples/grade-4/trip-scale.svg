@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="164" viewBox="0 0 560 164" role="img" aria-labelledby="title desc">
+  <title id="title">Distance to the bridge and gate</title>
+  <desc id="desc">Each 72-unit interval spans half a kilometer. The bridge is three intervals from the start and the gate two intervals farther.</desc>
+  <rect width="560" height="164" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<line x1="56" y1="86" x2="488" y2="86" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="56" y1="78" x2="56" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="56" y="123" text-anchor="middle">0</text>
+<line x1="128" y1="78" x2="128" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="128" y="123" text-anchor="middle">½</text>
+<line x1="200" y1="78" x2="200" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="200" y="123" text-anchor="middle">1</text>
+<line x1="272" y1="78" x2="272" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="272" y="123" text-anchor="middle">1½</text>
+<line x1="344" y1="78" x2="344" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="344" y="123" text-anchor="middle">2</text>
+<line x1="416" y1="78" x2="416" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="416" y="123" text-anchor="middle">2½</text>
+<line x1="488" y1="78" x2="488" y2="95" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="488" y="123" text-anchor="middle">3</text>
+<circle cx="56" cy="86" r="5" />
+<text x="56" y="55" text-anchor="middle">Start</text>
+<circle cx="272" cy="86" r="5" />
+<text x="272" y="55" text-anchor="middle">Bridge</text>
+<circle cx="416" cy="86" r="5" />
+<text x="416" y="55" text-anchor="middle">Gate</text>
+<text x="272" y="151" text-anchor="middle">Distance from start (km)</text>
+  </g>
+</svg>

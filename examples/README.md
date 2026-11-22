@@ -77,6 +77,7 @@
 | [Which total answers the order?](grade-4/shipment-and-capacity.md) | G49 |
 | [How much of the same meter?](grade-4/fraction-strips.md) | G50–G52 |
 | [Where do 37 hundredths land?](grade-4/decimal-places.md) | G53 |
+| [One quantity, different counts](grade-4/measuring-and-plotting.md) | G54–G56 |
 
 ## Grade 4 pilot
 

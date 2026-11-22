@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="182" viewBox="0 0 560 182" role="img" aria-labelledby="title desc">
+  <title id="title">Four measured ribbons</title>
+  <desc id="desc">One cross per ribbon on an eighth-yard scale. The stack at four eighths has two crosses.</desc>
+  <rect width="560" height="182" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<line x1="48" y1="107" x2="496" y2="107" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="48" y1="101" x2="48" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="48" y="138" text-anchor="middle">0</text>
+<line x1="104" y1="101" x2="104" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="104" y="138" text-anchor="middle">1/8</text>
+<line x1="160" y1="101" x2="160" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="160" y="138" text-anchor="middle">2/8</text>
+<line x1="216" y1="101" x2="216" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="216" y="138" text-anchor="middle">3/8</text>
+<line x1="272" y1="101" x2="272" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="272" y="138" text-anchor="middle">4/8</text>
+<line x1="328" y1="101" x2="328" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="328" y="138" text-anchor="middle">5/8</text>
+<line x1="384" y1="101" x2="384" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="384" y="138" text-anchor="middle">6/8</text>
+<line x1="440" y1="101" x2="440" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="440" y="138" text-anchor="middle">7/8</text>
+<line x1="496" y1="101" x2="496" y2="114" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="496" y="138" text-anchor="middle">1</text>
+<path d="M 210 77 l 12 12 m -12 0 l 12 -12" fill="none" stroke="#253641" stroke-width="3" stroke-opacity="1"/>
+<path d="M 266 77 l 12 12 m -12 0 l 12 -12" fill="none" stroke="#253641" stroke-width="3" stroke-opacity="1"/>
+<path d="M 266 52 l 12 12 m -12 0 l 12 -12" fill="none" stroke="#253641" stroke-width="3" stroke-opacity="1"/>
+<path d="M 378 77 l 12 12 m -12 0 l 12 -12" fill="none" stroke="#253641" stroke-width="3" stroke-opacity="1"/>
+<text x="272" y="166" text-anchor="middle">Ribbon length (yards)</text>
+  </g>
+</svg>
