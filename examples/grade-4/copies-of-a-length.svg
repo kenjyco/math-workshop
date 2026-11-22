@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="228" viewBox="0 0 520 228" role="img" aria-labelledby="title desc">
+  <title id="title">Copies of fourths and fifths</title>
+  <desc id="desc">Both scales run from zero to two meters. One meter spans 200 drawing units. The upper strip covers five fourths and the lower covers three groups of two fifths.</desc>
+  <rect width="520" height="228" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<text x="42" y="25" >Five single fourths</text>
+<rect x="48" y="42" width="50" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="98" y="42" width="50" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="148" y="42" width="50" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="198" y="42" width="50" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="248" y="42" width="50" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="298" y="42" width="50" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<rect x="348" y="42" width="50" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<rect x="398" y="42" width="50" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<text x="42" y="112" >Three pairs of fifths</text>
+<rect x="48" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="88" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="128" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="168" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="208" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="248" y="128" width="40" height="26" fill="#b1c8ce" stroke="#253641" stroke-opacity="1"/>
+<rect x="288" y="128" width="40" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<rect x="328" y="128" width="40" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<rect x="368" y="128" width="40" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<rect x="408" y="128" width="40" height="26" fill="white" stroke="#253641" stroke-opacity="1"/>
+<line x1="49" y1="161" x2="49" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="49" y1="169" x2="127" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="127" y1="169" x2="127" y2="161" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="88" y="191" text-anchor="middle">pair 1</text>
+<line x1="129" y1="161" x2="129" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="129" y1="169" x2="207" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="207" y1="169" x2="207" y2="161" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="168" y="191" text-anchor="middle">pair 2</text>
+<line x1="209" y1="161" x2="209" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="209" y1="169" x2="287" y2="169" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="287" y1="169" x2="287" y2="161" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<text x="248" y="191" text-anchor="middle">pair 3</text>
+<text x="48" y="89" text-anchor="middle">0 m</text>
+<text x="48" y="218" text-anchor="middle">0 m</text>
+<text x="248" y="89" text-anchor="middle">1 m</text>
+<text x="248" y="218" text-anchor="middle">1 m</text>
+<text x="448" y="89" text-anchor="middle">2 m</text>
+<text x="448" y="218" text-anchor="middle">2 m</text>
+  </g>
+</svg>

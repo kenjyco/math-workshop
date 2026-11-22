@@ -75,6 +75,8 @@
 | [Copies, factors and repeating changes](grade-4/bars-factors-and-patterns.md) | G43–G45 |
 | [What does each row count?](grade-4/products-and-quotients.md) | G46–G48 |
 | [Which total answers the order?](grade-4/shipment-and-capacity.md) | G49 |
+| [How much of the same meter?](grade-4/fraction-strips.md) | G50–G52 |
+| [Where do 37 hundredths land?](grade-4/decimal-places.md) | G53 |
 
 ## Grade 4 pilot
 
