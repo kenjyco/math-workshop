@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="212" viewBox="0 0 570 212" role="img" aria-labelledby="title desc">
+  <title id="title">How many beads?</title>
+  <desc id="desc">Each small interval counts one bead. Strong boundaries group the reference four, three copies of four, and four with three extra beads.</desc>
+  <rect width="570" height="212" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<text x="12" y="53" >Reference</text>
+<rect x="130" y="36" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="160" y="36" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="190" y="36" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="220" y="36" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="130" y="36" width="120" height="24" fill="none" stroke="#17252e" stroke-width="3" stroke-opacity="1"/>
+<text x="259" y="54" >4</text>
+<text x="12" y="115" >Three copies</text>
+<rect x="130" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="160" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="190" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="220" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="250" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="280" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="310" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="340" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="370" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="400" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="430" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="460" y="98" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="130" y="98" width="120" height="24" fill="none" stroke="#17252e" stroke-width="3" stroke-opacity="1"/>
+<rect x="250" y="98" width="120" height="24" fill="none" stroke="#17252e" stroke-width="3" stroke-opacity="1"/>
+<rect x="370" y="98" width="120" height="24" fill="none" stroke="#17252e" stroke-width="3" stroke-opacity="1"/>
+<text x="499" y="116" >12</text>
+<text x="12" y="177" >Three more</text>
+<rect x="130" y="160" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="160" y="160" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="190" y="160" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="220" y="160" width="30" height="24" fill="#c2d3d7" stroke="#253641"  stroke-opacity="1"/>
+<rect x="250" y="160" width="30" height="24" fill="#fff" stroke="#253641"  stroke-opacity="1"/>
+<rect x="280" y="160" width="30" height="24" fill="#fff" stroke="#253641"  stroke-opacity="1"/>
+<rect x="310" y="160" width="30" height="24" fill="#fff" stroke="#253641"  stroke-opacity="1"/>
+<rect x="130" y="160" width="120" height="24" fill="none" stroke="#17252e" stroke-width="3" stroke-opacity="1"/>
+<text x="349" y="178" >7</text>
+  </g>
+</svg>

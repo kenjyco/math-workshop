@@ -67,6 +67,13 @@
 | [How many birds does one dot stand for?](grade-3/birds-in-scaled-graphs.md) | G39 |
 | [Which ruler marks hold two strips?](grade-3/strip-lengths.md) | G40 |
 
+## Grade 4 foundation
+
+| Worked record | Goals |
+|---|---|
+| [What is a digit worth in this column?](grade-4/place-and-exchanges.md) | G41–G42 |
+| [Copies, factors and repeating changes](grade-4/bars-factors-and-patterns.md) | G43–G45 |
+
 ## Grade 4 pilot
 
 | Worked example | Goal slice |
