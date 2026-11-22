@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="242" viewBox="0 0 414 242" role="img" aria-labelledby="title desc">
+  <title id="title">The garden and its edging</title>
+  <desc id="desc">Twenty-four square-meter tiles form four rows of six. A heavy outline traces the twenty outside meter edges.</desc>
+  <rect width="414" height="242" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<rect x="80" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="116" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="152" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="188" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="224" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="260" y="47" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="80" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="116" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="152" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="188" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="224" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="260" y="83" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="80" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="116" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="152" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="188" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="224" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="260" y="119" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="80" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="116" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="152" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="188" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="224" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="260" y="155" width="36" height="36" fill="#d8e3e5" stroke="#253641" stroke-opacity="1"/>
+<rect x="80" y="47" width="216" height="144" fill="none" stroke="#253641" stroke-width="3" stroke-opacity="1"/>
+<text x="188" y="31" text-anchor="middle">6 m</text>
+<text x="312" y="124" >4 m</text>
+<text x="185" y="224" text-anchor="middle">Each tile covers 1 m².</text>
+  </g>
+</svg>

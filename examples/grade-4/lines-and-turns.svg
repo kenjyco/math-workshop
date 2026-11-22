@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="355" viewBox="0 0 640 355" role="img" aria-labelledby="title desc">
+  <title id="title">Endpoints and directions</title>
+  <desc id="desc">A point, segment, ray, line and crossing line pairs accompany a trapezoid with two parallel sides. A quarter-circle arc marks a right turn.</desc>
+  <rect width="640" height="355" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<text x="20" y="35" >Point</text>
+<circle cx="123" cy="30" r="3" />
+<text x="20" y="75" >Segment</text>
+<line x1="122" y1="69" x2="211" y2="69" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<circle cx="122" cy="69" r="3" />
+<circle cx="211" cy="69" r="3" />
+<text x="20" y="116" >Ray</text>
+<line x1="122" y1="110" x2="220" y2="110" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="220.00,110.00 210.00,106.00 210.00,114.00" fill="#253641"/>
+
+<circle cx="122" cy="110" r="3" />
+<text x="20" y="157" >Line</text>
+<line x1="114" y1="151" x2="220" y2="151" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="220.00,151.00 210.00,147.00 210.00,155.00" fill="#253641"/>
+<polygon points="114.00,151.00 124.00,155.00 124.00,147.00" fill="#253641"/>
+<polygon points="344,155 554,155 491,61 344,61" fill="none" stroke="#253641" stroke-width="2" stroke-opacity="1"/>
+<circle cx="344" cy="155" r="3" />
+<text x="326" y="173" >A</text>
+<circle cx="554" cy="155" r="3" />
+<text x="559" y="171" >B</text>
+<circle cx="491" cy="61" r="3" />
+<text x="496" y="55" >C</text>
+<circle cx="344" cy="61" r="3" />
+<text x="327" y="56" >D</text>
+<line x1="344" y1="143" x2="356" y2="143" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="356" y1="143" x2="356" y2="155" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<line x1="26" y1="235" x2="215" y2="235" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="215.00,235.00 205.00,231.00 205.00,239.00" fill="#253641"/>
+<polygon points="26.00,235.00 36.00,239.00 36.00,231.00" fill="#253641"/>
+<line x1="26" y1="277" x2="215" y2="277" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="215.00,277.00 205.00,273.00 205.00,281.00" fill="#253641"/>
+<polygon points="26.00,277.00 36.00,281.00 36.00,273.00" fill="#253641"/>
+<line x1="79" y1="207" x2="79" y2="304" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="79.00,304.00 83.00,294.00 75.00,294.00" fill="#253641"/>
+<polygon points="79.00,207.00 75.00,217.00 83.00,217.00" fill="#253641"/>
+<text x="18" y="333" >Parallel lines and a perpendicular</text>
+<circle cx="424" cy="260" r="57" fill="none" stroke="#77848a" stroke-opacity="1"/>
+<path d="M 481 260 A 57 57 0 0 0 424 203" fill="none" stroke="#253641" stroke-width="4" stroke-opacity="1"/>
+<line x1="424" y1="260" x2="492" y2="260" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="492.00,260.00 482.00,256.00 482.00,264.00" fill="#253641"/>
+
+<line x1="424" y1="260" x2="424" y2="191" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="424.00,191.00 420.00,201.00 428.00,201.00" fill="#253641"/>
+
+<circle cx="424" cy="260" r="3" />
+<text x="441" y="240" >90°</text>
+<text x="425" y="341" text-anchor="middle">Quarter turn</text>
+  </g>
+</svg>

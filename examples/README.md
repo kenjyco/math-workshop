@@ -78,6 +78,8 @@
 | [How much of the same meter?](grade-4/fraction-strips.md) | G50–G52 |
 | [Where do 37 hundredths land?](grade-4/decimal-places.md) | G53 |
 | [One quantity, different counts](grade-4/measuring-and-plotting.md) | G54–G56 |
+| [How much garden, and how much edging?](grade-4/rectangle-measures.md) | G57 |
+| [Where does the turn begin?](grade-4/measuring-turns.md) | G58–G59 |
 
 ## Grade 4 pilot
 

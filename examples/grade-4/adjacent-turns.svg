@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="594" height="210" viewBox="0 0 594 210" role="img" aria-labelledby="title desc">
+  <title id="title">Two angles split by one interior ray</title>
+  <desc id="desc">The left rays have directions zero, 32 and 90 degrees. The right rays have directions zero, 45 and 120 degrees. Each uses equal horizontal and vertical scale.</desc>
+  <rect width="594" height="210" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<line x1="82" y1="162" x2="207" y2="162" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="207.00,162.00 197.00,158.00 197.00,166.00" fill="#253641"/>
+
+<line x1="82" y1="162" x2="188.006" y2="95.76" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="188.01,95.76 177.41,97.67 181.65,104.45" fill="#253641"/>
+
+<line x1="82" y1="162" x2="82" y2="37" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="82.00,37.00 78.00,47.00 86.00,47.00" fill="#253641"/>
+
+<circle cx="82" cy="162" r="3" />
+<text x="149" y="150" >32°</text>
+<text x="103" y="105" >x</text>
+<text x="132" y="195" text-anchor="middle">Whole turn 90°</text>
+<line x1="360" y1="162" x2="485" y2="162" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="485.00,162.00 475.00,158.00 475.00,166.00" fill="#253641"/>
+
+<line x1="360" y1="162" x2="448.388" y2="73.612" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="448.39,73.61 438.49,77.85 444.15,83.51" fill="#253641"/>
+
+<line x1="360" y1="162" x2="297.5" y2="53.747" stroke="#253641" stroke-width="1.5" stroke-opacity="1"/>
+<polygon points="297.50,53.75 299.04,64.41 305.96,60.41" fill="#253641"/>
+
+<circle cx="360" cy="162" r="3" />
+<text x="427" y="150" >45°</text>
+<text x="372" y="105" >y</text>
+<text x="410" y="195" text-anchor="middle">Whole turn 120°</text>
+  </g>
+</svg>
