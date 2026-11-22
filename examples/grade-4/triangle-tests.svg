@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="624" height="210" viewBox="0 0 624 210" role="img" aria-labelledby="title desc">
+  <title id="title">A right angle and a near miss</title>
+  <desc id="desc">Both triangle grids use equal 18-unit squares. Triangle A has perpendicular sides from its lowest vertex. Triangle B raises the left endpoint by one step. A rectangle supplies two parallel pairs.</desc>
+  <rect width="624" height="210" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#19252c">
+<line x1="44" y1="38" x2="44" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="62" y1="38" x2="62" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="80" y1="38" x2="80" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="98" y1="38" x2="98" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="116" y1="38" x2="116" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="134" y1="38" x2="134" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="152" y1="38" x2="152" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="170" y1="38" x2="170" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="188" y1="38" x2="188" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="146" x2="188" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="128" x2="188" y2="128" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="110" x2="188" y2="110" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="92" x2="188" y2="92" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="74" x2="188" y2="74" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="56" x2="188" y2="56" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="44" y1="38" x2="188" y2="38" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<polygon points="98,146 170,92 44,74" fill="none" stroke="#253641" stroke-width="2" stroke-opacity="1"/>
+<circle cx="98" cy="146" r="3" />
+<text x="103" y="182" text-anchor="middle">Triangle A</text>
+<line x1="241" y1="38" x2="241" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="259" y1="38" x2="259" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="277" y1="38" x2="277" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="295" y1="38" x2="295" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="313" y1="38" x2="313" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="331" y1="38" x2="331" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="349" y1="38" x2="349" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="367" y1="38" x2="367" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="385" y1="38" x2="385" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="146" x2="385" y2="146" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="128" x2="385" y2="128" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="110" x2="385" y2="110" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="92" x2="385" y2="92" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="74" x2="385" y2="74" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="56" x2="385" y2="56" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<line x1="241" y1="38" x2="385" y2="38" stroke="#253641" stroke-width="1.5" style="stroke:#c3cbce;stroke-width:1" stroke-opacity="1"/>
+<polygon points="295,146 367,92 241,56" fill="none" stroke="#253641" stroke-width="2" stroke-opacity="1"/>
+<circle cx="295" cy="146" r="3" />
+<text x="300" y="182" text-anchor="middle">Triangle B</text>
+<rect x="443" y="65" width="130" height="65" fill="#eef2f3" stroke="#253641" stroke-opacity="1"/>
+<text x="508" y="182" text-anchor="middle">Rectangle</text>
+  </g>
+</svg>

@@ -80,6 +80,9 @@
 | [One quantity, different counts](grade-4/measuring-and-plotting.md) | G54–G56 |
 | [How much garden, and how much edging?](grade-4/rectangle-measures.md) | G57 |
 | [Where does the turn begin?](grade-4/measuring-turns.md) | G58–G59 |
+| [Which properties survive a turn or a fold?](grade-4/sorting-and-folding.md) | G60–G61 |
+
+The records above link to the earlier pilot for its worked multiplication, division, capacity and reflection examples.
 
 ## Grade 4 pilot
 
