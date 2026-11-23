@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+  font: 100%/1.55 system-ui, sans-serif;
+  color: #202e2e;
+  background: #fbfaf6;
+  --accent: #075951;
+  --rule: #bccbc3;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main, .reader-nav nav { width: min(52rem, 100%); margin: auto; padding: 2rem clamp(1rem, 4vw, 3rem) 4rem; }
+.search-page { padding-top: clamp(2rem, 7vw, 5rem); }
+.brand { color: var(--accent); font-weight: 700; margin: 0 0 .6rem; }
+h1, h2, h3 { line-height: 1.18; text-wrap: pretty; }
+h1, h2 { font-family: Georgia, serif; color: #183f38; }
+h1 { font-size: clamp(2.1rem, 5vw, 3.3rem); margin: 0 0 1.5rem; }
+h2 { font-size: 1.65rem; margin: 2rem 0 1rem; }
+a { color: var(--accent); text-underline-offset: .16em; }
+a:hover { text-decoration-thickness: .15em; }
+:focus-visible { outline: 3px solid #a4470a; outline-offset: 3px; }
+form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; }
+label { display: grid; font-weight: 650; gap: .4rem; }
+input, select, button { font: inherit; }
+input, select { width: 100%; min-width: 0; padding: .8rem; border: 1px solid #648178; border-radius: .35rem; background: white; color: inherit; }
+button { padding: .55rem 1rem; min-height: 44px; border: 1px solid var(--accent); border-radius: .35rem; color: var(--accent); background: #fff; cursor: pointer; }
+button:hover { background: #eaf3ec; }
+ol { margin: 0; padding: 0; list-style: none; }
+.card { padding: 1rem 0; border-top: 1px solid var(--rule); }
+.card h3 { margin: 0; font-size: 1.15rem; }
+.card h3 a { display: inline-block; padding: .3rem 0; }
+.card p { margin: .3rem 0; }
+.card .meta { font-size: .875rem; color: #455d56; }
+.reason { color: #284e44; }
+.reader-nav { background: #e9f1e9; border-bottom: 1px solid var(--rule); }
+.reader-nav nav { padding-top: .85rem; padding-bottom: .85rem; }
+.reader { overflow-wrap: anywhere; }
+.reader ol { list-style: decimal; padding-left: 2rem; }
+.reader img, .reader svg { max-width: 100%; height: auto; }
+.reader figure { margin: 1.5rem 0; }
+.reader figcaption { font-size: .9rem; }
+.table-scroll, pre { max-width: 100%; overflow-x: auto; }
+pre { white-space: pre; padding: .85rem; background: #edf1e9; border-radius: .25rem; }
+table { border-collapse: collapse; }
+td, th { text-align: start; border: 1px solid var(--rule); padding: .4rem .65rem; min-width: 4ch; overflow-wrap: normal; }
+th { background: #e4eee7; }
+.reader :is(h1,h2,h3,h4) { scroll-margin-top: 1rem; }
+.reader { padding-bottom: min(85vh, 36rem); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media (max-width: 34rem) {
+  form { grid-template-columns: 1fr; }
+  select { max-width: 12rem; }
+}

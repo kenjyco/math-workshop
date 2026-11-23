@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find help with homework · Math Workshop</title>
+<link rel="stylesheet" href="style.css">
+<script src="search.js" defer></script>
+</head>
+<body>
+<main class="search-page">
+<header><p class="brand">Math Workshop</p><h1>Find help with homework</h1></header>
+<form role="search">
+<label>Skill or classroom strategy<input type="search" id="query" placeholder="Try addition or place-value blocks" autocomplete="off"></label>
+<label>Grade<select id="grade"><option value="">All grades</option><option value="K">K</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+</form>
+<p id="message">Enter a skill or strategy to find a chapter section or worked example.</p>
+<p class="visually-hidden" role="status" aria-live="polite" aria-atomic="true" id="announcement"></p>
+<div id="results"></div>
+<noscript>Enable JavaScript to search, or browse the <a href="teaching/README.html">teaching chapters</a>.</noscript>
+</main>
+</body>
+</html>
