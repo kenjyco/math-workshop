@@ -20,6 +20,6 @@ Which row has more? Put one spoon in each of the [four widely spaced cups](../ex
 
 The [number cards](../examples/kindergarten/comparing-and-sorting.md#read-the-numeral-cards) can stand for counts even when the cups are put away. Eight comes before ten, so eight is fewer. Turn the cards around and read the comparison from the other side. Two eights name equal counts. Try this with cards from 1 to 10. To [sort the stamped tiles](../examples/kindergarten/comparing-and-sorting.md#sort-a-handful-by-its-markings), give each tile one home according to its mark. Each kind is a *category*. Pair the three moons with the three suns. All match. The four stars would need one more partner. We use at most ten tiles of any one kind here. Three is less than four. That puts the two tied categories first when we order by count.
 
-You can start here with objects and number words. For a later use of pairing, [find the extra objects in a story](04-additive-stories.md) uses addition and subtraction. To turn one observation into one mark, you'll also need to keep each kind in its own category.
+You can start here with objects and number words. For a later use of pairing, [find the extra objects in a story](04-additive-stories.md) uses addition and subtraction. To [turn one observation into one mark](08-observations-to-graphs.md), you'll also need to keep each kind in its own category.
 
 [Teaching index](README.md)

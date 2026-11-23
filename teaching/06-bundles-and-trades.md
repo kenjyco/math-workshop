@@ -1,0 +1,27 @@
+# Bundles, empty places and fair trades
+
+**How can the counts in several columns change while the total stays fixed?**
+
+## What can you pick up by one tie?
+
+Count [ten individual ones](03-parts-and-equality.md) and [tie the ten sticks](../examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks). Now one *bundle* stands for ten. Undoing the tie gives back the ten sticks. In Grade 1 each written *digit* counts a unit given by its place. In [42 on a tray](../examples/grade-1/bundles-and-counting.md#reading-both-digits-of-42) four means four bundles and two means two loose sticks. In the [teen trays](../examples/grade-1/bundles-and-counting.md#keeping-one-ten-in-every-teen) the bundle stays tied while the loose count runs from one to nine. In the [exact tens](../examples/grade-1/bundles-and-counting.md#exact-tens-and-an-empty-ones-place), zero keeps the empty ones place visible. Sixty has six bundles.
+
+When [comparing trays](../examples/grade-1/bundles-and-counting.md#comparing-two-trays), match tens first. Forty has a whole bundle to match the last nine sticks of 39 and still has one to spare. Record 40 > 39. With equal tens, compare loose ones: 42 < 45. Matching every stick gives 23 = 23. To [count across 100 and on to 120](../examples/grade-1/bundles-and-counting.md#counting-from-97-to-120), watch the loose pile at 99. The next stick finishes another bundle. Ten full bundles account for 100. Eleven bundles and four singles say “one hundred fourteen,” written 114. Keep adding one from any given start below 120.
+
+## Trade and return
+
+In the [addition trays](../examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray), predict whether adding five loose sticks or two bundles to 32 changes the loose count. For 26 + 17 there are thirteen loose and three bundles. Tie ten loose ones. The small 1 you can write in the tens column counts **one new ten**. Three old tens plus that ten and three ones make 43. The written parts 30 and 13 are *partial sums*, totals for selected places. Grade 1 adds within 100. In the [mental ten changes](../examples/grade-1/bundle-arithmetic.md#ten-more-and-ten-less-in-your-head), one bundle added to or removed from 56 leaves the six ones alone. In [90 minus 30](../examples/grade-1/bundle-arithmetic.md#taking-away-whole-bundles), remove three whole bundles. Six remain. These exact tens lie between 10 and 90.
+
+Grade 2 makes [a hundred from ten rods](../examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat). Line the rods side by side into a flat. Ten rows of ten still contain 100 ones. To [read 406](../examples/grade-2/hundreds.md#four-flats-and-six-loose-ones), count flats, rods and singles in that order. Four flats, **zero rods**, six singles. Dropping the zero would make the four count tens. For help with division, return to the line with three tens to share once you can exchange one ten for ten ones. That step also uses equal sharing and multiplication to check.
+
+An [exact hundred](../examples/grade-2/hundreds.md#exact-hundreds) has two empty smaller places. In [expanded form](../examples/grade-2/hundreds.md#reading-and-rebuilding-a-number), four hundred six reads 400 + 0 + 6. To [compare it with 460](../examples/grade-2/hundreds.md#which-tray-holds-more), match hundreds first and look at the tens where they first differ. Zero tens on the left gives 406 < 460. Read it back as 460 > 406. If every place matches, use =. [Count toward 1,000](../examples/grade-2/hundreds.md#counting-across-a-hundred) by ones, fives, tens or hundreds. From 397, a step of ten reaches 407 even when the hundreds digit changes.
+
+## Open a pack before taking any away
+
+To *compose* is to put smaller units together. To *decompose* is to open a larger unit. In [52 minus 38](../examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two), opening one ten gives four tens and twelve ones. You can now take eight ones away. To add 46 and 27 within a hundred, slide four from the second pile to complete fifty in the first. The other 23 give 73. Taking 27 back checks the sum. In the [four packets](../examples/grade-2/place-value-trades.md#four-bundles-of-tickets), collect tens from each packet and then ones from each. The partial sums 80 and 20 use every ticket once. Pair the whole packets as 24 + 16 and 37 + 23 to check the hundred.
+
+Pause the [302-sheet removal](../examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place) after each trade. Ask someone to say the unit beside **each** changed digit. Opening a hundred gives 200 + 100 + 2. Opening one of those ten tens gives 200 + 90 + 12. Both still mean 302. Only now remove one hundred, four tens and eight ones. What's left is 154. Adding 148 restores 302. In the [two deliveries](../examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred), run the trades the other way: fourteen ones give one new ten and four ones, twelve tens give one new hundred and two tens. The total is 424.
+
+In the [mental changes from 100 through 900](../examples/grade-2/place-value-trades.md#moving-one-ten-or-one-hundred-mentally), adding a rod or flat **changes the amount** by ten or a hundred. Swapping ten rods already on the tray for one flat keeps the amount fixed. If the columns are hard to read, [match each bundle to its sticks](01-counting-a-collection.md) by counting them. For larger column calculations, also use comparison by place and nearest benchmarks.
+
+[Teaching index](README.md)

@@ -20,6 +20,6 @@ An *expression* such as 8 + 6 names an amount. “Equals” says two amounts are
 
 In the [facts within ten](../examples/grade-1/making-ten-and-equality.md#facts-within-ten), four plus five is one more than double four. Nine minus five checks the result. Grade 1 uses these facts in work within twenty. When a box stands for an *unknown*, ask what part is hidden. In the [missing-number records](../examples/grade-1/making-ten-and-equality.md#which-number-belongs-in-the-box), put four back with seven to recover the start in □ − 4 = 7. Substitute eleven for the box and take four away to test it.
 
-To [find an unknown in a story](04-additive-stories.md), also identify who has each group. To make a bundle of ten, keep track of which sticks the bundle contains.
+To [find an unknown in a story](04-additive-stories.md), also identify who has each group. To [make a bundle of ten](06-bundles-and-trades.md), keep track of which sticks the bundle contains.
 
 [Teaching index](README.md)
