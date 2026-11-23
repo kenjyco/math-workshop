@@ -1,0 +1,3772 @@
+{
+  "variants": {
+    "base ten blocks": "place value blocks",
+    "ten rods": "tens rods",
+    "make ten": "make a ten",
+    "making ten": "make a ten",
+    "compatible estimates": "compatible numbers",
+    "part whole model": "part whole models",
+    "multiplication standard algorithm": "standard algorithm for multiplication",
+    "standard multiplication algorithm": "standard algorithm for multiplication",
+    "standard addition algorithm": "standard algorithm for addition",
+    "standard subtraction algorithm": "standard algorithm for subtraction",
+    "line of symmetry": "symmetry",
+    "two-digit multiplication": "2-digit multiplication",
+    "double-digit multiplication": "2-digit multiplication",
+    "2-digit by 2-digit multiplication": "2-digit multiplication",
+    "two-digit by two-digit multiplication": "2-digit multiplication",
+    "three-digit subtraction": "3-digit subtraction",
+    "subtraction across zeroes": "subtraction across zeros",
+    "zero in the quotient": "long division with a zero in the quotient",
+    "division with remainders": "division with a remainder",
+    "2-step word problems": "two-step word problems",
+    "carry the one": "carrying",
+    "making tens": "make a ten"
+  },
+  "destinations": [
+    {
+      "id": "chapter-06-bundles-and-trades-trade-and-return",
+      "source": "teaching/06-bundles-and-trades.md#trade-and-return",
+      "type": "chapter",
+      "title": "Trade and return with tens and hundreds",
+      "preview": "Line up ten rods to make a hundred-flat.",
+      "claims": [
+        {
+          "goal": "G18",
+          "terms": [
+            "tens rods",
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "Each rod holds ten ones, so ten rows of ten cover the same hundred.",
+          "worked": "examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat",
+          "order": 0
+        },
+        {
+          "goal": "G18",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The rods and flat model the exchange between two base-ten units.",
+          "worked": "examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat",
+          "preview": "See how ten rods fit on one hundred-flat.",
+          "order": 2
+        },
+        {
+          "goal": "G11",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "Tying ten loose sticks models composing the next place during addition.",
+          "worked": "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray",
+          "preview": "Combine the loose sticks from two addition trays.",
+          "order": 10
+        },
+        {
+          "goal": "G11",
+          "terms": [
+            "addition",
+            "regrouping",
+            "partial sums"
+          ],
+          "relation": "direct",
+          "reason": "Thirteen loose sticks supply one new ten, leaving three ones.",
+          "worked": "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray",
+          "preview": "Join the tens and ones in 26 + 17.",
+          "order": 36
+        },
+        {
+          "goal": "G11",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "The small written 1 records one newly composed ten.",
+          "worked": "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray",
+          "preview": "Tie ten of the loose sticks in 26 + 17.",
+          "alias": true,
+          "order": 38
+        },
+        {
+          "goal": "G18",
+          "terms": [
+            "expanded form"
+          ],
+          "relation": "direct",
+          "reason": "Four hundreds, zero tens and six ones give 400 + 0 + 6. The zero keeps the 4 in the hundreds place when you write 406.",
+          "worked": "examples/grade-2/hundreds.md#reading-and-rebuilding-a-number",
+          "preview": "Read the Grade 2 places in 406.",
+          "order": 222
+        }
+      ]
+    },
+    {
+      "id": "example-hundreds-ten-rods-fit-on-one-flat",
+      "source": "examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat",
+      "type": "example",
+      "title": "Make a hundred from ten rods",
+      "preview": "Line up ten rods to make a hundred-flat.",
+      "claims": [
+        {
+          "goal": "G18",
+          "terms": [
+            "tens rods",
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "Each rod holds ten ones, so ten rows of ten cover the same hundred.",
+          "order": 1
+        },
+        {
+          "goal": "G18",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The rods and flat model the exchange between two base-ten units.",
+          "preview": "See how ten rods fit on one hundred-flat.",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-bundles-and-trades-what-can-you-pick-up-by-one-tie",
+      "source": "teaching/06-bundles-and-trades.md#what-can-you-pick-up-by-one-tie",
+      "type": "chapter",
+      "title": "What can you pick up by one tie?",
+      "preview": "Pick up ten sticks by a single tie.",
+      "claims": [
+        {
+          "goal": "G10",
+          "terms": [
+            "bundles of tens",
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "One tied bundle can be counted as a ten or opened into ten ones.",
+          "worked": "examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks",
+          "order": 4
+        },
+        {
+          "goal": "G10",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "Tied sticks give a material model of the same ten-to-one exchange.",
+          "worked": "examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks",
+          "preview": "Trade ten loose sticks for one tied bundle.",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "example-bundles-and-counting-one-tie-around-ten-sticks",
+      "source": "examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks",
+      "type": "example",
+      "title": "One tie around ten sticks",
+      "preview": "Pick up ten sticks by a single tie.",
+      "claims": [
+        {
+          "goal": "G10",
+          "terms": [
+            "bundles of tens",
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "One tied bundle can be counted as a ten or opened into ten ones.",
+          "order": 5
+        },
+        {
+          "goal": "G10",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "Tied sticks give a material model of the same ten-to-one exchange.",
+          "preview": "Trade ten loose sticks for one tied bundle.",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "chapter-06-bundles-and-trades-open-a-pack-before-taking-any-away",
+      "source": "teaching/06-bundles-and-trades.md#open-a-pack-before-taking-any-away",
+      "type": "chapter",
+      "title": "Open a pack before taking any away",
+      "preview": "Open one of the five tens in 52.",
+      "claims": [
+        {
+          "goal": "G19",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The pack or tied sticks show how a ten can become ten ones for subtraction.",
+          "worked": "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two",
+          "order": 8
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "addition",
+            "partial sums"
+          ],
+          "relation": "direct",
+          "reason": "The tens give 80 and the ones give 20, accounting for all 100 tickets.",
+          "worked": "examples/grade-2/place-value-trades.md#four-bundles-of-tickets",
+          "preview": "Combine the tens and ones from four packets of tickets.",
+          "order": 40
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "subtraction",
+            "regrouping"
+          ],
+          "relation": "direct",
+          "reason": "Four tens and twelve ones still make 52 and now eight ones can come off.",
+          "worked": "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two",
+          "preview": "Open one ten before taking 38 away from 52.",
+          "order": 42
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "borrowing"
+          ],
+          "relation": "direct",
+          "reason": "Opening one ten reduces the tens count to four and brings the ones count to twelve.",
+          "worked": "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two",
+          "preview": "Follow the tens and ones in 52 − 38.",
+          "alias": true,
+          "order": 44
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "addition",
+            "regrouping"
+          ],
+          "relation": "direct",
+          "reason": "Fourteen ones supply a ten, then twelve tens supply a hundred on the way to 424.",
+          "worked": "examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred",
+          "preview": "Combine two deliveries and follow both trades.",
+          "order": 46
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "Each new unit moves one column left when ten smaller units are composed.",
+          "worked": "examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred",
+          "preview": "Add the deliveries by place.",
+          "alias": true,
+          "order": 48
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "3-digit subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Open a hundred into ten tens, then one ten into ten ones. The 302 sheets now count as 200 + 90 + 12. Removing 148 leaves 154.",
+          "worked": "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place",
+          "preview": "Open two packs to work out 302 − 148.",
+          "order": 201
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "subtraction across zeros"
+          ],
+          "relation": "direct",
+          "reason": "Open a hundred to fill the empty tens place, then open one ten for the ones. From 200 + 90 + 12, take away 148 to leave 154.",
+          "worked": "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place",
+          "preview": "Reach the ones in 302 − 148 through the empty tens place.",
+          "order": 210
+        }
+      ]
+    },
+    {
+      "id": "example-place-value-trades-trading-a-ten-in-fifty-two",
+      "source": "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two",
+      "type": "example",
+      "title": "Trading a ten in fifty-two",
+      "preview": "Open one of the five tens in 52.",
+      "claims": [
+        {
+          "goal": "G19",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The pack or tied sticks show how a ten can become ten ones for subtraction.",
+          "order": 9
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "subtraction",
+            "regrouping"
+          ],
+          "relation": "direct",
+          "reason": "Four tens and twelve ones still make 52 and now eight ones can come off.",
+          "preview": "Open one ten before taking 38 away from 52.",
+          "order": 43
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "borrowing"
+          ],
+          "relation": "direct",
+          "reason": "Changing 5 tens to 4 and writing 12 ones records the ten sticks in the untied bundle.",
+          "preview": "Read the crossed-out tens digit beside the drawing for 52 − 38.",
+          "alias": true,
+          "order": 45
+        }
+      ]
+    },
+    {
+      "id": "example-bundle-arithmetic-three-ways-to-add-to-a-tray",
+      "source": "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray",
+      "type": "example",
+      "title": "Three ways to add to a tray",
+      "preview": "Combine the loose sticks from two addition trays.",
+      "claims": [
+        {
+          "goal": "G11",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "Tying ten loose sticks models composing the next place during addition.",
+          "order": 11
+        },
+        {
+          "goal": "G11",
+          "terms": [
+            "addition",
+            "regrouping",
+            "partial sums"
+          ],
+          "relation": "direct",
+          "reason": "Thirteen loose sticks supply one new ten, leaving three ones.",
+          "preview": "Join the tens and ones in 26 + 17.",
+          "order": 37
+        },
+        {
+          "goal": "G11",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "The small written 1 records one newly composed ten.",
+          "preview": "Tie ten of the loose sticks in 26 + 17.",
+          "alias": true,
+          "order": 39
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-rounding-and-columns-follow-the-unit-through-the-zeros",
+      "source": "teaching/11-rounding-and-columns.md#follow-the-unit-through-the-zeros",
+      "type": "chapter",
+      "title": "Follow the unit through the zeros",
+      "preview": "Follow a written trade across the zeros in 50,002.",
+      "claims": [
+        {
+          "goal": "G42",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The columns record the same exchanges in writing, one place at a time.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "order": 12
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "standard algorithm"
+          ],
+          "relation": "direct",
+          "reason": "The standard algorithms compose units in 59,986 + 78 and open units in 50,002 − 487.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Read the aligned Grade 4 addition and subtraction calculations.",
+          "order": 50
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "addition",
+            "regrouping",
+            "standard algorithm for addition"
+          ],
+          "relation": "direct",
+          "reason": "The standard addition method records the digit kept and the new unit carried into the next column.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Align the columns in 59,986 + 78.",
+          "order": 52
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "subtraction",
+            "regrouping",
+            "standard algorithm for subtraction"
+          ],
+          "relation": "direct",
+          "reason": "The standard subtraction method opens successive units until the ones column holds twelve.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Follow the written subtraction of 487 from 50,002.",
+          "order": 54
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "borrowing"
+          ],
+          "relation": "direct",
+          "reason": "The written subtraction opens a larger unit at each step and preserves the starting amount.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Trace the exchanges across the zeros in 50,002.",
+          "alias": true,
+          "order": 56
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "Fourteen ones leave four ones here and send one ten to the next column.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Read the addition column by column.",
+          "alias": true,
+          "order": 58
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "subtraction across zeros"
+          ],
+          "relation": "direct",
+          "reason": "Open one ten-thousand and pass a unit on through each empty place. Each middle column keeps nine. Taking away 487 leaves 49,515.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+          "preview": "Follow the exchanges across the zeros in 50,002 − 487.",
+          "order": 212
+        }
+      ]
+    },
+    {
+      "id": "example-place-and-exchanges-g42--following-each-exchange",
+      "source": "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange",
+      "type": "example",
+      "title": "Following each exchange",
+      "preview": "Follow a written trade across the zeros in 50,002.",
+      "claims": [
+        {
+          "goal": "G42",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "related",
+          "reason": "The columns record the same exchanges in writing, one place at a time.",
+          "order": 13
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "standard algorithm"
+          ],
+          "relation": "direct",
+          "reason": "The standard algorithms compose units in 59,986 + 78 and open units in 50,002 − 487.",
+          "preview": "Read the aligned Grade 4 addition and subtraction calculations.",
+          "order": 51
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "addition",
+            "regrouping",
+            "standard algorithm for addition"
+          ],
+          "relation": "direct",
+          "reason": "The standard addition method records the digit kept and the new unit carried into the next column.",
+          "preview": "Align the columns in 59,986 + 78.",
+          "order": 53
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "subtraction",
+            "regrouping",
+            "standard algorithm for subtraction"
+          ],
+          "relation": "direct",
+          "reason": "The standard subtraction method opens successive units until the ones column holds twelve.",
+          "preview": "Follow the written subtraction of 487 from 50,002.",
+          "order": 55
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "borrowing"
+          ],
+          "relation": "direct",
+          "reason": "The written subtraction opens a larger unit at each step and preserves the starting amount.",
+          "preview": "Trace the exchanges across the zeros in 50,002.",
+          "alias": true,
+          "order": 57
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "Fourteen ones leave four ones here and send one ten to the next column.",
+          "preview": "Read the addition column by column.",
+          "alias": true,
+          "order": 59
+        },
+        {
+          "goal": "G42",
+          "terms": [
+            "subtraction across zeros"
+          ],
+          "relation": "direct",
+          "reason": "The exchanged amounts 40,000 + 9,000 + 900 + 90 + 12 still equal 50,002. Remove four hundreds, eight tens and seven ones to get 49,515.",
+          "preview": "Follow the exchanges across the zeros in 50,002 − 487.",
+          "order": 213
+        }
+      ]
+    },
+    {
+      "id": "chapter-03-parts-and-equality-listen-for-what-ten-means",
+      "source": "teaching/03-parts-and-equality.md#listen-for-what-ten-means",
+      "type": "chapter",
+      "title": "Listen for what ten means",
+      "preview": "Count ten individual ones and the extra ones on a teen frame.",
+      "claims": [
+        {
+          "goal": "G06",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "prerequisite",
+          "reason": "Recognizing ten ones together prepares a learner to count a ten as a unit.",
+          "worked": "examples/kindergarten/tens-and-teens.md#how-many-beyond-a-full-frame",
+          "order": 14
+        },
+        {
+          "goal": "G06",
+          "terms": [
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "The full frame accounts for ten individual ones in the teen number.",
+          "worked": "examples/kindergarten/tens-and-teens.md#how-many-beyond-a-full-frame",
+          "preview": "Build a teen number with one full frame and some extra counters.",
+          "order": 16
+        },
+        {
+          "goal": "G06",
+          "terms": [
+            "make a ten",
+            "addition"
+          ],
+          "relation": "direct",
+          "reason": "The empty spaces count the missing part needed to complete ten.",
+          "worked": "examples/kindergarten/tens-and-teens.md#how-many-more-will-fill-the-frame",
+          "preview": "Look at the empty spaces beside the counters.",
+          "order": 18
+        },
+        {
+          "goal": "G08",
+          "terms": [
+            "make a ten",
+            "addition"
+          ],
+          "relation": "direct",
+          "reason": "The same fourteen counters now form ten and four, an easier sum.",
+          "worked": "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four",
+          "preview": "Move two of the six counters to the eight.",
+          "order": 20
+        }
+      ]
+    },
+    {
+      "id": "example-tens-and-teens-how-many-beyond-a-full-frame",
+      "source": "examples/kindergarten/tens-and-teens.md#how-many-beyond-a-full-frame",
+      "type": "example",
+      "title": "How many beyond a full frame?",
+      "preview": "Count ten individual ones and the extra ones on a teen frame.",
+      "claims": [
+        {
+          "goal": "G06",
+          "terms": [
+            "place value blocks"
+          ],
+          "relation": "prerequisite",
+          "reason": "Recognizing ten ones together prepares a learner to count a ten as a unit.",
+          "order": 15
+        },
+        {
+          "goal": "G06",
+          "terms": [
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "The full frame accounts for ten individual ones in the teen number.",
+          "preview": "Build a teen number with one full frame and some extra counters.",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "id": "example-tens-and-teens-how-many-more-will-fill-the-frame",
+      "source": "examples/kindergarten/tens-and-teens.md#how-many-more-will-fill-the-frame",
+      "type": "example",
+      "title": "How many more will fill the frame?",
+      "preview": "Look at the empty spaces beside the counters.",
+      "claims": [
+        {
+          "goal": "G06",
+          "terms": [
+            "make a ten",
+            "addition"
+          ],
+          "relation": "direct",
+          "reason": "The empty spaces count the missing part needed to complete ten.",
+          "order": 19
+        }
+      ]
+    },
+    {
+      "id": "example-making-ten-and-equality-from-eight-and-six-to-ten-and-four",
+      "source": "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four",
+      "type": "example",
+      "title": "From eight and six to ten and four",
+      "preview": "Move two of the six counters to the eight.",
+      "claims": [
+        {
+          "goal": "G08",
+          "terms": [
+            "make a ten",
+            "addition"
+          ],
+          "relation": "direct",
+          "reason": "The same fourteen counters now form ten and four, an easier sum.",
+          "order": 21
+        }
+      ]
+    },
+    {
+      "id": "chapter-03-parts-and-equality-put-the-buttons-back",
+      "source": "teaching/03-parts-and-equality.md#put-the-buttons-back",
+      "type": "chapter",
+      "title": "Put the buttons back",
+      "preview": "Slide four buttons into a dish of six, then lift three out.",
+      "claims": [
+        {
+          "goal": "G05",
+          "terms": [
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Joining makes ten and removing three leaves seven in the dish.",
+          "worked": "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish",
+          "order": 22
+        },
+        {
+          "goal": "G05",
+          "terms": [
+            "part whole models"
+          ],
+          "relation": "direct",
+          "reason": "The two-part mat accounts for every button in the whole collection.",
+          "worked": "examples/kindergarten/joining-and-splitting.md#one-whole-and-two-parts",
+          "preview": "Separate seven into two parts and rearrange the parts.",
+          "order": 24
+        },
+        {
+          "goal": "G05",
+          "terms": [
+            "number bonds"
+          ],
+          "relation": "related",
+          "reason": "The mat connects each pair of parts to its whole using buttons.",
+          "worked": "examples/kindergarten/joining-and-splitting.md#one-whole-and-two-parts",
+          "preview": "Follow the two parts of seven.",
+          "order": 26
+        }
+      ]
+    },
+    {
+      "id": "example-joining-and-splitting-buttons-into-and-out-of-a-dish",
+      "source": "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish",
+      "type": "example",
+      "title": "Buttons into and out of a dish",
+      "preview": "Slide four buttons into a dish of six, then lift three out.",
+      "claims": [
+        {
+          "goal": "G05",
+          "terms": [
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Joining makes ten and removing three leaves seven in the dish.",
+          "order": 23
+        }
+      ]
+    },
+    {
+      "id": "example-joining-and-splitting-one-whole-and-two-parts",
+      "source": "examples/kindergarten/joining-and-splitting.md#one-whole-and-two-parts",
+      "type": "example",
+      "title": "One whole and two parts",
+      "preview": "Separate seven into two parts and rearrange the parts.",
+      "claims": [
+        {
+          "goal": "G05",
+          "terms": [
+            "part whole models"
+          ],
+          "relation": "direct",
+          "reason": "The two-part mat accounts for every button in the whole collection.",
+          "order": 25
+        },
+        {
+          "goal": "G05",
+          "terms": [
+            "number bonds"
+          ],
+          "relation": "related",
+          "reason": "The mat connects each pair of parts to its whole using buttons.",
+          "preview": "Follow the two parts of seven.",
+          "order": 27
+        }
+      ]
+    },
+    {
+      "id": "chapter-04-additive-stories-cover-the-quantity-the-story-asks-for",
+      "source": "teaching/04-additive-stories.md#cover-the-quantity-the-story-asks-for",
+      "type": "chapter",
+      "title": "Cover the quantity the story asks for",
+      "preview": "Look at the round and square buttons on a tray.",
+      "claims": [
+        {
+          "goal": "G09",
+          "terms": [
+            "part whole models"
+          ],
+          "relation": "direct",
+          "reason": "The two shapes account for both parts of the same collection.",
+          "worked": "examples/grade-1/stories-with-unknowns.md#two-parts-on-a-tray",
+          "order": 28
+        },
+        {
+          "goal": "G09",
+          "terms": [
+            "number bonds"
+          ],
+          "relation": "related",
+          "reason": "The tray represents a whole and its two parts with objects.",
+          "worked": "examples/grade-1/stories-with-unknowns.md#two-parts-on-a-tray",
+          "preview": "Cover one part of the tray of buttons.",
+          "order": 30
+        },
+        {
+          "goal": "G09",
+          "terms": [
+            "word problems",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Naming the start, change and result helps find the missing amount.",
+          "worked": "examples/grade-1/stories-with-unknowns.md#buttons-going-into-or-coming-out-of-a-tin",
+          "preview": "Trace a change as buttons enter or leave a tin.",
+          "order": 32
+        }
+      ]
+    },
+    {
+      "id": "example-stories-with-unknowns-two-parts-on-a-tray",
+      "source": "examples/grade-1/stories-with-unknowns.md#two-parts-on-a-tray",
+      "type": "example",
+      "title": "Two parts on a tray",
+      "preview": "Look at the round and square buttons on a tray.",
+      "claims": [
+        {
+          "goal": "G09",
+          "terms": [
+            "part whole models"
+          ],
+          "relation": "direct",
+          "reason": "The two shapes account for both parts of the same collection.",
+          "order": 29
+        },
+        {
+          "goal": "G09",
+          "terms": [
+            "number bonds"
+          ],
+          "relation": "related",
+          "reason": "The tray represents a whole and its two parts with objects.",
+          "preview": "Cover one part of the tray of buttons.",
+          "order": 31
+        }
+      ]
+    },
+    {
+      "id": "example-stories-with-unknowns-buttons-going-into-or-coming-out-of-a-tin",
+      "source": "examples/grade-1/stories-with-unknowns.md#buttons-going-into-or-coming-out-of-a-tin",
+      "type": "example",
+      "title": "Buttons going into or coming out of a tin",
+      "preview": "Trace a change as buttons enter or leave a tin.",
+      "claims": [
+        {
+          "goal": "G09",
+          "terms": [
+            "word problems",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Naming the start, change and result helps find the missing amount.",
+          "order": 33
+        }
+      ]
+    },
+    {
+      "id": "chapter-04-additive-stories-carry-a-fact-into-a-larger-story",
+      "source": "teaching/04-additive-stories.md#carry-a-fact-into-a-larger-story",
+      "type": "chapter",
+      "title": "Carry a fact into a larger story",
+      "preview": "Compare the sales at two ticket windows.",
+      "claims": [
+        {
+          "goal": "G17",
+          "terms": [
+            "word problems",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Adding the first window’s sales gives the subtotal to subtract from the other window’s count.",
+          "worked": "examples/grade-2/fact-families-and-stories.md#two-steps-at-the-ticket-window",
+          "order": 34
+        },
+        {
+          "goal": "G17",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "The first window sells 24 + 9 = 33 tickets. Match those 33 against the other window’s 40 to find seven more tickets at the other window.",
+          "worked": "examples/grade-2/fact-families-and-stories.md#two-steps-at-the-ticket-window",
+          "preview": "Compare the two ticket windows after lunch.",
+          "order": 226
+        }
+      ]
+    },
+    {
+      "id": "example-fact-families-and-stories-two-steps-at-the-ticket-window",
+      "source": "examples/grade-2/fact-families-and-stories.md#two-steps-at-the-ticket-window",
+      "type": "example",
+      "title": "Two steps at the ticket window",
+      "preview": "Compare the sales at two ticket windows.",
+      "claims": [
+        {
+          "goal": "G17",
+          "terms": [
+            "word problems",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Adding the first window’s sales gives the subtotal to subtract from the other window’s count.",
+          "order": 35
+        },
+        {
+          "goal": "G17",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "Add the morning 24 and afternoon 9 to find 33 tickets at the first window. The other window sells 40, so it sells 7 more.",
+          "preview": "Compare the two ticket windows after lunch.",
+          "order": 227
+        }
+      ]
+    },
+    {
+      "id": "example-place-value-trades-four-bundles-of-tickets",
+      "source": "examples/grade-2/place-value-trades.md#four-bundles-of-tickets",
+      "type": "example",
+      "title": "Four bundles of tickets",
+      "preview": "Combine the tens and ones from four packets of tickets.",
+      "claims": [
+        {
+          "goal": "G19",
+          "terms": [
+            "addition",
+            "partial sums"
+          ],
+          "relation": "direct",
+          "reason": "The tens give 80 and the ones give 20, accounting for all 100 tickets.",
+          "order": 41
+        }
+      ]
+    },
+    {
+      "id": "example-place-value-trades-composing-a-ten-and-a-hundred",
+      "source": "examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred",
+      "type": "example",
+      "title": "Composing a ten and a hundred",
+      "preview": "Combine two deliveries and follow both trades.",
+      "claims": [
+        {
+          "goal": "G19",
+          "terms": [
+            "addition",
+            "regrouping"
+          ],
+          "relation": "direct",
+          "reason": "Fourteen ones supply a ten, then twelve tens supply a hundred on the way to 424.",
+          "order": 47
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "carrying"
+          ],
+          "relation": "direct",
+          "reason": "Each new unit moves one column left when ten smaller units are composed.",
+          "preview": "Add the deliveries by place.",
+          "alias": true,
+          "order": 49
+        }
+      ]
+    },
+    {
+      "id": "chapter-09-equal-groups-what-does-the-missing-number-count",
+      "source": "teaching/09-equal-groups.md#what-does-the-missing-number-count",
+      "type": "chapter",
+      "title": "What does the missing number count in equal groups?",
+      "preview": "Count the buttons in four bags with six in each.",
+      "claims": [
+        {
+          "goal": "G27",
+          "terms": [
+            "multiplication",
+            "equal groups"
+          ],
+          "relation": "direct",
+          "reason": "Four equal groups of six give a product of 24 buttons.",
+          "worked": "examples/grade-3/bags-rows-and-lengths.md#four-bags-of-buttons",
+          "order": 60
+        },
+        {
+          "goal": "G27",
+          "terms": [
+            "division",
+            "equal groups"
+          ],
+          "relation": "direct",
+          "reason": "One question asks how many per share and the other asks how many bags.",
+          "worked": "examples/grade-3/bags-rows-and-lengths.md#sharing-or-packing-the-same-buttons",
+          "preview": "Deal 24 buttons to six people, then pack them six to a bag.",
+          "order": 62
+        }
+      ]
+    },
+    {
+      "id": "example-bags-rows-and-lengths-four-bags-of-buttons",
+      "source": "examples/grade-3/bags-rows-and-lengths.md#four-bags-of-buttons",
+      "type": "example",
+      "title": "Four bags of buttons",
+      "preview": "Count the buttons in four bags with six in each.",
+      "claims": [
+        {
+          "goal": "G27",
+          "terms": [
+            "multiplication",
+            "equal groups"
+          ],
+          "relation": "direct",
+          "reason": "Four equal groups of six give a product of 24 buttons.",
+          "order": 61
+        }
+      ]
+    },
+    {
+      "id": "example-bags-rows-and-lengths-sharing-or-packing-the-same-buttons",
+      "source": "examples/grade-3/bags-rows-and-lengths.md#sharing-or-packing-the-same-buttons",
+      "type": "example",
+      "title": "Sharing or packing the same buttons",
+      "preview": "Deal 24 buttons to six people, then pack them six to a bag.",
+      "claims": [
+        {
+          "goal": "G27",
+          "terms": [
+            "division",
+            "equal groups"
+          ],
+          "relation": "direct",
+          "reason": "One question asks how many per share and the other asks how many bags.",
+          "order": 63
+        }
+      ]
+    },
+    {
+      "id": "chapter-09-equal-groups-keep-track-of-every-row",
+      "source": "teaching/09-equal-groups.md#keep-track-of-every-row",
+      "type": "chapter",
+      "title": "Keep track of every row",
+      "preview": "Split the seven-by-eight array into two rectangles.",
+      "claims": [
+        {
+          "goal": "G28",
+          "terms": [
+            "multiplication",
+            "arrays",
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Each part keeps all seven rows, so seven fives and seven threes give the full product.",
+          "worked": "examples/grade-3/turning-and-splitting-arrays.md#turn-bundle-and-split",
+          "order": 64
+        }
+      ]
+    },
+    {
+      "id": "example-turning-and-splitting-arrays-turn-bundle-and-split",
+      "source": "examples/grade-3/turning-and-splitting-arrays.md#turn-bundle-and-split",
+      "type": "example",
+      "title": "Turn, bundle and split",
+      "preview": "Split the seven-by-eight array into two rectangles.",
+      "claims": [
+        {
+          "goal": "G28",
+          "terms": [
+            "multiplication",
+            "arrays",
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Each part keeps all seven rows, so seven fives and seven threes give the full product.",
+          "order": 65
+        }
+      ]
+    },
+    {
+      "id": "chapter-09-equal-groups-touch-a-dot-then-touch-a-space",
+      "source": "teaching/09-equal-groups.md#touch-a-dot-then-touch-a-space",
+      "type": "chapter",
+      "title": "Touch a dot, then touch a space",
+      "preview": "Turn three rows of four counters.",
+      "claims": [
+        {
+          "goal": "G20",
+          "terms": [
+            "arrays",
+            "equal groups",
+            "repeated addition"
+          ],
+          "relation": "direct",
+          "reason": "Equal rows can be counted as equal addends in either orientation.",
+          "worked": "examples/grade-2/pairs-and-arrays.md#rows-that-turn-into-columns",
+          "order": 66
+        },
+        {
+          "goal": "G20",
+          "terms": [
+            "multiplication"
+          ],
+          "relation": "prerequisite",
+          "reason": "Writing one addend per row prepares the idea of a product.",
+          "worked": "examples/grade-2/pairs-and-arrays.md#rows-that-turn-into-columns",
+          "preview": "Count equal addends in a turned array.",
+          "order": 68
+        }
+      ]
+    },
+    {
+      "id": "example-pairs-and-arrays-rows-that-turn-into-columns",
+      "source": "examples/grade-2/pairs-and-arrays.md#rows-that-turn-into-columns",
+      "type": "example",
+      "title": "Rows that turn into columns",
+      "preview": "Turn three rows of four counters.",
+      "claims": [
+        {
+          "goal": "G20",
+          "terms": [
+            "arrays",
+            "equal groups",
+            "repeated addition"
+          ],
+          "relation": "direct",
+          "reason": "Equal rows can be counted as equal addends in either orientation.",
+          "order": 67
+        },
+        {
+          "goal": "G20",
+          "terms": [
+            "multiplication"
+          ],
+          "relation": "prerequisite",
+          "reason": "Writing one addend per row prepares the idea of a product.",
+          "preview": "Count equal addends in a turned array.",
+          "order": 69
+        }
+      ]
+    },
+    {
+      "id": "chapter-18-partial-products-trace-each-row-to-its-part-of-the-rectangle",
+      "source": "teaching/18-partial-products.md#trace-each-row-to-its-part-of-the-rectangle",
+      "type": "chapter",
+      "title": "Trace each row to its part of the rectangle",
+      "preview": "Split a 23-by-14 rectangle at both place-value boundaries.",
+      "claims": [
+        {
+          "goal": "G46",
+          "terms": [
+            "area model",
+            "partial products",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "The areas 200, 30, 80 and 12 cover the rectangle once and total 322.",
+          "worked": "examples/four-region-multiplication.md#area-model-for-23--14",
+          "order": 70
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "standard algorithm",
+            "standard algorithm for multiplication"
+          ],
+          "relation": "related",
+          "reason": "The stacked multiplication layout records four ones and one ten times 23.",
+          "worked": "examples/four-region-multiplication.md#parent-bridge",
+          "preview": "Match each written product row to its rectangle band.",
+          "order": 73
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "2-digit multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Each part of 23 meets both parts of 14. The four areas 200, 30, 80 and 12 give rows of 230 and 92. Together they make 322.",
+          "worked": "examples/four-region-multiplication.md#area-model-for-23--14",
+          "preview": "Trace the two written rows of 23 × 14.",
+          "order": 198
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "The widths 20 and 3 each meet heights 10 and 4. Trace the four regions into written rows of 230 and 92 to recover 322.",
+          "worked": "examples/four-region-multiplication.md#area-model-for-23--14",
+          "preview": "Distribute both factors in the 23 × 14 rectangle.",
+          "order": 205
+        }
+      ]
+    },
+    {
+      "id": "example-four-region-multiplication-area-model-for-23--14",
+      "source": "examples/four-region-multiplication.md#area-model-for-23--14",
+      "type": "example",
+      "title": "Area model for 23 × 14",
+      "preview": "Split a 23-by-14 rectangle at both place-value boundaries.",
+      "claims": [
+        {
+          "goal": "G46",
+          "terms": [
+            "area model",
+            "partial products",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "The areas 200, 30, 80 and 12 cover the rectangle once and total 322.",
+          "order": 71
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "2-digit multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Split 23 into 20 + 3 and 14 into 10 + 4. The table shows all four pairings: 200 + 30 + 80 + 12 = 230 + 92 = 322.",
+          "preview": "Trace the two written rows of 23 × 14.",
+          "order": 199
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Pair each part of 20 + 3 with each part of 10 + 4. The areas 200, 30, 80 and 12 cover the 322 square units exactly once.",
+          "preview": "Distribute both factors in the 23 × 14 rectangle.",
+          "order": 206
+        }
+      ]
+    },
+    {
+      "id": "example-products-and-quotients-g46--reassemble-the-product",
+      "source": "examples/grade-4/products-and-quotients.md#g46--reassemble-the-product",
+      "type": "example",
+      "title": "Reassemble the product",
+      "preview": "Reassemble the four parts of 23 × 14.",
+      "claims": [
+        {
+          "goal": "G46",
+          "terms": [
+            "area model",
+            "partial products",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Products from the same band combine into written rows of 92 and 230.",
+          "order": 72
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "2-digit multiplication"
+          ],
+          "relation": "direct",
+          "reason": "For 23 × 14, read the four areas 200, 30, 80 and 12 by rows to get 230 + 92, or by columns to get 280 + 42. Both give 322.",
+          "preview": "Trace the two written rows of 23 × 14.",
+          "order": 200
+        },
+        {
+          "goal": "G46",
+          "terms": [
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Distribute 20 + 3 across the two heights 10 and 4. Reassemble the same four areas by rows, 230 + 92, or by columns, 280 + 42. Both total 322.",
+          "preview": "Distribute both factors in the 23 × 14 rectangle.",
+          "order": 207
+        }
+      ]
+    },
+    {
+      "id": "example-four-region-multiplication-parent-bridge",
+      "source": "examples/four-region-multiplication.md#parent-bridge",
+      "type": "example",
+      "title": "Connect the four regions to two written rows",
+      "preview": "Match each written product row to its rectangle band.",
+      "claims": [
+        {
+          "goal": "G46",
+          "terms": [
+            "standard algorithm",
+            "standard algorithm for multiplication"
+          ],
+          "relation": "related",
+          "reason": "The stacked multiplication layout records four ones and one ten times 23.",
+          "order": 74
+        }
+      ]
+    },
+    {
+      "id": "chapter-12-area-and-perimeter-what-does-one-tile-measure",
+      "source": "teaching/12-area-and-perimeter.md#what-does-one-tile-measure",
+      "type": "chapter",
+      "title": "What does one tile measure?",
+      "preview": "Cover a three-by-four rectangle with unit squares.",
+      "claims": [
+        {
+          "goal": "G32",
+          "terms": [
+            "area"
+          ],
+          "relation": "direct",
+          "reason": "Each of the three rows covers four square centimeters.",
+          "worked": "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover",
+          "order": 75
+        },
+        {
+          "goal": "G32",
+          "terms": [
+            "area model",
+            "partial products"
+          ],
+          "relation": "related",
+          "reason": "The two smaller products explain why areas add when the rectangle is partitioned.",
+          "worked": "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover",
+          "preview": "Split one column from a small tiled rectangle.",
+          "order": 77
+        },
+        {
+          "goal": "G32",
+          "terms": [
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Each of the three rows has one square on one side of the cut and three on the other. Their areas give 3 × 1 + 3 × 3 = 12 square centimeters.",
+          "worked": "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover",
+          "preview": "Split one column off a 3-by-4 tiled rectangle.",
+          "order": 208
+        }
+      ]
+    },
+    {
+      "id": "example-tiles-and-floor-a-product-you-can-cover",
+      "source": "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover",
+      "type": "example",
+      "title": "A product you can cover",
+      "preview": "Cover a three-by-four rectangle with unit squares.",
+      "claims": [
+        {
+          "goal": "G32",
+          "terms": [
+            "area"
+          ],
+          "relation": "direct",
+          "reason": "Each of the three rows covers four square centimeters.",
+          "order": 76
+        },
+        {
+          "goal": "G32",
+          "terms": [
+            "area model",
+            "partial products"
+          ],
+          "relation": "related",
+          "reason": "The two smaller products explain why areas add when the rectangle is partitioned.",
+          "preview": "Split one column from a small tiled rectangle.",
+          "order": 78
+        },
+        {
+          "goal": "G32",
+          "terms": [
+            "distributive property"
+          ],
+          "relation": "direct",
+          "reason": "Split the width into 1 + 3 and keep all three rows on both sides. Adding 3 × 1 and 3 × 3 covers all twelve unit squares.",
+          "preview": "Split one column off a 3-by-4 tiled rectangle.",
+          "order": 209
+        }
+      ]
+    },
+    {
+      "id": "chapter-19-quotient-places-credit-the-groups-you-have-actually-made",
+      "source": "teaching/19-quotient-places.md#credit-the-groups-you-have-actually-made",
+      "type": "chapter",
+      "title": "Credit the groups you have actually made",
+      "preview": "Read each ledger entry in items and in groups of six.",
+      "claims": [
+        {
+          "goal": "G47",
+          "terms": [
+            "division",
+            "partial quotients"
+          ],
+          "relation": "direct",
+          "reason": "Removing 600 items credits 100 groups toward the quotient of 2,487 ÷ 6.",
+          "worked": "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+          "order": 79
+        },
+        {
+          "goal": "G47",
+          "terms": [
+            "long division"
+          ],
+          "relation": "related",
+          "reason": "Combining hundreds, tens and ones of groups connects the ledger to quotient digits.",
+          "worked": "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+          "preview": "Follow the group totals in the removal ledger.",
+          "order": 82
+        },
+        {
+          "goal": "G47",
+          "terms": [
+            "division with a remainder"
+          ],
+          "relation": "direct",
+          "reason": "After 400 groups, the remaining 87 items supply ten more groups and then four. The last three items cannot fill a group. Check 6 × 414 + 3 = 2,487.",
+          "worked": "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+          "preview": "Finish the group ledger for 2,487 ÷ 6.",
+          "order": 218
+        }
+      ]
+    },
+    {
+      "id": "example-products-and-quotients-g47--count-groups-as-amounts-come-off",
+      "source": "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+      "type": "example",
+      "title": "Count groups as amounts come off the ledger",
+      "preview": "Read each ledger entry in items and in groups of six.",
+      "claims": [
+        {
+          "goal": "G47",
+          "terms": [
+            "division",
+            "partial quotients"
+          ],
+          "relation": "direct",
+          "reason": "Removing 600 items credits 100 groups toward the quotient of 2,487 ÷ 6.",
+          "order": 80
+        },
+        {
+          "goal": "G47",
+          "terms": [
+            "long division"
+          ],
+          "relation": "related",
+          "reason": "Combining hundreds, tens and ones of groups connects the ledger to quotient digits.",
+          "preview": "Follow the group totals in the removal ledger.",
+          "order": 83
+        },
+        {
+          "goal": "G47",
+          "terms": [
+            "division with a remainder"
+          ],
+          "relation": "direct",
+          "reason": "Add the group counts 100 + 300 + 10 + 4. The 414 groups use 2,484 items, leaving three. Check 6 × 414 + 3 = 2,487.",
+          "preview": "Finish the group ledger for 2,487 ÷ 6.",
+          "order": 219
+        }
+      ]
+    },
+    {
+      "id": "example-quotient-zero-and-capacity-count-groups-of-four",
+      "source": "examples/quotient-zero-and-capacity.md#count-groups-of-four",
+      "type": "example",
+      "title": "Count groups of four",
+      "preview": "Count the groups of four removed from 1,205.",
+      "claims": [
+        {
+          "goal": "G47",
+          "terms": [
+            "division",
+            "partial quotients"
+          ],
+          "relation": "direct",
+          "reason": "Taking off 1,200 at once or in three chunks credits the same 300 groups.",
+          "order": 81
+        }
+      ]
+    },
+    {
+      "id": "chapter-19-quotient-places-read-each-place-as-an-amount-per-share",
+      "source": "teaching/19-quotient-places.md#read-each-place-as-an-amount-per-share",
+      "type": "chapter",
+      "title": "Read each place as an amount per share",
+      "preview": "Compare the places in 301 with the groups removed from 1,205.",
+      "claims": [
+        {
+          "goal": "G48",
+          "terms": [
+            "partial quotients"
+          ],
+          "relation": "related",
+          "reason": "The three hundreds in the written quotient account for the same 300 groups as the ledger.",
+          "worked": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+          "order": 84
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "division"
+          ],
+          "relation": "direct",
+          "reason": "Sharing the hundreds, tens and ones in order gives 301 per share and one left.",
+          "worked": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+          "preview": "Read 1,205 ÷ 4 as an amount per share.",
+          "order": 90
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division"
+          ],
+          "relation": "direct",
+          "reason": "The zero in the tens place keeps the final one in the ones place.",
+          "worked": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+          "preview": "Follow the places of 301 R1 in the written calculation.",
+          "alias": true,
+          "order": 92
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division with a zero in the quotient"
+          ],
+          "relation": "direct",
+          "reason": "Twelve hundreds give each share three hundreds. There are zero tens to share. Five ones give each share one and leave one, so write 301 R1.",
+          "worked": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+          "preview": "Keep the zero tens in 1,205 ÷ 4.",
+          "alias": true,
+          "order": 216
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "division with a remainder"
+          ],
+          "relation": "direct",
+          "reason": "The five final ones give one to each of the four shares with one left over. Each share gets 301, and 4 × 301 + 1 = 1,205.",
+          "worked": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+          "preview": "Check what remains after sharing 1,205 among four.",
+          "order": 220
+        }
+      ]
+    },
+    {
+      "id": "example-quotient-zero-and-capacity-write-the-quotient-by-place",
+      "source": "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place",
+      "type": "example",
+      "title": "Write the quotient by place",
+      "preview": "Compare the places in 301 with the groups removed from 1,205.",
+      "claims": [
+        {
+          "goal": "G48",
+          "terms": [
+            "partial quotients"
+          ],
+          "relation": "related",
+          "reason": "The three hundreds in the written quotient account for the same 300 groups as the ledger.",
+          "order": 85
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "division"
+          ],
+          "relation": "direct",
+          "reason": "Sharing the hundreds, tens and ones in order gives 301 per share and one left.",
+          "preview": "Read 1,205 ÷ 4 as an amount per share.",
+          "order": 91
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division"
+          ],
+          "relation": "direct",
+          "reason": "The zero in the tens place keeps the final one in the ones place.",
+          "preview": "Follow the places of 301 R1 in the written calculation.",
+          "alias": true,
+          "order": 93
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division with a zero in the quotient"
+          ],
+          "relation": "direct",
+          "reason": "Write 0 between the 3 hundreds and the 1 one of each share. The quotient of 1,205 ÷ 4 is 301 with one left over.",
+          "preview": "Keep the zero tens in 1,205 ÷ 4.",
+          "alias": true,
+          "order": 217
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "division with a remainder"
+          ],
+          "relation": "direct",
+          "reason": "The written quotient gives 301 to each share and leaves one. Four shares use 1,204 items, and adding the remainder restores 1,205.",
+          "preview": "Check what remains after sharing 1,205 among four.",
+          "order": 221
+        }
+      ]
+    },
+    {
+      "id": "chapter-19-quotient-places-resume-at-the-zero-tens",
+      "source": "teaching/19-quotient-places.md#resume-at-the-zero-tens",
+      "type": "chapter",
+      "title": "Resume at the zero tens",
+      "preview": "Share 2,436 among six and pause at the three tens.",
+      "claims": [
+        {
+          "goal": "G48",
+          "terms": [
+            "division"
+          ],
+          "relation": "direct",
+          "reason": "Three tens give zero tens to each share, then exchange for thirty ones.",
+          "worked": "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+          "order": 86
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division"
+          ],
+          "relation": "direct",
+          "reason": "The zero above the tens counts units per share while the subtraction below tracks what remains.",
+          "worked": "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+          "preview": "Track the zero tens digit in the written division.",
+          "alias": true,
+          "order": 88
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division with a zero in the quotient"
+          ],
+          "relation": "direct",
+          "reason": "Three tens shared six ways give each share zero whole tens. Write 0 above the 3, exchange the three tens and share 36 ones to finish at 406.",
+          "worked": "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+          "preview": "Write the tens digit in 2,436 ÷ 6.",
+          "alias": true,
+          "order": 214
+        }
+      ]
+    },
+    {
+      "id": "example-products-and-quotients-g48--which-zero-occupies-the-tens-place",
+      "source": "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+      "type": "example",
+      "title": "Which zero occupies the tens place?",
+      "preview": "Share 2,436 among six and pause at the three tens.",
+      "claims": [
+        {
+          "goal": "G48",
+          "terms": [
+            "division"
+          ],
+          "relation": "direct",
+          "reason": "Three tens give zero tens to each share, then exchange for thirty ones.",
+          "order": 87
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division"
+          ],
+          "relation": "direct",
+          "reason": "The zero above the tens counts units per share while the subtraction below tracks what remains.",
+          "preview": "Track the zero tens digit in the written division.",
+          "alias": true,
+          "order": 89
+        },
+        {
+          "goal": "G48",
+          "terms": [
+            "long division with a zero in the quotient"
+          ],
+          "relation": "direct",
+          "reason": "The written line 03 means three tens. Enter 0 tens per share, exchange the three tens for 30 ones, then include the last six ones. The quotient is 406.",
+          "preview": "Write the tens digit in 2,436 ÷ 6.",
+          "alias": true,
+          "order": 215
+        }
+      ]
+    },
+    {
+      "id": "chapter-20-multistep-models-test-the-last-seat",
+      "source": "teaching/20-multistep-models.md#test-the-last-seat",
+      "type": "chapter",
+      "title": "Test the last seat or the last packing case",
+      "preview": "The packing estimate compares two easy dividends for 247 jars in cases of six.",
+      "claims": [
+        {
+          "goal": "G49",
+          "terms": [
+            "compatible numbers"
+          ],
+          "relation": "direct",
+          "reason": "240 misses by 7 jars and 300 by 53. Check capacity because 41 cases hold only 246 jars.",
+          "worked": "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+          "order": 94
+        },
+        {
+          "goal": "G49",
+          "terms": [
+            "word problems",
+            "remainders"
+          ],
+          "relation": "direct",
+          "reason": "A remainder of one counts a rider who needs one more vehicle.",
+          "worked": "examples/quotient-zero-and-capacity.md#find-the-vehicles-needed",
+          "preview": "Seat 1,205 riders in four-seat vehicles.",
+          "order": 182
+        }
+      ]
+    },
+    {
+      "id": "example-shipment-and-capacity-g49--follow-the-units-to-the-question",
+      "source": "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+      "type": "example",
+      "title": "Follow the units from an estimate to the cases needed",
+      "preview": "The packing estimate compares two easy dividends for 247 jars in cases of six.",
+      "claims": [
+        {
+          "goal": "G49",
+          "terms": [
+            "compatible numbers"
+          ],
+          "relation": "direct",
+          "reason": "240 misses by 7 jars and 300 by 53. Check capacity because 41 cases hold only 246 jars.",
+          "order": 95
+        },
+        {
+          "goal": "G49",
+          "terms": [
+            "word problems"
+          ],
+          "relation": "direct",
+          "reason": "Five cartons each hold 24 clips, so 24 is an intermediate answer.",
+          "preview": "Track clips per pack, per carton and per shipment.",
+          "order": 181
+        },
+        {
+          "goal": "G49",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "Find 4 × 6 = 24 clips per carton, then 5 × 24 = 120 clips in the shipment. Only the pack and carton counts enter the product.",
+          "preview": "Count the clips in a five-carton shipment.",
+          "order": 231
+        }
+      ]
+    },
+    {
+      "id": "chapter-13-shares-to-fractions-hold-the-endpoint-still",
+      "source": "teaching/13-shares-to-fractions.md#hold-the-endpoint-still",
+      "type": "chapter",
+      "title": "Hold the endpoint still",
+      "preview": "Align two thirds and four sixths on strips of the same length.",
+      "claims": [
+        {
+          "goal": "G36",
+          "terms": [
+            "equivalent fractions",
+            "fraction strips",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "Splitting every third in two changes the number of pieces while preserving the shaded endpoint.",
+          "worked": "examples/grade-3/names-for-one-point.md#split-each-third-in-two",
+          "order": 96
+        }
+      ]
+    },
+    {
+      "id": "example-names-for-one-point-split-each-third-in-two",
+      "source": "examples/grade-3/names-for-one-point.md#split-each-third-in-two",
+      "type": "example",
+      "title": "Split each third in two",
+      "preview": "Align two thirds and four sixths on strips of the same length.",
+      "claims": [
+        {
+          "goal": "G36",
+          "terms": [
+            "equivalent fractions",
+            "fraction strips",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "Splitting every third in two changes the number of pieces while preserving the shaded endpoint.",
+          "order": 97
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-fraction-arithmetic-keep-the-endpoint",
+      "source": "teaching/14-fraction-arithmetic.md#keep-the-endpoint",
+      "type": "chapter",
+      "title": "Keep the endpoint",
+      "preview": "Compare subdivisions of a fixed one-meter strip.",
+      "claims": [
+        {
+          "goal": "G50",
+          "terms": [
+            "equivalent fractions",
+            "fraction strips",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "Two thirds, four sixths and eight twelfths reach the same point on the meter.",
+          "worked": "examples/grade-4/fraction-strips.md#g50--subdivide-and-compare",
+          "order": 98
+        }
+      ]
+    },
+    {
+      "id": "example-fraction-strips-g50--subdivide-and-compare",
+      "source": "examples/grade-4/fraction-strips.md#g50--subdivide-and-compare",
+      "type": "example",
+      "title": "Subdivide and compare",
+      "preview": "Compare subdivisions of a fixed one-meter strip.",
+      "claims": [
+        {
+          "goal": "G50",
+          "terms": [
+            "equivalent fractions",
+            "fraction strips",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "Two thirds, four sixths and eight twelfths reach the same point on the meter.",
+          "order": 99
+        }
+      ]
+    },
+    {
+      "id": "chapter-08-observations-to-graphs-ask-two-questions-of-the-same-strips",
+      "source": "teaching/08-observations-to-graphs.md#ask-two-questions-of-the-same-strips",
+      "type": "chapter",
+      "title": "Ask two questions of the same strips",
+      "preview": "Read one cross for each strip measured in whole centimeters.",
+      "claims": [
+        {
+          "goal": "G26",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "The stack at each length counts strips, including two at six centimeters.",
+          "worked": "examples/grade-2/strip-graphs.md#one-cross-per-measured-strip",
+          "order": 100
+        }
+      ]
+    },
+    {
+      "id": "example-strip-graphs-one-cross-per-measured-strip",
+      "source": "examples/grade-2/strip-graphs.md#one-cross-per-measured-strip",
+      "type": "example",
+      "title": "One cross per measured strip",
+      "preview": "Read one cross for each strip measured in whole centimeters.",
+      "claims": [
+        {
+          "goal": "G26",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "The stack at each length counts strips, including two at six centimeters.",
+          "order": 101
+        }
+      ]
+    },
+    {
+      "id": "chapter-17-fractional-line-plots-look-sideways-for-the-length",
+      "source": "teaching/17-fractional-line-plots.md#look-sideways-for-the-length",
+      "type": "chapter",
+      "title": "Look sideways for the length",
+      "preview": "Rebuild a list of strip lengths from quarter-inch ticks.",
+      "claims": [
+        {
+          "goal": "G40",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "Reading a length once per cross preserves repeated measurements.",
+          "worked": "examples/grade-3/strip-lengths.md#rebuild-the-list-from-the-plot",
+          "order": 102
+        }
+      ]
+    },
+    {
+      "id": "example-strip-lengths-rebuild-the-list-from-the-plot",
+      "source": "examples/grade-3/strip-lengths.md#rebuild-the-list-from-the-plot",
+      "type": "example",
+      "title": "Rebuild the list from the plot",
+      "preview": "Rebuild a list of strip lengths from quarter-inch ticks.",
+      "claims": [
+        {
+          "goal": "G40",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "Reading a length once per cross preserves repeated measurements.",
+          "order": 103
+        }
+      ]
+    },
+    {
+      "id": "chapter-17-fractional-line-plots-two-questions-at-the-same-plot",
+      "source": "teaching/17-fractional-line-plots.md#two-questions-at-the-same-plot",
+      "type": "chapter",
+      "title": "Two questions at the same plot",
+      "preview": "Read the four ribbon measurements in eighths of a yard.",
+      "claims": [
+        {
+          "goal": "G56",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "The two crosses at four eighths give two half-yard ribbons whose lengths sum to one yard.",
+          "worked": "examples/grade-4/measuring-and-plotting.md#g56--which-marks-belong-to-which-ribbons",
+          "order": 104
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-and-plotting-g56--which-marks-belong-to-which-ribbons",
+      "source": "examples/grade-4/measuring-and-plotting.md#g56--which-marks-belong-to-which-ribbons",
+      "type": "example",
+      "title": "Which marks belong to which ribbons?",
+      "preview": "Read the four ribbon measurements in eighths of a yard.",
+      "claims": [
+        {
+          "goal": "G56",
+          "terms": [
+            "line plot",
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "The two crosses at four eighths give two half-yard ribbons whose lengths sum to one yard.",
+          "order": 105
+        }
+      ]
+    },
+    {
+      "id": "chapter-01-counting-a-collection-give-each-button-one-word",
+      "source": "teaching/01-counting-a-collection.md#give-each-button-one-word",
+      "type": "chapter",
+      "title": "Give each button one word",
+      "preview": "Give each button one touch and one number word.",
+      "claims": [
+        {
+          "goal": "G01",
+          "terms": [
+            "counting"
+          ],
+          "relation": "direct",
+          "reason": "The last word tells how many buttons there are even after the collection is rearranged.",
+          "worked": "examples/kindergarten/counting.md#seven-buttons-then-one-more",
+          "order": 106
+        }
+      ]
+    },
+    {
+      "id": "example-counting-seven-buttons-then-one-more",
+      "source": "examples/kindergarten/counting.md#seven-buttons-then-one-more",
+      "type": "example",
+      "title": "Seven buttons, then one more",
+      "preview": "Give each button one touch and one number word.",
+      "claims": [
+        {
+          "goal": "G01",
+          "terms": [
+            "counting"
+          ],
+          "relation": "direct",
+          "reason": "The last word tells how many buttons there are even after the collection is rearranged.",
+          "order": 107
+        }
+      ]
+    },
+    {
+      "id": "chapter-01-counting-a-collection-give-each-spoon-a-partner",
+      "source": "teaching/01-counting-a-collection.md#give-each-spoon-a-partner",
+      "type": "chapter",
+      "title": "Give each spoon a partner",
+      "preview": "Match spoons to cups one at a time.",
+      "claims": [
+        {
+          "goal": "G02",
+          "terms": [
+            "comparing numbers",
+            "counting"
+          ],
+          "relation": "direct",
+          "reason": "Unpaired spoons show which collection has more.",
+          "worked": "examples/kindergarten/comparing-and-sorting.md#match-across-two-groups",
+          "order": 108
+        }
+      ]
+    },
+    {
+      "id": "example-comparing-and-sorting-match-across-two-groups",
+      "source": "examples/kindergarten/comparing-and-sorting.md#match-across-two-groups",
+      "type": "example",
+      "title": "Match across two groups",
+      "preview": "Match spoons to cups one at a time.",
+      "claims": [
+        {
+          "goal": "G02",
+          "terms": [
+            "comparing numbers",
+            "counting"
+          ],
+          "relation": "direct",
+          "reason": "Unpaired spoons show which collection has more.",
+          "order": 109
+        }
+      ]
+    },
+    {
+      "id": "chapter-02-what-makes-a-shape-what-can-your-finger-trace",
+      "source": "teaching/02-what-makes-a-shape.md#what-can-your-finger-trace",
+      "type": "chapter",
+      "title": "What can your finger trace?",
+      "preview": "Trace a flat face of a solid.",
+      "claims": [
+        {
+          "goal": "G03",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "A circle can be the outline of the end of a cylinder.",
+          "worked": "examples/kindergarten/shapes.md#the-face-and-the-whole",
+          "order": 110
+        }
+      ]
+    },
+    {
+      "id": "example-shapes-the-face-and-the-whole",
+      "source": "examples/kindergarten/shapes.md#the-face-and-the-whole",
+      "type": "example",
+      "title": "The face and the whole",
+      "preview": "Trace a flat face of a solid.",
+      "claims": [
+        {
+          "goal": "G03",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "A circle can be the outline of the end of a cylinder.",
+          "order": 111
+        }
+      ]
+    },
+    {
+      "id": "chapter-02-what-makes-a-shape-build-an-inside-and-an-outside",
+      "source": "teaching/02-what-makes-a-shape.md#build-an-inside-and-an-outside",
+      "type": "chapter",
+      "title": "Build an inside and an outside",
+      "preview": "Join the ends of three sticks to make an outline.",
+      "claims": [
+        {
+          "goal": "G07",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "The three straight sides meet to close a triangle.",
+          "worked": "examples/kindergarten/building-shapes.md#build-a-roof-outline-and-draw-it",
+          "order": 112
+        },
+        {
+          "goal": "G15",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "Three straight sides must close before the outline qualifies.",
+          "worked": "examples/grade-1/triangles-and-composites.md#building-and-drawing-a-triangle",
+          "preview": "Trace possible triangles all the way around.",
+          "order": 114
+        }
+      ]
+    },
+    {
+      "id": "example-building-shapes-build-a-roof-outline-and-draw-it",
+      "source": "examples/kindergarten/building-shapes.md#build-a-roof-outline-and-draw-it",
+      "type": "example",
+      "title": "Build a roof outline and draw it",
+      "preview": "Join the ends of three sticks to make an outline.",
+      "claims": [
+        {
+          "goal": "G07",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "The three straight sides meet to close a triangle.",
+          "order": 113
+        }
+      ]
+    },
+    {
+      "id": "example-triangles-and-composites-building-and-drawing-a-triangle",
+      "source": "examples/grade-1/triangles-and-composites.md#building-and-drawing-a-triangle",
+      "type": "example",
+      "title": "Building and drawing a triangle",
+      "preview": "Trace possible triangles all the way around.",
+      "claims": [
+        {
+          "goal": "G15",
+          "terms": [
+            "geometry",
+            "shapes"
+          ],
+          "relation": "direct",
+          "reason": "Three straight sides must close before the outline qualifies.",
+          "order": 115
+        }
+      ]
+    },
+    {
+      "id": "chapter-05-measuring-length-line-up-the-starting-ends",
+      "source": "teaching/05-measuring-length.md#line-up-the-starting-ends",
+      "type": "chapter",
+      "title": "Line up the starting ends",
+      "preview": "Compare two books by their spines and by their weight.",
+      "claims": [
+        {
+          "goal": "G04",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Lining up endpoints measures a different attribute from balancing the books.",
+          "worked": "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book",
+          "order": 116
+        },
+        {
+          "goal": "G12",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Marking each end from the same start makes the lengths comparable.",
+          "worked": "examples/grade-1/length-strips.md#carrying-lengths-to-one-strip",
+          "preview": "Transfer three lengths to one strip.",
+          "order": 118
+        }
+      ]
+    },
+    {
+      "id": "example-length-and-weight-two-comparisons-with-the-same-book",
+      "source": "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book",
+      "type": "example",
+      "title": "Two comparisons with the same book",
+      "preview": "Compare two books by their spines and by their weight.",
+      "claims": [
+        {
+          "goal": "G04",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Lining up endpoints measures a different attribute from balancing the books.",
+          "order": 117
+        }
+      ]
+    },
+    {
+      "id": "example-length-strips-carrying-lengths-to-one-strip",
+      "source": "examples/grade-1/length-strips.md#carrying-lengths-to-one-strip",
+      "type": "example",
+      "title": "Carrying lengths to one strip",
+      "preview": "Transfer three lengths to one strip.",
+      "claims": [
+        {
+          "goal": "G12",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Marking each end from the same start makes the lengths comparable.",
+          "order": 119
+        }
+      ]
+    },
+    {
+      "id": "chapter-05-measuring-length-a-ruler-remembers-all-the-tile-ends",
+      "source": "teaching/05-measuring-length.md#a-ruler-remembers-all-the-tile-ends",
+      "type": "chapter",
+      "title": "A ruler remembers all the tile ends",
+      "preview": "Read a strip on a ruler that starts at the two mark.",
+      "claims": [
+        {
+          "goal": "G22",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Counting the intervals between the two ends gives the measured length.",
+          "worked": "examples/grade-2/measuring-length.md#starting-at-the-two-mark",
+          "order": 120
+        },
+        {
+          "goal": "G22",
+          "terms": [
+            "broken ruler"
+          ],
+          "relation": "related",
+          "reason": "Touch the start at 2 cm and the end at 8 cm. The length is the six one-centimeter intervals between them.",
+          "worked": "examples/grade-2/measuring-length.md#starting-at-the-two-mark",
+          "preview": "Measure a strip from the 2 cm mark on an intact ruler.",
+          "order": 232
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-length-starting-at-the-two-mark",
+      "source": "examples/grade-2/measuring-length.md#starting-at-the-two-mark",
+      "type": "example",
+      "title": "Starting at the two mark",
+      "preview": "Read a strip on a ruler that starts at the two mark.",
+      "claims": [
+        {
+          "goal": "G22",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Counting the intervals between the two ends gives the measured length.",
+          "order": 121
+        },
+        {
+          "goal": "G22",
+          "terms": [
+            "broken ruler"
+          ],
+          "relation": "related",
+          "reason": "On the shifted scale, 8 cm − 2 cm = 6 cm. Count the six one-centimeter intervals from the starting mark to the far tip.",
+          "preview": "Measure a strip from the 2 cm mark on an intact ruler.",
+          "order": 233
+        }
+      ]
+    },
+    {
+      "id": "chapter-05-measuring-length-the-seam-is-a-place-to-start-again",
+      "source": "teaching/05-measuring-length.md#the-seam-is-a-place-to-start-again",
+      "type": "chapter",
+      "title": "The seam is a place to start again",
+      "preview": "Move five centimeters forward from the seam and back again.",
+      "claims": [
+        {
+          "goal": "G23",
+          "terms": [
+            "number line",
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "The distance between 8 and 13 is five one-centimeter intervals.",
+          "worked": "examples/grade-2/length-jumps.md#from-the-seam-to-the-end-and-back",
+          "order": 122
+        }
+      ]
+    },
+    {
+      "id": "example-length-jumps-from-the-seam-to-the-end-and-back",
+      "source": "examples/grade-2/length-jumps.md#from-the-seam-to-the-end-and-back",
+      "type": "example",
+      "title": "From the seam to the end and back",
+      "preview": "Move five centimeters forward from the seam and back again.",
+      "claims": [
+        {
+          "goal": "G23",
+          "terms": [
+            "number line",
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "The distance between 8 and 13 is five one-centimeter intervals.",
+          "order": 123
+        }
+      ]
+    },
+    {
+      "id": "chapter-07-clock-readings-which-hour-has-the-short-hand-passed",
+      "source": "teaching/07-clock-readings.md#which-hour-has-the-short-hand-passed",
+      "type": "chapter",
+      "title": "Which hour has the short hand passed?",
+      "preview": "Compare the two hands at the hour and half hour.",
+      "claims": [
+        {
+          "goal": "G13",
+          "terms": [
+            "time",
+            "clocks"
+          ],
+          "relation": "direct",
+          "reason": "The short hand moves between hour numbers as the minute hand travels around the face.",
+          "worked": "examples/grade-1/clock-faces.md#reading-the-two-hands",
+          "order": 124
+        }
+      ]
+    },
+    {
+      "id": "example-clock-faces-reading-the-two-hands",
+      "source": "examples/grade-1/clock-faces.md#reading-the-two-hands",
+      "type": "example",
+      "title": "Reading the two hands",
+      "preview": "Compare the two hands at the hour and half hour.",
+      "claims": [
+        {
+          "goal": "G13",
+          "terms": [
+            "time",
+            "clocks"
+          ],
+          "relation": "direct",
+          "reason": "The short hand moves between hour numbers as the minute hand travels around the face.",
+          "order": 125
+        }
+      ]
+    },
+    {
+      "id": "chapter-07-clock-readings-what-the-station-clock-leaves-out",
+      "source": "teaching/07-clock-readings.md#what-the-station-clock-leaves-out",
+      "type": "chapter",
+      "title": "What the station clock leaves out",
+      "preview": "Read the two train clocks at five to eight.",
+      "claims": [
+        {
+          "goal": "G24",
+          "terms": [
+            "time",
+            "clocks"
+          ],
+          "relation": "direct",
+          "reason": "Both show 7:55 and the departure description supplies morning or evening.",
+          "worked": "examples/grade-2/five-minute-clocks.md#two-trains-at-five-to-eight",
+          "order": 126
+        }
+      ]
+    },
+    {
+      "id": "example-five-minute-clocks-two-trains-at-five-to-eight",
+      "source": "examples/grade-2/five-minute-clocks.md#two-trains-at-five-to-eight",
+      "type": "example",
+      "title": "Two trains at five to eight",
+      "preview": "Read the two train clocks at five to eight.",
+      "claims": [
+        {
+          "goal": "G24",
+          "terms": [
+            "time",
+            "clocks"
+          ],
+          "relation": "direct",
+          "reason": "Both show 7:55 and the departure description supplies morning or evening.",
+          "order": 127
+        }
+      ]
+    },
+    {
+      "id": "chapter-07-clock-readings-cross-the-hour-in-two-pieces",
+      "source": "teaching/07-clock-readings.md#cross-the-hour-in-two-pieces",
+      "type": "chapter",
+      "title": "Cross the hour in two pieces",
+      "preview": "Count from 3:48 to 4:07 in two pieces.",
+      "claims": [
+        {
+          "goal": "G37",
+          "terms": [
+            "time",
+            "elapsed time"
+          ],
+          "relation": "direct",
+          "reason": "Twelve minutes to the hour and seven more give nineteen minutes elapsed.",
+          "worked": "examples/grade-3/minutes-across-four.md#crossing-four-oclock",
+          "order": 128
+        }
+      ]
+    },
+    {
+      "id": "example-minutes-across-four-crossing-four-oclock",
+      "source": "examples/grade-3/minutes-across-four.md#crossing-four-oclock",
+      "type": "example",
+      "title": "Crossing four o’clock",
+      "preview": "Count from 3:48 to 4:07 in two pieces.",
+      "claims": [
+        {
+          "goal": "G37",
+          "terms": [
+            "time",
+            "elapsed time"
+          ],
+          "relation": "direct",
+          "reason": "Twelve minutes to the hour and seven more give nineteen minutes elapsed.",
+          "order": 129
+        }
+      ]
+    },
+    {
+      "id": "chapter-08-observations-to-graphs-give-one-visit-one-mark",
+      "source": "teaching/08-observations-to-graphs.md#give-one-visit-one-mark",
+      "type": "chapter",
+      "title": "Give one visit one mark",
+      "preview": "Sort feeder visits into columns by bird.",
+      "claims": [
+        {
+          "goal": "G14",
+          "terms": [
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "One mark per visit makes the height of each column its frequency.",
+          "worked": "examples/grade-1/bird-counts.md#from-feeder-visits-to-three-columns",
+          "order": 130
+        }
+      ]
+    },
+    {
+      "id": "example-bird-counts-from-feeder-visits-to-three-columns",
+      "source": "examples/grade-1/bird-counts.md#from-feeder-visits-to-three-columns",
+      "type": "example",
+      "title": "From feeder visits to three columns",
+      "preview": "Sort feeder visits into columns by bird.",
+      "claims": [
+        {
+          "goal": "G14",
+          "terms": [
+            "graphs"
+          ],
+          "relation": "direct",
+          "reason": "One mark per visit makes the height of each column its frequency.",
+          "order": 131
+        }
+      ]
+    },
+    {
+      "id": "chapter-08-observations-to-graphs-check-the-key-before-counting",
+      "source": "teaching/08-observations-to-graphs.md#check-the-key-before-counting",
+      "type": "chapter",
+      "title": "Check the key before counting",
+      "preview": "Read the scale before counting bird sightings.",
+      "claims": [
+        {
+          "goal": "G39",
+          "terms": [
+            "graphs",
+            "bar graphs",
+            "picture graphs"
+          ],
+          "relation": "direct",
+          "reason": "Each picture mark represents two sightings and the bar scale also counts by twos.",
+          "worked": "examples/grade-3/birds-in-scaled-graphs.md#reading-the-two-scales",
+          "order": 132
+        }
+      ]
+    },
+    {
+      "id": "example-birds-in-scaled-graphs-reading-the-two-scales",
+      "source": "examples/grade-3/birds-in-scaled-graphs.md#reading-the-two-scales",
+      "type": "example",
+      "title": "Reading the two scales",
+      "preview": "Read the scale before counting bird sightings.",
+      "claims": [
+        {
+          "goal": "G39",
+          "terms": [
+            "graphs",
+            "bar graphs",
+            "picture graphs"
+          ],
+          "relation": "direct",
+          "reason": "Each picture mark represents two sightings and the bar scale also counts by twos.",
+          "order": 133
+        }
+      ]
+    },
+    {
+      "id": "chapter-10-factors-and-patterns-what-changed-when-your-finger-moved-one-cell",
+      "source": "teaching/10-factors-and-patterns.md#what-changed-when-your-finger-moved-one-cell",
+      "type": "chapter",
+      "title": "What changed when your finger moved one cell?",
+      "preview": "Follow one row of a product table.",
+      "claims": [
+        {
+          "goal": "G29",
+          "terms": [
+            "patterns",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Moving one cell adds another complete group of the row number.",
+          "worked": "examples/grade-3/tables-and-tens.md#two-tables-with-different-steps",
+          "order": 134
+        }
+      ]
+    },
+    {
+      "id": "example-tables-and-tens-two-tables-with-different-steps",
+      "source": "examples/grade-3/tables-and-tens.md#two-tables-with-different-steps",
+      "type": "example",
+      "title": "Two tables with different steps",
+      "preview": "Follow one row of a product table.",
+      "claims": [
+        {
+          "goal": "G29",
+          "terms": [
+            "patterns",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Moving one cell adds another complete group of the row number.",
+          "order": 135
+        }
+      ]
+    },
+    {
+      "id": "chapter-10-factors-and-patterns-choose-the-reference-amount",
+      "source": "teaching/10-factors-and-patterns.md#choose-the-reference-amount",
+      "type": "chapter",
+      "title": "Choose the reference amount",
+      "preview": "Compare three copies of four beads with three extra beads.",
+      "claims": [
+        {
+          "goal": "G43",
+          "terms": [
+            "multiplication",
+            "multiplicative comparison"
+          ],
+          "relation": "direct",
+          "reason": "The length of the reference bar distinguishes times as many from more than.",
+          "worked": "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference",
+          "order": 136
+        }
+      ]
+    },
+    {
+      "id": "example-bars-factors-and-patterns-g43--which-amount-is-the-reference",
+      "source": "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference",
+      "type": "example",
+      "title": "Which amount is the reference?",
+      "preview": "Compare three copies of four beads with three extra beads.",
+      "claims": [
+        {
+          "goal": "G43",
+          "terms": [
+            "multiplication",
+            "multiplicative comparison"
+          ],
+          "relation": "direct",
+          "reason": "The length of the reference bar distinguishes times as many from more than.",
+          "order": 137
+        }
+      ]
+    },
+    {
+      "id": "chapter-10-factors-and-patterns-know-when-the-rectangles-run-out",
+      "source": "teaching/10-factors-and-patterns.md#know-when-the-rectangles-run-out",
+      "type": "chapter",
+      "title": "Know when the rectangles run out",
+      "preview": "Find all the rectangular arrangements of 36.",
+      "claims": [
+        {
+          "goal": "G44",
+          "terms": [
+            "factors",
+            "multiples",
+            "factor pairs"
+          ],
+          "relation": "direct",
+          "reason": "Each whole-number side and its partner divide the target exactly.",
+          "worked": "examples/grade-4/bars-factors-and-patterns.md#g44--when-is-the-pair-list-finished",
+          "order": 138
+        }
+      ]
+    },
+    {
+      "id": "example-bars-factors-and-patterns-g44--when-is-the-pair-list-finished",
+      "source": "examples/grade-4/bars-factors-and-patterns.md#g44--when-is-the-pair-list-finished",
+      "type": "example",
+      "title": "When is the pair list finished?",
+      "preview": "Find all the rectangular arrangements of 36.",
+      "claims": [
+        {
+          "goal": "G44",
+          "terms": [
+            "factors",
+            "multiples",
+            "factor pairs"
+          ],
+          "relation": "direct",
+          "reason": "Each whole-number side and its partner divide the target exactly.",
+          "order": 139
+        }
+      ]
+    },
+    {
+      "id": "chapter-10-factors-and-patterns-predict-the-next-leftover",
+      "source": "teaching/10-factors-and-patterns.md#predict-the-next-leftover",
+      "type": "chapter",
+      "title": "Predict the next leftover",
+      "preview": "Start at one and add three at every step.",
+      "claims": [
+        {
+          "goal": "G45",
+          "terms": [
+            "patterns"
+          ],
+          "relation": "direct",
+          "reason": "The extra unpaired counter explains the alternating odd and even terms.",
+          "worked": "examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating",
+          "order": 140
+        }
+      ]
+    },
+    {
+      "id": "example-bars-factors-and-patterns-g45--what-keeps-alternating",
+      "source": "examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating",
+      "type": "example",
+      "title": "What keeps alternating?",
+      "preview": "Start at one and add three at every step.",
+      "claims": [
+        {
+          "goal": "G45",
+          "terms": [
+            "patterns"
+          ],
+          "relation": "direct",
+          "reason": "The extra unpaired counter explains the alternating odd and even terms.",
+          "order": 141
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-rounding-and-columns-find-the-neighbors-first",
+      "source": "teaching/11-rounding-and-columns.md#find-the-neighbors-first",
+      "type": "chapter",
+      "title": "Find the neighbors first",
+      "preview": "Locate a number between neighboring tens or hundreds.",
+      "claims": [
+        {
+          "goal": "G30",
+          "terms": [
+            "rounding",
+            "number line"
+          ],
+          "relation": "direct",
+          "reason": "The midpoint separates numbers closer to one end from those closer to the other.",
+          "worked": "examples/grade-3/rounding-and-exchanges.md#both-sides-of-a-midpoint",
+          "order": 142
+        },
+        {
+          "goal": "G30",
+          "terms": [
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Taking out 180 and returning two gives the exact difference.",
+          "worked": "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton",
+          "preview": "Remove 178 envelopes from 602.",
+          "order": 144
+        },
+        {
+          "goal": "G30",
+          "terms": [
+            "3-digit subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Compensate for taking two extra envelopes: 602 − 180 + 2 = 424. Check by adding 178 back to 424.",
+          "worked": "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton",
+          "preview": "Take out 180 envelopes to calculate 602 − 178.",
+          "order": 203
+        }
+      ]
+    },
+    {
+      "id": "example-rounding-and-exchanges-both-sides-of-a-midpoint",
+      "source": "examples/grade-3/rounding-and-exchanges.md#both-sides-of-a-midpoint",
+      "type": "example",
+      "title": "Both sides of a midpoint",
+      "preview": "Locate a number between neighboring tens or hundreds.",
+      "claims": [
+        {
+          "goal": "G30",
+          "terms": [
+            "rounding",
+            "number line"
+          ],
+          "relation": "direct",
+          "reason": "The midpoint separates numbers closer to one end from those closer to the other.",
+          "order": 143
+        }
+      ]
+    },
+    {
+      "id": "example-rounding-and-exchanges-taking-envelopes-from-a-full-carton",
+      "source": "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton",
+      "type": "example",
+      "title": "Taking envelopes from a full carton",
+      "preview": "Remove 178 envelopes from 602.",
+      "claims": [
+        {
+          "goal": "G30",
+          "terms": [
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Taking out 180 and returning two gives the exact difference.",
+          "order": 145
+        },
+        {
+          "goal": "G30",
+          "terms": [
+            "3-digit subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Remove 180 envelopes from 602, then return the two taken in excess. The difference is 424, and 424 + 178 restores the full carton.",
+          "preview": "Take out 180 envelopes to calculate 602 − 178.",
+          "order": 204
+        }
+      ]
+    },
+    {
+      "id": "chapter-11-rounding-and-columns-a-digit-takes-its-value-from-its-place",
+      "source": "teaching/11-rounding-and-columns.md#a-digit-takes-its-value-from-its-place",
+      "type": "chapter",
+      "title": "A digit takes its value from its place",
+      "preview": "Read the two sevens in 770.",
+      "claims": [
+        {
+          "goal": "G41",
+          "terms": [
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "One seven counts hundreds and the other counts tens.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g41--reading-the-places",
+          "order": 146
+        },
+        {
+          "goal": "G41",
+          "terms": [
+            "rounding"
+          ],
+          "relation": "direct",
+          "reason": "The distance to one million is 400, shorter than the 600 to 999,000.",
+          "worked": "examples/grade-4/place-and-exchanges.md#nearest-multiple",
+          "preview": "Compare the distances from 999,600 to neighboring thousands.",
+          "order": 148
+        },
+        {
+          "goal": "G41",
+          "terms": [
+            "expanded form"
+          ],
+          "relation": "direct",
+          "reason": "Seven hundred thousands, four thousands and nine ones give 700,000 + 4,000 + 9. Moving the 9 into tens changes its value to 90.",
+          "worked": "examples/grade-4/place-and-exchanges.md#g41--reading-the-places",
+          "preview": "Build 704,009 from the values of its digits.",
+          "order": 224
+        }
+      ]
+    },
+    {
+      "id": "example-place-and-exchanges-g41--reading-the-places",
+      "source": "examples/grade-4/place-and-exchanges.md#g41--reading-the-places",
+      "type": "example",
+      "title": "Reading the places",
+      "preview": "Read the two sevens in 770.",
+      "claims": [
+        {
+          "goal": "G41",
+          "terms": [
+            "place value"
+          ],
+          "relation": "direct",
+          "reason": "One seven counts hundreds and the other counts tens.",
+          "order": 147
+        },
+        {
+          "goal": "G41",
+          "terms": [
+            "expanded form"
+          ],
+          "relation": "direct",
+          "reason": "Rebuild 704,009 as 700,000 + 4,000 + 9. In 704,090 the last contribution is 90, an increase of 81.",
+          "preview": "Build 704,009 from the values of its digits.",
+          "order": 225
+        }
+      ]
+    },
+    {
+      "id": "example-place-and-exchanges-nearest-multiple",
+      "source": "examples/grade-4/place-and-exchanges.md#nearest-multiple",
+      "type": "example",
+      "title": "Nearest multiple",
+      "preview": "Compare the distances from 999,600 to neighboring thousands.",
+      "claims": [
+        {
+          "goal": "G41",
+          "terms": [
+            "rounding"
+          ],
+          "relation": "direct",
+          "reason": "The distance to one million is 400, shorter than the 600 to 999,000.",
+          "order": 149
+        }
+      ]
+    },
+    {
+      "id": "chapter-12-area-and-perimeter-change-the-cut-or-walk-the-fence",
+      "source": "teaching/12-area-and-perimeter.md#change-the-cut-or-walk-the-fence",
+      "type": "chapter",
+      "title": "Change the cut or walk the fence",
+      "preview": "Trace one trip around the garden.",
+      "claims": [
+        {
+          "goal": "G33",
+          "terms": [
+            "perimeter"
+          ],
+          "relation": "direct",
+          "reason": "Subtracting the known boundary lengths from fourteen meters gives the missing side.",
+          "worked": "examples/grade-3/fences-and-coverings.md#one-trip-around-the-garden",
+          "order": 150
+        }
+      ]
+    },
+    {
+      "id": "example-fences-and-coverings-one-trip-around-the-garden",
+      "source": "examples/grade-3/fences-and-coverings.md#one-trip-around-the-garden",
+      "type": "example",
+      "title": "One trip around the garden",
+      "preview": "Trace one trip around the garden.",
+      "claims": [
+        {
+          "goal": "G33",
+          "terms": [
+            "perimeter"
+          ],
+          "relation": "direct",
+          "reason": "Subtracting the known boundary lengths from fourteen meters gives the missing side.",
+          "order": 151
+        }
+      ]
+    },
+    {
+      "id": "chapter-12-area-and-perimeter-work-backward-from-the-measure-you-have",
+      "source": "teaching/12-area-and-perimeter.md#work-backward-from-the-measure-you-have",
+      "type": "chapter",
+      "title": "Work backward from the measure you have",
+      "preview": "Find a garden width from its area or its edging.",
+      "claims": [
+        {
+          "goal": "G57",
+          "terms": [
+            "area",
+            "perimeter"
+          ],
+          "relation": "direct",
+          "reason": "Area counts equal rows while the perimeter must include both widths.",
+          "worked": "examples/grade-4/rectangle-measures.md#g57--recover-a-side-from-a-measure",
+          "order": 152
+        }
+      ]
+    },
+    {
+      "id": "example-rectangle-measures-g57--recover-a-side-from-a-measure",
+      "source": "examples/grade-4/rectangle-measures.md#g57--recover-a-side-from-a-measure",
+      "type": "example",
+      "title": "Recover a side from a measure",
+      "preview": "Find a garden width from its area or its edging.",
+      "claims": [
+        {
+          "goal": "G57",
+          "terms": [
+            "area",
+            "perimeter"
+          ],
+          "relation": "direct",
+          "reason": "Area counts equal rows while the perimeter must include both widths.",
+          "order": 153
+        }
+      ]
+    },
+    {
+      "id": "chapter-13-shares-to-fractions-choose-the-whole-before-naming-a-share",
+      "source": "teaching/13-shares-to-fractions.md#choose-the-whole-before-naming-a-share",
+      "type": "chapter",
+      "title": "Choose the whole before naming a share",
+      "preview": "Turn one piece of a paper disk to check its share.",
+      "claims": [
+        {
+          "goal": "G16",
+          "terms": [
+            "fractions",
+            "equal shares"
+          ],
+          "relation": "direct",
+          "reason": "Two matching halves or four matching fourths fill the same whole.",
+          "worked": "examples/grade-1/equal-shares.md#two-cuts-through-the-center-of-a-disk",
+          "order": 154
+        }
+      ]
+    },
+    {
+      "id": "example-equal-shares-two-cuts-through-the-center-of-a-disk",
+      "source": "examples/grade-1/equal-shares.md#two-cuts-through-the-center-of-a-disk",
+      "type": "example",
+      "title": "Two cuts through the center of a disk",
+      "preview": "Turn one piece of a paper disk to check its share.",
+      "claims": [
+        {
+          "goal": "G16",
+          "terms": [
+            "fractions",
+            "equal shares"
+          ],
+          "relation": "direct",
+          "reason": "Two matching halves or four matching fourths fill the same whole.",
+          "order": 155
+        }
+      ]
+    },
+    {
+      "id": "chapter-13-shares-to-fractions-different-outlines-can-share-equally",
+      "source": "teaching/13-shares-to-fractions.md#different-outlines-can-share-equally",
+      "type": "chapter",
+      "title": "Different outlines can share equally",
+      "preview": "Compare two ways to halve identical sheets.",
+      "claims": [
+        {
+          "goal": "G21",
+          "terms": [
+            "fractions",
+            "equal shares"
+          ],
+          "relation": "direct",
+          "reason": "A triangular half and a rectangular half each occupy half the original area.",
+          "worked": "examples/grade-2/shapes-and-shares.md#halves-that-take-different-shapes",
+          "order": 156
+        }
+      ]
+    },
+    {
+      "id": "example-shapes-and-shares-halves-that-take-different-shapes",
+      "source": "examples/grade-2/shapes-and-shares.md#halves-that-take-different-shapes",
+      "type": "example",
+      "title": "Halves that take different shapes",
+      "preview": "Compare two ways to halve identical sheets.",
+      "claims": [
+        {
+          "goal": "G21",
+          "terms": [
+            "fractions",
+            "equal shares"
+          ],
+          "relation": "direct",
+          "reason": "A triangular half and a rectangular half each occupy half the original area.",
+          "order": 157
+        }
+      ]
+    },
+    {
+      "id": "chapter-13-shares-to-fractions-count-spaces-from-zero",
+      "source": "teaching/13-shares-to-fractions.md#count-spaces-from-zero",
+      "type": "chapter",
+      "title": "Count spaces from zero",
+      "preview": "Count six equal spaces from zero to one.",
+      "claims": [
+        {
+          "goal": "G35",
+          "terms": [
+            "fractions",
+            "number line"
+          ],
+          "relation": "direct",
+          "reason": "Each jump measures one sixth even though there are seven marks.",
+          "worked": "examples/grade-3/shares-and-jumps.md#six-spaces-between-seven-marks",
+          "order": 158
+        }
+      ]
+    },
+    {
+      "id": "example-shares-and-jumps-six-spaces-between-seven-marks",
+      "source": "examples/grade-3/shares-and-jumps.md#six-spaces-between-seven-marks",
+      "type": "example",
+      "title": "Six spaces between seven marks",
+      "preview": "Count six equal spaces from zero to one.",
+      "claims": [
+        {
+          "goal": "G35",
+          "terms": [
+            "fractions",
+            "number line"
+          ],
+          "relation": "direct",
+          "reason": "Each jump measures one sixth even though there are seven marks.",
+          "order": 159
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-fraction-arithmetic-cut-a-length-and-put-it-back",
+      "source": "teaching/14-fraction-arithmetic.md#cut-a-length-and-put-it-back",
+      "type": "chapter",
+      "title": "Cut a length and put it back",
+      "preview": "Join and separate strips measured in eighths of a meter.",
+      "claims": [
+        {
+          "goal": "G51",
+          "terms": [
+            "fractions",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Counting same-sized eighths adds or subtracts their lengths while keeping the unit fixed.",
+          "worked": "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange",
+          "order": 160
+        }
+      ]
+    },
+    {
+      "id": "example-fraction-strips-g51--join-separate-and-exchange",
+      "source": "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange",
+      "type": "example",
+      "title": "Join, separate and exchange",
+      "preview": "Join and separate strips measured in eighths of a meter.",
+      "claims": [
+        {
+          "goal": "G51",
+          "terms": [
+            "fractions",
+            "addition",
+            "subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Counting same-sized eighths adds or subtracts their lengths while keeping the unit fixed.",
+          "order": 161
+        }
+      ]
+    },
+    {
+      "id": "chapter-14-fraction-arithmetic-count-pieces-inside-each-persons-length",
+      "source": "teaching/14-fraction-arithmetic.md#count-pieces-inside-each-persons-length",
+      "type": "chapter",
+      "title": "Count pieces inside each person's length",
+      "preview": "Lay out three people’s shares of cord, two fifths of a meter each.",
+      "claims": [
+        {
+          "goal": "G52",
+          "terms": [
+            "fractions",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Three copies of two fifths contain six fifth-meter pieces.",
+          "worked": "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length",
+          "order": 162
+        }
+      ]
+    },
+    {
+      "id": "example-fraction-strips-g52--count-copies-of-a-measured-length",
+      "source": "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length",
+      "type": "example",
+      "title": "Count copies of a measured length",
+      "preview": "Lay out three people’s shares of cord, two fifths of a meter each.",
+      "claims": [
+        {
+          "goal": "G52",
+          "terms": [
+            "fractions",
+            "multiplication"
+          ],
+          "relation": "direct",
+          "reason": "Three copies of two fifths contain six fifth-meter pieces.",
+          "order": 163
+        }
+      ]
+    },
+    {
+      "id": "chapter-15-cents-and-hundredths-what-can-you-buy-back-with-the-change",
+      "source": "teaching/15-cents-and-hundredths.md#what-can-you-buy-back-with-the-change",
+      "type": "chapter",
+      "title": "What can you buy back with the change?",
+      "preview": "Pay for a 40-cent stamp with different coins.",
+      "claims": [
+        {
+          "goal": "G25",
+          "terms": [
+            "money"
+          ],
+          "relation": "direct",
+          "reason": "A quarter and nickel have the same value as three dimes.",
+          "worked": "examples/grade-2/money-exchanges.md#two-ways-to-pay-for-a-stamp",
+          "order": 164
+        }
+      ]
+    },
+    {
+      "id": "example-money-exchanges-two-ways-to-pay-for-a-stamp",
+      "source": "examples/grade-2/money-exchanges.md#two-ways-to-pay-for-a-stamp",
+      "type": "example",
+      "title": "Two ways to pay for a stamp",
+      "preview": "Pay for a 40-cent stamp with different coins.",
+      "claims": [
+        {
+          "goal": "G25",
+          "terms": [
+            "money"
+          ],
+          "relation": "direct",
+          "reason": "A quarter and nickel have the same value as three dimes.",
+          "order": 165
+        }
+      ]
+    },
+    {
+      "id": "chapter-15-cents-and-hundredths-give-the-grid-its-own-whole",
+      "source": "teaching/15-cents-and-hundredths.md#give-the-grid-its-own-whole",
+      "type": "chapter",
+      "title": "Give the grid its own whole",
+      "preview": "Read three rows and seven more cells in a hundred grid.",
+      "claims": [
+        {
+          "goal": "G53",
+          "terms": [
+            "decimals",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "The whole grid is one unit, so thirty-seven cells represent 0.37.",
+          "worked": "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval",
+          "order": 166
+        }
+      ]
+    },
+    {
+      "id": "example-decimal-places-g53--a-grid-and-a-unit-interval",
+      "source": "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval",
+      "type": "example",
+      "title": "A grid and a unit interval",
+      "preview": "Read three rows and seven more cells in a hundred grid.",
+      "claims": [
+        {
+          "goal": "G53",
+          "terms": [
+            "decimals",
+            "fractions"
+          ],
+          "relation": "direct",
+          "reason": "The whole grid is one unit, so thirty-seven cells represent 0.37.",
+          "order": 167
+        }
+      ]
+    },
+    {
+      "id": "chapter-16-measurement-units-read-the-instrument-before-the-number",
+      "source": "teaching/16-measurement-units.md#read-the-instrument-before-the-number",
+      "type": "chapter",
+      "title": "Read the instrument before the number",
+      "preview": "Read a balance, a scale and a jug with their units.",
+      "claims": [
+        {
+          "goal": "G38",
+          "terms": [
+            "measurement",
+            "mass",
+            "liquid volume"
+          ],
+          "relation": "direct",
+          "reason": "A sack measured in kilograms and water measured in liters can have the same numeral.",
+          "worked": "examples/grade-3/weighing-and-pouring.md#three-sample-readings",
+          "order": 168
+        }
+      ]
+    },
+    {
+      "id": "example-weighing-and-pouring-three-sample-readings",
+      "source": "examples/grade-3/weighing-and-pouring.md#three-sample-readings",
+      "type": "example",
+      "title": "Three sample readings",
+      "preview": "Read a balance, a scale and a jug with their units.",
+      "claims": [
+        {
+          "goal": "G38",
+          "terms": [
+            "measurement",
+            "mass",
+            "liquid volume"
+          ],
+          "relation": "direct",
+          "reason": "A sack measured in kilograms and water measured in liters can have the same numeral.",
+          "order": 169
+        }
+      ]
+    },
+    {
+      "id": "chapter-16-measurement-units-build-a-row-from-one-larger-unit",
+      "source": "teaching/16-measurement-units.md#build-a-row-from-one-larger-unit",
+      "type": "chapter",
+      "title": "Build a row from one larger unit",
+      "preview": "Build larger-to-smaller unit tables from a single row.",
+      "claims": [
+        {
+          "goal": "G54",
+          "terms": [
+            "measurement",
+            "unit conversions"
+          ],
+          "relation": "direct",
+          "reason": "Each additional large unit contributes the same number of smaller units.",
+          "worked": "examples/grade-4/measuring-and-plotting.md#g54--read-across-a-conversion-table",
+          "order": 170
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-and-plotting-g54--read-across-a-conversion-table",
+      "source": "examples/grade-4/measuring-and-plotting.md#g54--read-across-a-conversion-table",
+      "type": "example",
+      "title": "Read across a conversion table",
+      "preview": "Build larger-to-smaller unit tables from a single row.",
+      "claims": [
+        {
+          "goal": "G54",
+          "terms": [
+            "measurement",
+            "unit conversions"
+          ],
+          "relation": "direct",
+          "reason": "Each additional large unit contributes the same number of smaller units.",
+          "order": 171
+        }
+      ]
+    },
+    {
+      "id": "chapter-16-measurement-units-what-must-the-answer-measure",
+      "source": "teaching/16-measurement-units.md#what-must-the-answer-measure",
+      "type": "chapter",
+      "title": "What must the answer measure?",
+      "preview": "Count half-kilometer intervals along a trip.",
+      "claims": [
+        {
+          "goal": "G55",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Five intervals each contribute 500 meters to the route.",
+          "worked": "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure",
+          "order": 172
+        },
+        {
+          "goal": "G55",
+          "terms": [
+            "time"
+          ],
+          "relation": "direct",
+          "reason": "Subtracting eighteen from sixty leaves forty-two minutes in the hour.",
+          "worked": "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure",
+          "preview": "Find the time remaining after an eighteen-minute warmup.",
+          "order": 174
+        },
+        {
+          "goal": "G55",
+          "terms": [
+            "money"
+          ],
+          "relation": "direct",
+          "reason": "Seventy cents plus sixty-eight cents gives 138 cents or $1.38.",
+          "worked": "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure",
+          "preview": "Add the price of a ticket and a map in cents.",
+          "order": 176
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-and-plotting-g55--what-does-the-answer-measure",
+      "source": "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure",
+      "type": "example",
+      "title": "What does the answer measure?",
+      "preview": "Count half-kilometer intervals along a trip.",
+      "claims": [
+        {
+          "goal": "G55",
+          "terms": [
+            "measurement",
+            "length"
+          ],
+          "relation": "direct",
+          "reason": "Five intervals each contribute 500 meters to the route.",
+          "order": 173
+        },
+        {
+          "goal": "G55",
+          "terms": [
+            "time"
+          ],
+          "relation": "direct",
+          "reason": "Subtracting eighteen from sixty leaves forty-two minutes in the hour.",
+          "preview": "Find the time remaining after an eighteen-minute warmup.",
+          "order": 175
+        },
+        {
+          "goal": "G55",
+          "terms": [
+            "money"
+          ],
+          "relation": "direct",
+          "reason": "Seventy cents plus sixty-eight cents gives 138 cents or $1.38.",
+          "preview": "Add the price of a ticket and a map in cents.",
+          "order": 177
+        }
+      ]
+    },
+    {
+      "id": "chapter-20-multistep-models-what-does-the-letter-count",
+      "source": "teaching/20-multistep-models.md#what-does-the-letter-count",
+      "type": "chapter",
+      "title": "What does the letter count?",
+      "preview": "Find how many stamps remain on a sheet of thirty.",
+      "claims": [
+        {
+          "goal": "G31",
+          "terms": [
+            "word problems"
+          ],
+          "relation": "direct",
+          "reason": "Three envelopes take four stamps each before the subtraction answers the question.",
+          "worked": "examples/grade-3/two-step-stories.md#stamps-left-on-a-sheet",
+          "order": 178
+        },
+        {
+          "goal": "G31",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "Three envelopes take four stamps each, using twelve. Subtract those twelve from thirty to get the eighteen stamps still on the sheet.",
+          "worked": "examples/grade-3/two-step-stories.md#stamps-left-on-a-sheet",
+          "preview": "Find the stamps remaining on the sheet.",
+          "order": 228
+        }
+      ]
+    },
+    {
+      "id": "example-two-step-stories-stamps-left-on-a-sheet",
+      "source": "examples/grade-3/two-step-stories.md#stamps-left-on-a-sheet",
+      "type": "example",
+      "title": "Stamps left on a sheet",
+      "preview": "Find how many stamps remain on a sheet of thirty.",
+      "claims": [
+        {
+          "goal": "G31",
+          "terms": [
+            "word problems"
+          ],
+          "relation": "direct",
+          "reason": "Three envelopes take four stamps each before the subtraction answers the question.",
+          "order": 179
+        },
+        {
+          "goal": "G31",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "First count 3 × 4 = 12 used stamps. Then 30 − 12 = 18 counts the stamps left.",
+          "preview": "Find the stamps remaining on the sheet.",
+          "order": 229
+        }
+      ]
+    },
+    {
+      "id": "chapter-20-multistep-models-read-the-unit-after-the-subtotal",
+      "source": "teaching/20-multistep-models.md#read-the-unit-after-the-subtotal",
+      "type": "chapter",
+      "title": "Read the unit after the subtotal",
+      "preview": "Track clips per pack, per carton and per shipment.",
+      "claims": [
+        {
+          "goal": "G49",
+          "terms": [
+            "word problems"
+          ],
+          "relation": "direct",
+          "reason": "Five cartons each hold 24 clips, so 24 is an intermediate answer.",
+          "worked": "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+          "order": 180
+        },
+        {
+          "goal": "G49",
+          "terms": [
+            "two-step word problems"
+          ],
+          "relation": "direct",
+          "reason": "Four packs of six give 24 clips per carton. Five cartons hold 120 clips. The 30 cm length describes a carton and supplies no clip count.",
+          "worked": "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+          "preview": "Count the clips in a five-carton shipment.",
+          "order": 230
+        }
+      ]
+    },
+    {
+      "id": "example-quotient-zero-and-capacity-find-the-vehicles-needed",
+      "source": "examples/quotient-zero-and-capacity.md#find-the-vehicles-needed",
+      "type": "example",
+      "title": "Find the vehicles needed",
+      "preview": "Seat 1,205 riders in four-seat vehicles.",
+      "claims": [
+        {
+          "goal": "G49",
+          "terms": [
+            "word problems",
+            "remainders"
+          ],
+          "relation": "direct",
+          "reason": "A remainder of one counts a rider who needs one more vehicle.",
+          "order": 183
+        }
+      ]
+    },
+    {
+      "id": "chapter-21-measuring-turns-choose-zero-before-reading-a-number",
+      "source": "teaching/21-measuring-turns.md#choose-zero-before-reading-a-number",
+      "type": "chapter",
+      "title": "Choose zero before reading a number",
+      "preview": "Follow the starting ray to its zero on a protractor.",
+      "claims": [
+        {
+          "goal": "G58",
+          "terms": [
+            "geometry",
+            "angles",
+            "protractor"
+          ],
+          "relation": "direct",
+          "reason": "The same tick belongs to two scales and only one starts at the chosen ray.",
+          "worked": "examples/grade-4/measuring-turns.md#read-and-construct-on-a-protractor",
+          "order": 184
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-turns-read-and-construct-on-a-protractor",
+      "source": "examples/grade-4/measuring-turns.md#read-and-construct-on-a-protractor",
+      "type": "example",
+      "title": "Read and construct on a protractor",
+      "preview": "Follow the starting ray to its zero on a protractor.",
+      "claims": [
+        {
+          "goal": "G58",
+          "terms": [
+            "geometry",
+            "angles",
+            "protractor"
+          ],
+          "relation": "direct",
+          "reason": "The same tick belongs to two scales and only one starts at the chosen ray.",
+          "order": 185
+        }
+      ]
+    },
+    {
+      "id": "chapter-21-measuring-turns-where-does-the-turn-begin",
+      "source": "teaching/21-measuring-turns.md#where-does-the-turn-begin",
+      "type": "chapter",
+      "title": "Where does the turn begin?",
+      "preview": "Trace two rays from their shared vertex.",
+      "claims": [
+        {
+          "goal": "G58",
+          "terms": [
+            "geometry",
+            "angles"
+          ],
+          "relation": "direct",
+          "reason": "The turn between the rays can be measured in degree intervals.",
+          "worked": "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns",
+          "order": 186
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-turns-g58--lines-endpoints-and-turns",
+      "source": "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns",
+      "type": "example",
+      "title": "Lines, endpoints and turns",
+      "preview": "Trace two rays from their shared vertex.",
+      "claims": [
+        {
+          "goal": "G58",
+          "terms": [
+            "geometry",
+            "angles"
+          ],
+          "relation": "direct",
+          "reason": "The turn between the rays can be measured in degree intervals.",
+          "order": 187
+        }
+      ]
+    },
+    {
+      "id": "chapter-21-measuring-turns-which-intervals-did-you-count-twice",
+      "source": "teaching/21-measuring-turns.md#which-intervals-did-you-count-twice",
+      "type": "chapter",
+      "title": "Which intervals did you count twice?",
+      "preview": "Put two adjacent turns back together.",
+      "claims": [
+        {
+          "goal": "G59",
+          "terms": [
+            "geometry",
+            "angles"
+          ],
+          "relation": "direct",
+          "reason": "Counting each degree interval once gives the measure of the entire turn.",
+          "worked": "examples/grade-4/measuring-turns.md#g59--which-degree-intervals-belong-to-each-part",
+          "order": 188
+        }
+      ]
+    },
+    {
+      "id": "example-measuring-turns-g59--which-degree-intervals-belong-to-each-part",
+      "source": "examples/grade-4/measuring-turns.md#g59--which-degree-intervals-belong-to-each-part",
+      "type": "example",
+      "title": "Which degree intervals belong to each part?",
+      "preview": "Put two adjacent turns back together.",
+      "claims": [
+        {
+          "goal": "G59",
+          "terms": [
+            "geometry",
+            "angles"
+          ],
+          "relation": "direct",
+          "reason": "Counting each degree interval once gives the measure of the entire turn.",
+          "order": 189
+        }
+      ]
+    },
+    {
+      "id": "chapter-22-classifying-and-folding-let-a-figure-keep-every-name-it-earns",
+      "source": "teaching/22-classifying-and-folding.md#let-a-figure-keep-every-name-it-earns",
+      "type": "chapter",
+      "title": "Let a figure keep every name it earns",
+      "preview": "Test four closed outlines using sides and corners.",
+      "claims": [
+        {
+          "goal": "G34",
+          "terms": [
+            "geometry",
+            "quadrilaterals"
+          ],
+          "relation": "direct",
+          "reason": "A square meets both the rectangle and rhombus tests.",
+          "worked": "examples/grade-3/four-sided-figures.md#four-closed-outlines",
+          "order": 190
+        }
+      ]
+    },
+    {
+      "id": "example-four-sided-figures-four-closed-outlines",
+      "source": "examples/grade-3/four-sided-figures.md#four-closed-outlines",
+      "type": "example",
+      "title": "Four closed outlines",
+      "preview": "Test four closed outlines using sides and corners.",
+      "claims": [
+        {
+          "goal": "G34",
+          "terms": [
+            "geometry",
+            "quadrilaterals"
+          ],
+          "relation": "direct",
+          "reason": "A square meets both the rectangle and rhombus tests.",
+          "order": 191
+        }
+      ]
+    },
+    {
+      "id": "chapter-22-classifying-and-folding-rotate-the-corner-test-with-the-triangle",
+      "source": "teaching/22-classifying-and-folding.md#rotate-the-corner-test-with-the-triangle",
+      "type": "chapter",
+      "title": "Rotate the corner test with the triangle",
+      "preview": "Rotate the corner test with the triangle.",
+      "claims": [
+        {
+          "goal": "G60",
+          "terms": [
+            "geometry",
+            "triangles"
+          ],
+          "relation": "direct",
+          "reason": "A right angle still matches a square corner after the figure turns.",
+          "worked": "examples/grade-4/sorting-and-folding.md#g60--sort-by-the-actual-corners",
+          "order": 192
+        }
+      ]
+    },
+    {
+      "id": "example-sorting-and-folding-g60--sort-by-the-actual-corners",
+      "source": "examples/grade-4/sorting-and-folding.md#g60--sort-by-the-actual-corners",
+      "type": "example",
+      "title": "Sort by the actual corners",
+      "preview": "Rotate the corner test with the triangle.",
+      "claims": [
+        {
+          "goal": "G60",
+          "terms": [
+            "geometry",
+            "triangles"
+          ],
+          "relation": "direct",
+          "reason": "A right angle still matches a square corner after the figure turns.",
+          "order": 193
+        }
+      ]
+    },
+    {
+      "id": "chapter-22-classifying-and-folding-follow-one-corner-and-its-two-edges",
+      "source": "teaching/22-classifying-and-folding.md#follow-one-corner-and-its-two-edges",
+      "type": "chapter",
+      "title": "Follow one corner and its two edges",
+      "preview": "Test the midline and diagonal folds of a rectangle.",
+      "claims": [
+        {
+          "goal": "G61",
+          "terms": [
+            "geometry",
+            "symmetry",
+            "reflection"
+          ],
+          "relation": "direct",
+          "reason": "A symmetry fold must match both edges at each corner.",
+          "worked": "examples/rectangle-reflection.md#test-the-folds",
+          "order": 194
+        }
+      ]
+    },
+    {
+      "id": "example-rectangle-reflection-test-the-folds",
+      "source": "examples/rectangle-reflection.md#test-the-folds",
+      "type": "example",
+      "title": "Test the folds",
+      "preview": "Test the midline and diagonal folds of a rectangle.",
+      "claims": [
+        {
+          "goal": "G61",
+          "terms": [
+            "geometry",
+            "symmetry",
+            "reflection"
+          ],
+          "relation": "direct",
+          "reason": "A symmetry fold must match both edges at each corner.",
+          "order": 195
+        }
+      ]
+    },
+    {
+      "id": "chapter-22-classifying-and-folding-how-can-you-finish-the-search",
+      "source": "teaching/22-classifying-and-folding.md#how-can-you-finish-the-search",
+      "type": "chapter",
+      "title": "How can you finish the search?",
+      "preview": "Compare the square’s folds with those of the scalene triangle.",
+      "claims": [
+        {
+          "goal": "G61",
+          "terms": [
+            "geometry",
+            "symmetry",
+            "reflection"
+          ],
+          "relation": "direct",
+          "reason": "Following the entire boundary checks whether the shape matches after reflection.",
+          "worked": "examples/grade-4/sorting-and-folding.md#g61--test-an-entire-boundary",
+          "order": 196
+        }
+      ]
+    },
+    {
+      "id": "example-sorting-and-folding-g61--test-an-entire-boundary",
+      "source": "examples/grade-4/sorting-and-folding.md#g61--test-an-entire-boundary",
+      "type": "example",
+      "title": "Test an entire boundary",
+      "preview": "Compare the square’s folds with those of the scalene triangle.",
+      "claims": [
+        {
+          "goal": "G61",
+          "terms": [
+            "geometry",
+            "symmetry",
+            "reflection"
+          ],
+          "relation": "direct",
+          "reason": "Following the entire boundary checks whether the shape matches after reflection.",
+          "order": 197
+        }
+      ]
+    },
+    {
+      "id": "example-place-value-trades-two-trades-across-the-empty-tens-place",
+      "source": "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place",
+      "type": "example",
+      "title": "Two trades across the empty tens place",
+      "preview": "Open two packs to work out 302 − 148.",
+      "claims": [
+        {
+          "goal": "G19",
+          "terms": [
+            "3-digit subtraction"
+          ],
+          "relation": "direct",
+          "reason": "Trade a hundred for ten tens and a ten for ten ones. From 200 + 90 + 12 sheets, remove one hundred, four tens and eight ones. The cart holds 154.",
+          "order": 202
+        },
+        {
+          "goal": "G19",
+          "terms": [
+            "subtraction across zeros"
+          ],
+          "relation": "direct",
+          "reason": "The cart has no tens to open at first. Trade one hundred for ten tens, then one ten for ten ones. Subtract 148 from the regrouped 302 to leave 154 sheets.",
+          "preview": "Reach the ones in 302 − 148 through the empty tens place.",
+          "order": 211
+        }
+      ]
+    },
+    {
+      "id": "example-hundreds-reading-and-rebuilding-a-number",
+      "source": "examples/grade-2/hundreds.md#reading-and-rebuilding-a-number",
+      "type": "example",
+      "title": "Reading and rebuilding a number",
+      "preview": "Read the Grade 2 places in 406.",
+      "claims": [
+        {
+          "goal": "G18",
+          "terms": [
+            "expanded form"
+          ],
+          "relation": "direct",
+          "reason": "The stockroom label matches 406 to four hundred six and 400 + 0 + 6. Writing the zero tens keeps all three places aligned.",
+          "order": 223
+        }
+      ]
+    }
+  ]
+}
