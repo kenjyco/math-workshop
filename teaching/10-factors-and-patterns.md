@@ -22,6 +22,6 @@ A *multiple* of nine is a whole number of nines, so 36 qualifies. No number of f
 
 ## Predict the next leftover
 
-A *rule* tells how to build the next *term*, a member of a pattern. [Start at one and add three](../examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating). The *parity* of a number tells whether it's odd or even. Three new counters bring one ready-made pair and a single. That single either finds the old leftover or becomes the new leftover. So 16 leads to odd 19, then even 22. Append three squares to the growing strip and test the same prediction at its end. To choose between comparison and other operations in a story, you'll also need to follow the question through several steps.
+A *rule* tells how to build the next *term*, a member of a pattern. [Start at one and add three](../examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating). The *parity* of a number tells whether it's odd or even. Three new counters bring one ready-made pair and a single. That single either finds the old leftover or becomes the new leftover. So 16 leads to odd 19, then even 22. Append three squares to the growing strip and test the same prediction at its end. To [choose between comparison and other operations in a story](20-multistep-models.md), you'll also need to follow the question through several steps.
 
 [Teaching index](README.md)

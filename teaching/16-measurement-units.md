@@ -18,6 +18,6 @@ Use [equal intervals](05-measuring-length.md) to read the [route to the bridge a
 
 Follow the [five applications](../examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure) by saying the requested unit before calculating. A warmup uses eighteen of sixty minutes, leaving 42 minutes. Four bottles of three quarters of a liter total twelve quarters, or 3 L. Eight bags share 2 kg, or 2,000 g. Two hundred fifty **grams per bag** works because four bags hold 1,000 g and eight restore all 2 kg. For a ticket and a map, rename the prices as 70 and 68 cents. Their sum is 138 cents, or $1.38. Removing the ticket price recovers the map price.
 
-The later applications use [equal groups](09-equal-groups.md), [elapsed time](07-clock-readings.md), [fractional lengths](14-fraction-arithmetic.md) and [decimal money amounts](15-cents-and-hundredths.md). To interpret a multistep answer, also distinguish intermediate quantities from the requested one.
+The later applications use [equal groups](09-equal-groups.md), [elapsed time](07-clock-readings.md), [fractional lengths](14-fraction-arithmetic.md) and [decimal money amounts](15-cents-and-hundredths.md). To [interpret a multistep answer](20-multistep-models.md), also distinguish intermediate quantities from the requested one.
 
 [Teaching index](README.md)

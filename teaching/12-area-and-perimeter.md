@@ -18,6 +18,6 @@ Ask a parent to trace the [outside of bed A](../examples/grade-3/garden-beds.svg
 
 Grade 4 writes the row argument as area = length × width. Opposite sides match, so perimeter = 2 × (length + width). On the [garden grid](../examples/grade-4/garden-grid.svg), one row along the six-meter length covers six square meters. In the [garden with known area](../examples/grade-4/rectangle-measures.md#g57--recover-a-side-from-a-measure), 24 m² needs four such rows. Each adds one meter to the width. Walk the four outside edges: 6 + 4 + 6 + 4 gives **20 meters of edging**. For the other garden, remove the two 7 m lengths from 22 m of perimeter. The remaining 8 m must pay for **two** equal widths, so each is 4 m.
 
-To split a larger multiplication rectangle, also bring place value. To test a fold, use corresponding edges and corners as well as area.
+To [split a larger multiplication rectangle](18-partial-products.md), also bring place value. To [test a fold](22-classifying-and-folding.md), use corresponding edges and corners as well as area.
 
 [Teaching index](README.md)

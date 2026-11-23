@@ -4,7 +4,7 @@ Start with a question you want to answer. Each chapter takes you to worked mathe
 
 **Try one count.** Open [Counting a collection](01-counting-a-collection.md#where-should-my-finger-stop). Follow its link to the marked circle. Say “one” at the ringed counter and count around until the next touch would repeat your start. Use Back to return, then try the other direction.
 
-You can also begin with any other question below. Earlier chapters are available whenever a step needs a closer look.
+You can also begin with a clock, a fraction, a division row, or any other question below. Earlier chapters are available whenever a step needs a closer look.
 
 ## Objects, shapes and measures
 
@@ -31,3 +31,11 @@ You can also begin with any other question below. Earlier chapters are available
 - [15 · Cents, tenths and hundredths](15-cents-and-hundredths.md) · How can two different counts name the same amount?
 - [16 · Choosing and converting measurement units](16-measurement-units.md) · How can a quantity stay fixed while its measurement number changes?
 - [17 · Reading lengths back from a line plot](17-fractional-line-plots.md) · What can a stack of marks tell us about both length and frequency?
+
+## Written methods, applications and geometry
+
+- [18 · Why the product has two written rows](18-partial-products.md) · Where does each digit of a multidigit product come from?
+- [19 · What each quotient digit counts](19-quotient-places.md) · How can we tell whether a zero belongs in the quotient and whether division is finished?
+- [20 · Which quantity answers the question?](20-multistep-models.md) · When is a correct calculation only a step toward the answer?
+- [21 · Measuring a turn from its starting ray](21-measuring-turns.md) · Why can one protractor tick have two numbers, and which one measures our turn?
+- [22 · Which names and folds fit a figure?](22-classifying-and-folding.md) · What must be true of the whole figure for a name or a fold to fit?

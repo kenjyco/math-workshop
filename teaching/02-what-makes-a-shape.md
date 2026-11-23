@@ -20,6 +20,6 @@ Hold a finger on the diagonal of the [square made of two triangles](../examples/
 
 Try that idea in depth with the [four cubes in pairs](../examples/grade-1/stacked-cubes.svg). In the [stacked box](../examples/grade-1/triangles-and-composites.md#a-pair-of-cubes-becomes-a-layer), one pair forms the bottom and another the top. Each full-face join hides two faces. Lift the top layer to see the faces that were touching. Four cubes with six faces each and four joins leave sixteen small faces exposed.
 
-You can begin here by looking and tracing. To [test equal shares](13-shares-to-fractions.md), you'll also need to compare areas of pieces against a whole. To classify a turned figure, you'll use parallel lines and angle sizes as further tests.
+You can begin here by looking and tracing. To [test equal shares](13-shares-to-fractions.md), you'll also need to compare areas of pieces against a whole. To [classify a turned figure](22-classifying-and-folding.md), you'll use parallel lines and angle sizes as further tests.
 
 [Teaching index](README.md)
