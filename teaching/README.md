@@ -23,3 +23,11 @@ You can also begin with any other question below. Earlier chapters are available
 - [10 · Copies, factor pairs and growing patterns](10-factors-and-patterns.md) · How can a grouping explain a comparison or predict something we have not yet counted?
 - [11 · Rounding and keeping track of every exchange](11-rounding-and-columns.md) · Which moves preserve a number, and which change its value?
 - [12 · Covering a floor and walking its boundary](12-area-and-perimeter.md) · Why do two measurements of the same garden have different units?
+
+## Parts of a whole and measured quantities
+
+- [13 · From equal shares to points on a line](13-shares-to-fractions.md) · What makes a piece one fourth, and where is five fourths?
+- [14 · Renaming, joining and repeating fractions](14-fraction-arithmetic.md) · What can we change about a fraction while preserving its length?
+- [15 · Cents, tenths and hundredths](15-cents-and-hundredths.md) · How can two different counts name the same amount?
+- [16 · Choosing and converting measurement units](16-measurement-units.md) · How can a quantity stay fixed while its measurement number changes?
+- [17 · Reading lengths back from a line plot](17-fractional-line-plots.md) · What can a stack of marks tell us about both length and frequency?
