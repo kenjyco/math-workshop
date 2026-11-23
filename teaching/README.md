@@ -16,3 +16,10 @@ You can also begin with any other question below. Earlier chapters are available
 - [06 · Bundles, empty places and fair trades](06-bundles-and-trades.md) · How can the counts in several columns change while the total stays fixed?
 - [07 · Clock readings and elapsed minutes](07-clock-readings.md) · What can the two hands tell us, and how long is it between readings?
 - [08 · From observations to graphs](08-observations-to-graphs.md) · How do the marks let us recover the counts that made them?
+
+## Groups, place and area
+
+- [09 · Equal groups, arrays and missing factors](09-equal-groups.md) · What changes when we know a total but a grouping quantity is missing?
+- [10 · Copies, factor pairs and growing patterns](10-factors-and-patterns.md) · How can a grouping explain a comparison or predict something we have not yet counted?
+- [11 · Rounding and keeping track of every exchange](11-rounding-and-columns.md) · Which moves preserve a number, and which change its value?
+- [12 · Covering a floor and walking its boundary](12-area-and-perimeter.md) · Why do two measurements of the same garden have different units?
