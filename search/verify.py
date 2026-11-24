@@ -12,7 +12,7 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PINNED = {
-    'foundation': (108, '5dc7d8b268ce29e21efaec5abced97d264f8d0f059b20bdbb9c66e47a6321f47'),
+    'foundation': (109, '9503f99131c56f2dc43feb6e696ee5932f9119736dfa5fce66fd6c9bb7322765'),
     'teaching': (23, '82d9dabb044d31a3930bb1a78fd7c52192e71b1847ed26277fa786ed05dddc0c'),
 }
 ASSETS = {'index.html', 'index.json', 'search.js', 'style.css'}
