@@ -1,10 +1,10 @@
 # What does one row count?
 
-Grade 2 · G20 · Concepts `groups`, `add`, `area` · MP7. [Goal and standards, pp. 19–20](../../goals/grade-2.md#g20-pairs-equal-addends-and-square-arrays)
+Grade 2 · Pairs, arrays and tiled rectangles
 
 ## A partner for each counter
 
-**2.OA.C.3.** Lay out nineteen counters in two lines, matching top to bottom. Each column with two counters is a **pair**.
+**[2.OA.C.3](https://www.thecorestandards.org/Math/Content/2/OA/C/3/).** Lay out nineteen counters in two lines, matching top to bottom. Each column with two counters is a **pair**.
 
 ```text
 Top      ● ● ● ● ●   ● ● ● ● ●
@@ -15,7 +15,7 @@ Count nine pairs by twos to 18. The last top counter has no partner, so **19 is 
 
 ## Rows that turn into columns
 
-**2.OA.C.4.** An **array** lines up objects in rows across and columns down. How many counters are on each mat? Each filled dot in the drawing is one counter.
+**[2.OA.C.4](https://www.thecorestandards.org/Math/Content/2/OA/C/4/).** An **array** lines up objects in rows across and columns down. How many counters are on each mat? Each filled dot in the drawing is one counter.
 
 ![One row of five dots, three rows of four, the same array turned into four rows of three, a rectangle partitioned into twelve square cells, and five rows of five counters.](arrays-and-cells.svg)
 
@@ -31,6 +31,6 @@ At the five-row, five-column limit, five rows of five counters give **5 + 5 + 5 
 
 ## Squares inside the rectangle
 
-**2.G.A.2.** On the right of the drawing, divide each long edge into four equal lengths and each short edge into three lengths of the same size. Join opposite marks straight across. The lines partition the whole rectangle into three rows of four **square interiors**, each one unit wide and one unit high. Count 4 + 4 + 4 = **12 squares**. Trace a column instead. Each of four columns contains three squares, accounting for every bit of the rectangle exactly once.
+**[2.G.A.2](https://www.thecorestandards.org/Math/Content/2/G/A/2/).** On the right of the drawing, divide each long edge into four equal lengths and each short edge into three lengths of the same size. Join opposite marks straight across. The lines partition the whole rectangle into three rows of four **square interiors**, each one unit wide and one unit high. Count 4 + 4 + 4 = **12 squares**. Trace a column instead. Each of four columns contains three squares, accounting for every bit of the rectangle exactly once.
 
 The five vertical boundary lines meet the four horizontal boundary lines in 5 + 5 + 5 + 5 = **20 intersections**. A finger on a crossing touches a corner. To count a tile, place the finger inside a square. In the counter array a dot represents an object and the spaces between objects are empty.

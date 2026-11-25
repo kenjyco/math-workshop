@@ -1,10 +1,10 @@
 # Counting on the number path and on the mat
 
-Kindergarten · G01 · Concepts `count`, `card` · Practice MP1. [G01 contract and standards, p. 11](../../goals/kindergarten.md#g01-counting-a-sequence-and-counting-a-collection)
+Kindergarten · Counting and cardinality
 
 ## Two ways to reach 100
 
-**K.CC.A.1.** What numbers do we say on the way to 100? Start at 1 and say each number in order. At the end of a row, continue at the left of the next row.
+**[K.CC.A.1](https://www.thecorestandards.org/Math/Content/K/CC/A/1/).** What numbers do we say on the way to 100? Start at 1 and say each number in order. At the end of a row, continue at the left of the next row.
 
 ```text
   1   2   3   4   5   6   7   8   9  10
@@ -29,11 +29,11 @@ Each row contains ten numbers. Ten rows finish at **100** either way.
 
 ## Start at 37
 
-**K.CC.A.2.** A friend stops at 37. Starting there, count through 43. Say **37, 38, 39, 40, 41, 42, 43**. The next word after 37 is 38. The row ending at 40 and the row starting at 41 show where the count continues.
+**[K.CC.A.2](https://www.thecorestandards.org/Math/Content/K/CC/A/2/).** A friend stops at 37. Starting there, count through 43. Say **37, 38, 39, 40, 41, 42, 43**. The next word after 37 is 38. The row ending at 40 and the row starting at 41 show where the count continues.
 
 ## Write how many
 
-**K.CC.A.3.** What numeral belongs on each mat's label? Each dot stands for one button. Count each button once and write the numeral for the total. Spaces between sets of five make the longer rows easier to check. An empty mat has zero buttons, so write **0**.
+**[K.CC.A.3](https://www.thecorestandards.org/Math/Content/K/CC/A/3/).** What numeral belongs on each mat's label? Each dot stands for one button. Count each button once and write the numeral for the total. Spaces between sets of five make the longer rows easier to check. An empty mat has zero buttons, so write **0**.
 
 | Buttons on one mat | Numeral to write |
 |---|---:|
@@ -63,7 +63,7 @@ For example, on the mat labeled 13, five buttons and five more get us to ten. To
 
 ## Seven buttons, then one more
 
-**K.CC.B.4, K.CC.B.4.a, K.CC.B.4.b and K.CC.B.4.c.** Give seven buttons the letters A through G so we can follow the same buttons as they move. How many are on the mat? Touch one button for each spoken word, moving left to right.
+**[K.CC.B.4](https://www.thecorestandards.org/Math/Content/K/CC/B/4/), [K.CC.B.4.a](https://www.thecorestandards.org/Math/Content/K/CC/B/4/a/), [K.CC.B.4.b](https://www.thecorestandards.org/Math/Content/K/CC/B/4/b/) and [K.CC.B.4.c](https://www.thecorestandards.org/Math/Content/K/CC/B/4/c/).** Give seven buttons the letters A through G so we can follow the same buttons as they move. How many are on the mat? Touch one button for each spoken word, moving left to right.
 
 | Number word | one | two | three | four | five | six | seven |
 |---|---|---|---|---|---|---|---|
@@ -78,7 +78,7 @@ Now put a new button H beside the seven. Keep the seven already counted and say 
 
 ## Count a layout or make a collection
 
-**K.CC.B.5.** How many counters are already here? Count up to 20 in a line, rectangle or circle and up to 10 scattered. Each panel uses the upper limit for its arrangement.
+**[K.CC.B.5](https://www.thecorestandards.org/Math/Content/K/CC/B/5/).** How many counters are already here? Count up to 20 in a line, rectangle or circle and up to 10 scattered. Each panel uses the upper limit for its arrangement.
 
 ![Four counter layouts: a line of twenty, a four-by-five rectangle, a ring of twenty with the top counter marked, and ten scattered counters.](counting-layouts.svg)
 

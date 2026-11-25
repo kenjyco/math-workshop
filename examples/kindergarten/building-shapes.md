@@ -1,10 +1,10 @@
 # Three sticks and two paper triangles
 
-Kindergarten · G07 · Concepts `shape`, `compose` · Practice MP7. [G07 contract and standards, p. 12](../../goals/kindergarten.md#g07-building-figures-and-composing-a-new-shape)
+Kindergarten · Construction and composition
 
 ## Build a roof outline and draw it
 
-**K.G.B.5.** The front of a roof has two sloping edges above a straight bottom edge. How can three sticks model that triangular outline?
+**[K.G.B.5](https://www.thecorestandards.org/Math/Content/K/G/B/5/).** The front of a roof has two sloping edges above a straight bottom edge. How can three sticks model that triangular outline?
 
 Lay the longest stick across the bottom. Put the end of one shorter stick at each end of the bottom stick. Bring their free ends together above the middle and join the three touching pairs of ends with clay. Trace from the left joint up to the roof peak, down to the right joint, then along the bottom to the starting point. The path closes.
 
@@ -14,7 +14,7 @@ To draw the model, mark a dot for each of those three joints on paper. Connect l
 
 ## Fit the paper pieces together
 
-**K.G.B.6.** Cut a rectangular card from its upper-left corner A to its lower-right corner C. B is the upper-right corner and D the lower-left. There are now two triangles, ABC and ACD. Can these two pieces make the original rectangle again?
+**[K.G.B.6](https://www.thecorestandards.org/Math/Content/K/G/B/6/).** Cut a rectangular card from its upper-left corner A to its lower-right corner C. B is the upper-right corner and D the lower-left. There are now two triangles, ABC and ACD. Can these two pieces make the original rectangle again?
 
 Place ABC with its square corner B at upper right. Bring ACD up to it, keeping its square corner D at lower left. Match the **entire sloping side AC** of one piece to AC of the other, A to A and C to C. The pieces lie on opposite sides of that line. Their edges meet along the seam. No gap remains, and each piece covers its own side of the card.
 

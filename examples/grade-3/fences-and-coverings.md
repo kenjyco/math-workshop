@@ -1,6 +1,6 @@
 # Can the same fence surround a different area?
 
-Grade 3 · G33 · `perimeter`, `area` · MP3 · [Goal and source, p. 25](../../goals/grade-3-operations-and-area.md#g33-tracing-perimeter-and-comparing-it-with-area)
+Grade 3 · Perimeter and area
 
 ## One trip around the garden
 
@@ -22,4 +22,4 @@ A and B use equal fences, yet A needs two extra square meters of covering. A and
 
 **Parent bridge.** Trace the heavy outside line on bed A for the fence. Touch the middle of every small square in that same bed for the covering. A meter of fence runs along an edge. A square meter of covering sits inside.
 
-Standards · 3.MD.D.8
+Standards · [3.MD.D.8](https://www.thecorestandards.org/Math/Content/3/MD/D/8/)

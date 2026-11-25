@@ -1,10 +1,10 @@
 # What happens to the buttons?
 
-Kindergarten · G05 · Concepts `add`, `model`, `equal` · Practices MP2, MP4. [G05 contract and standards, p. 11](../../goals/kindergarten.md#g05-joining-separating-and-splitting-a-whole)
+Kindergarten · Joining, separating and splitting
 
 ## Buttons into and out of a dish
 
-**K.OA.A.1 and K.OA.A.2.** Six buttons are in a dish. Slide four more in. How many buttons are in the dish now? Say “six,” then count the arrivals, “seven, eight, nine, ten.” Addition records the joining. **6 + 4 = 10 buttons in the dish.** In the drawing each dot is one button.
+**[K.OA.A.1](https://www.thecorestandards.org/Math/Content/K/OA/A/1/) and [K.OA.A.2](https://www.thecorestandards.org/Math/Content/K/OA/A/2/).** Six buttons are in a dish. Slide four more in. How many buttons are in the dish now? Say “six,” then count the arrivals, “seven, eight, nine, ten.” Addition records the joining. **6 + 4 = 10 buttons in the dish.** In the drawing each dot is one button.
 
 ```text
 Before       ●●●●●●
@@ -26,7 +26,7 @@ Finally, tip all seven remaining buttons onto the cloth. The last seven leave th
 
 ## One whole and two parts
 
-**K.OA.A.3.** Put seven buttons on a mat. Slide a ribbon between buttons to show two parts. Which splits still give seven when the ribbon is lifted?
+**[K.OA.A.3](https://www.thecorestandards.org/Math/Content/K/OA/A/3/).** Put seven buttons on a mat. Slide a ribbon between buttons to show two parts. Which splits still give seven when the ribbon is lifted?
 
 | Left of the ribbon | Right of the ribbon | Record of the split |
 |---|---|---|
@@ -40,7 +40,7 @@ Move one button across the ribbon from the five to the two. One side gains the b
 
 ## Related facts within five
 
-**K.OA.A.5.** A known split can answer a small addition or subtraction right away. For example, seeing two buttons beside two more gives **2 + 2 = 4**. Slide one more beside the second pair. That makes **2 + 3 = 5**, so lifting the first pair leaves **5 − 2 = 3**. Taking the three instead leaves **5 − 3 = 2**.
+**[K.OA.A.5](https://www.thecorestandards.org/Math/Content/K/OA/A/5/).** A known split can answer a small addition or subtraction right away. For example, seeing two buttons beside two more gives **2 + 2 = 4**. Slide one more beside the second pair. That makes **2 + 3 = 5**, so lifting the first pair leaves **5 − 2 = 3**. Taking the three instead leaves **5 − 3 = 2**.
 
 Each row below starts with one split. Join the parts in either order, then take either part from the whole. These rows include every pair of whole-number parts with a total from zero through five. Repeated facts appear just once in a cell.
 

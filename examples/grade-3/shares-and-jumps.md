@@ -1,6 +1,6 @@
 # How far is one share on a line?
 
-Grade 3 · G35 · `share`, `area`, `fraction`, `scale` · MP6 · [Goal and source, pp. 24, 26](../../goals/grade-3-fractions-and-measurement.md#g35-unit-fractions-in-regions-and-on-a-number-line)
+Grade 3 · Unit fractions and the number line
 
 ## One whole sheet
 
@@ -20,4 +20,4 @@ Keep the same distance from 0 to 1 on the bottom line. Divide it into four equal
 
 **Parent bridge.** On the paper each third is one repeatable share of area. On a line each sixth or quarter is one repeatable jump of length. The fraction at a landing tells how far the jumps have carried us from zero.
 
-Standards · 3.NF.A.1, 3.NF.A.2, 3.NF.A.2.a, 3.NF.A.2.b, 3.G.A.2
+Standards · [3.NF.A.1](https://www.thecorestandards.org/Math/Content/3/NF/A/1/), [3.NF.A.2](https://www.thecorestandards.org/Math/Content/3/NF/A/2/), [3.NF.A.2.a](https://www.thecorestandards.org/Math/Content/3/NF/A/2/a/), [3.NF.A.2.b](https://www.thecorestandards.org/Math/Content/3/NF/A/2/b/), [3.G.A.2](https://www.thecorestandards.org/Math/Content/3/G/A/2/)

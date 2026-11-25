@@ -1,0 +1,90 @@
+{
+  "examples/four-region-multiplication.md": "G46",
+  "examples/grade-1/bird-counts.md": "G14",
+  "examples/grade-1/bundle-arithmetic.md": "G11",
+  "examples/grade-1/bundles-and-counting.md": "G10",
+  "examples/grade-1/clock-faces.md": "G13",
+  "examples/grade-1/equal-shares.md": "G16",
+  "examples/grade-1/length-strips.md": "G12",
+  "examples/grade-1/making-ten-and-equality.md": "G08",
+  "examples/grade-1/stories-with-unknowns.md": "G09",
+  "examples/grade-1/triangles-and-composites.md": "G15",
+  "examples/grade-2/fact-families-and-stories.md": "G17",
+  "examples/grade-2/five-minute-clocks.md": "G24",
+  "examples/grade-2/hundreds.md": "G18",
+  "examples/grade-2/length-jumps.md": "G23",
+  "examples/grade-2/measuring-length.md": "G22",
+  "examples/grade-2/money-exchanges.md": "G25",
+  "examples/grade-2/pairs-and-arrays.md": "G20",
+  "examples/grade-2/place-value-trades.md": "G19",
+  "examples/grade-2/shapes-and-shares.md": "G21",
+  "examples/grade-2/strip-graphs.md": "G26",
+  "examples/grade-3/bags-rows-and-lengths.md": "G27",
+  "examples/grade-3/birds-in-scaled-graphs.md": "G39",
+  "examples/grade-3/fences-and-coverings.md": "G33",
+  "examples/grade-3/four-sided-figures.md": "G34",
+  "examples/grade-3/minutes-across-four.md": "G37",
+  "examples/grade-3/names-for-one-point.md": "G36",
+  "examples/grade-3/rounding-and-exchanges.md": "G30",
+  "examples/grade-3/shares-and-jumps.md": "G35",
+  "examples/grade-3/strip-lengths.md": "G40",
+  "examples/grade-3/tables-and-tens.md": "G29",
+  "examples/grade-3/tiles-and-floor.md": "G32",
+  "examples/grade-3/turning-and-splitting-arrays.md": "G28",
+  "examples/grade-3/two-step-stories.md": "G31",
+  "examples/grade-3/weighing-and-pouring.md": "G38",
+  "examples/grade-4/bars-factors-and-patterns.md": {
+    "g43--which-amount-is-the-reference": "G43",
+    "g44--when-is-the-pair-list-finished": "G44",
+    "g45--what-keeps-alternating": "G45"
+  },
+  "examples/grade-4/decimal-places.md": {
+    "g53--a-grid-and-a-unit-interval": "G53"
+  },
+  "examples/grade-4/fraction-strips.md": {
+    "g50--subdivide-and-compare": "G50",
+    "g51--join-separate-and-exchange": "G51",
+    "g52--count-copies-of-a-measured-length": "G52"
+  },
+  "examples/grade-4/measuring-and-plotting.md": {
+    "g54--read-across-a-conversion-table": "G54",
+    "g55--what-does-the-answer-measure": "G55",
+    "g56--which-marks-belong-to-which-ribbons": "G56"
+  },
+  "examples/grade-4/measuring-turns.md": {
+    "g58--lines-endpoints-and-turns": "G58",
+    "g59--which-degree-intervals-belong-to-each-part": "G59"
+  },
+  "examples/grade-4/place-and-exchanges.md": {
+    "g41--reading-the-places": "G41",
+    "g42--following-each-exchange": "G42"
+  },
+  "examples/grade-4/products-and-quotients.md": {
+    "g46--reassemble-the-product": "G46",
+    "g47--count-groups-as-amounts-come-off": "G47",
+    "g48--which-zero-occupies-the-tens-place": "G48"
+  },
+  "examples/grade-4/rectangle-measures.md": {
+    "g57--recover-a-side-from-a-measure": "G57"
+  },
+  "examples/grade-4/shipment-and-capacity.md": {
+    "g49--follow-the-units-to-the-question": "G49"
+  },
+  "examples/grade-4/sorting-and-folding.md": {
+    "g60--sort-by-the-actual-corners": "G60",
+    "g61--test-an-entire-boundary": "G61"
+  },
+  "examples/kindergarten/building-shapes.md": "G07",
+  "examples/kindergarten/comparing-and-sorting.md": "G02",
+  "examples/kindergarten/counting.md": "G01",
+  "examples/kindergarten/joining-and-splitting.md": "G05",
+  "examples/kindergarten/length-and-weight.md": "G04",
+  "examples/kindergarten/shapes.md": "G03",
+  "examples/kindergarten/tens-and-teens.md": "G06",
+  "examples/quotient-zero-and-capacity.md": {
+    "count-groups-of-four": "G47",
+    "write-the-quotient-by-place": "G48",
+    "find-the-vehicles-needed": "G49"
+  },
+  "examples/rectangle-reflection.md": "G61"
+}

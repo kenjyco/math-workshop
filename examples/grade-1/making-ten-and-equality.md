@@ -1,10 +1,10 @@
 # Two counters make ten
 
-Grade 1 · G08 · Concepts `laws`, `add`, `equal`, `count` · MP7. [Goal and standards, p. 15](../../goals/grade-1.md#g08-making-ten-finding-a-missing-addend-and-testing-equality)
+Grade 1 · Properties, missing addends and equality
 
 ## From eight and six to ten and four
 
-**1.OA.B.3 · 1.OA.C.6.** There are eight counters in a ten-frame and six beside it. How many altogether? Each letter stands for one counter. The two marked *b* belong to the group of six. A dot is an empty space.
+**[1.OA.B.3](https://www.thecorestandards.org/Math/Content/1/OA/B/3/) · [1.OA.C.6](https://www.thecorestandards.org/Math/Content/1/OA/C/6/).** There are eight counters in a ten-frame and six beside it. How many altogether? Each letter stands for one counter. The two marked *b* belong to the group of six. A dot is an empty space.
 
 ```text
           frame        beside it
@@ -23,7 +23,7 @@ Read the original mat from the other end. Six beside the frame and eight inside 
 
 ## Counting moves and finding a missing part
 
-**1.OA.C.5 · 1.OA.B.4 · 1.OA.C.6.** Begin with eight. How many steps reach thirteen? Each arrow is **one move**. The starting number is already on the path.
+**[1.OA.C.5](https://www.thecorestandards.org/Math/Content/1/OA/C/5/) · [1.OA.B.4](https://www.thecorestandards.org/Math/Content/1/OA/B/4/) · [1.OA.C.6](https://www.thecorestandards.org/Math/Content/1/OA/C/6/).** Begin with eight. How many steps reach thirteen? Each arrow is **one move**. The starting number is already on the path.
 
 ```text
 Start 8 → 9 → 10 → 11 → 12 → 13     five moves forward
@@ -34,7 +34,7 @@ So 8 + 5 = 13 and 13 − 5 = 8. Now ask **13 − 8 = □**. Think of the eight a
 
 ## Facts within ten
 
-**1.OA.C.6.** A known sum can supply another fact without counting every object again.
+**[1.OA.C.6](https://www.thecorestandards.org/Math/Content/1/OA/C/6/).** A known sum can supply another fact without counting every object again.
 
 | Fact to find | Reasoning | Check |
 |---|---|---|
@@ -48,7 +48,7 @@ At the top of the within-20 range, 9 + 10 can be seen as 10 + 9 = 19. Adding one
 
 ## What the equals sign says
 
-**1.OA.D.7.** Each side of an equation names a quantity. Compare their values to decide whether the equation is true.
+**[1.OA.D.7](https://www.thecorestandards.org/Math/Content/1/OA/D/7/).** Each side of an equation names a quantity. Compare their values to decide whether the equation is true.
 
 | Proposed equation | Left side | Right side | Decision |
 |---|---:|---:|---|
@@ -58,7 +58,7 @@ At the top of the within-20 range, 9 + 10 can be seen as 10 + 9 = 19. Adding one
 
 ## Which number belongs in the box?
 
-**1.OA.D.8.** Read the role of the box before choosing a calculation.
+**[1.OA.D.8](https://www.thecorestandards.org/Math/Content/1/OA/D/8/).** Read the role of the box before choosing a calculation.
 
 | Equation | Find the missing quantity | Replace the box in the original |
 |---|---|---|

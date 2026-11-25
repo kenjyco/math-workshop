@@ -1,8 +1,12 @@
 # How much garden, and how much edging?
 
-## G57 · Recover a side from a measure
+Grade 4 · Rectangle area and perimeter
 
-[G57 · goal and source](../../goals/grade-4-geometry.md#g57-applying-rectangle-formulas-to-known-and-missing-measures) · 4.MD.A.3 · `area`, `perimeter`, `equal` · MP4
+<a name="g57--recover-a-side-from-a-measure"></a>
+
+## Recover a side from a measure
+
+[4.MD.A.3](https://www.thecorestandards.org/Math/Content/4/MD/A/3/)
 
 For a rectangle, **A = length × width** counts square units inside. **P = 2 × (length + width)** counts linear units around the outside. A rectangle 5 cm by 3 cm has A = 5 × 3 = **15 cm²** and P = 2 × (5 + 3) = **16 cm**. Check by counting three rows of five unit squares and walking the four sides: 5 + 3 + 5 + 3 = 16 cm.
 

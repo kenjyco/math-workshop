@@ -1,10 +1,12 @@
 # Which edges belong to the shape?
 
-Grade 1 · G15 · Concepts `shape`, `compose` · MP3. Classify plane shapes by their defining attributes and build new plane and solid shapes in two stages. [Goal and standards, p. 16](../../goals/grade-1.md#g15-defining-attributes-and-composing-in-two-stages)
+Grade 1 · Defining attributes and composition
+
+Classify plane shapes by their defining attributes and build new plane and solid shapes in two stages.
 
 ## Building and drawing a triangle
 
-**1.G.A.1.** Lay one long straight stick across the table. At its left end, place a shorter straight stick pointing up. Join the two free ends with a third straight stick of the length needed to close the outline. Trace each stick from corner to corner, returning to the starting point. The drawing is triangle A below. Its three straight sides close around a region and meet at three corners. These are **defining attributes** of a triangle.
+**[1.G.A.1](https://www.thecorestandards.org/Math/Content/1/G/A/1/).** Lay one long straight stick across the table. At its left end, place a shorter straight stick pointing up. Join the two free ends with a third straight stick of the length needed to close the outline. Trace each stick from corner to corner, returning to the starting point. The drawing is triangle A below. Its three straight sides close around a region and meet at three corners. These are **defining attributes** of a triangle.
 
 ![A, B and C are closed three-sided figures of different colors. B is A turned a quarter turn, and C is smaller. In D, the sloping side stops before reaching the upright side.](triangle-outlines.svg)
 
@@ -14,7 +16,7 @@ Which other outlines are triangles? B is a quarter-turn of A, with a different f
 
 ## A square becomes a piece of a rectangle
 
-**1.G.A.2.** Start with two matching paper triangles. Each is half of a square cut from corner to corner. What can we build if there is also a whole square of the same size as that original square?
+**[1.G.A.2](https://www.thecorestandards.org/Math/Content/1/G/A/2/).** Start with two matching paper triangles. Each is half of a square cut from corner to corner. What can we build if there is also a whole square of the same size as that original square?
 
 ![Two separate triangles meet along their long edges to make a square. That square, with its diagonal still visible, joins a whole square to form a rectangle.](square-composition.svg)
 
@@ -25,7 +27,7 @@ Check in reverse. Trace the top, right end, bottom and left end without turning 
 
 ## A pair of cubes becomes a layer
 
-**1.G.A.2.** Four identical toy cubes are available. What box can we build by first making a pair? Each cube has six square faces. The sloping edges in the drawing show depth.
+**[1.G.A.2](https://www.thecorestandards.org/Math/Content/1/G/A/2/).** Four identical toy cubes are available. What box can we build by first making a pair? Each cube has six square faces. The sloping edges in the drawing show depth.
 
 ![Two loose cubes, one joined pair, and two such pairs stacked. The finished box is two cubes wide, two high and one deep.](stacked-cubes.svg)
 

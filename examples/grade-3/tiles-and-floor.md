@@ -1,6 +1,6 @@
 # How many squares cover the floor?
 
-Grade 3 · G32 · `area`, `length`, `units`, `product`, `add`, `groups`, `laws`, `compose` · MP7 · [Goal and source, p. 25](../../goals/grade-3-operations-and-area.md#g32-measuring-with-square-units-and-adding-rectangle-areas)
+Grade 3 · Square units and rectangular areas
 
 ## A square to measure a surface
 
@@ -41,4 +41,4 @@ From the top left, the clockwise walk goes right 4, down 1, right 2, down 2, lef
 
 **Parent bridge.** Point to the complete rows for each term. In the first cut the 4 in 12 + 4 counts a two-row alcove. In the second cut the 4 in 4 + 12 counts the single top row. The pieces change while the floor stays covered.
 
-Standards · 3.MD.C.5, 3.MD.C.5.a, 3.MD.C.5.b, 3.MD.C.6, 3.MD.C.7, 3.MD.C.7.a, 3.MD.C.7.b, 3.MD.C.7.c, 3.MD.C.7.d
+Standards · [3.MD.C.5](https://www.thecorestandards.org/Math/Content/3/MD/C/5/), [3.MD.C.5.a](https://www.thecorestandards.org/Math/Content/3/MD/C/5/a/), [3.MD.C.5.b](https://www.thecorestandards.org/Math/Content/3/MD/C/5/b/), [3.MD.C.6](https://www.thecorestandards.org/Math/Content/3/MD/C/6/), [3.MD.C.7](https://www.thecorestandards.org/Math/Content/3/MD/C/7/), [3.MD.C.7.a](https://www.thecorestandards.org/Math/Content/3/MD/C/7/a/), [3.MD.C.7.b](https://www.thecorestandards.org/Math/Content/3/MD/C/7/b/), [3.MD.C.7.c](https://www.thecorestandards.org/Math/Content/3/MD/C/7/c/), [3.MD.C.7.d](https://www.thecorestandards.org/Math/Content/3/MD/C/7/d/)

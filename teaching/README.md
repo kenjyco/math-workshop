@@ -1,6 +1,6 @@
 # Math Workshop · Teaching chapters
 
-Start with a question you want to answer. Each chapter takes you to worked mathematics you can inspect, points out a step worth checking, and gives you a place to return. A heading in a worked example may start with a goal number. You can follow the named calculation or drawing directly.
+Start with a question you want to answer. Each chapter takes you to worked mathematics you can inspect, points out a step worth checking, and gives you a place to return. You can follow the named calculation or drawing directly.
 
 **Try one count.** Open [Counting a collection](01-counting-a-collection.md#where-should-my-finger-stop). Follow its link to the marked circle. Say “one” at the ringed counter and count around until the next touch would repeat your start. Use Back to return, then try the other direction.
 

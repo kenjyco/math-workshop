@@ -1,10 +1,10 @@
 # A zero in the quotient and one more vehicle
 
-Grade 4 · Goals G47, G48, G49 · Concepts `multi-div`, `divide`, `place`, `model`, `round` · Practices MP1, MP2, MP4, MP6
+Grade 4 · Partial quotients, a zero tens digit, and a remainder in context
 
-**4.NBT.B.6** covers whole-number quotients and remainders for dividends of up to four digits and positive one-digit divisors. [Common Core State Standards for Mathematics, p. 30](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=30)
+**[4.NBT.B.6](https://www.thecorestandards.org/Math/Content/4/NBT/B/6/)** covers whole-number quotients and remainders for dividends of up to four digits and positive one-digit divisors. [Common Core State Standards for Mathematics, p. 30](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=30)
 
-**4.OA.A.3** includes interpreting remainders in multistep whole-number problems. [Common Core State Standards for Mathematics, p. 29](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=29)
+**[4.OA.A.3](https://www.thecorestandards.org/Math/Content/4/OA/A/3/)** includes interpreting remainders in multistep whole-number problems. [Common Core State Standards for Mathematics, p. 29](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=29)
 
 There are 1,205 people and four passenger seats per vehicle. How many vehicles can be filled? How many vehicles are needed to seat everyone?
 

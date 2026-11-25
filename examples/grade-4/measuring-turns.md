@@ -1,8 +1,12 @@
 # Where does the turn begin?
 
-## G58 · Lines, endpoints and turns
+Grade 4 · Angle measurement and adjacent angles
 
-[G58 · goal and source](../../goals/grade-4-geometry.md#g58-drawing-lines-and-measuring-turns) · 4.G.A.1, 4.MD.C.5, 4.MD.C.5.a, 4.MD.C.5.b, 4.MD.C.6 · `shape`, `angle`, `fraction`, `scale` · MP5
+<a name="g58--lines-endpoints-and-turns"></a>
+
+## Lines, endpoints and turns
+
+[4.G.A.1](https://www.thecorestandards.org/Math/Content/4/G/A/1/), [4.MD.C.5](https://www.thecorestandards.org/Math/Content/4/MD/C/5/), [4.MD.C.5.a](https://www.thecorestandards.org/Math/Content/4/MD/C/5/a/), [4.MD.C.5.b](https://www.thecorestandards.org/Math/Content/4/MD/C/5/b/), [4.MD.C.6](https://www.thecorestandards.org/Math/Content/4/MD/C/6/)
 
 A **point** marks a position. A **segment** includes both endpoints and stops there. A **ray** starts at one endpoint and extends in one direction. A **line** extends in both directions. Dots locate endpoints or named positions. Arrowheads show continuation.
 
@@ -26,9 +30,11 @@ Check a sketch from the other ray: turn the protractor until its zero line follo
 
 **Parent bridge.** Touch the center, follow the starting ray to its zero, then follow that scale to the second ray. The two printed scales allow either side to be the starting side.
 
-## G59 · Which degree intervals belong to each part?
+<a name="g59--which-degree-intervals-belong-to-each-part"></a>
 
-[G59 · goal and source](../../goals/grade-4-geometry.md#g59-finding-an-unknown-angle-from-adjacent-turns) · 4.MD.C.7 · `angle`, `add`, `equal` · MP3
+## Which degree intervals belong to each part?
+
+[4.MD.C.7](https://www.thecorestandards.org/Math/Content/4/MD/C/7/)
 
 ![Two scaled angle fans. A right angle has an interior ray at 32 degrees. A 120-degree angle has an interior ray at 45 degrees.](adjacent-turns.svg)
 

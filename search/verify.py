@@ -12,8 +12,8 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PINNED = {
-    'foundation': (109, '9503f99131c56f2dc43feb6e696ee5932f9119736dfa5fce66fd6c9bb7322765'),
-    'teaching': (23, '82d9dabb044d31a3930bb1a78fd7c52192e71b1847ed26277fa786ed05dddc0c'),
+    'foundation': (110, 'f1d5c5f880967f0f1814fbcdaa21e945a18749fc0a8be3af1cb6d5277fbddbf6'),
+    'teaching': (23, '6d5423e7386861167dc6047eafcd3d93662969f22822c009a2e1d7d5e7fc4a0c'),
 }
 ASSETS = {'index.html', 'index.json', 'search.js', 'style.css'}
 
@@ -39,9 +39,29 @@ def check_sources():
         require((len(paths), sha256(rows.encode()).hexdigest()) == PINNED[group], f'{group}: source bytes or paths changed')
 
 
+# Match the whole code, including any unexpected suffix, before checking its link.
+STANDARD = re.compile(r'(?<![\w.])[K1-9]\.[A-Z]+\.[A-Z]\.\d+(?:\.\w+)*(?!\w)')
+DEVELOPMENT = re.compile(r'\b(?:G\d{2}|goal (?:contracts?|slices?|numbers?|and source)|foundation goals|pilot|MP[1-8])\b', re.I)
+
+
+def standard_urls():
+    codes = {code for path in (ROOT / 'goals').glob('*.md')
+             for code in re.findall(r'^\| \[([K1-4]\.[A-Z]+\.[A-Z]\.\d+(?:\.[a-z])?)\]\(',
+                                    path.read_text(encoding='utf-8'), re.M)}
+    require(len(codes) == 151, 'Incomplete K–4 standards')
+    codes.add('5.NBT.B.5')
+    return {code: 'https://www.thecorestandards.org/Math/Content/' + code.replace('.', '/') + '/'
+            for code in codes}
+
+
 class Page(HTMLParser):
     def __init__(self, path):
         super().__init__()
+        self.name = path.name
+        self.text = ''
+        self.anchor = None
+        self.link_spans = {}
+        self.literal = 0
         self.ids = set()
         self.headings = set()
         self.targets = []
@@ -52,6 +72,15 @@ class Page(HTMLParser):
     def handle_starttag(self, tag, attrs):
         self.tags[tag] += 1
         attrs = dict(attrs)
+        for attr in ('aria-label', 'aria-description', 'alt', 'title', 'content'):
+            require(not DEVELOPMENT.search(attrs.get(attr, '')), f'{self.name}: development label')
+        if tag in ('p', 'li', 'td', 'th', 'div', 'br', 'main', 'title') or re.fullmatch('h[1-6]', tag):
+            self.text += '\n'
+        if tag in ('code', 'pre', 'script', 'style'):
+            self.literal += 1
+        if tag == 'a':
+            require(self.anchor is None, f'{self.name}: nested link')
+            self.anchor = len(self.text), attrs.get('href')
         if 'id' in attrs:
             require(attrs['id'] not in self.ids, f'Duplicate HTML id {attrs["id"]}')
             self.ids.add(attrs['id'])
@@ -63,13 +92,58 @@ class Page(HTMLParser):
         if tag == 'img':
             require(attrs.get('alt', '').strip(), 'Missing image description')
 
+    def handle_data(self, data):
+        self.text += ' ' * len(data) if self.literal else data
+
+    def handle_endtag(self, tag):
+        if tag == 'a':
+            start, href = self.anchor
+            self.link_spans[start, len(self.text)] = href
+            self.anchor = None
+        if tag in ('code', 'pre', 'script', 'style'):
+            self.literal -= 1
+
+    def check_copy(self, urls):
+        require(not DEVELOPMENT.search(self.text), f'{self.name}: development copy')
+        found = Counter()
+        for match in STANDARD.finditer(self.text):
+            code = match.group()
+            require(code in urls and self.link_spans.get(match.span()) == urls[code],
+                    f'{self.name}: incorrect standard link {code}')
+            found[code] += 1
+        for (a, b), href in self.link_spans.items():
+            if href and 'thecorestandards.org/Math/Content/' in href:
+                require(urls.get(self.text[a:b]) == href, f'{self.name}: mislabeled standard')
+        return found
+
+
+def check_public_claims(catalog):
+    """Independently check emitted grades against the cited worked reader's own grade."""
+    source = json.loads((ROOT / 'search/catalog.json').read_text(encoding='utf-8'))
+    require(set(catalog) == {'variants', 'destinations'} and catalog['variants'] == source['variants'],
+            'Unexpected public vocabulary')
+    require(len(catalog['destinations']) == len(source['destinations']), 'Missing public result')
+    grades = {}
+    for dest, authored in zip(catalog['destinations'], source['destinations']):
+        require(dest['id'] == authored['id'] and dest['url'] == authored['source'].replace('.md#', '.html#')
+                and len(dest['claims']) == len(authored['claims']), 'Changed public route or claim order')
+        for claim, original in zip(dest['claims'], authored['claims']):
+            worked = original.get('worked', authored['source']).partition('#')[0]
+            if worked not in grades:
+                intro = (ROOT / worked).read_text(encoding='utf-8').splitlines()[2]
+                grade = re.match(r'^(Kindergarten|Grade ([1-4])) · ', intro)
+                require(grade, f'{worked}: missing worked grade')
+                grades[worked] = grade[2] or 'K'
+            expected = {k: v for k, v in original.items() if k not in ('worked', 'goal')}
+            require(claim == dict(expected, grade=grades[worked]), f'{worked}: incorrect public claim')
+
 
 def check_site(site):
     files = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file()}
-    docs = [p for group in ('teaching', 'examples', 'goals') for p in (ROOT / group).rglob('*.md')]
+    docs = [p for group in ('teaching', 'examples') for p in (ROOT / group).rglob('*.md')]
     readers = {p.relative_to(ROOT).with_suffix('.html').as_posix() for p in docs}
     images = {p.relative_to(ROOT).as_posix() for p in (ROOT / 'examples').rglob('*.svg')}
-    require(len(readers) == 87 and len(images) == 39, 'Incomplete course')
+    require(len(readers) == 77 and len(images) == 39, 'Incomplete course')
     expected = ASSETS | readers | images
     require(files == expected, f'Incorrect bundle membership: {sorted(files ^ expected)}')
     for name in images:
@@ -79,9 +153,17 @@ def check_site(site):
         require(not re.search(r'/(?:Users|home)/[^/\s]+/|file://|development/(?:qa|plans|references|scratch)/', data),
                 f'{name}: private path')
     pages = {name: Page(site / name) for name in readers | {'index.html'}}
+    urls = standard_urls()
+    standards = sum((page.check_copy(urls) for page in pages.values()), Counter())
+    require(set(standards) == set(urls) and sum(standards.values()) == 174, 'Incomplete standard links')
     catalog = json.loads((site / 'index.json').read_text(encoding='utf-8'))
+    check_public_claims(catalog)
     ids, routes = set(), set()
     for dest in catalog['destinations']:
+        require(set(dest) == {'id', 'url', 'title', 'preview', 'type', 'claims'}, 'Unexpected result fields')
+        for claim in dest['claims']:
+            fields = {'terms', 'relation', 'reason', 'order', 'grade'}
+            require(fields <= set(claim) <= fields | {'alias', 'preview'}, 'Unexpected public claim fields')
         url = urlsplit(dest['url'])
         require(dest['id'] not in ids and dest['url'] not in routes, 'Duplicate public destination')
         ids.add(dest['id'])
@@ -107,8 +189,11 @@ def check_site(site):
                 require(path in pages and fragment in pages[path].ids, f'{name}: missing fragment {ref}')
             internal += 1
     counts = sum((pages[n].tags for n in readers), Counter())
-    require(counts['table'] == 152 and counts['pre'] == 38 and counts['img'] == 39,
+    require(counts['table'] == 87 and counts['pre'] == 38 and counts['img'] == 39,
             'Lost table, preformatted block or image')
+    require(len(routes) == 139 and sum(len(d['claims']) for d in catalog['destinations']) == 234,
+            'Incomplete search index')
+    require((internal, external) == (598, 181), 'Course link inventory changed')
     return dict(readers=len(readers), headings=sum(len(pages[n].headings) for n in readers),
                 tables=counts['table'], pre=counts['pre'], images=len(images),
                 internal_links_and_assets=internal, external_links=external, results=len(routes))

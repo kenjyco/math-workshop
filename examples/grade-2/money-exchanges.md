@@ -1,10 +1,10 @@
 # What can the change buy back?
 
-Grade 2 · G25 · Concepts `money`, `add` · MP2. [Goal and standards, p. 20](../../goals/grade-2.md#g25-counting-money-and-solving-purchase-stories)
+Grade 2 · Money and purchase stories
 
 ## Two ways to pay for a stamp
 
-**2.MD.C.8.** A stamp costs 40¢. A coin's **denomination** tells its value. A quarter is 25¢, a dime 10¢, a nickel 5¢ and a penny 1¢. Which of these collections pays exactly?
+**[2.MD.C.8](https://www.thecorestandards.org/Math/Content/2/MD/C/8/).** A stamp costs 40¢. A coin's **denomination** tells its value. A quarter is 25¢, a dime 10¢, a nickel 5¢ and a penny 1¢. Which of these collections pays exactly?
 
 | Collection | Count in cents | Price covered |
 |---|---|---|
@@ -17,6 +17,6 @@ Both pay exactly. The second collection has one more coin. Check the exchange di
 
 ## A purchase with a dollar bill
 
-**2.MD.C.8.** A postcard costs 42¢ and its stamp costs 40¢. What is the total, and how much change comes back from a $1 bill? Add the prices, 42¢ + 40¢ = **82¢ in all**. A one-dollar bill is worth 100¢. Count up from the price. Three pennies reach 85¢, a nickel reaches 90¢ and a dime reaches 100¢. The **change** is the amount returned, 3¢ + 5¢ + 10¢ = **18¢**.
+**[2.MD.C.8](https://www.thecorestandards.org/Math/Content/2/MD/C/8/).** A postcard costs 42¢ and its stamp costs 40¢. What is the total, and how much change comes back from a $1 bill? Add the prices, 42¢ + 40¢ = **82¢ in all**. A one-dollar bill is worth 100¢. Count up from the price. Three pennies reach 85¢, a nickel reaches 90¢ and a dime reaches 100¢. The **change** is the amount returned, 3¢ + 5¢ + 10¢ = **18¢**.
 
 Check in cents. 100 − 82 = 18, and **82¢ price + 18¢ change = 100¢ paid**. Removing the stamp's 40¢ from the total leaves the postcard's 42¢. Dollar bills work the same way for whole-dollar prices. Two $1 bills pay for a $2 booklet because 100¢ + 100¢ = 200¢.

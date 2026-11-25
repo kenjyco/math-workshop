@@ -1,6 +1,6 @@
 # Which unit belongs beside the reading?
 
-Grade 3 · G38 · `units`, `model` · MP5 · [Goal and source, p. 24](../../goals/grade-3-fractions-and-measurement.md#g38-measuring-mass-and-liquid-volume-and-operating-in-one-unit)
+Grade 3 · Mass and liquid volume
 
 ## Three sample readings
 
@@ -34,4 +34,4 @@ From empty to the 4 L mark there are four equal volume intervals, so each is 1 L
 | Four sacks each have mass 3 kg. What is their total mass? | 4 × 3 = 3 + 3 + 3 + 3 = **12 kg** | Sharing 12 kg among four equal sacks gives back 3 kg each. |
 | Share 12 L of water equally among three cans. How much goes in each? | Giving 1 L to each can uses 3 L per round. Four rounds use 12 L. 12 ÷ 3 = **4 L per can**. | Three cans holding 4 L each restore all 12 L. |
 
-Standards · 3.MD.A.2
+Standards · [3.MD.A.2](https://www.thecorestandards.org/Math/Content/3/MD/A/2/)

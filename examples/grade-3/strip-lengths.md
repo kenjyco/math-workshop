@@ -1,6 +1,6 @@
 # Which ruler marks hold two strips?
 
-Grade 3 · G40 · `length`, `plot` · MP6 · [Goal and source, p. 25](../../goals/grade-3-fractions-and-measurement.md#g40-measuring-quarter-inches-and-plotting-repeated-lengths)
+Grade 3 · Quarter-inch measurements and line plots
 
 ## Read from the origin
 
@@ -28,4 +28,4 @@ Read the plot from left to right with the table covered. One cross gives one 1-i
 
 **Parent bridge.** Move sideways one tick to change length by a quarter inch. Move up the stack at 1 1/4 to count the second strip at exactly that same length.
 
-Standards · 3.MD.B.4
+Standards · [3.MD.B.4](https://www.thecorestandards.org/Math/Content/3/MD/B/4/)

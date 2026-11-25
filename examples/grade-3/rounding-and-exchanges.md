@@ -1,6 +1,6 @@
 # Which end of the line is closer?
 
-Grade 3 · G30 · `round`, `place`, `exchange`, `add` · MP6 · [Goal and source, p. 24](../../goals/grade-3-operations-and-area.md#g30-computing-and-estimating-with-whole-number-place-value)
+Grade 3 · Rounding and place-value arithmetic
 
 ## Both sides of a midpoint
 
@@ -42,4 +42,4 @@ A carton of 602 envelopes supplies 178 for a mailing. Estimate 600 − 180 = 420
 
 **Parent bridge.** The estimates 630 and 420 tell us the sizes to expect. Writing 62 for the first total would put it hundreds of envelopes away. Counting the exact piles settles the last few envelopes.
 
-Standards · 3.NBT.A.1, 3.NBT.A.2
+Standards · [3.NBT.A.1](https://www.thecorestandards.org/Math/Content/3/NBT/A/1/), [3.NBT.A.2](https://www.thecorestandards.org/Math/Content/3/NBT/A/2/)

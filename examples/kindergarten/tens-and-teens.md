@@ -1,10 +1,10 @@
 # The empty spaces and the extra ones
 
-Kindergarten · G06 · Concepts `add`, `place`, `card` · Practices MP7, MP8. [G06 contract and standards, pp. 11–12](../../goals/kindergarten.md#g06-making-ten-and-building-teen-numbers)
+Kindergarten · Making ten and building teen numbers
 
 ## How many more will fill the frame?
 
-**K.OA.A.4.** A ten-frame has two rows of five spaces. Each ● marks one occupied space and each ○ one empty space. With seven counters already in the frame, how many more will fit?
+**[K.OA.A.4](https://www.thecorestandards.org/Math/Content/K/OA/A/4/).** A ten-frame has two rows of five spaces. Each ● marks one occupied space and each ○ one empty space. With seven counters already in the frame, how many more will fit?
 
 ```text
 ● ● ● ● ●
@@ -29,7 +29,7 @@ Read down the frames. Each new counter fills one space, so the number still need
 
 ## How many beyond a full frame?
 
-**K.NBT.A.1.** There are sixteen loose counters. Fill the top row and then the bottom row with one counter per space. Put the counters left over beside the frame.
+**[K.NBT.A.1](https://www.thecorestandards.org/Math/Content/K/NBT/A/1/).** There are sixteen loose counters. Fill the top row and then the bottom row with one counter per space. Put the counters left over beside the frame.
 
 ```text
 ● ● ● ● ●      ● ● ●

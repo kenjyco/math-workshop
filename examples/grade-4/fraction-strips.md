@@ -1,8 +1,12 @@
 # How much of the same meter?
 
-## G50 · Subdivide and compare
+Grade 4 · Equivalent fractions and fraction arithmetic
 
-[G50 · goal and source](../../goals/grade-4-fractions-and-measures.md#g50-generating-equivalent-fractions-and-comparing-unlike-units) · 4.NF.A.1, 4.NF.A.2 · `equiv`, `fraction`, `order` · MP3
+<a name="g50--subdivide-and-compare"></a>
+
+## Subdivide and compare
+
+[4.NF.A.1](https://www.thecorestandards.org/Math/Content/4/NF/A/1/), [4.NF.A.2](https://www.thecorestandards.org/Math/Content/4/NF/A/2/)
 
 The fractional units used in this grade have denominators 2, 3, 4, 5, 6, 8, 10, 12 or 100. Each strip below is **one meter**, drawn from the same left edge to the same right edge. Read a fraction by counting shaded parts and then all equal parts in its strip.
 
@@ -18,9 +22,11 @@ For another comparison, **3/4 > 2/3**. In twelfths, three quarters cover 9/12 an
 
 **Parent bridge.** Point to one original third and the two sixths inside it. Every shaded third gains the same extra boundary as every unshaded third.
 
-## G51 · Join, separate and exchange
+<a name="g51--join-separate-and-exchange"></a>
 
-[G51 · goal and source](../../goals/grade-4-fractions-and-measures.md#g51-adding-fractional-units-and-exchanging-a-whole-in-mixed-numbers) · 4.NF.B.3, 4.NF.B.3.a, 4.NF.B.3.b, 4.NF.B.3.c, 4.NF.B.3.d · `fraction`, `frac-add`, `equal`, `equiv`, `model` · MP7
+## Join, separate and exchange
+
+[4.NF.B.3](https://www.thecorestandards.org/Math/Content/4/NF/B/3/), [4.NF.B.3.a](https://www.thecorestandards.org/Math/Content/4/NF/B/3/a/), [4.NF.B.3.b](https://www.thecorestandards.org/Math/Content/4/NF/B/3/b/), [4.NF.B.3.c](https://www.thecorestandards.org/Math/Content/4/NF/B/3/c/), [4.NF.B.3.d](https://www.thecorestandards.org/Math/Content/4/NF/B/3/d/)
 
 Keep one meter as the whole. Each fourth-meter piece has the same length, even as the pieces extend beyond one meter. Lay five end to end: 1/4 + 1/4 + 1/4 + 1/4 + 1/4 = **5/4 meter**, or 1 1/4 meters. Four pieces fill a meter and one remains.
 
@@ -36,9 +42,11 @@ Take five eighth-meter pieces in a row. Split after the first: **5/8 = 1/8 + 4/8
 
 **Parent bridge.** A whole meter opens into four fourth-meters just as a ten opens into ten ones. The number of pieces changes because the counting unit changes.
 
-## G52 · Count copies of a measured length
+<a name="g52--count-copies-of-a-measured-length"></a>
 
-[G52 · goal and source](../../goals/grade-4-fractions-and-measures.md#g52-multiplying-a-fractional-amount-by-a-whole-number-count) · 4.NF.B.4, 4.NF.B.4.a, 4.NF.B.4.b, 4.NF.B.4.c · `frac-mul`, `fraction`, `product`, `model` · MP2
+## Count copies of a measured length
+
+[4.NF.B.4](https://www.thecorestandards.org/Math/Content/4/NF/B/4/), [4.NF.B.4.a](https://www.thecorestandards.org/Math/Content/4/NF/B/4/a/), [4.NF.B.4.b](https://www.thecorestandards.org/Math/Content/4/NF/B/4/b/), [4.NF.B.4.c](https://www.thecorestandards.org/Math/Content/4/NF/B/4/c/)
 
 Five copies of one quarter-meter give **5 × (1/4) = 5/4** meters. In the upper strip each small interval is one fourth of a meter. Four intervals reach the first whole-meter boundary, and the fifth lies beyond it.
 

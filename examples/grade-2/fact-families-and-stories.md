@@ -1,10 +1,10 @@
 # Which quantity does the box stand for?
 
-Grade 2 · G17 · Concepts `model`, `add`, `equal` · MP1. [Goal and standards, p. 19](../../goals/grade-2.md#g17-mental-facts-and-one--and-two-step-additive-stories)
+Grade 2 · Mental facts and additive stories
 
 ## Facts within twenty
 
-**2.OA.B.2.** Eight counters are on the mat and seven are beside it. How many altogether? Move two of the seven to the eight to **make ten**. Now 8 + 7 = (8 + 2) + 5 = 10 + 5 = 15. Taking the seven back leaves eight. A **known sum** gives another route. Double seven is fourteen, so one more counter makes fifteen. In reverse, 15 − 8 asks for the part that joins eight to make fifteen. That part is seven.
+**[2.OA.B.2](https://www.thecorestandards.org/Math/Content/2/OA/B/2/).** Eight counters are on the mat and seven are beside it. How many altogether? Move two of the seven to the eight to **make ten**. Now 8 + 7 = (8 + 2) + 5 = 10 + 5 = 15. Taking the seven back leaves eight. A **known sum** gives another route. Double seven is fourteen, so one more counter makes fifteen. In reverse, 15 − 8 asks for the part that joins eight to make fifteen. That part is seven.
 
 Mental fluency means finding sums and differences within 20 accurately and readily. For example, 13 + 7 = (10 + 3) + 7 = 10 + 10 = 20, so 20 − 7 = 13. These two problems are within the mental range. The narrower year-end **recall** target is to know every sum of two one-digit numbers from memory. The complete set is below. A child's own responses over varied cases provide evidence of fluency.
 
@@ -25,7 +25,7 @@ Choose the first addend at the left, the second at the top. Their cell gives the
 
 ## A tray of tickets
 
-**2.OA.A.1.** Each question below starts a fresh story. The sketch shows how the quantities fit together once the box is filled. A bundle holds ten tickets, a dot is one loose ticket. A box in an equation stands for the count the question asks for. [Additive situations, Table 1, p. 88](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=88)
+**[2.OA.A.1](https://www.thecorestandards.org/Math/Content/2/OA/A/1/).** Each question below starts a fresh story. The sketch shows how the quantities fit together once the box is filled. A bundle holds ten tickets, a dot is one loose ticket. A box in an equation stands for the count the question asks for. [Additive situations, Table 1, p. 88](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=88)
 
 ```text
 One part                 Other part         Both parts together
@@ -64,7 +64,7 @@ Lower    [24 matched tickets]
 
 ## Two steps at the ticket window
 
-**2.OA.A.1.** A window sells 24 tickets before lunch and 9 afterward. Another window sells 40. **How many more tickets did the other window sell?**
+**[2.OA.A.1](https://www.thecorestandards.org/Math/Content/2/OA/A/1/).** A window sells 24 tickets before lunch and 9 afterward. Another window sells 40. **How many more tickets did the other window sell?**
 
 ```text
 First window     [24 before lunch][9 after]

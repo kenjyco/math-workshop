@@ -1,10 +1,12 @@
 # What do we need to find?
 
-Grade 1 · G09 · Concepts `add`, `model`, `equal` · MP1, MP4. Each amount and total is within 20. [Goal and standards, p. 15](../../goals/grade-1.md#g09-finding-the-unknown-in-an-additive-story) · [Additive situations, Table 1, p. 88](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=88)
+Grade 1 · Quantities in additive stories
+
+Each amount and total is within 20. [Additive situations, Table 1, p. 88](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=88)
 
 ## Buttons going into or coming out of a tin
 
-**1.OA.A.1.** Each story starts afresh. Read the question first and name the amount it asks for. Then uncover the equation at the right. Each dot in these little drawings stands for one button.
+**[1.OA.A.1](https://www.thecorestandards.org/Math/Content/1/OA/A/1/).** Each story starts afresh. Read the question first and name the amount it asks for. Then uncover the equation at the right. Each dot in these little drawings stands for one button.
 
 | Story | What does the box count? | Equation, work and check |
 |---|---|---|
@@ -17,7 +19,7 @@ Grade 1 · G09 · Concepts `add`, `model`, `equal` · MP1, MP4. Each amount and 
 
 ## Two parts on a tray
 
-**1.OA.A.1.** The tray holds only round and square buttons. These are **parts** of one collection. They need not arrive or leave.
+**[1.OA.A.1](https://www.thecorestandards.org/Math/Content/1/OA/A/1/).** The tray holds only round and square buttons. These are **parts** of one collection. They need not arrive or leave.
 
 | Story | Requested quantity | Model, answer and check |
 |---|---|---|
@@ -39,7 +41,7 @@ Every row accounts for four buttons. The round count takes each possible value f
 
 ## Two collections side by side
 
-**1.OA.A.1.** Pair one of May's buttons with one of Teo's. The **difference** counts the buttons left without a partner. These stories use the same two collections with different information given.
+**[1.OA.A.1](https://www.thecorestandards.org/Math/Content/1/OA/A/1/).** Pair one of May's buttons with one of Teo's. The **difference** counts the buttons left without a partner. These stories use the same two collections with different information given.
 
 | Story | Name the unknown first | Equation, answer and check |
 |---|---|---|
@@ -59,7 +61,7 @@ Teo        ● ● ● ● ●
 
 ## Buttons from three pockets
 
-**1.OA.A.2.** Jo empties three pockets onto a mat. The first holds eight buttons, the second five, and the third seven. How many land on the mat? The unknown is the **total across all three pockets**.
+**[1.OA.A.2](https://www.thecorestandards.org/Math/Content/1/OA/A/2/).** Jo empties three pockets onto a mat. The first holds eight buttons, the second five, and the third seven. How many land on the mat? The unknown is the **total across all three pockets**.
 
 ```text
 First    ●●●● ●●●●

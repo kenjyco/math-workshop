@@ -1,6 +1,6 @@
 # How many minutes pass before the bell?
 
-Grade 3 · G37 · `time`, `scale` · MP5 · [Goal and source, p. 24](../../goals/grade-3-fractions-and-measurement.md#g37-measuring-elapsed-minutes-across-an-hour)
+Grade 3 · Elapsed time across the hour
 
 ## Reading both hands
 
@@ -18,4 +18,4 @@ How long did rehearsal last? A clock reading locates a **time of day**. The **du
 
 **Parent bridge.** The minute display goes from 59 back to 00 when sixty minutes complete an hour. Splitting the interval at 4:00 keeps those twelve minutes before the reset in the elapsed count.
 
-Standards · 3.MD.A.1
+Standards · [3.MD.A.1](https://www.thecorestandards.org/Math/Content/3/MD/A/1/)

@@ -1,10 +1,12 @@
 # Half of which whole?
 
-Grade 1 · G16 · Concept `share` · MP6. Split a circle or rectangle into two or four parts of equal area. [Goal and standard, p. 16](../../goals/grade-1.md#g16-halves-and-fourths-of-circles-and-rectangles)
+Grade 1 · Halves and fourths
+
+Split a circle or rectangle into two or four parts of equal area.
 
 ## Two cuts through the center of a disk
 
-**1.G.A.3.** The reference whole is **one round paper disk**. The first two circles in the drawing show copies of the same disk. How much of that disk does each shaded piece cover?
+**[1.G.A.3](https://www.thecorestandards.org/Math/Content/1/G/A/3/).** The reference whole is **one round paper disk**. The first two circles in the drawing show copies of the same disk. How much of that disk does each shaded piece cover?
 
 ![Two identical disks and two identical wide rectangles show halves and fourths. A smaller square shows a half. A final wide rectangle has an off-center vertical cut and two unequal pieces.](equal-shares.svg)
 
@@ -16,7 +18,7 @@ On the second disk, a second cut runs from left to right through the center at a
 
 ## Checking shares of a rectangle
 
-**1.G.A.3.** Now the reference whole is **one wide paper rectangle**, four small square-widths across and two square-heights tall. The bottom row shows three copies. Each covers eight small squares' worth of paper.
+**[1.G.A.3](https://www.thecorestandards.org/Math/Content/1/G/A/3/).** Now the reference whole is **one wide paper rectangle**, four small square-widths across and two square-heights tall. The bottom row shows three copies. Each covers eight small squares' worth of paper.
 
 | Copy | Where the cuts fall | Check the shares and rebuild |
 |---|---|---|

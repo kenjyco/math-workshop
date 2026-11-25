@@ -1,6 +1,6 @@
 # Which count answers the question?
 
-Grade 3 · G31 · `model`, `equal`, `round` · MP1 and MP4 · [Goal and source, p. 23](../../goals/grade-3-operations-and-area.md#g31-representing-two-step-whole-number-problems)
+Grade 3 · Two-step stories and estimates
 
 ## Stamps left on a sheet
 
@@ -31,4 +31,4 @@ Deal 36 blank cards equally to six tables. Then give one table 2 spare cards. **
 
 Write C = 36 ÷ 6 + 2. Division comes before addition here. Substitute 8 = 6 + 2. To check backward, set aside two spare cards and deal the remaining six-card share six times to recover 36.
 
-Standards · 3.OA.D.8
+Standards · [3.OA.D.8](https://www.thecorestandards.org/Math/Content/3/OA/D/8/)

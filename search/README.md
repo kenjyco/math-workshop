@@ -12,7 +12,7 @@ Open <http://127.0.0.1:8000/>. Stop the preview with Ctrl+C. The generated direc
 
 ## Catalog and reader
 
-Each catalog destination identifies one source heading. Its claims name the goal, matching terms, relationship, explanation and editorial order. A claim can override the preview. Chapter claims also identify the precise worked heading supporting the explanation. The builder obtains grades from the goal contracts’ standard rows and checks chapter claims against worked links in that section. Shared worked records keep their distinct goal slices. The public index contains display and matching fields, grades and goal IDs.
+Each result opens a specific heading. Its card gives the grade, a preview and the reason the section matches your search.
 
 Phrases use Unicode normalization, case folding to lowercase, dash/space equivalence, a finite plural list and reviewed variants. Full recognized terms take precedence. For other wording, the words “help”, “with”, “the”, “how”, “to”, “for” and “and” can be skipped. All remaining words must be covered by complete supported terms for one heading and grade. Within each group, direct instruction comes first, followed by supported names, related representations and prerequisites. A combined request takes the weakest relationship required. Where possible, one claim explains the combination. Editorial order and the stable ID break ties.
 

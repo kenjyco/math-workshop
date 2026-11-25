@@ -1,10 +1,12 @@
 # Where is the short hand at half past?
 
-Grade 1 · G13 · Concept `time` · MP6. Read and write whole hours and half-hours. [Goal and standard, p. 16](../../goals/grade-1.md#g13-reading-hours-and-half-hours)
+Grade 1 · Hours and half-hours
+
+Read and write whole hours and half-hours.
 
 ## Reading the two hands
 
-**1.MD.B.3.** A long **minute hand** shows how far the clock has moved through an hour. The short **hour hand** moves along with it. What would a digital clock show for each face?
+**[1.MD.B.3](https://www.thecorestandards.org/Math/Content/1/MD/B/3/).** A long **minute hand** shows how far the clock has moved through an hour. The short **hour hand** moves along with it. What would a digital clock show for each face?
 
 ![A shows the short hand at 3 and long hand at 12. B shows the short hand midway from 3 to 4 and long hand at 6. C shows the short hand midway from 12 to 1 and long hand at 6.](clock-faces.svg)
 

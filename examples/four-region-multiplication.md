@@ -1,8 +1,10 @@
 # Four-region multiplication
 
-Grade 4 · Goal G46 · Standard 4.NBT.B.5 · Concepts `multi-product`, `laws`, `place` · Practices MP1, MP7
+Grade 4 · Partial products and stacked rows
 
-Grade 4 multiplication covers whole numbers of up to four digits by one digit and two digits by two digits. The 4.NBT domain is limited to whole numbers at most 1,000,000. This record uses one two-digit-by-two-digit product. [Common Core State Standards for Mathematics, p. 29](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=29)
+Standard [4.NBT.B.5](https://www.thecorestandards.org/Math/Content/4/NBT/B/5/)
+
+Grade 4 multiplication covers whole numbers of up to four digits by one digit and two digits by two digits. The Grade 4 standards for number and operations in base ten are limited to whole numbers at most 1,000,000. This record uses one two-digit-by-two-digit product. [Common Core State Standards for Mathematics, p. 29](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=29)
 
 ## Area model for 23 × 14
 
@@ -33,7 +35,7 @@ In a familiar stacked calculation, the bottom regions combine to make 23 × 4 = 
   322
 ```
 
-Fluency with the standard multiplication algorithm is a Grade 5 expectation under 5.NBT.B.5. [Common Core State Standards for Mathematics, p. 35](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=35)
+Fluency with the standard multiplication algorithm is a Grade 5 expectation under [5.NBT.B.5](https://www.thecorestandards.org/Math/Content/5/NBT/B/5/). [Common Core State Standards for Mathematics, p. 35](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=35)
 
 ## Check by compensation
 

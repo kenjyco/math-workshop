@@ -1,10 +1,10 @@
 # How can a tray with no tens give up four tens?
 
-Grade 2 · G19 · Concepts `add`, `exchange`, `laws`, `place` · MP7. [Goal and standards, p. 19](../../goals/grade-2.md#g19-adding-partial-sums-and-exchanging-across-a-zero)
+Grade 2 · Place-value exchanges
 
 ## Trading a ten in fifty-two
 
-**2.NBT.B.5.** A tray holds 52 sticks. How many remain after 38 are removed? A bar stands for ten, a dot for one. Read each line as a picture of the sticks still on the tray.
+**[2.NBT.B.5](https://www.thecorestandards.org/Math/Content/2/NBT/B/5/).** A tray holds 52 sticks. How many remain after 38 are removed? A bar stands for ten, a dot for one. Read each line as a picture of the sticks still on the tray.
 
 ```text
 Start          |||||    ••
@@ -20,7 +20,7 @@ For the inverse calculation, 38 + 14 = (30 + 10) + (8 + 4) = 40 + 12 = 52. A sec
 
 ## Four bundles of tickets
 
-**2.NBT.B.6 · 2.NBT.B.9.** Four ticket packets contain 24, 37, 16 and 23 tickets. How many tickets in all? Open every packet and separate tens from loose tickets.
+**[2.NBT.B.6](https://www.thecorestandards.org/Math/Content/2/NBT/B/6/) · [2.NBT.B.9](https://www.thecorestandards.org/Math/Content/2/NBT/B/9/).** Four ticket packets contain 24, 37, 16 and 23 tickets. How many tickets in all? Open every packet and separate tens from loose tickets.
 
 | Packet | Tens contribution | Ones contribution |
 |---:|---:|---:|
@@ -34,7 +34,7 @@ Each **partial sum** collects one place from every packet. Addition lets us chan
 
 ## Two trades across the empty tens place
 
-**2.NBT.B.7 · 2.NBT.B.9.** A supply cart holds 302 sheets. A class takes 148. How many sheets stay? Each square represents a pack of 100 sheets, each bar a pack of ten and each dot a loose sheet. In a group of bars or dots, a space helps the eye count in fives.
+**[2.NBT.B.7](https://www.thecorestandards.org/Math/Content/2/NBT/B/7/) · [2.NBT.B.9](https://www.thecorestandards.org/Math/Content/2/NBT/B/9/).** A supply cart holds 302 sheets. A class takes 148. How many sheets stay? Each square represents a pack of 100 sheets, each bar a pack of ten and each dot a loose sheet. In a group of bars or dots, a space helps the eye count in fives.
 
 ```text
                          Hundreds    Tens             Ones
@@ -52,7 +52,7 @@ Check by adding back the class's sheets. 154 + 148 gives 200 + 90 + 12. Compose 
 
 ## Composing a ten and a hundred
 
-**2.NBT.B.7.** How many sheets are in two deliveries of 278 and 146? Use the same tray symbols.
+**[2.NBT.B.7](https://www.thecorestandards.org/Math/Content/2/NBT/B/7/).** How many sheets are in two deliveries of 278 and 146? Use the same tray symbols.
 
 ```text
                        Hundreds    Tens              Ones
@@ -67,7 +67,7 @@ Like places give 200 + 100 = 300, 70 + 40 = 110 and 8 + 6 = 14. Before any trade
 
 ## Moving one ten or one hundred mentally
 
-**2.NBT.B.8.** Picture adding or removing one rod or flat. From 397, adding a rod completes the tenth ten and leaves seven loose. The start of each problem is between 100 and 900 inclusive.
+**[2.NBT.B.8](https://www.thecorestandards.org/Math/Content/2/NBT/B/8/).** Picture adding or removing one rod or flat. From 397, adding a rod completes the tenth ten and leaves seven loose. The start of each problem is between 100 and 900 inclusive.
 
 | Starting change | Result | Reverse check |
 |---|---:|---|

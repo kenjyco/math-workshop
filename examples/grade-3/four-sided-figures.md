@@ -1,6 +1,6 @@
 # Which names fit a turned square?
 
-Grade 3 · G34 · `shape` · MP3 · [Goal and source, p. 26](../../goals/grade-3-operations-and-area.md#g34-classifying-quadrilaterals-by-shared-attributes)
+Grade 3 · Properties of quadrilaterals
 
 ## Four closed outlines
 
@@ -19,4 +19,4 @@ A **rectangle** has four right angles. A **rhombus** has four equal sides. A **s
 
 **Parent bridge.** Hold a square corner against B, then turn the whole page. The corner still fits and the four lengths still match. That is why “rectangle” and “rhombus” both describe the turned square.
 
-Standards · 3.G.A.1
+Standards · [3.G.A.1](https://www.thecorestandards.org/Math/Content/3/G/A/1/)

@@ -1,6 +1,6 @@
 # Why is every fourth count even?
 
-Grade 3 · G29 · `pattern`, `laws`, `place`, `product` · MP8 · [Goal and source, pp. 23, 24](../../goals/grade-3-operations-and-area.md#g29-explaining-patterns-in-tables-and-products-of-tens)
+Grade 3 · Patterns in multiplication tables and products of tens
 
 ## Two tables with different steps
 
@@ -28,4 +28,4 @@ One packet holds four rods, each worth ten ones. Six packets give 6 × 4 = **24 
 
 **Parent bridge.** Bundle twenty of the tens into two hundreds. Four tens and zero loose ones remain. That is what each digit in 240 records.
 
-Standards · 3.OA.D.9, 3.NBT.A.3
+Standards · [3.OA.D.9](https://www.thecorestandards.org/Math/Content/3/OA/D/9/), [3.NBT.A.3](https://www.thecorestandards.org/Math/Content/3/NBT/A/3/)

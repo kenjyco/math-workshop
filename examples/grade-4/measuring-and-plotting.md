@@ -1,8 +1,12 @@
 # One quantity, different counts
 
-## G54 · Read across a conversion table
+Grade 4 · Measurement conversions and fractional line plots
 
-[G54 · goal and source](../../goals/grade-4-fractions-and-measures.md#g54-converting-units-in-the-same-measurement-system) · 4.MD.A.1 · `units`, `product` · MP8
+<a name="g54--read-across-a-conversion-table"></a>
+
+## Read across a conversion table
+
+[4.MD.A.1](https://www.thecorestandards.org/Math/Content/4/MD/A/1/)
 
 How many smaller units describe the original quantity in the left column? The first row gives the conversion factor. Two copies of that row give the second row. Double the second row and add one first row to get the five-unit row.
 
@@ -74,9 +78,11 @@ Check all eight tables from their one-unit rows. For the three factors of 1,000,
 
 **Parent bridge.** Lay twelve inch intervals along one foot. Measuring that same span in inches gives a larger number because more of the smaller units fit.
 
-## G55 · What does the answer measure?
+<a name="g55--what-does-the-answer-measure"></a>
 
-[G55 · goal and source](../../goals/grade-4-fractions-and-measures.md#g55-solving-measurement-stories-with-scaled-diagrams) · 4.MD.A.2 · `units`, `scale`, `model` · MP4
+## What does the answer measure?
+
+[4.MD.A.2](https://www.thecorestandards.org/Math/Content/4/MD/A/2/)
 
 **Distance.** Walk 1 1/2 km to a bridge, then 1 km to a gate. How far is the entire trip in meters? The distance line uses equal half-kilometer intervals.
 
@@ -94,9 +100,11 @@ The first leg spans three intervals and the second spans two. Read the scale ind
 
 **Parent bridge.** The five intervals from start to gate can each be named half a kilometer or 500 meters. Changing the unit keeps both endpoints fixed.
 
-## G56 · Which marks belong to which ribbons?
+<a name="g56--which-marks-belong-to-which-ribbons"></a>
 
-[G56 · goal and source](../../goals/grade-4-fractions-and-measures.md#g56-using-fractional-measurement-data-in-sums-and-differences) · 4.MD.B.4 · `plot`, `frac-add` · MP6
+## Which marks belong to which ribbons?
+
+[4.MD.B.4](https://www.thecorestandards.org/Math/Content/4/MD/B/4/)
 
 Four ribbon lengths, measured in yards, are **3/8, 1/2, 1/2, 3/4**. Each cross on the line plot stands for one ribbon. The scale increases by one eighth of a yard at every tick.
 

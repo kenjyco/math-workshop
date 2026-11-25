@@ -1,10 +1,12 @@
 # How many sticks are in the bundles?
 
-Grade 1 · G10 · Concepts `count`, `place`, `exchange`, `order` · MP6, MP8. Count and write through 120. Compare two-digit numerals. [Goal and standards, pp. 15–16](../../goals/grade-1.md#g10-reading-tens-and-ones-and-counting-through-120)
+Grade 1 · Counting through 120 and reading tens and ones
+
+Count and write through 120. Compare two-digit numerals.
 
 ## One tie around ten sticks
 
-**1.NBT.B.2.a.** Count the sticks in two rows of five. Slide them together and put a band around all ten. In these drawings, a bracket encloses one banded bundle.
+**[1.NBT.B.2.a](https://www.thecorestandards.org/Math/Content/1/NBT/B/2/a/).** Count the sticks in two rows of five. Slide them together and put a band around all ten. In these drawings, a bracket encloses one banded bundle.
 
 ```text
 Loose          Banded
@@ -16,11 +18,11 @@ How many sticks can you lift by picking up the one bundle? **Ten.** Undo the ban
 
 ## Reading both digits of 42
 
-**1.NBT.B.2.** A tray holds `T T T T   i i`. How should we label it? Count the bundles by tens to 10, 20, 30, 40. Touch the loose ones to count 41, 42. Write **42**, read *forty-two*. The left digit counts four tens and the right digit counts two ones. To check, rebuild from the label. Four piles of ten and a pair give 10 + 10 + 10 + 10 + 2 = 42. Untying one bundle gives three tens and twelve loose sticks, still 30 + 12 = 42.
+**[1.NBT.B.2](https://www.thecorestandards.org/Math/Content/1/NBT/B/2/).** A tray holds `T T T T   i i`. How should we label it? Count the bundles by tens to 10, 20, 30, 40. Touch the loose ones to count 41, 42. Write **42**, read *forty-two*. The left digit counts four tens and the right digit counts two ones. To check, rebuild from the label. Four piles of ten and a pair give 10 + 10 + 10 + 10 + 2 = 42. Untying one bundle gives three tens and twelve loose sticks, still 30 + 12 = 42.
 
 ## Keeping one ten in every teen
 
-**1.NBT.B.2.b.** The same tied bundle stays on the tray. How does the numeral change as loose sticks are added?
+**[1.NBT.B.2.b](https://www.thecorestandards.org/Math/Content/1/NBT/B/2/b/).** The same tied bundle stays on the tray. How does the numeral change as loose sticks are added?
 
 | Bundle | Loose sticks | Numeral |
 |:---:|:---|---:|
@@ -38,7 +40,7 @@ Compare **14** with **17**. Match their two bundles to each other and match four
 
 ## Exact tens and an empty ones place
 
-**1.NBT.B.2.c.** Each row adds a bundle and leaves the loose-stick space empty. Read across to label the tray.
+**[1.NBT.B.2.c](https://www.thecorestandards.org/Math/Content/1/NBT/B/2/c/).** Each row adds a bundle and leaves the loose-stick space empty. Read across to label the tray.
 
 | Bundles on tray | Tens | Loose ones | Numeral |
 |---|---:|---:|---:|
@@ -58,7 +60,7 @@ To build **60**, take six bundles and leave the loose-stick space empty. Check t
 
 ## Comparing two trays
 
-**1.NBT.B.3.** Match tens first. With equal tens, match loose sticks. Read each comparison from left to right.
+**[1.NBT.B.3](https://www.thecorestandards.org/Math/Content/1/NBT/B/3/).** Match tens first. With equal tens, match loose sticks. Read each comparison from left to right.
 
 | Trays | Comparison aloud | Rebuild and check |
 |---|---|---|
@@ -68,7 +70,7 @@ To build **60**, take six bundles and leave the loose-stick space empty. Check t
 
 ## Counting from 97 to 120
 
-**1.NBT.A.1.** A box already holds **97** sticks. Start at that number and add one stick at each step until the box holds 120.
+**[1.NBT.A.1](https://www.thecorestandards.org/Math/Content/1/NBT/A/1/).** A box already holds **97** sticks. Start at that number and add one stick at each step until the box holds 120.
 
 ```text
 97, 98, 99, 100

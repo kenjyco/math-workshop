@@ -1,8 +1,12 @@
 # What is a digit worth in this column?
 
-## G41 · Reading the places
+Grade 4 · Place value, rounding and column arithmetic
 
-[G41 · goal and source](../../goals/grade-4-whole-numbers.md#g41-reading-comparing-and-rounding-through-one-million) · 4.NBT.A.1, 4.NBT.A.2, 4.NBT.A.3 · `place`, `product`, `order`, `round` · MP7
+<a name="g41--reading-the-places"></a>
+
+## Reading the places
+
+[4.NBT.A.1](https://www.thecorestandards.org/Math/Content/4/NBT/A/1/), [4.NBT.A.2](https://www.thecorestandards.org/Math/Content/4/NBT/A/2/), [4.NBT.A.3](https://www.thecorestandards.org/Math/Content/4/NBT/A/3/)
 
 The place table here runs from ones to one million, the upper limit for these whole-number examples. In **770**, the left 7 counts hundreds and the next 7 counts tens. Seven bundles of ten tens make 70 tens, or 700. Thus 700 = 10 × 70. Each step left changes the size of the unit by this same factor.
 
@@ -37,9 +41,11 @@ Check the two distances in each between-multiples row. Together they span exactl
 
 **Parent bridge.** Read 770 as 7 hundreds and 7 tens. Unbundle one hundred into ten tens and the two 7s acquire a common counting unit.
 
-## G42 · Following each exchange
+<a name="g42--following-each-exchange"></a>
 
-[G42 · goal and source](../../goals/grade-4-whole-numbers.md#g42-recording-exchanges-in-standard-addition-and-subtraction) · 4.NBT.B.4 · `exchange`, `add` · MP6
+## Following each exchange
+
+[4.NBT.B.4](https://www.thecorestandards.org/Math/Content/4/NBT/B/4/)
 
 Add 59,986 and 78. Align ones under ones. Work from the right, writing the digit kept in each column and carrying the exchanged unit one column left.
 

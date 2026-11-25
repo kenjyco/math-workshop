@@ -1,6 +1,6 @@
 # How can two names mark one point?
 
-Grade 3 · G36 · `equiv`, `order`, `scale`, `fraction` · MP3 · [Goal and source, p. 24](../../goals/grade-3-fractions-and-measurement.md#g36-equivalent-names-and-fraction-comparisons)
+Grade 3 · Equivalent fractions and comparisons
 
 ## Split each third in two
 
@@ -28,4 +28,4 @@ Both strips in each comparison have the same length as the 0-to-1 whole.
 
 What if the wholes differ? The bottom drawing shows a 6 cm ribbon and a 4 cm ribbon. The shaded half of the first is 3 cm because 3 + 3 = 6. The shaded half of the second is 2 cm because 2 + 2 = 4. The longer shaded piece can make its fraction look larger. Each ribbon still has exactly half its own length shaded. Compare lengths in centimeters or use the same whole to compare fraction sizes.
 
-Standards · 3.NF.A.3, 3.NF.A.3.a, 3.NF.A.3.b, 3.NF.A.3.c, 3.NF.A.3.d
+Standards · [3.NF.A.3](https://www.thecorestandards.org/Math/Content/3/NF/A/3/), [3.NF.A.3.a](https://www.thecorestandards.org/Math/Content/3/NF/A/3/a/), [3.NF.A.3.b](https://www.thecorestandards.org/Math/Content/3/NF/A/3/b/), [3.NF.A.3.c](https://www.thecorestandards.org/Math/Content/3/NF/A/3/c/), [3.NF.A.3.d](https://www.thecorestandards.org/Math/Content/3/NF/A/3/d/)

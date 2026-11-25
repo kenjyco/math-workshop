@@ -1,10 +1,10 @@
 # Can a triangle and a rectangle each be half?
 
-Grade 2 · G21 · Concepts `shape`, `share` · MP3. [Goal and standards, p. 20](../../goals/grade-2.md#g21-classifying-figures-and-checking-equal-shares)
+Grade 2 · Shapes and equal-area shares
 
 ## Drawing from the attributes
 
-**2.G.A.1.** What shape fits a request for five straight sides and five angles? Join five points around a closed outline with straight segments, turning once at each point. Trace the drawing from the marked vertex back to the start. Five turns and five sides identify the **pentagon**. The same construction with three, four or six vertices gives the other plane figures shown below. An angle is formed where two sides meet.
+**[2.G.A.1](https://www.thecorestandards.org/Math/Content/2/G/A/1/).** What shape fits a request for five straight sides and five angles? Join five points around a closed outline with straight segments, turning once at each point. Trace the drawing from the marked vertex back to the start. Five turns and five sides identify the **pentagon**. The same construction with three, four or six vertices gives the other plane figures shown below. An angle is formed where two sides meet.
 
 ![Closed outlines with three, four, five and six vertices, followed by a cube sketch and its unfolded net of six matching squares.](shape-outlines.svg)
 
@@ -20,7 +20,7 @@ To draw the cube, sketch two matching squares slightly offset and join the corre
 
 ## Halves that take different shapes
 
-**2.G.A.3.** Two identical paper rectangles each need to be shared equally between two people. Cut the first down the middle. Each piece has four sides and four right angles, so it is a rectangle. Here the four sides also match, making it a square. Cut the second from one corner to its opposite. Each piece has three sides and three angles including a right angle, a triangle.
+**[2.G.A.3](https://www.thecorestandards.org/Math/Content/2/G/A/3/).** Two identical paper rectangles each need to be shared equally between two people. Cut the first down the middle. Each piece has four sides and four right angles, so it is a rectangle. Here the four sides also match, making it a square. Cut the second from one corner to its opposite. Each piece has three sides and three angles including a right angle, a triangle.
 
 ![Matching rectangles cut down the middle and on a diagonal. Below, equal circles and matching rectangles are partitioned into two, three and four shares.](equal-partitions.svg)
 
@@ -30,7 +30,7 @@ Slide one middle-cut rectangle onto the other. Their edges match. In the diagona
 
 ## Naming the shares and the whole
 
-**2.G.A.3.** The lower drawings keep every circle the same size and every rectangle the same size as the rectangles above. In each column, how many equal pieces rebuild one whole?
+**[2.G.A.3](https://www.thecorestandards.org/Math/Content/2/G/A/3/).** The lower drawings keep every circle the same size and every rectangle the same size as the rectangles above. In each column, how many equal pieces rebuild one whole?
 
 | Cut | Circle | Rectangle | Rebuilt whole |
 |---|---|---|---|

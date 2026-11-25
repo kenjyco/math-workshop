@@ -1,8 +1,12 @@
 # What does each row count?
 
-## G46 · Reassemble the product
+Grade 4 · Partial products, partial quotients and quotient digits
 
-[G46 · goal and source](../../goals/grade-4-whole-numbers.md#g46-accounting-for-every-partial-product) · 4.NBT.B.5 · `multi-product`, `laws`, `place` · MP7, MP1
+<a name="g46--reassemble-the-product"></a>
+
+## Reassemble the product
+
+[4.NBT.B.5](https://www.thecorestandards.org/Math/Content/4/NBT/B/5/)
 
 The two multiplication forms here are two digits by two digits and up to four digits by one digit. In the [four-region rectangle](../four-region-multiplication.md#area-model-for-23--14), each width meets each height exactly once. Across the columns 20 + 3 = 23, down the rows 10 + 4 = 14. Read across: 200 + 30 = 230 and 80 + 12 = 92. Read down instead: 200 + 80 = 280 and 30 + 12 = 42. Both partitions cover **322 square units**. Check by taking one 23 away from fifteen 23s: 345 − 23 = 322.
 
@@ -33,11 +37,13 @@ Read the model as 4 × (2,000 + 0 + 30 + 6) = 8,000 + 0 + 120 + 24 = **8,144**. 
 | Cells 200, 30, 80, 12. Scratch 322. Answer 232. | The scratch result agrees with the independent calculation. The transfer changes the hundreds and tens digits. |
 | Answer 312 alone | The value differs from 322. The first faulty calculation is unknown. |
 
-**Parent bridge.** Stack 92 ones under 230 ones, aligning place columns. Those are the 4-row and 10-row parts of one rectangle. The area argument explains both rows. [Pilot stacked calculation](../four-region-multiplication.md#parent-bridge)
+**Parent bridge.** Stack 92 ones under 230 ones, aligning place columns. Those are the 4-row and 10-row parts of one rectangle. The area argument explains both rows. [Stacked calculation](../four-region-multiplication.md#parent-bridge)
 
-## G47 · Count groups as amounts come off
+<a name="g47--count-groups-as-amounts-come-off"></a>
 
-[G47 · goal and source](../../goals/grade-4-whole-numbers.md#g47-counting-groups-removed-in-partial-quotients) · 4.NBT.B.6 · `multi-div`, `divide`, `place` · MP1
+## Count groups as amounts come off
+
+[4.NBT.B.6](https://www.thecorestandards.org/Math/Content/4/NBT/B/6/)
 
 Use dividends of up to four digits and positive one-digit divisors. For 84 ÷ 4, one partial quotient counts **groups of four**. Removing 40 items credits ten groups. Start each path at 84 items and zero groups.
 
@@ -66,15 +72,17 @@ The last 3 items cannot make another group of six: **414 R3**, with 0 ≤ 3 < 6.
 | Correct steps 100, 300, 10, 4. Final sum 404 R3. | The final group sum drops ten. With 404, reconstruction gives 2,427. Restore the total 414. |
 | Stops after 400 groups with 87 left | This row rebuilds 2,487. It is unfinished because 87 still contains groups of six. Continue on a fresh line with ten groups, leaving 27. |
 
-The [pilot ledger for 1,205 ÷ 4](../quotient-zero-and-capacity.md#count-groups-of-four) uses either one removal of 300 groups or three removals of 100 groups before the last group. Both paths give 301 groups and one item left.
+The [ledger for 1,205 ÷ 4](../quotient-zero-and-capacity.md#count-groups-of-four) uses either one removal of 300 groups or three removals of 100 groups before the last group. Both paths give 301 groups and one item left.
 
 **Parent bridge.** Join A's two tens of groups to see B's twenty. Likewise, 400 groups, 10 groups and 4 groups appear as hundreds, tens and ones in 414. The amount removed always includes the factor six in this last problem.
 
-## G48 · Which zero occupies the tens place?
+<a name="g48--which-zero-occupies-the-tens-place"></a>
 
-[G48 · goal and source](../../goals/grade-4-whole-numbers.md#g48-writing-quotient-digits-in-their-places) · 4.NBT.B.6 · `multi-div`, `divide`, `place` · MP6
+## Which zero occupies the tens place?
 
-In the [1,205 ÷ 4 pilot](../quotient-zero-and-capacity.md#write-the-quotient-by-place), twelve hundreds shared among four give three **hundreds** per share. The zero tens digit keeps the final one in the ones place. Check 4 × 301 + 1 = 1,205. The dividend lies between 4 × 300 and 4 × 310, so 31 R1 cannot fit either the size or the reconstruction (125).
+[4.NBT.B.6](https://www.thecorestandards.org/Math/Content/4/NBT/B/6/)
+
+In the [1,205 ÷ 4 example](../quotient-zero-and-capacity.md#write-the-quotient-by-place), twelve hundreds shared among four give three **hundreds** per share. The zero tens digit keeps the final one in the ones place. Check 4 × 301 + 1 = 1,205. The dividend lies between 4 × 300 and 4 × 310, so 31 R1 cannot fit either the size or the reconstruction (125).
 
 Now share 2,436 among six. Before calculating, 6 × 400 = 2,400 and 6 × 410 = 2,460. The quotient lies from 400 to just below 410.
 

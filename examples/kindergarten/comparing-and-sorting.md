@@ -1,10 +1,10 @@
 # A cup for each spoon
 
-Kindergarten · G02 · Concepts `order`, `card`, `data` · Practice MP3. [G02 contract and standards, pp. 11–12](../../goals/kindergarten.md#g02-comparing-collections-and-sorting-by-count)
+Kindergarten · Comparison and classification
 
 ## Match across two groups
 
-**K.CC.C.6.** Six spoons lie close together. Four cups stretch across a longer part of the table. Are there more cups or more spoons? Here each S stands for a spoon and each C for a cup.
+**[K.CC.C.6](https://www.thecorestandards.org/Math/Content/K/CC/C/6/).** Six spoons lie close together. Four cups stretch across a longer part of the table. Are there more cups or more spoons? Here each S stands for a spoon and each C for a cup.
 
 ```text
 S S S S S S
@@ -19,11 +19,11 @@ Bring two more cups and give each leftover spoon its own cup. There are six pair
 
 ## Read the numeral cards
 
-**K.CC.C.7.** Compare written numerals from 1 through 10. The cards read **8** and **10**. Which number is less? In counting order we say 8, 9, 10. Read left to right, “eight is less than ten.” Switch the cards and the statement becomes “ten is greater than eight.” Two cards both marked **8** name the same number, so eight equals eight.
+**[K.CC.C.7](https://www.thecorestandards.org/Math/Content/K/CC/C/7/).** Compare written numerals from 1 through 10. The cards read **8** and **10**. Which number is less? In counting order we say 8, 9, 10. Read left to right, “eight is less than ten.” Switch the cards and the statement becomes “ten is greater than eight.” Two cards both marked **8** name the same number, so eight equals eight.
 
 ## Sort a handful by its markings
 
-**K.MD.B.3.** Each tile is stamped with exactly one mark. Sort by that mark into the supplied categories star, moon and sun. Which categories occur least often? Here is the handful in the order it came out of the bag.
+**[K.MD.B.3](https://www.thecorestandards.org/Math/Content/K/MD/B/3/).** Each tile is stamped with exactly one mark. Sort by that mark into the supplied categories star, moon and sun. Which categories occur least often? Here is the handful in the order it came out of the bag.
 
 ```text
 moon  star  sun  star  moon  sun  star  sun  moon  star

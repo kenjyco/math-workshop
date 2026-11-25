@@ -1,6 +1,6 @@
 # How many birds does one dot stand for?
 
-Grade 3 · G39 · `data`, `scale` · MP2 · [Goal and source, p. 25](../../goals/grade-3-fractions-and-measurement.md#g39-interpreting-scaled-picture-and-bar-graphs)
+Grade 3 · Scaled picture and bar graphs
 
 ## The observation record
 
@@ -28,4 +28,4 @@ How many fewer jay sightings than finch sightings? The finch bar reaches 6 and t
 
 How many more robin and wren sightings together than finch sightings? Adding the two bars gives 8 + 4 = 12 combined. Subtract the six finch sightings to get 12 − 6 = **6 more sightings**. Grouping heights in steps of two gives another check. Four steps plus two less three leaves three steps, or six sightings.
 
-Standards · 3.MD.B.3
+Standards · [3.MD.B.3](https://www.thecorestandards.org/Math/Content/3/MD/B/3/)

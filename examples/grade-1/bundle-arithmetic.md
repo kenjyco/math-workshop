@@ -1,10 +1,12 @@
 # What changes when a bundle is tied?
 
-Grade 1 · G11 · Concepts `place`, `exchange`, `add` · MP7. Add within 100. For subtraction of exact tens, both operands are between 10 and 90 and the difference is at least zero. [Goal and standards, p. 16](../../goals/grade-1.md#g11-adding-and-subtracting-in-tens-and-ones)
+Grade 1 · Addition and subtraction with place value
+
+Add within 100. For subtraction of exact tens, both operands are between 10 and 90 and the difference is at least zero.
 
 ## Three ways to add to a tray
 
-**1.NBT.C.4.** A `T` is a bundle of ten sticks and an `i` is one loose stick. The two trays in each row are poured together. How many sticks are there now?
+**[1.NBT.C.4](https://www.thecorestandards.org/Math/Content/1/NBT/C/4/).** A `T` is a bundle of ten sticks and an `i` is one loose stick. The two trays in each row are poured together. How many sticks are there now?
 
 | Trays before | Sticks after combining | Written calculation and check |
 |---|---|---|
@@ -25,11 +27,11 @@ After tying     T T T T              iii
 
 ## Ten more and ten less in your head
 
-**1.NBT.C.5.** Start at 56. Imagine five bundles and six loose sticks. Adding a bundle keeps all six loose sticks and changes five tens to six. **Ten more is 66.** Taking one bundle from the original five leaves four tens and six ones. **Ten less is 46.** Undo each change to check. From 66 remove ten to get 56. From 46 add ten to get 56.
+**[1.NBT.C.5](https://www.thecorestandards.org/Math/Content/1/NBT/C/5/).** Start at 56. Imagine five bundles and six loose sticks. Adding a bundle keeps all six loose sticks and changes five tens to six. **Ten more is 66.** Taking one bundle from the original five leaves four tens and six ones. **Ten less is 46.** Undo each change to check. From 66 remove ten to get 56. From 46 add ten to get 56.
 
 ## Taking away whole bundles
 
-**1.NBT.C.6.** Each removed bundle takes away ten sticks. The three columns show the starting tray, the action, and what the subtraction records.
+**[1.NBT.C.6](https://www.thecorestandards.org/Math/Content/1/NBT/C/6/).** Each removed bundle takes away ten sticks. The three columns show the starting tray, the action, and what the subtraction records.
 
 | Start | Remove and inspect the rest | Written difference and check |
 |---|---|---|

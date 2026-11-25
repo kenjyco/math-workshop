@@ -1,10 +1,12 @@
 # Birds at the feeder
 
-Grade 1 · G14 · Concepts `data`, `add` · MP2. Each observation belongs to one of three categories. [Goal and standard, p. 16](../../goals/grade-1.md#g14-answering-questions-from-category-displays)
+Grade 1 · Organizing and comparing category counts
+
+Each observation belongs to one of three categories.
 
 ## From feeder visits to three columns
 
-**1.MD.C.4.** A watcher writes down one bird name for each visit. Which birds visited most often? Here is the original list in order. The numbers identify visits. A bird that comes back makes another visit.
+**[1.MD.C.4](https://www.thecorestandards.org/Math/Content/1/MD/C/4/).** A watcher writes down one bird name for each visit. Which birds visited most often? Here is the original list in order. The numbers identify visits. A bird that comes back makes another visit.
 
 ```text
  1 robin       2 wren       3 finch       4 robin

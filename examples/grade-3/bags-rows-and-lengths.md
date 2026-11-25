@@ -1,6 +1,6 @@
 # What does four count?
 
-Grade 3 · G27 · `groups`, `product`, `divide`, `model`, `equal` · MP2 · [Goal and source, p. 23](../../goals/grade-3-operations-and-area.md#g27-products-both-meanings-of-division-and-missing-factors)
+Grade 3 · Equal groups, arrays and missing factors
 
 ## Four bags of buttons
 
@@ -37,4 +37,4 @@ On the ribbon, each space between consecutive labels is one 6 cm piece. Five pie
 
 There are 42 shells on six equal trays. In 42 ÷ 6, **42 is the dividend**, the total being shared. The **divisor** is the six trays. Find the missing factor in 6 × □ = 42. Five shells on each tray use 30. Two more on each use 12. All 42 are placed, so 42 ÷ 6 = 7. The **quotient** counts **7 shells per tray**. Multiply back by counting seven lots of six to reach 6, 12, 18, 24, 30, 36, 42.
 
-Standards · 3.OA.A.1, 3.OA.A.2, 3.OA.A.3, 3.OA.A.4, 3.OA.B.6
+Standards · [3.OA.A.1](https://www.thecorestandards.org/Math/Content/3/OA/A/1/), [3.OA.A.2](https://www.thecorestandards.org/Math/Content/3/OA/A/2/), [3.OA.A.3](https://www.thecorestandards.org/Math/Content/3/OA/A/3/), [3.OA.A.4](https://www.thecorestandards.org/Math/Content/3/OA/A/4/), [3.OA.B.6](https://www.thecorestandards.org/Math/Content/3/OA/B/6/)

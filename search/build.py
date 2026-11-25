@@ -12,13 +12,14 @@ import subprocess
 import sys
 from tempfile import TemporaryDirectory
 from urllib.parse import urlsplit, urlunsplit
+from xml.etree import ElementTree
 
 sys.dont_write_bytecode = True
 from verify import Page, check_site, require
 
 SEARCH = Path(__file__).resolve().parent
 ROOT = SEARCH.parent
-COLLECTIONS = ('teaching', 'examples', 'goals')
+COLLECTIONS = ('teaching', 'examples')
 READER = 'gfm-tex_math_dollars-tex_math_gfm'
 
 
@@ -39,30 +40,87 @@ def pandoc(data, source, target):
 
 def goal_grades():
     grades = {}
+    assignments = []
     for path in (ROOT / 'goals').glob('*.md'):
         text = path.read_text(encoding='utf-8')
         for goal, section in re.findall(r'^## (G\d\d)\. [^\n]+(.*?)(?=^## |\Z)', text, re.M | re.S):
-            evidence = set(re.findall(r'^\| \[([K1-4])\.[A-Z]+\.', section, re.M))
+            codes = re.findall(r'^\| \[([K1-4]\.[A-Z]+\.[A-Z]\.\d+(?:\.[a-z])?)\]\(', section, re.M)
+            require(len(codes) == len(set(codes)), f'{goal}: duplicate standard')
+            assignments.extend(codes)
+            evidence = {code[0] for code in codes}
             require(len(evidence) == 1 and goal not in grades, f'{path.name}: {goal} grade evidence')
             grade = evidence.pop()
             title = 'Kindergarten' if grade == 'K' else 'Grade ' + grade
             require(text.startswith('# ' + title), f'{goal}: inconsistent contract grade')
             grades[goal] = grade
     require(set(grades) == {f'G{i:02}' for i in range(1, 62)}, 'Incomplete goal contracts')
+    require(len(assignments) == 152 and len(set(assignments)) == 151, 'Incomplete standards coverage')
     return grades
 
 
-def course_inventory():
+def unique_object(pairs):
+    result = dict(pairs)
+    require(len(result) == len(pairs), 'Duplicate key in worked evidence')
+    return result
+
+
+def normalize_headings(blocks, aliases):
+    """Put historical targets on the heading itself and keep its readable slug."""
+    remaining = aliases.copy()
+    output = []
+    pending = None
+    for block in blocks:
+        raw = [node for node in nodes(block) if node['t'] in ('RawInline', 'RawBlock')]
+        if raw:
+            require(pending is None and block == {'t': 'Para', 'c': raw} and
+                    len(raw) == 2 and all(n['t'] == 'RawInline' and n['c'][0] == 'html' for n in raw),
+                    'Expected an empty historical anchor before a heading')
+            anchor = ElementTree.fromstring(''.join(n['c'][1] for n in raw))
+            pending = anchor.get('name')
+            require(anchor.tag == 'a' and set(anchor.attrib) == {'name'} and not len(anchor)
+                    and not anchor.text and pending in remaining, 'Unreviewed heading anchor')
+            continue
+        if pending is not None:
+            require(block['t'] == 'Header', f'Detached anchor {pending}')
+            _, attr, content = block['c']
+            slug = attr[0]
+            require(slug == remaining.pop(pending), f'{pending}: wrong heading {slug}')
+            attr[0] = pending
+            content.insert(0, {'t': 'Span', 'c': [[slug, [], []], []]})
+            pending = None
+        output.append(block)
+    require(pending is None and not remaining, 'Missing historical heading')
+    return output
+
+
+def course_inventory(grades):
     docs, headings, evidence, links = {}, {}, {}, defaultdict(set)
+    mapping = json.loads((ROOT / 'goals/worked-evidence.json').read_text(encoding='utf-8'),
+                         object_pairs_hook=unique_object)
+    records = {p.relative_to(ROOT).as_posix() for p in (ROOT / 'examples').rglob('*.md') if p.name != 'README.md'}
+    require(len(records) == 53 and set(mapping) == records, 'Incomplete worked evidence')
     for collection in COLLECTIONS:
         for path in sorted((ROOT / collection).rglob('*.md')):
             src = path.relative_to(ROOT).as_posix()
             ast = json.loads(pandoc(path.read_bytes(), READER, 'json'))
             docs[src] = ast
             headings[src] = set()
-            intro = path.read_text(encoding='utf-8').split('\n## ', 1)[0]
-            declared = set(re.findall(r'\bG\d\d\b', intro))
-            goal = next(iter(declared)) if len(declared) == 1 else None
+            assignment = mapping.get(src)
+            slices = assignment if isinstance(assignment, dict) else {}
+            goal = assignment if isinstance(assignment, str) else None
+            if src in records:
+                grade = re.search(r'^(Kindergarten|Grade [1-4]) · ', path.read_text(encoding='utf-8'), re.M)
+                assigned = set(slices.values()) if slices else {goal}
+                require(grade, f'{src}: missing worked grade')
+                label = 'K' if grade[1] == 'Kindergarten' else grade[1][-1]
+                require(all(grades.get(g) == label for g in assigned),
+                        f'{src}: worked grade disagrees with contract')
+            aliases = {frag: frag.split('--', 1)[1] for frag in slices if re.match(r'g\d\d--', frag)}
+            if src == 'examples/README.md':
+                aliases = {'foundational-examples': 'worked-examples', 'grade-4-foundation': 'grade-4',
+                           'grade-4-pilot': 'more-grade-4-examples'}
+            ast['blocks'] = normalize_headings(ast['blocks'], aliases)
+            seen_slices = set()
             parents = []
             for block in ast['blocks']:
                 if block['t'] == 'Header':
@@ -70,13 +128,10 @@ def course_inventory():
                     require(frag and frag not in headings[src], f'{src}: duplicate heading {frag}')
                     headings[src].add(frag)
                     parents = [(n, k) for n, k in parents if n < level] + [(level, frag)]
-                    if level == 2 and collection == 'examples':
-                        match = re.match(r'(g\d\d)--', frag)
-                        if match:
-                            goal = match[1].upper()
-                        elif src == 'examples/quotient-zero-and-capacity.md':
-                            goal = {'count-groups-of-four': 'G47', 'write-the-quotient-by-place': 'G48',
-                                    'find-the-vehicles-needed': 'G49'}.get(frag)
+                    if level == 2 and slices:
+                        require(frag in slices, f'{src}: missing assignment for {frag}')
+                        goal = slices[frag]
+                        seen_slices.add(frag)
                     if goal and collection == 'examples':
                         evidence[src, frag] = goal
                 if collection == 'teaching':
@@ -87,12 +142,12 @@ def course_inventory():
                             if target.startswith('examples/'):
                                 for _, frag in parents:
                                     links[src, frag].add((target, url.fragment))
+            require(seen_slices == set(slices), f'{src}: orphan worked section')
     return docs, headings, evidence, links
 
 
-def public_catalog(headings, evidence, links):
+def public_catalog(headings, evidence, links, grades):
     data = json.loads((SEARCH / 'catalog.json').read_text(encoding='utf-8'))
-    grades = goal_grades()
     ids, locations, covered, worked_goals, terms = set(), set(), set(), set(), set()
     chapter_links = defaultdict(set)
     for (src, _), targets in links.items():
@@ -126,19 +181,22 @@ def public_catalog(headings, evidence, links):
             require(claim['terms'] and all(t.strip() for t in claim['terms']) and claim['reason'].strip()
                     and isinstance(claim['order'], int), f'{key}: incomplete evidence')
             terms.update(claim['terms'])
-            public_claim = {k: v for k, v in claim.items() if k != 'worked'}
+            fields = ('terms', 'relation', 'reason', 'order', 'alias', 'preview')
+            require(set(claim) <= set(fields) | {'worked', 'goal'}, f'{key}: unknown claim field')
+            public_claim = {k: claim[k] for k in fields if k in claim}
             claims.append(dict(public_claim, grade=grades[goal]))
         public = {field:dest[field] for field in ('id', 'type', 'title', 'preview')}
         result.append(dict(public, url=src[:-3] + '.html#' + frag, claims=claims))
-    expected = {src for src in headings if not src.startswith('goals/') and not src.endswith('/README.md')}
+    expected = {src for src in headings if not src.endswith('/README.md')}
     require(covered == expected and worked_goals == set(grades), 'Missing worked records, chapters or goal routes')
     require(set(data['variants'].values()) <= terms, 'Unknown vocabulary variant target')
     return {'variants': data['variants'], 'destinations': result}
 
 
 def render(out):
-    docs, headings, evidence, links = course_inventory()
-    catalog = public_catalog(headings, evidence, links)
+    grades = goal_grades()
+    docs, headings, evidence, links = course_inventory(grades)
+    catalog = public_catalog(headings, evidence, links, grades)
     for src, ast in docs.items():
         page = out / (src[:-3] + '.html')
         page.parent.mkdir(parents=True, exist_ok=True)
@@ -164,7 +222,7 @@ def render(out):
         html = pandoc(json.dumps(ast).encode(), 'json', 'html5').decode()
         # Contain wide tables while retaining native table semantics.
         html = re.sub(r'<table(?=[ >])', '<div class="table-scroll"><table', html).replace('</table>', '</table></div>')
-        title = (ROOT / src).read_text(encoding='utf-8').splitlines()[0].removeprefix('# ')
+        title = next(line[2:] for line in (ROOT / src).read_text(encoding='utf-8').splitlines() if line.startswith('# '))
         up = os.path.relpath(out, page.parent)
         page.write_text(f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

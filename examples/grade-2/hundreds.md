@@ -1,10 +1,10 @@
 # What does the zero in 406 hold open?
 
-Grade 2 · G18 · Concepts `place`, `exchange`, `count`, `pattern`, `order` · MP7, MP8. [Goal and standards, p. 19](../../goals/grade-2.md#g18-making-hundreds-counting-in-increments-and-comparing)
+Grade 2 · Hundreds and three-digit place value
 
 ## Ten rods fit on one flat
 
-**2.NBT.A.1.a.** A rod holds ten ones in a straight row. Slide ten rods side by side until their ends line up. They fill a square called a **hundred-flat**. How many ones can you lift in the trade? Each line below is one rod before the trade and one row of the flat afterward.
+**[2.NBT.A.1.a](https://www.thecorestandards.org/Math/Content/2/NBT/A/1/a/).** A rod holds ten ones in a straight row. Slide ten rods side by side until their ends line up. They fill a square called a **hundred-flat**. How many ones can you lift in the trade? Each line below is one rod before the trade and one row of the flat afterward.
 
 ```text
 ● ● ● ● ● ● ● ● ● ●
@@ -23,7 +23,7 @@ Count the rows by tens to 100. Now count the ten columns of ten ones in the squa
 
 ## Four flats and six loose ones
 
-**2.NBT.A.1.** Read this tray from left to right. Each square stands for a whole hundred-flat.
+**[2.NBT.A.1](https://www.thecorestandards.org/Math/Content/2/NBT/A/1/).** Read this tray from left to right. Each square stands for a whole hundred-flat.
 
 | Hundreds | Tens | Ones |
 |---|---|---|
@@ -35,7 +35,7 @@ The four flats give four hundreds, the empty space gives zero tens and the six s
 
 ## Exact hundreds
 
-**2.NBT.A.1.b.** How would a tray look with only flats? Read each row both ways. Going from the numeral to the tray, take one flat per hundred in the first digit and leave both smaller places empty.
+**[2.NBT.A.1.b](https://www.thecorestandards.org/Math/Content/2/NBT/A/1/b/).** How would a tray look with only flats? Read each row both ways. Going from the numeral to the tray, take one flat per hundred in the first digit and leave both smaller places empty.
 
 | Flats on tray | Hundreds | Tens | Ones | Numeral |
 |---|---:|---:|---:|---:|
@@ -53,7 +53,7 @@ For example, rebuild 700 as seven flats. Replacing each with ten rods gives seve
 
 ## Counting across a hundred
 
-**2.NBT.A.2.** A stockroom counts loose items, packets of five, rods of ten and flats of one hundred. What totals appear when one more group of the same size arrives each time?
+**[2.NBT.A.2](https://www.thecorestandards.org/Math/Content/2/NBT/A/2/).** A stockroom counts loose items, packets of five, rods of ten and flats of one hundred. What totals appear when one more group of the same size arrives each time?
 
 | Size of the next group | Running totals |
 |---:|---|
@@ -67,7 +67,7 @@ The step stays the same across a change of hundreds digit. For instance, ten mor
 
 ## Reading and rebuilding a number
 
-**2.NBT.A.3.** The stockroom needs a written label, a spoken name and a count by place for the same box. Start in any column and reconstruct the others.
+**[2.NBT.A.3](https://www.thecorestandards.org/Math/Content/2/NBT/A/3/).** The stockroom needs a written label, a spoken name and a count by place for the same box. Start in any column and reconstruct the others.
 
 | Numeral | Name | Expanded value by place |
 |---:|---|---|
@@ -80,7 +80,7 @@ Hearing “seven hundred thirty-five,” take seven flats, three rods and five o
 
 ## Which tray holds more?
 
-**2.NBT.A.4.** Compare three-digit labels starting with the largest place. Only if two counts agree there do we need the next place.
+**[2.NBT.A.4](https://www.thecorestandards.org/Math/Content/2/NBT/A/4/).** Compare three-digit labels starting with the largest place. Only if two counts agree there do we need the next place.
 
 | Labels | First place that differs | Check by rebuilding in ones |
 |---|---|---|

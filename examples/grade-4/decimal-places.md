@@ -1,8 +1,12 @@
 # Where do 37 hundredths land?
 
-## G53 · A grid and a unit interval
+Grade 4 · Tenths, hundredths and decimal comparisons
 
-[G53 · goal and source](../../goals/grade-4-fractions-and-measures.md#g53-renaming-tenths-and-hundredths-and-comparing-decimals) · 4.NF.C.5, 4.NF.C.6, 4.NF.C.7 · `equiv`, `frac-add`, `decimal`, `fraction`, `order` · MP6
+<a name="g53--a-grid-and-a-unit-interval"></a>
+
+## A grid and a unit interval
+
+[4.NF.C.5](https://www.thecorestandards.org/Math/Content/4/NF/C/5/), [4.NF.C.6](https://www.thecorestandards.org/Math/Content/4/NF/C/6/), [4.NF.C.7](https://www.thecorestandards.org/Math/Content/4/NF/C/7/)
 
 One complete grid represents one whole. It has ten equal rows, each with ten equal cells. Cover three rows: 3/10 = 30/100 = 0.30. Seven more cells cover 7/100 = 0.07. Together **3/10 + 7/100 = 30/100 + 7/100 = 37/100 = 0.37**. The addition counts equal-sized hundredths after the renaming.
 

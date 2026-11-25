@@ -1,8 +1,12 @@
 # Which properties survive a turn or a fold?
 
-## G60 · Sort by the actual corners
+Grade 4 · Lines, angles and reflection symmetry
 
-[G60 · goal and source](../../goals/grade-4-geometry.md#g60-classifying-figures-by-lines-and-angle-sizes) · 4.G.A.2 · `shape`, `angle` · MP3
+<a name="g60--sort-by-the-actual-corners"></a>
+
+## Sort by the actual corners
+
+[4.G.A.2](https://www.thecorestandards.org/Math/Content/4/G/A/2/)
 
 ![Two triangles on equal square grids and a rectangle. From the marked left triangle vertex the two edge directions are exact quarter-turns of one another. The second triangle misses that direction by one grid step.](triangle-tests.svg)
 
@@ -16,13 +20,15 @@ Turn the paper a quarter turn. A's two moves now point three left and four up, a
 
 **Parent bridge.** Fit a square corner at A's bottom vertex, then turn the figure and the corner together. Their match survives even when neither edge lies along the page. [Earlier turned figures](../grade-3/four-sided-figures.md)
 
-## G61 · Test an entire boundary
+<a name="g61--test-an-entire-boundary"></a>
 
-[G61 · goal and source](../../goals/grade-4-geometry.md#g61-testing-reflection-symmetry) · 4.G.A.3 · `symmetry`, `shape` · MP3
+## Test an entire boundary
+
+[4.G.A.3](https://www.thecorestandards.org/Math/Content/4/G/A/3/)
 
 A reflection fixes the points on its axis. Each other point travels straight across, perpendicular to the axis, to the same distance on the other side. A symmetry axis maps the **entire figure** onto itself.
 
-Start with the [accepted 4-by-2 rectangle and its diagonal test](../rectangle-reflection.md#test-the-folds). Across the horizontal midline the top and bottom corners are each 1 unit from the fold. Across the vertical midline the left and right corners are each 2 units from it. Each edge lands on the segment joining its reflected endpoints, so both midlines work. The equal-area halves along diagonal AC each contain 4 square units. Yet reflecting B across AC lands outside the rectangle. To check the picture, use its drawing coordinates: B is (322, 80), the perpendicular foot is (274, 176), and the reflected point is (226, 272), below the bottom at 200. Each half of that trip moves 48 left and 96 down. A diagonal step of two right and one down turns a quarter turn to one left and two down. Equal areas alone do not make the boundaries coincide. The two long edges must map to long edges. Their midpoints must either stay fixed or swap, leaving just the two midlines as possible axes.
+Start with the [4-by-2 rectangle and its diagonal test](../rectangle-reflection.md#test-the-folds). Across the horizontal midline the top and bottom corners are each 1 unit from the fold. Across the vertical midline the left and right corners are each 2 units from it. Each edge lands on the segment joining its reflected endpoints, so both midlines work. The equal-area halves along diagonal AC each contain 4 square units. Yet reflecting B across AC lands outside the rectangle. To check the picture, use its drawing coordinates: B is (322, 80), the perpendicular foot is (274, 176), and the reflected point is (226, 272), below the bottom at 200. Each half of that trip moves 48 left and 96 down. A diagonal step of two right and one down turns a quarter turn to one left and two down. Equal areas alone do not make the boundaries coincide. The two long edges must map to long edges. Their midpoints must either stay fixed or swap, leaving just the two midlines as possible axes.
 
 ![A square with horizontal, vertical and diagonal axes beside a 3-by-4 right triangle whose three side lengths differ.](square-and-scalene.svg)
 

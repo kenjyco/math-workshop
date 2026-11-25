@@ -12,7 +12,7 @@ Suppose the pencil stops after the next removal of 1,800. You can verify 400 gro
 
 ## Read each place as an amount per share
 
-In the [pilot group ledger](../examples/quotient-zero-and-capacity.md#count-groups-of-four), three removals of 400 or one removal of 1,200 credit 300 groups of four. With five left there's one more group and one left over. Now [share the same 1,205 among four](../examples/quotient-zero-and-capacity.md#write-the-quotient-by-place). Twelve hundreds give each share three hundreds. There are zero hundreds left and the input has zero tens. Each share gets zero tens. Five ones give each share one and leave one. Read across the places: 301 R1. An answer of 31 R1 accounts for only 125, and 300 groups already fit. The two interpretations meet in the check 4 × 301 + 1 = 1,205.
+In the [group ledger](../examples/quotient-zero-and-capacity.md#count-groups-of-four), three removals of 400 or one removal of 1,200 credit 300 groups of four. With five left there's one more group and one left over. Now [share the same 1,205 among four](../examples/quotient-zero-and-capacity.md#write-the-quotient-by-place). Twelve hundreds give each share three hundreds. There are zero hundreds left and the input has zero tens. Each share gets zero tens. Five ones give each share one and leave one. Read across the places: 301 R1. An answer of 31 R1 accounts for only 125, and 300 groups already fit. The two interpretations meet in the check 4 × 301 + 1 = 1,205.
 
 ## Resume at the zero tens
 

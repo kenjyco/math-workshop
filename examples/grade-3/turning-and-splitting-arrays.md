@@ -1,6 +1,6 @@
 # What stays the same when a tray turns?
 
-Grade 3 · G28 · `laws`, `product`, `divide` · MP7 · [Goal and source, p. 23](../../goals/grade-3-operations-and-area.md#g28-deriving-facts-from-multiplication-properties)
+Grade 3 · Multiplication properties and division facts
 
 ## Turn, bundle and split
 
@@ -58,4 +58,4 @@ Read back from any product cell. Dividing its value by a positive row heading re
 
 The calculation range also includes products or dividends up to 100. For instance, ten groups of ten make 100, so 100 ÷ 10 = 10. The table records what is to be recalled. Evidence that a learner recalls these facts and calculates fluently comes from their own work.
 
-Standards · 3.OA.B.5, 3.OA.C.7
+Standards · [3.OA.B.5](https://www.thecorestandards.org/Math/Content/3/OA/B/5/), [3.OA.C.7](https://www.thecorestandards.org/Math/Content/3/OA/C/7/)

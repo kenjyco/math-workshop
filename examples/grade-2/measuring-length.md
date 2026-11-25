@@ -1,10 +1,10 @@
 # Where does the measurement begin?
 
-Grade 2 · G22 · Concepts `length`, `scale`, `units`, `add` · MP5. [Goal and standards, p. 20](../../goals/grade-2.md#g22-selecting-a-length-tool-estimating-and-measuring)
+Grade 2 · Tools, units and length estimates
 
 ## Choosing a tool and testing an estimate
 
-**2.MD.A.1 · 2.MD.A.3.** How close are the estimates to the measured lengths? A **benchmark** is a familiar length used for comparison. A **standard unit** has a fixed size, so different people can reproduce the measurement. These are worked sample measurements.
+**[2.MD.A.1](https://www.thecorestandards.org/Math/Content/2/MD/A/1/) · [2.MD.A.3](https://www.thecorestandards.org/Math/Content/2/MD/A/3/).** How close are the estimates to the measured lengths? A **benchmark** is a familiar length used for comparison. A **standard unit** has a fixed size, so different people can reproduce the measurement. These are worked sample measurements.
 
 | Span and benchmark | Estimate | Tool and endpoint reading | Comparison |
 |---|---|---|---|
@@ -17,7 +17,7 @@ The ruler fits the page in one reading. The yardstick and meter stick cover long
 
 ## Two scales on the same strip
 
-**2.MD.A.2.** The two scales in the upper drawing run along the same strip. Both share the same zero and end guide. The drawing uses 60 coordinate units per centimeter and 6 per millimeter. Read its scales at any display size.
+**[2.MD.A.2](https://www.thecorestandards.org/Math/Content/2/MD/A/2/).** The two scales in the upper drawing run along the same strip. Both share the same zero and end guide. The drawing uses 60 coordinate units per centimeter and 6 per millimeter. Read its scales at any display size.
 
 ![A fixed strip runs from zero to six centimeters or sixty millimeters. Below, strips share a start at 2 cm and end at 6 and 8 cm.](ruler-spans.svg)
 
@@ -25,7 +25,7 @@ Count the six centimeter intervals. Within each, ten smaller millimeter interval
 
 ## Starting at the two mark
 
-**2.MD.A.4.** Compare the lower strips. Both start at 2 cm. The short strip ends at 6 cm, so it spans 6 cm − 2 cm = **4 cm**. The long strip ends at 8 cm. Count its six intervals, 2–3, 3–4, 4–5, 5–6, 6–7, 7–8. Its length is **6 cm**.
+**[2.MD.A.4](https://www.thecorestandards.org/Math/Content/2/MD/A/4/).** Compare the lower strips. Both start at 2 cm. The short strip ends at 6 cm, so it spans 6 cm − 2 cm = **4 cm**. The long strip ends at 8 cm. Count its six intervals, 2–3, 3–4, 4–5, 5–6, 6–7, 7–8. Its length is **6 cm**.
 
 How much longer is the long strip? The exposed portion from 6 to 8 spans **2 cm**. Subtracting the measured lengths agrees, 6 cm − 4 cm = 2 cm. Add it back to check, 4 cm + 2 cm = 6 cm.
 

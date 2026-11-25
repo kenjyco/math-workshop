@@ -1,8 +1,10 @@
 # Which folds match this rectangle?
 
-Grade 4 · Goal G61 · Standard 4.G.A.3 · Concepts `symmetry`, `shape` · Practice MP3
+Grade 4 · Testing a fold against the whole boundary
 
-Common Core 4.G.A.3 asks students to recognize and draw folds that make the parts of a flat figure match. [Common Core State Standards for Mathematics, p. 32](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=32)
+Standard [4.G.A.3](https://www.thecorestandards.org/Math/Content/4/G/A/3/)
+
+Common Core [4.G.A.3](https://www.thecorestandards.org/Math/Content/4/G/A/3/) asks students to recognize and draw folds that make the parts of a flat figure match. [Common Core State Standards for Mathematics, p. 32](https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf#page=32)
 
 A **line of symmetry** is a line you can fold along so the entire shape on one side lands exactly on the shape on the other side. Points on the fold stay in place. Each other point lands the same distance straight across the fold, measured at a right angle to the fold line.
 

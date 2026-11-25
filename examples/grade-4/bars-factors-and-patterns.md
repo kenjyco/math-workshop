@@ -1,8 +1,12 @@
 # Copies, factors and repeating changes
 
-## G43 · Which amount is the reference?
+Grade 4 · Multiplicative comparisons, factor pairs and patterns
 
-[G43 · goal and source](../../goals/grade-4-whole-numbers.md#g43-comparing-by-a-factor-and-comparing-by-a-difference) · 4.OA.A.1, 4.OA.A.2 · `product`, `model`, `divide` · MP4
+<a name="g43--which-amount-is-the-reference"></a>
+
+## Which amount is the reference?
+
+[4.OA.A.1](https://www.thecorestandards.org/Math/Content/4/OA/A/1/), [4.OA.A.2](https://www.thecorestandards.org/Math/Content/4/OA/A/2/)
 
 Inez has four beads. “Sol has three times as many as Inez” gives three copies of her four, or **12 beads**. “Sol has three more than Inez” gives four plus three single beads, or **7 beads**.
 
@@ -22,9 +26,11 @@ Starting with the equation 12 = 3 × 4, choose four beads as the reference. Say 
 
 **Parent bridge.** Cover the first four beads in both longer bars. One bar has two whole reference lengths left. The other has three individual beads left.
 
-## G44 · When is the pair list finished?
+<a name="g44--when-is-the-pair-list-finished"></a>
 
-[G44 · goal and source](../../goals/grade-4-whole-numbers.md#g44-finding-every-factor-pair-and-recognizing-multiples) · 4.OA.B.4 · `factor`, `product`, `divide` · MP3
+## When is the pair list finished?
+
+[4.OA.B.4](https://www.thecorestandards.org/Math/Content/4/OA/B/4/)
 
 For a target from 1 through 100, try the smaller side of a rectangular array in order. An exact division makes a factor pair. Stop when the candidate times itself exceeds the target: even the smallest untested pair with both sides that large would overshoot.
 
@@ -39,9 +45,11 @@ Each partner divides its target exactly, so the target is a **multiple** of eith
 
 **Parent bridge.** Turn a 4-by-9 array to see 9 by 4. It is the same unordered pair. Turning the 6-by-6 array even leaves the dimensions in the same order.
 
-## G45 · What keeps alternating?
+<a name="g45--what-keeps-alternating"></a>
 
-[G45 · goal and source](../../goals/grade-4-whole-numbers.md#g45-generating-a-pattern-and-explaining-an-unstated-feature) · 4.OA.C.5 · `pattern` · MP8
+## What keeps alternating?
+
+[4.OA.C.5](https://www.thecorestandards.org/Math/Content/4/OA/C/5/)
 
 Start at 1 and add 3 each time. The terms are **1, 4, 7, 10, 13, 16**. Rebuild one step: 10 + 3 = 13. A feature absent from the instruction is that odd and even terms alternate.
 
