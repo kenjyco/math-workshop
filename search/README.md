@@ -25,3 +25,13 @@ The builder parses GFM with Pandoc’s dollar and GFM math extensions disabled. 
 The verifier checks pinned path-and-byte fingerprints of the original foundation and teaching files. With `--site` it inspects an existing build. With `--work` it builds twice into a new directory and compares every output byte. Supply both to compare a third bundle. Neither step uses repository history.
 
 For a browser check, try “place-value blocks” in Grade 2, then “partial quotients” in Grade 4. Open the rods or group ledger, check the exact heading and use Back. Try “compatible numbers” in Grades 4 and 2. For a longer list, use “addition” across all grades, expand both groups and return from a later result. Tab through the controls and results, check the counts after a grade change, and try a narrow window and 200% browser zoom.
+
+## Suggestions and standards
+
+Type **dis** or **property** to see “distributive property” among the suggestions for All grades. Use the arrow keys to explore up to five choices and Enter to select one. You can also click or tap a choice. Escape and Tab dismiss the list. Typing a complete term yourself still works.
+
+Try **properties of operations** with Grade 2. Follow **Four bundles of tickets** to see how grouping gives the same total, or open **Two trades across the empty tens place** for the subtraction check. Chapter 06 explains both ideas. The Standards section distinguishes a numbered standard, cluster wording and a strategy demonstrated by a worked example. Each reference names the heading where the course actually cites it. An exact code, including its final letter when present, opens the corresponding search results.
+
+On a worked reader or in search, hover or focus a standard code to read its summary. Activate **Preview** to keep it open on a touch screen. Use **Close preview** or Escape to dismiss it. Activating the code opens its original external reference. The summaries, notices and course links are included in the static build.
+
+The portable editorial inventory is in `standards.json`. It records the publisher PDF page, reference URL, physical citations, mathematical passages, and reviewed chapter links for each exact identifier. The builder resolves those links against the course and emits the display data in `index.json`. The verifier checks the individual summaries and source locations as well as the historical search catalog.
