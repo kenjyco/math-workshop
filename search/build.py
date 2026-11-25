@@ -15,7 +15,7 @@ from urllib.parse import urlsplit, urlunsplit
 from xml.etree import ElementTree
 
 sys.dont_write_bytecode = True
-from verify import Page, check_site, require
+from verify import Page, check_site, load_standards, require, standard_urls
 
 SEARCH = Path(__file__).resolve().parent
 ROOT = SEARCH.parent
@@ -193,6 +193,106 @@ def public_catalog(headings, evidence, links, grades):
     return {'variants': data['variants'], 'destinations': result}
 
 
+
+def inline_text(content):
+    return ''.join(n['c'] if n['t'] == 'Str' else ' ' for n in nodes(content)
+                   if n['t'] in ('Str', 'Space', 'SoftBreak'))
+
+
+def resolve_standards(inventory, docs, evidence, links, grades, catalog):
+    """Join exact cited and reviewed passages before converting source routes to HTML."""
+    rows = inventory['standards']
+    citations = defaultdict(list)
+    labels = {}
+    titles = {}
+    urls = standard_urls()
+    require(rows.keys() == urls.keys(), 'Standards inventory disagrees with the course')
+    for src, ast in docs.items():
+        for block in ast['blocks']:
+            if block['t'] == 'Header':
+                level, (frag, _, _), content = block['c']
+                location = src + '#' + frag
+                labels[location] = inline_text(content)
+                if level == 1:
+                    titles[src] = labels[location]
+            for node in nodes(block):
+                if node['t'] == 'Link' and '/Math/Content/' in node['c'][-1][0]:
+                    code = inline_text(node['c'][1])
+                    require(src.startswith('examples/') and node['c'][-1][0] == urls.get(code),
+                            f'{src}: incorrect reference {code}')
+                    citations[code].append(location)
+
+    by_source = {d['url'].replace('.html#', '.md#'): d for d in catalog['destinations']}
+    result = {}
+    for code, row in rows.items():
+        parts = code.split('.')
+        grade = row['grade']
+        require(row['url'] == urls[code] and grade == parts[0] and row['domain'] == parts[1]
+                and row['subpart'] == (parts[4] if len(parts) > 4 else None)
+                and row['boundary'] == (code == '5.NBT.B.5'), f'{code}: identifier mismatch')
+        require(sorted(citations[code]) == sorted(row['citations']), f'{code}: citation headings')
+        physical = []
+        for target in dict.fromkeys(row['citations']):
+            record = titles[target.split('#')[0]]
+            physical.append(dict(record=record, heading=labels[target]))
+        worked = []
+        for target in row['worked']:
+            key = tuple(target.split('#'))
+            require(target in labels and key in evidence and
+                    grades[evidence[key]] == ('4' if row['boundary'] else grade),
+                    f'{code}: incorrect worked grade or section {target}')
+            if target in by_source and not row['boundary']:
+                card = by_source[target]
+                require(card['type'] == 'example' and any(c['grade'] == grade for c in card['claims']),
+                        f'{code}: worked card grade')
+                worked.append(card['id'])
+        teaching = []
+        for join in row['teaching']:
+            card = by_source[join['source']]
+            key = tuple(join['source'].split('#'))
+            require(card['type'] == 'chapter' and any(c['grade'] == grade for c in card['claims'])
+                    and join['worked'] and join['reason'].strip(), f'{code}: teaching evidence')
+            for target in join['worked']:
+                require(target in row['worked'] and tuple(target.split('#')) in links[key],
+                        f'{code}: missing worked link at {join["source"]}')
+            teaching.append(dict(id=card['id'], reason=join['reason']))
+        result[code] = dict(grade=grade, url=urls[code], summary=row['summary'],
+                            boundary=row['boundary'], citations=physical, worked=worked, teaching=teaching)
+
+    for phrase, matches in inventory['phrases'].items():
+        require(phrase.strip().lower() == phrase and len({m['code'] for m in matches}) == len(matches)
+                and all(m['code'] in rows and m['provenance'] in {'numbered', 'cluster', 'strategy', 'worked'}
+                        for m in matches), f'Invalid phrase associations: {phrase}')
+    return result
+
+
+def standards_notice(rights):
+    return (f'<footer class="standards-notice" id="standards-notice" tabindex="-1">'
+            f'<p>Standard summaries are Math Workshop paraphrases. {escape(rights["acknowledgment"])}</p>'
+            f'<p>{escape(rights["copyright"])} <a href="{escape(rights["license"])}">Public license</a></p></footer>')
+
+
+def decorate_standards(html, rows):
+    # Pandoc has rendered each validated source link. Keep the anchor verbatim.
+    occurrence = 0
+
+    def decorate(match):
+        nonlocal occurrence
+        code = match[2]
+        require(rows[code]['url'] == match[1], f'{code}: unexpected rendered URL')
+        occurrence += 1
+        panel = f'citation-{occurrence}-panel'
+        return (f'<span class="standard-ref">{match[0]} '
+                f'<span class="standard-panel" id="{panel}" hidden>'
+                f'<span class="standard-summary" id="{panel}-summary">Standard summary: '
+                f'{escape(rows[code]["summary"])}</span> '
+                f'<a href="#standards-notice">Standards attribution</a></span></span>')
+
+    html = re.sub(r'<a href="(https://www\.thecorestandards\.org/Math/Content/[^"]+)">([^<]+)</a>',
+                  decorate, html)
+    return html, occurrence
+
+
 def reader_navigation(src, up):
     routes = (('index.html', 'Search'), ('teaching/README.html', 'Teaching chapters'),
               ('examples/README.html', 'Worked examples'))
@@ -207,6 +307,10 @@ def render(out):
     grades = goal_grades()
     docs, headings, evidence, links = course_inventory(grades)
     catalog = public_catalog(headings, evidence, links, grades)
+    inventory = load_standards()
+    catalog['standards'] = resolve_standards(inventory, docs, evidence, links, grades, catalog)
+    catalog['phrases'] = inventory['phrases']
+    notice = standards_notice(inventory['attribution'])
     for src, ast in docs.items():
         page = out / (src[:-3] + '.html')
         page.parent.mkdir(parents=True, exist_ok=True)
@@ -234,14 +338,19 @@ def render(out):
         html = re.sub(r'<table(?=[ >])', '<div class="table-scroll"><table', html).replace('</table>', '</table></div>')
         title = next(line[2:] for line in (ROOT / src).read_text(encoding='utf-8').splitlines() if line.startswith('# '))
         up = os.path.relpath(out, page.parent)
+        html, occurrences = decorate_standards(html, catalog['standards'])
+        tail = notice + f'<script defer src="{up}/standard-preview.js"></script>' if occurrences else ''
         page.write_text(f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} · Math Workshop</title><link rel="stylesheet" href="{up}/style.css"></head>
 <body><header class="reader-nav">{reader_navigation(page.relative_to(out).as_posix(), up)}</header>
-<main class="reader">{html}</main></body></html>
+<main class="reader">{html}{tail}</main></body></html>
 ''', encoding='utf-8')
         require(Page(page).headings == headings[src], f'{src}: HTML heading identifiers changed')
-    for asset in ('index.html', 'style.css', 'search.js'):
+    template = (SEARCH / 'index.html').read_text(encoding='utf-8')
+    require(template.count('<!-- standards-notice -->') == 1, 'Missing search attribution slot')
+    (out / 'index.html').write_text(template.replace('<!-- standards-notice -->', notice), encoding='utf-8')
+    for asset in ('style.css', 'search.js', 'standard-preview.js'):
         shutil.copyfile(SEARCH / asset, out / asset)
     (out / 'index.json').write_text(json.dumps(catalog, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     return check_site(out)

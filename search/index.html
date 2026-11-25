@@ -5,13 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Find help with homework · Math Workshop</title>
 <link rel="stylesheet" href="style.css">
+<script src="standard-preview.js" defer></script>
 <script src="search.js" defer></script>
 </head>
 <body>
 <main class="search-page">
 <header><p class="brand">Math Workshop</p><h1>Find help with homework</h1></header>
 <form role="search">
-<label>Skill or classroom strategy<input type="search" id="query" placeholder="Try addition or place-value blocks" autocomplete="off"></label>
+<div class="query-field">
+<label for="query">Skill or classroom strategy</label>
+<input type="search" id="query" placeholder="Try addition or place-value blocks" autocomplete="off"
+ role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions">
+<ul id="suggestions" role="listbox" aria-label="Suggested searches" hidden></ul>
+</div>
 <label>Grade<select id="grade"><option value="">All grades</option><option value="K">K</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
 </form>
 <p id="message">Enter a skill or strategy to find a chapter section or worked example.</p>
@@ -25,6 +31,7 @@
 <a href="examples/README.html">Worked examples</a>
 </div>
 </nav>
+<!-- standards-notice -->
 </main>
 </body>
 </html>

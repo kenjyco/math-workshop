@@ -42,7 +42,7 @@ jobs:
           python search/build.py --out "$RUNNER_TEMP/site"
           python search/verify.py --site "$RUNNER_TEMP/site" --work "$RUNNER_TEMP/repeat"
 
-      - name: Compare the upload with the accepted Search V2 manifest
+      - name: Compare the upload with the reviewed Search V3 manifest
         working-directory: ${{ runner.temp }}/site
         shell: python
         run: |
@@ -61,8 +61,8 @@ jobs:
               rows.append(f'{sha256(path.read_bytes()).hexdigest()}  {name}\n')
           digest = sha256(''.join(rows).encode('utf-8')).hexdigest()
           print(f'{len(rows)} files, manifest SHA-256 {digest}')
-          if len(rows) != 120 or digest != 'a814a9233cd749dd378dfdd5f561f02f4e65e72fe543109575677ce8a2658a48':
-              raise SystemExit('Site differs from accepted Search V2')
+          if len(rows) != 121 or digest != '20011150fe02950504ff55b25cbc6554c089f95649eb914e1124032b68e65a54':
+              raise SystemExit('Site differs from reviewed Search V3')
 
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

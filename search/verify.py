@@ -1,6 +1,6 @@
 """Check the pinned course, rendered bundle and reproducibility without Git."""
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 from hashlib import sha256
 from html.parser import HTMLParser
 import json
@@ -12,10 +12,10 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PINNED = {
-    'foundation': (110, '5f97a16bce54eccf27ede0f8bfb2ad83d1914273a2567bdb779459c03a3b3276'),
+    'foundation': (110, '0c435fb4b030d57d78525b8ea3feb678fc3d6ea16da13f311eca387446d5a44e'),
     'teaching': (23, '6d5423e7386861167dc6047eafcd3d93662969f22822c009a2e1d7d5e7fc4a0c'),
 }
-ASSETS = {'index.html', 'index.json', 'search.js', 'style.css'}
+ASSETS = {'index.html', 'index.json', 'search.js', 'style.css', 'standard-preview.js'}
 
 
 def require(condition, message):
@@ -27,7 +27,18 @@ def fingerprint(path):
     return sha256(path.read_bytes()).hexdigest()
 
 
+def load_standards():
+    path = ROOT / 'search/standards.json'
+    # Reviewed code-specific summaries and passage joins, including distinct siblings.
+    require(fingerprint(path) == '5e091aeda62b3f750aaa7565b6c1060d9a83014475bb360561bba0a2dae52779',
+            'Unreviewed standards inventory')
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
 def check_sources():
+    load_standards()
+    require(fingerprint(ROOT / 'search/catalog.json') ==
+            '4d78ef619df4248b0d5bbef555955e3ec7e1685add0a88843235e59d259b93fd', 'Historical catalog changed')
     groups = {key: [] for key in PINNED}
     for path in ROOT.rglob('*'):
         first = path.relative_to(ROOT).parts[0]
@@ -67,6 +78,11 @@ class Page(HTMLParser):
         self.targets = []
         self.in_nav = False
         self.navigation = []
+        self.current_heading = self.record = ''
+        self.heading_labels = {}
+        self.citations = []
+        self.summaries = []
+        self.summary_start = None
         self.tags = Counter()
         self.feed(path.read_text(encoding='utf-8'))
         self.close()
@@ -90,8 +106,12 @@ class Page(HTMLParser):
         if 'id' in attrs:
             require(attrs['id'] not in self.ids, f'Duplicate HTML id {attrs["id"]}')
             self.ids.add(attrs['id'])
+            if attrs.get('class') == 'standard-summary':
+                self.summary_start = len(self.text)
             if re.fullmatch('h[1-6]', tag):
                 self.headings.add(attrs['id'])
+                self.current_heading = attrs['id']
+                self.heading_start = len(self.text)
         for attr in ('href', 'src'):
             if attr in attrs:
                 self.targets.append((tag, attrs[attr]))
@@ -102,10 +122,20 @@ class Page(HTMLParser):
         self.text += ' ' * len(data) if self.literal else data
 
     def handle_endtag(self, tag):
+        if re.fullmatch('h[1-6]', tag) and self.current_heading:
+            label = self.text[self.heading_start:].strip()
+            self.heading_labels[self.current_heading] = label
+            if tag == 'h1':
+                self.record = label
+        if tag == 'span' and self.summary_start is not None:
+            self.summaries.append(self.text[self.summary_start:])
+            self.summary_start = None
         if tag == 'nav':
             self.in_nav = False
         if tag == 'a':
             start, href = self.anchor
+            if href and '/Math/Content/' in href:
+                self.citations.append((self.text[start:], self.current_heading))
             self.link_spans[start, len(self.text)] = href
             self.anchor = None
         if tag in ('code', 'pre', 'script', 'style'):
@@ -128,7 +158,7 @@ class Page(HTMLParser):
 def check_public_claims(catalog):
     """Independently check emitted grades against the cited worked reader's own grade."""
     source = json.loads((ROOT / 'search/catalog.json').read_text(encoding='utf-8'))
-    require(set(catalog) == {'variants', 'destinations'} and catalog['variants'] == source['variants'],
+    require(set(catalog) == {'variants', 'destinations', 'standards', 'phrases'} and catalog['variants'] == source['variants'],
             'Unexpected public vocabulary')
     require(len(catalog['destinations']) == len(source['destinations']), 'Missing public result')
     grades = {}
@@ -146,8 +176,72 @@ def check_public_claims(catalog):
             require(claim == dict(expected, grade=grades[worked]), f'{worked}: incorrect public claim')
 
 
+def check_standards(catalog, pages):
+    editorial = load_standards()
+    rows = editorial['standards']
+    require(set(catalog['standards']) == set(rows) and catalog['phrases'] == editorial['phrases'],
+            'Incorrect public standards or phrase associations')
+    cards = {d['url']: d['id'] for d in catalog['destinations']}
+    physical = defaultdict(list)
+    original_readers = {}
+    for name, page in sorted(pages.items()):
+        found = page.citations
+        expected_summaries = [f'Standard summary: {rows[code]["summary"]}' for code, _ in found]
+        require(page.summaries == expected_summaries, f'{name}: wrong individual standard summary')
+        for code, frag in found:
+            physical[code].append(name.replace('.html', '.md') + '#' + frag)
+        enhanced = bool(found) or name == 'index.html'
+        rights = editorial['attribution']
+        require(('standards-notice' in page.ids) == enhanced and
+                page.targets.count(('a', rights['license'])) == int(enhanced) and
+                sum(tag == 'script' and url.endswith('standard-preview.js') for tag, url in page.targets) == int(enhanced)
+                and page.targets.count(('a', '#standards-notice')) == len(found), f'{name}: preview resources')
+        if name != 'index.html':
+            extra_ids = set()
+            if found:
+                extra_ids.add('standards-notice')
+                for i in range(1, len(found) + 1):
+                    extra_ids.update((f'citation-{i}-panel', f'citation-{i}-panel-summary'))
+            require(extra_ids <= page.ids, f'{name}: missing preview target')
+            extra_targets = {('a', rights['license']), ('a', '#standards-notice')}
+            if found:
+                up = '../' * name.count('/')
+                extra_targets.add(('script', up + 'standard-preview.js'))
+            original_readers[name] = [sorted(page.ids - extra_ids), sorted(page.headings),
+                                      [ref for ref in page.targets if ref not in extra_targets]]
+        if enhanced:
+            require(rights['acknowledgment'] in page.text and rights['copyright'] in page.text,
+                    f'{name}: incomplete acknowledgment')
+    graph = sha256(json.dumps(original_readers, sort_keys=True).encode()).hexdigest()
+    require(graph == '61e8bed25b35daea9ca9275abaf1d764b549319a6c391148b2fef6bbe8f7c9f6',
+            'Historical reader IDs, headings or links changed')
+    for code, row in rows.items():
+        require(Counter(physical[code]) == Counter(row['citations']), f'{code}: cited headings changed')
+        citations = []
+        for source in dict.fromkeys(row['citations']):
+            url, frag = source.replace('.md#', '.html#').split('#')
+            page = pages[url]
+            citations.append(dict(record=page.record, heading=page.heading_labels[frag]))
+        worked = [s.replace('.md#', '.html#') for s in row['worked']]
+        for target in worked:
+            path, frag = target.split('#')
+            require(frag in pages[path].headings, f'{code}: missing mathematical passage')
+        expected = {k: row[k] for k in ('grade', 'url', 'summary', 'boundary')}
+        expected['citations'] = citations
+        expected['worked'] = [] if row['boundary'] else [cards[url] for url in worked if url in cards]
+        expected['teaching'] = [dict(id=cards[j['source'].replace('.md#', '.html#')], reason=j['reason'])
+                                for j in row['teaching']]
+        require(catalog['standards'][code] == expected, f'{code}: incorrect standards result')
+
+
 def check_site(site):
-    files = {p.relative_to(site).as_posix() for p in site.rglob('*') if p.is_file()}
+    files = set()
+    for path in site.rglob('*'):
+        require(not path.is_symlink(), f'Unexpected symbolic link: {path}')
+        if path.is_dir() and any(path.iterdir()):
+            continue
+        require(path.is_file() and path.stat().st_nlink == 1, f'Unexpected artifact entry: {path}')
+        files.add(path.relative_to(site).as_posix())
     docs = [p for group in ('teaching', 'examples') for p in (ROOT / group).rglob('*.md')]
     readers = {p.relative_to(ROOT).with_suffix('.html').as_posix() for p in docs}
     images = {p.relative_to(ROOT).as_posix() for p in (ROOT / 'examples').rglob('*.svg')}
@@ -166,6 +260,7 @@ def check_site(site):
     require(set(standards) == set(urls) and sum(standards.values()) == 174, 'Incomplete standard links')
     catalog = json.loads((site / 'index.json').read_text(encoding='utf-8'))
     check_public_claims(catalog)
+    check_standards(catalog, pages)
     ids, routes = set(), set()
     for dest in catalog['destinations']:
         require(set(dest) == {'id', 'url', 'title', 'preview', 'type', 'claims'}, 'Unexpected result fields')
@@ -207,7 +302,7 @@ def check_site(site):
             'Lost table, preformatted block or image')
     require(len(routes) == 139 and sum(len(d['claims']) for d in catalog['destinations']) == 234,
             'Incomplete search index')
-    require((internal, external) == (753, 181), 'Course link inventory changed')
+    require((internal, external) == (981, 235), f'Course link inventory changed: {internal}, {external}')
     return dict(readers=len(readers), headings=sum(len(pages[n].headings) for n in readers),
                 tables=counts['table'], pre=counts['pre'], images=len(images),
                 internal_links_and_assets=internal, external_links=external, results=len(routes))
