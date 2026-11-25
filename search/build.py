@@ -193,6 +193,16 @@ def public_catalog(headings, evidence, links, grades):
     return {'variants': data['variants'], 'destinations': result}
 
 
+def reader_navigation(src, up):
+    routes = (('index.html', 'Search'), ('teaching/README.html', 'Teaching chapters'),
+              ('examples/README.html', 'Worked examples'))
+    links = []
+    for target, label in routes:
+        current = ' aria-current="page"' if src == target else ''
+        links.append(f'<a href="{up}/{target}"{current}>{label}</a>')
+    return '<nav aria-label="Course" class="course-links">' + ' '.join(links) + '</nav>'
+
+
 def render(out):
     grades = goal_grades()
     docs, headings, evidence, links = course_inventory(grades)
@@ -227,7 +237,7 @@ def render(out):
         page.write_text(f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} · Math Workshop</title><link rel="stylesheet" href="{up}/style.css"></head>
-<body><header class="reader-nav"><nav><a href="{up}/index.html">Find help with homework</a></nav></header>
+<body><header class="reader-nav">{reader_navigation(page.relative_to(out).as_posix(), up)}</header>
 <main class="reader">{html}</main></body></html>
 ''', encoding='utf-8')
         require(Page(page).headings == headings[src], f'{src}: HTML heading identifiers changed')

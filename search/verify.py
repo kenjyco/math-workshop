@@ -12,7 +12,7 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PINNED = {
-    'foundation': (110, 'f1d5c5f880967f0f1814fbcdaa21e945a18749fc0a8be3af1cb6d5277fbddbf6'),
+    'foundation': (110, '5f97a16bce54eccf27ede0f8bfb2ad83d1914273a2567bdb779459c03a3b3276'),
     'teaching': (23, '6d5423e7386861167dc6047eafcd3d93662969f22822c009a2e1d7d5e7fc4a0c'),
 }
 ASSETS = {'index.html', 'index.json', 'search.js', 'style.css'}
@@ -65,6 +65,8 @@ class Page(HTMLParser):
         self.ids = set()
         self.headings = set()
         self.targets = []
+        self.in_nav = False
+        self.navigation = []
         self.tags = Counter()
         self.feed(path.read_text(encoding='utf-8'))
         self.close()
@@ -78,6 +80,10 @@ class Page(HTMLParser):
             self.text += '\n'
         if tag in ('code', 'pre', 'script', 'style'):
             self.literal += 1
+        if tag == 'nav':
+            self.in_nav = True
+        if tag == 'a' and self.in_nav:
+            self.navigation.append((attrs.get('href'), attrs.get('aria-current')))
         if tag == 'a':
             require(self.anchor is None, f'{self.name}: nested link')
             self.anchor = len(self.text), attrs.get('href')
@@ -96,6 +102,8 @@ class Page(HTMLParser):
         self.text += ' ' * len(data) if self.literal else data
 
     def handle_endtag(self, tag):
+        if tag == 'nav':
+            self.in_nav = False
         if tag == 'a':
             start, href = self.anchor
             self.link_spans[start, len(self.text)] = href
@@ -174,6 +182,12 @@ def check_site(site):
     # Resolve as a browser would with a deliberately nested hosting prefix.
     prefix = 'https://preview.invalid/course/math/'
     for name, page in pages.items():
+        routes_in_nav = ['teaching/README.html', 'examples/README.html']
+        if name != 'index.html':
+            routes_in_nav.insert(0, 'index.html')
+        expected_nav = [(prefix + target, 'page' if target == name else None) for target in routes_in_nav]
+        actual_nav = [(urljoin(prefix + name, href), current) for href, current in page.navigation]
+        require(actual_nav == expected_nav, f'{name}: incorrect course navigation')
         for tag, ref in page.targets:
             url = urlsplit(ref)
             if url.scheme in ('http', 'https') and tag == 'a':
@@ -193,7 +207,7 @@ def check_site(site):
             'Lost table, preformatted block or image')
     require(len(routes) == 139 and sum(len(d['claims']) for d in catalog['destinations']) == 234,
             'Incomplete search index')
-    require((internal, external) == (598, 181), 'Course link inventory changed')
+    require((internal, external) == (753, 181), 'Course link inventory changed')
     return dict(readers=len(readers), headings=sum(len(pages[n].headings) for n in readers),
                 tables=counts['table'], pre=counts['pre'], images=len(images),
                 internal_links_and_assets=internal, external_links=external, results=len(routes))

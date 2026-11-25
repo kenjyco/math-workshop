@@ -52,6 +52,8 @@ ol { margin: 0; padding: 0; list-style: none; }
 .card .meta { font-size: .875rem; color: var(--metadata); }
 .reason strong { color: var(--navy); }
 
+.course-links { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; }
+.course-browse a { font-weight: 650; }
 .reader-nav { background: var(--navy); }
 .reader-nav nav { padding-top: .85rem; padding-bottom: .85rem; }
 .reader-nav a { color: var(--surface); text-decoration-color: currentColor; font-weight: 650; }
