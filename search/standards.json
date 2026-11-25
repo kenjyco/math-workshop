@@ -1,0 +1,2710 @@
+{
+  "attribution": {
+    "acknowledgment": "Common Core State Standards were developed and are owned solely by the NGA Center for Best Practices and the Council of Chief State School Officers (CCSSO).",
+    "copyright": "© Copyright 2010. National Governors Association Center for Best Practices and Council of Chief State School Officers. All rights reserved.",
+    "license": "https://www.thecorestandards.org/public-license/",
+    "pdf": "https://corestandards.org/wp-content/uploads/2023/09/ADA-Compliant-Math-Standards.pdf"
+  },
+  "phrases": {
+    "properties of operations": [
+      {
+        "code": "1.OA.B.3",
+        "provenance": "numbered"
+      },
+      {
+        "code": "1.NBT.C.4",
+        "provenance": "numbered"
+      },
+      {
+        "code": "1.NBT.C.6",
+        "provenance": "numbered"
+      },
+      {
+        "code": "2.NBT.B.9",
+        "provenance": "numbered"
+      },
+      {
+        "code": "2.NBT.B.5",
+        "provenance": "numbered"
+      },
+      {
+        "code": "2.NBT.B.6",
+        "provenance": "numbered"
+      },
+      {
+        "code": "2.NBT.B.7",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.OA.B.5",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.OA.C.7",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.OA.D.9",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.NBT.A.2",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.NBT.A.3",
+        "provenance": "numbered"
+      },
+      {
+        "code": "4.NBT.B.5",
+        "provenance": "numbered"
+      },
+      {
+        "code": "4.NBT.B.6",
+        "provenance": "numbered"
+      },
+      {
+        "code": "4.NF.B.3.c",
+        "provenance": "numbered"
+      }
+    ],
+    "place value understanding": [
+      {
+        "code": "3.NBT.A.1",
+        "provenance": "numbered"
+      },
+      {
+        "code": "4.NBT.A.3",
+        "provenance": "numbered"
+      },
+      {
+        "code": "1.NBT.C.4",
+        "provenance": "cluster"
+      },
+      {
+        "code": "1.NBT.C.5",
+        "provenance": "cluster"
+      },
+      {
+        "code": "1.NBT.C.6",
+        "provenance": "cluster"
+      },
+      {
+        "code": "2.NBT.B.5",
+        "provenance": "cluster"
+      },
+      {
+        "code": "2.NBT.B.6",
+        "provenance": "cluster"
+      },
+      {
+        "code": "2.NBT.B.7",
+        "provenance": "cluster"
+      },
+      {
+        "code": "2.NBT.B.8",
+        "provenance": "cluster"
+      },
+      {
+        "code": "2.NBT.B.9",
+        "provenance": "cluster"
+      },
+      {
+        "code": "3.NBT.A.2",
+        "provenance": "cluster"
+      },
+      {
+        "code": "3.NBT.A.3",
+        "provenance": "cluster"
+      },
+      {
+        "code": "4.NBT.A.1",
+        "provenance": "cluster"
+      },
+      {
+        "code": "4.NBT.A.2",
+        "provenance": "cluster"
+      },
+      {
+        "code": "4.NBT.B.4",
+        "provenance": "cluster"
+      },
+      {
+        "code": "4.NBT.B.5",
+        "provenance": "cluster"
+      },
+      {
+        "code": "4.NBT.B.6",
+        "provenance": "cluster"
+      }
+    ],
+    "distributive property": [
+      {
+        "code": "3.MD.C.7.c",
+        "provenance": "numbered"
+      },
+      {
+        "code": "3.OA.B.5",
+        "provenance": "strategy"
+      },
+      {
+        "code": "4.NBT.B.5",
+        "provenance": "worked"
+      }
+    ],
+    "unknown-factor problem": [
+      {
+        "code": "3.OA.B.6",
+        "provenance": "numbered"
+      }
+    ],
+    "unit square": [
+      {
+        "code": "3.MD.C.5.a",
+        "provenance": "numbered"
+      }
+    ],
+    "scaled picture graph": [
+      {
+        "code": "3.MD.B.3",
+        "provenance": "numbered"
+      }
+    ],
+    "decimal notation": [
+      {
+        "code": "4.NF.C.6",
+        "provenance": "numbered"
+      }
+    ],
+    "line of symmetry": [
+      {
+        "code": "4.G.A.3",
+        "provenance": "numbered"
+      }
+    ]
+  },
+  "standards": {
+    "K.CC.A.1": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/A/1/",
+      "page": 11,
+      "summary": "Count to 100 by ones and by tens.",
+      "citations": [
+        "examples/kindergarten/counting.md#two-ways-to-reach-100"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#two-ways-to-reach-100"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.A.2": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/A/2/",
+      "page": 11,
+      "summary": "Continue from a supplied number within the familiar sequence.",
+      "citations": [
+        "examples/kindergarten/counting.md#start-at-37"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#start-at-37"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.A.3": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/A/3/",
+      "page": 11,
+      "summary": "Write 0–20 and use these numerals for set sizes, including the empty set.",
+      "citations": [
+        "examples/kindergarten/counting.md#write-how-many"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#write-how-many"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.B.4": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/B/4/",
+      "page": 11,
+      "summary": "Connect the counting process to how many objects there are.",
+      "citations": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.B.4.a": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/B/4/a/",
+      "page": 11,
+      "summary": "Pair each object once with one number word in sequence.",
+      "citations": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.B.4.b": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/B/4/b/",
+      "page": 11,
+      "summary": "The last word gives the total, invariant under rearrangement or counting order.",
+      "citations": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.B.4.c": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/B/4/c/",
+      "page": 11,
+      "summary": "Each successive number means one more object.",
+      "citations": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#seven-buttons-then-one-more"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.B.5": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/B/5/",
+      "page": 11,
+      "summary": "Count up to 20 in a line, rectangle, or circle, up to 10 scattered, and produce a requested set of 1–20.",
+      "citations": [
+        "examples/kindergarten/counting.md#count-a-layout-or-make-a-collection"
+      ],
+      "worked": [
+        "examples/kindergarten/counting.md#count-a-layout-or-make-a-collection"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.C.6": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/C/6/",
+      "page": 11,
+      "summary": "Compare two collections of up to ten objects each.",
+      "citations": [
+        "examples/kindergarten/comparing-and-sorting.md#match-across-two-groups"
+      ],
+      "worked": [
+        "examples/kindergarten/comparing-and-sorting.md#match-across-two-groups"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.CC.C.7": {
+      "grade": "K",
+      "domain": "CC",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/CC/C/7/",
+      "page": 11,
+      "summary": "Compare two written numerals from 1–10.",
+      "citations": [
+        "examples/kindergarten/comparing-and-sorting.md#read-the-numeral-cards"
+      ],
+      "worked": [
+        "examples/kindergarten/comparing-and-sorting.md#read-the-numeral-cards"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.OA.A.1": {
+      "grade": "K",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/OA/A/1/",
+      "page": 11,
+      "summary": "Represent joining or separating quantities. Objects, movement, sounds, images, words, drawings, and notation are possible modes.",
+      "citations": [
+        "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish"
+      ],
+      "worked": [
+        "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.OA.A.2": {
+      "grade": "K",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/OA/A/2/",
+      "page": 11,
+      "summary": "Solve addition and subtraction stories and calculations within 10.",
+      "citations": [
+        "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish"
+      ],
+      "worked": [
+        "examples/kindergarten/joining-and-splitting.md#buttons-into-and-out-of-a-dish"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.OA.A.3": {
+      "grade": "K",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/OA/A/3/",
+      "page": 11,
+      "summary": "Split a number at most 10 into two parts in multiple ways. Record each with a drawing or equation.",
+      "citations": [
+        "examples/kindergarten/joining-and-splitting.md#one-whole-and-two-parts"
+      ],
+      "worked": [
+        "examples/kindergarten/joining-and-splitting.md#one-whole-and-two-parts"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.OA.A.4": {
+      "grade": "K",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/OA/A/4/",
+      "page": 11,
+      "summary": "For each starting number 1–9, find its partner to make ten and record it.",
+      "citations": [
+        "examples/kindergarten/tens-and-teens.md#how-many-more-will-fill-the-frame"
+      ],
+      "worked": [
+        "examples/kindergarten/tens-and-teens.md#how-many-more-will-fill-the-frame"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.OA.A.5": {
+      "grade": "K",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/OA/A/5/",
+      "page": 11,
+      "summary": "Add and subtract fluently within 5.",
+      "citations": [
+        "examples/kindergarten/joining-and-splitting.md#related-facts-within-five"
+      ],
+      "worked": [
+        "examples/kindergarten/joining-and-splitting.md#related-facts-within-five"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.NBT.A.1": {
+      "grade": "K",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/NBT/A/1/",
+      "page": 12,
+      "summary": "Build and take apart 11–19 as ten individual ones plus 1–9 more. Record the composition or decomposition.",
+      "citations": [
+        "examples/kindergarten/tens-and-teens.md#how-many-beyond-a-full-frame"
+      ],
+      "worked": [
+        "examples/kindergarten/tens-and-teens.md#how-many-beyond-a-full-frame"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.MD.A.1": {
+      "grade": "K",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/A/1/",
+      "page": 12,
+      "summary": "Describe more than one measurable attribute of an object.",
+      "citations": [
+        "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book"
+      ],
+      "worked": [
+        "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.MD.A.2": {
+      "grade": "K",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/A/2/",
+      "page": 12,
+      "summary": "Directly compare two objects on a shared attribute and describe the difference.",
+      "citations": [
+        "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book",
+        "examples/kindergarten/length-and-weight.md#when-the-ends-meet"
+      ],
+      "worked": [
+        "examples/kindergarten/length-and-weight.md#two-comparisons-with-the-same-book",
+        "examples/kindergarten/length-and-weight.md#when-the-ends-meet"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.MD.B.3": {
+      "grade": "K",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/MD/B/3/",
+      "page": 12,
+      "summary": "Classify by given categories, count each, then order the categories by count. Each category has at most ten objects.",
+      "citations": [
+        "examples/kindergarten/comparing-and-sorting.md#sort-a-handful-by-its-markings"
+      ],
+      "worked": [
+        "examples/kindergarten/comparing-and-sorting.md#sort-a-handful-by-its-markings"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.A.1": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/A/1/",
+      "page": 12,
+      "summary": "Name shapes in the surroundings and describe relative positions.",
+      "citations": [
+        "examples/kindergarten/shapes.md#which-shape-do-you-see",
+        "examples/kindergarten/shapes.md#where-is-it"
+      ],
+      "worked": [
+        "examples/kindergarten/shapes.md#which-shape-do-you-see",
+        "examples/kindergarten/shapes.md#where-is-it"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.A.2": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/A/2/",
+      "page": 12,
+      "summary": "Recognize shapes across changes of orientation and size.",
+      "citations": [
+        "examples/kindergarten/shapes.md#turn-it-or-make-it-smaller"
+      ],
+      "worked": [
+        "examples/kindergarten/shapes.md#turn-it-or-make-it-smaller"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.A.3": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/A/3/",
+      "page": 12,
+      "summary": "Distinguish plane shapes and solids.",
+      "citations": [
+        "examples/kindergarten/shapes.md#the-face-and-the-whole"
+      ],
+      "worked": [
+        "examples/kindergarten/shapes.md#the-face-and-the-whole"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.B.4": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/B/4/",
+      "page": 12,
+      "summary": "Compare plane and solid shapes across sizes and orientations using informal attributes.",
+      "citations": [
+        "examples/kindergarten/shapes.md#which-shape-do-you-see",
+        "examples/kindergarten/shapes.md#turn-it-or-make-it-smaller"
+      ],
+      "worked": [
+        "examples/kindergarten/shapes.md#which-shape-do-you-see",
+        "examples/kindergarten/shapes.md#turn-it-or-make-it-smaller"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.B.5": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/B/5/",
+      "page": 12,
+      "summary": "Model real shapes by building from components and by drawing.",
+      "citations": [
+        "examples/kindergarten/building-shapes.md#build-a-roof-outline-and-draw-it"
+      ],
+      "worked": [
+        "examples/kindergarten/building-shapes.md#build-a-roof-outline-and-draw-it"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "K.G.B.6": {
+      "grade": "K",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/K/G/B/6/",
+      "page": 12,
+      "summary": "Combine simple shapes into a larger one.",
+      "citations": [
+        "examples/kindergarten/building-shapes.md#fit-the-paper-pieces-together"
+      ],
+      "worked": [
+        "examples/kindergarten/building-shapes.md#fit-the-paper-pieces-together"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.A.1": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/A/1/",
+      "page": 15,
+      "summary": "Solve additive stories within 20 involving increase, decrease, parts and whole, or comparison, with the unknown in all applicable positions.",
+      "citations": [
+        "examples/grade-1/stories-with-unknowns.md#buttons-going-into-or-coming-out-of-a-tin",
+        "examples/grade-1/stories-with-unknowns.md#two-parts-on-a-tray",
+        "examples/grade-1/stories-with-unknowns.md#two-collections-side-by-side"
+      ],
+      "worked": [
+        "examples/grade-1/stories-with-unknowns.md#buttons-going-into-or-coming-out-of-a-tin",
+        "examples/grade-1/stories-with-unknowns.md#two-parts-on-a-tray",
+        "examples/grade-1/stories-with-unknowns.md#two-collections-side-by-side"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.A.2": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/A/2/",
+      "page": 15,
+      "summary": "Solve stories combining three whole numbers with total at most 20.",
+      "citations": [
+        "examples/grade-1/stories-with-unknowns.md#buttons-from-three-pockets"
+      ],
+      "worked": [
+        "examples/grade-1/stories-with-unknowns.md#buttons-from-three-pockets"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.B.3": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/B/3/",
+      "page": 15,
+      "summary": "Use properties of operations to add or subtract.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.B.4": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/B/4/",
+      "page": 15,
+      "summary": "Interpret subtraction as finding a missing addend.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.C.5": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/C/5/",
+      "page": 15,
+      "summary": "Relate counting to addition and subtraction.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.C.6": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/C/6/",
+      "page": 15,
+      "summary": "Calculate within 20 and attain fluency within 10, using strategies such as making ten, known sums, decomposition, and inverses.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four",
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part",
+        "examples/grade-1/making-ten-and-equality.md#facts-within-ten"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#from-eight-and-six-to-ten-and-four",
+        "examples/grade-1/making-ten-and-equality.md#counting-moves-and-finding-a-missing-part",
+        "examples/grade-1/making-ten-and-equality.md#facts-within-ten"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.D.7": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/D/7/",
+      "page": 15,
+      "summary": "Interpret equality and decide whether additive equations are true.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#what-the-equals-sign-says"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#what-the-equals-sign-says"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.OA.D.8": {
+      "grade": "1",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/OA/D/8/",
+      "page": 15,
+      "summary": "Find an unknown in an addition or subtraction equation relating three whole numbers.",
+      "citations": [
+        "examples/grade-1/making-ten-and-equality.md#which-number-belongs-in-the-box"
+      ],
+      "worked": [
+        "examples/grade-1/making-ten-and-equality.md#which-number-belongs-in-the-box"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.A.1": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/A/1/",
+      "page": 15,
+      "summary": "Count to 120 from any starting number below 120, and read, write, and match numerals to quantities in range.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#counting-from-97-to-120"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#counting-from-97-to-120"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.B.2": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/B/2/",
+      "page": 15,
+      "summary": "Interpret both digits of a two-digit number as tens and ones.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#reading-both-digits-of-42"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#reading-both-digits-of-42"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.B.2.a": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/B/2/a/",
+      "page": 15,
+      "summary": "Treat a group of ten ones as one ten.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#one-tie-around-ten-sticks"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.B.2.b": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/B/2/b/",
+      "page": 15,
+      "summary": "Recognize 11–19 as one ten plus additional ones.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#keeping-one-ten-in-every-teen"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#keeping-one-ten-in-every-teen"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.B.2.c": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/B/2/c/",
+      "page": 15,
+      "summary": "Interpret 10 through 90 by tens as groups of tens with zero ones.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#exact-tens-and-an-empty-ones-place"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#exact-tens-and-an-empty-ones-place"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.B.3": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/B/3/",
+      "page": 16,
+      "summary": "Compare two two-digit numbers by tens and ones and record >, = and <.",
+      "citations": [
+        "examples/grade-1/bundles-and-counting.md#comparing-two-trays"
+      ],
+      "worked": [
+        "examples/grade-1/bundles-and-counting.md#comparing-two-trays"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.C.4": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/C/4/",
+      "page": 16,
+      "summary": "Add within 100, including two-digit plus one-digit and two-digit plus a multiple of ten. Use a model or drawing, explain the strategy, and connect it to writing.",
+      "citations": [
+        "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray"
+      ],
+      "worked": [
+        "examples/grade-1/bundle-arithmetic.md#three-ways-to-add-to-a-tray"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.C.5": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/C/5/",
+      "page": 16,
+      "summary": "Mentally find ten more or ten less than a two-digit number and explain.",
+      "citations": [
+        "examples/grade-1/bundle-arithmetic.md#ten-more-and-ten-less-in-your-head"
+      ],
+      "worked": [
+        "examples/grade-1/bundle-arithmetic.md#ten-more-and-ten-less-in-your-head"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.NBT.C.6": {
+      "grade": "1",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/NBT/C/6/",
+      "page": 16,
+      "summary": "Subtract multiples of ten, both operands 10–90, with zero or positive difference. Model, explain, and connect to writing.",
+      "citations": [
+        "examples/grade-1/bundle-arithmetic.md#taking-away-whole-bundles"
+      ],
+      "worked": [
+        "examples/grade-1/bundle-arithmetic.md#taking-away-whole-bundles"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.MD.A.1": {
+      "grade": "1",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/A/1/",
+      "page": 16,
+      "summary": "Order three lengths and use a third object for an indirect comparison.",
+      "citations": [
+        "examples/grade-1/length-strips.md#carrying-lengths-to-one-strip"
+      ],
+      "worked": [
+        "examples/grade-1/length-strips.md#carrying-lengths-to-one-strip"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.MD.A.2": {
+      "grade": "1",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/A/2/",
+      "page": 16,
+      "summary": "Measure with repeated equal units placed end to end. Use exact whole-unit spans.",
+      "citations": [
+        "examples/grade-1/length-strips.md#when-five-tiles-measure-the-strip"
+      ],
+      "worked": [
+        "examples/grade-1/length-strips.md#when-five-tiles-measure-the-strip"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.MD.B.3": {
+      "grade": "1",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/B/3/",
+      "page": 16,
+      "summary": "Read and write hours and half-hours on analog and digital clocks.",
+      "citations": [
+        "examples/grade-1/clock-faces.md#reading-the-two-hands"
+      ],
+      "worked": [
+        "examples/grade-1/clock-faces.md#reading-the-two-hands"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.MD.C.4": {
+      "grade": "1",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/MD/C/4/",
+      "page": 16,
+      "summary": "Organize, display, and interpret up to three categories, including totals, category counts, and differences.",
+      "citations": [
+        "examples/grade-1/bird-counts.md#from-feeder-visits-to-three-columns"
+      ],
+      "worked": [
+        "examples/grade-1/bird-counts.md#from-feeder-visits-to-three-columns"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.G.A.1": {
+      "grade": "1",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/G/A/1/",
+      "page": 16,
+      "summary": "Distinguish defining and incidental attributes. Build and draw figures with the defining attributes.",
+      "citations": [
+        "examples/grade-1/triangles-and-composites.md#building-and-drawing-a-triangle"
+      ],
+      "worked": [
+        "examples/grade-1/triangles-and-composites.md#building-and-drawing-a-triangle"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.G.A.2": {
+      "grade": "1",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/G/A/2/",
+      "page": 16,
+      "summary": "Compose plane pieces or solids and use a composite in a further composition.",
+      "citations": [
+        "examples/grade-1/triangles-and-composites.md#a-square-becomes-a-piece-of-a-rectangle",
+        "examples/grade-1/triangles-and-composites.md#a-pair-of-cubes-becomes-a-layer"
+      ],
+      "worked": [
+        "examples/grade-1/triangles-and-composites.md#a-square-becomes-a-piece-of-a-rectangle",
+        "examples/grade-1/triangles-and-composites.md#a-pair-of-cubes-becomes-a-layer"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "1.G.A.3": {
+      "grade": "1",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/1/G/A/3/",
+      "page": 16,
+      "summary": "Divide circles and rectangles into two or four equal shares. Name halves, fourths/quarters, reconstruct the whole, and compare share size.",
+      "citations": [
+        "examples/grade-1/equal-shares.md#two-cuts-through-the-center-of-a-disk",
+        "examples/grade-1/equal-shares.md#checking-shares-of-a-rectangle"
+      ],
+      "worked": [
+        "examples/grade-1/equal-shares.md#two-cuts-through-the-center-of-a-disk",
+        "examples/grade-1/equal-shares.md#checking-shares-of-a-rectangle"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.OA.A.1": {
+      "grade": "2",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/OA/A/1/",
+      "page": 19,
+      "summary": "Solve one- and two-step additive stories within 100, across Table 1 situations and unknown positions.",
+      "citations": [
+        "examples/grade-2/fact-families-and-stories.md#a-tray-of-tickets",
+        "examples/grade-2/fact-families-and-stories.md#two-steps-at-the-ticket-window"
+      ],
+      "worked": [
+        "examples/grade-2/fact-families-and-stories.md#a-tray-of-tickets",
+        "examples/grade-2/fact-families-and-stories.md#two-steps-at-the-ticket-window"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.OA.B.2": {
+      "grade": "2",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/OA/B/2/",
+      "page": 19,
+      "summary": "Add and subtract mentally and fluently within 20. By year end recall every sum of two one-digit numbers.",
+      "citations": [
+        "examples/grade-2/fact-families-and-stories.md#facts-within-twenty"
+      ],
+      "worked": [
+        "examples/grade-2/fact-families-and-stories.md#facts-within-twenty"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.OA.C.3": {
+      "grade": "2",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/OA/C/3/",
+      "page": 19,
+      "summary": "Determine parity for groups up to 20. Express an even count as two equal addends.",
+      "citations": [
+        "examples/grade-2/pairs-and-arrays.md#a-partner-for-each-counter"
+      ],
+      "worked": [
+        "examples/grade-2/pairs-and-arrays.md#a-partner-for-each-counter"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.OA.C.4": {
+      "grade": "2",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/OA/C/4/",
+      "page": 19,
+      "summary": "Total rectangular arrays up to five rows by five columns using addition. Write the equal-addend equation.",
+      "citations": [
+        "examples/grade-2/pairs-and-arrays.md#rows-that-turn-into-columns"
+      ],
+      "worked": [
+        "examples/grade-2/pairs-and-arrays.md#rows-that-turn-into-columns"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.1": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/1/",
+      "page": 19,
+      "summary": "Interpret three-digit numbers by hundreds, tens, and ones.",
+      "citations": [
+        "examples/grade-2/hundreds.md#four-flats-and-six-loose-ones"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#four-flats-and-six-loose-ones"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.1.a": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/1/a/",
+      "page": 19,
+      "summary": "Ten tens form one hundred.",
+      "citations": [
+        "examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#ten-rods-fit-on-one-flat"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.1.b": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/1/b/",
+      "page": 19,
+      "summary": "Interpret 100 through 900 by hundreds with zero tens and ones.",
+      "citations": [
+        "examples/grade-2/hundreds.md#exact-hundreds"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#exact-hundreds"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.2": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/2/",
+      "page": 19,
+      "summary": "Count within 1,000 and skip-count by 5, 10, and 100.",
+      "citations": [
+        "examples/grade-2/hundreds.md#counting-across-a-hundred"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#counting-across-a-hundred"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.3": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/3/",
+      "page": 19,
+      "summary": "Read and write numbers to 1,000 as numerals, words, and expanded form.",
+      "citations": [
+        "examples/grade-2/hundreds.md#reading-and-rebuilding-a-number"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#reading-and-rebuilding-a-number"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.A.4": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/A/4/",
+      "page": 19,
+      "summary": "Compare three-digit numbers by digit value using >, = and <.",
+      "citations": [
+        "examples/grade-2/hundreds.md#which-tray-holds-more"
+      ],
+      "worked": [
+        "examples/grade-2/hundreds.md#which-tray-holds-more"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.B.5": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/B/5/",
+      "page": 19,
+      "summary": "Fluently add and subtract within 100 using place value, properties, or the inverse relationship.",
+      "citations": [
+        "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two"
+      ],
+      "worked": [
+        "examples/grade-2/place-value-trades.md#trading-a-ten-in-fifty-two"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.B.6": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/B/6/",
+      "page": 19,
+      "summary": "Add up to four two-digit numbers using place value and properties.",
+      "citations": [
+        "examples/grade-2/place-value-trades.md#four-bundles-of-tickets"
+      ],
+      "worked": [
+        "examples/grade-2/place-value-trades.md#four-bundles-of-tickets"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.B.7": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/B/7/",
+      "page": 19,
+      "summary": "Add and subtract within 1,000 with concrete or drawn models linked to writing. Compose or decompose tens and hundreds when needed.",
+      "citations": [
+        "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place",
+        "examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred"
+      ],
+      "worked": [
+        "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place",
+        "examples/grade-2/place-value-trades.md#composing-a-ten-and-a-hundred"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.B.8": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/B/8/",
+      "page": 19,
+      "summary": "Mentally add or subtract 10 or 100 from a starting number in 100–900.",
+      "citations": [
+        "examples/grade-2/place-value-trades.md#moving-one-ten-or-one-hundred-mentally"
+      ],
+      "worked": [
+        "examples/grade-2/place-value-trades.md#moving-one-ten-or-one-hundred-mentally"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.NBT.B.9": {
+      "grade": "2",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/NBT/B/9/",
+      "page": 19,
+      "summary": "Explain why addition and subtraction strategies work using place value and properties of operations. Objects or drawings can support the reasoning.",
+      "citations": [
+        "examples/grade-2/place-value-trades.md#four-bundles-of-tickets",
+        "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place"
+      ],
+      "worked": [
+        "examples/grade-2/place-value-trades.md#four-bundles-of-tickets",
+        "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place"
+      ],
+      "teaching": [
+        {
+          "source": "teaching/06-bundles-and-trades.md#open-a-pack-before-taking-any-away",
+          "worked": [
+            "examples/grade-2/place-value-trades.md#four-bundles-of-tickets",
+            "examples/grade-2/place-value-trades.md#two-trades-across-the-empty-tens-place"
+          ],
+          "reason": "Grouping the tickets gives 80 + 20. Opening a hundred and then a ten gives 200 + 90 + 12. Each rearrangement preserves the total."
+        }
+      ],
+      "boundary": false
+    },
+    "2.MD.A.1": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/A/1/",
+      "page": 20,
+      "summary": "Select and use an appropriate measuring tool for length.",
+      "citations": [
+        "examples/grade-2/measuring-length.md#choosing-a-tool-and-testing-an-estimate"
+      ],
+      "worked": [
+        "examples/grade-2/measuring-length.md#choosing-a-tool-and-testing-an-estimate"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.A.2": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/A/2/",
+      "page": 20,
+      "summary": "Measure the same object with two different-size units and relate unit size to the numerical result.",
+      "citations": [
+        "examples/grade-2/measuring-length.md#two-scales-on-the-same-strip"
+      ],
+      "worked": [
+        "examples/grade-2/measuring-length.md#two-scales-on-the-same-strip"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.A.3": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/A/3/",
+      "page": 20,
+      "summary": "Estimate lengths in inches, feet, centimeters, and meters.",
+      "citations": [
+        "examples/grade-2/measuring-length.md#choosing-a-tool-and-testing-an-estimate"
+      ],
+      "worked": [
+        "examples/grade-2/measuring-length.md#choosing-a-tool-and-testing-an-estimate"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.A.4": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/A/4/",
+      "page": 20,
+      "summary": "Measure how much longer one object is than another in a standard unit.",
+      "citations": [
+        "examples/grade-2/measuring-length.md#starting-at-the-two-mark"
+      ],
+      "worked": [
+        "examples/grade-2/measuring-length.md#starting-at-the-two-mark"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.B.5": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/B/5/",
+      "page": 20,
+      "summary": "Solve same-unit length stories using addition or subtraction within 100.",
+      "citations": [
+        "examples/grade-2/length-jumps.md#two-pieces-of-binding"
+      ],
+      "worked": [
+        "examples/grade-2/length-jumps.md#two-pieces-of-binding"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.B.6": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/B/6/",
+      "page": 20,
+      "summary": "Show whole numbers as lengths from zero and sums/differences within 100 on an equally spaced number line.",
+      "citations": [
+        "examples/grade-2/length-jumps.md#from-the-seam-to-the-end-and-back"
+      ],
+      "worked": [
+        "examples/grade-2/length-jumps.md#from-the-seam-to-the-end-and-back"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.C.7": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/C/7/",
+      "page": 20,
+      "summary": "Read and write analog and digital time to five minutes using a.m. and p.m.",
+      "citations": [
+        "examples/grade-2/five-minute-clocks.md#twelve-five-minute-readings",
+        "examples/grade-2/five-minute-clocks.md#two-trains-at-five-to-eight"
+      ],
+      "worked": [
+        "examples/grade-2/five-minute-clocks.md#twelve-five-minute-readings",
+        "examples/grade-2/five-minute-clocks.md#two-trains-at-five-to-eight"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.C.8": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/C/8/",
+      "page": 20,
+      "summary": "Solve money stories with dollar bills, quarters, dimes, nickels, and pennies. Use dollar and cent symbols correctly.",
+      "citations": [
+        "examples/grade-2/money-exchanges.md#two-ways-to-pay-for-a-stamp",
+        "examples/grade-2/money-exchanges.md#a-purchase-with-a-dollar-bill"
+      ],
+      "worked": [
+        "examples/grade-2/money-exchanges.md#two-ways-to-pay-for-a-stamp",
+        "examples/grade-2/money-exchanges.md#a-purchase-with-a-dollar-bill"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.D.9": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/D/9/",
+      "page": 20,
+      "summary": "Generate length data to the nearest whole unit and make a whole-unit line plot. Repeated measurements of one object are also possible.",
+      "citations": [
+        "examples/grade-2/strip-graphs.md#measuring-the-sample-strips",
+        "examples/grade-2/strip-graphs.md#one-cross-per-measured-strip"
+      ],
+      "worked": [
+        "examples/grade-2/strip-graphs.md#measuring-the-sample-strips",
+        "examples/grade-2/strip-graphs.md#one-cross-per-measured-strip"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.MD.D.10": {
+      "grade": "2",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/MD/D/10/",
+      "page": 20,
+      "summary": "Create picture and single-unit bar graphs for up to four categories. Solve simple part/whole and comparison problems using the bar graph.",
+      "citations": [
+        "examples/grade-2/strip-graphs.md#two-graphs-of-the-materials"
+      ],
+      "worked": [
+        "examples/grade-2/strip-graphs.md#two-graphs-of-the-materials"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.G.A.1": {
+      "grade": "2",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/G/A/1/",
+      "page": 20,
+      "summary": "Recognize and draw figures with specified attributes. Identify triangles, quadrilaterals, pentagons, hexagons, and cubes.",
+      "citations": [
+        "examples/grade-2/shapes-and-shares.md#drawing-from-the-attributes"
+      ],
+      "worked": [
+        "examples/grade-2/shapes-and-shares.md#drawing-from-the-attributes"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.G.A.2": {
+      "grade": "2",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/G/A/2/",
+      "page": 20,
+      "summary": "Split a rectangle into rows and columns of same-size squares and count them.",
+      "citations": [
+        "examples/grade-2/pairs-and-arrays.md#squares-inside-the-rectangle"
+      ],
+      "worked": [
+        "examples/grade-2/pairs-and-arrays.md#squares-inside-the-rectangle"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "2.G.A.3": {
+      "grade": "2",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/2/G/A/3/",
+      "page": 20,
+      "summary": "Divide circles and rectangles into two, three, or four equal shares. Name shares and wholes. Equal shares of identical wholes may have different shapes.",
+      "citations": [
+        "examples/grade-2/shapes-and-shares.md#halves-that-take-different-shapes",
+        "examples/grade-2/shapes-and-shares.md#naming-the-shares-and-the-whole"
+      ],
+      "worked": [
+        "examples/grade-2/shapes-and-shares.md#halves-that-take-different-shapes",
+        "examples/grade-2/shapes-and-shares.md#naming-the-shares-and-the-whole"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.A.1": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/A/1/",
+      "page": 23,
+      "summary": "Interpret a whole-number product in context.",
+      "citations": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "worked": [
+        "examples/grade-3/bags-rows-and-lengths.md#four-bags-of-buttons"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.A.2": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/A/2/",
+      "page": 23,
+      "summary": "Interpret a whole-number quotient both as group size and as number of groups.",
+      "citations": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "worked": [
+        "examples/grade-3/bags-rows-and-lengths.md#sharing-or-packing-the-same-buttons"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.A.3": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/A/3/",
+      "page": 23,
+      "summary": "Solve multiplication/division problems within 100 involving equal groups, arrays, and measurement quantities.",
+      "citations": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "worked": [
+        "examples/grade-3/bags-rows-and-lengths.md#rows-on-a-pegboard-and-pieces-of-ribbon"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.A.4": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/A/4/",
+      "page": 23,
+      "summary": "Find an unknown whole number in a three-quantity multiplication or division equation.",
+      "citations": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "worked": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.B.5": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/B/5/",
+      "page": 23,
+      "summary": "Use operation properties in multiplication and division strategies. Formal property names are optional.",
+      "citations": [
+        "examples/grade-3/turning-and-splitting-arrays.md#the-one-digit-product-table"
+      ],
+      "worked": [
+        "examples/grade-3/turning-and-splitting-arrays.md#turn-bundle-and-split"
+      ],
+      "teaching": [
+        {
+          "source": "teaching/09-equal-groups.md#keep-track-of-every-row",
+          "worked": [
+            "examples/grade-3/turning-and-splitting-arrays.md#turn-bundle-and-split"
+          ],
+          "reason": "Both pieces of the split array keep all seven rows. Seven fives and seven threes together make 56."
+        }
+      ],
+      "boundary": false
+    },
+    "3.OA.B.6": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/B/6/",
+      "page": 23,
+      "summary": "Interpret division through a missing factor.",
+      "citations": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "worked": [
+        "examples/grade-3/bags-rows-and-lengths.md#six-equal-trays-holding-forty-two"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.C.7": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/C/7/",
+      "page": 23,
+      "summary": "Multiply and divide fluently within 100. By year end recall products of every pair of one-digit numbers.",
+      "citations": [
+        "examples/grade-3/turning-and-splitting-arrays.md#the-one-digit-product-table"
+      ],
+      "worked": [
+        "examples/grade-3/turning-and-splitting-arrays.md#reading-back-from-a-product",
+        "examples/grade-3/turning-and-splitting-arrays.md#the-one-digit-product-table"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.D.8": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/D/8/",
+      "page": 23,
+      "summary": "Solve two-step whole-number stories with whole-number answers across the four operations. Use a letter, assess reasonableness mentally or by estimation including rounding, and observe conventional order without parentheses.",
+      "citations": [
+        "examples/grade-3/two-step-stories.md#cards-for-a-table"
+      ],
+      "worked": [
+        "examples/grade-3/two-step-stories.md#stamps-left-on-a-sheet",
+        "examples/grade-3/two-step-stories.md#seeds-for-four-beds",
+        "examples/grade-3/two-step-stories.md#cards-for-a-table"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.OA.D.9": {
+      "grade": "3",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/OA/D/9/",
+      "page": 23,
+      "summary": "Identify arithmetic patterns, including in operation tables, and explain using properties.",
+      "citations": [
+        "examples/grade-3/tables-and-tens.md#six-bundles-of-forty"
+      ],
+      "worked": [
+        "examples/grade-3/tables-and-tens.md#two-tables-with-different-steps"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NBT.A.1": {
+      "grade": "3",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NBT/A/1/",
+      "page": 24,
+      "summary": "Round whole numbers to the nearest ten or hundred using place value.",
+      "citations": [
+        "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton"
+      ],
+      "worked": [
+        "examples/grade-3/rounding-and-exchanges.md#both-sides-of-a-midpoint"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NBT.A.2": {
+      "grade": "3",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NBT/A/2/",
+      "page": 24,
+      "summary": "Fluently add and subtract within 1,000 using valid place-value, property, or inverse-based strategies or algorithms.",
+      "citations": [
+        "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton"
+      ],
+      "worked": [
+        "examples/grade-3/rounding-and-exchanges.md#two-ways-to-count-a-delivery",
+        "examples/grade-3/rounding-and-exchanges.md#taking-envelopes-from-a-full-carton"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NBT.A.3": {
+      "grade": "3",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NBT/A/3/",
+      "page": 24,
+      "summary": "Multiply a one-digit whole number by a multiple of ten from 10–90 using place value and properties.",
+      "citations": [
+        "examples/grade-3/tables-and-tens.md#six-bundles-of-forty"
+      ],
+      "worked": [
+        "examples/grade-3/tables-and-tens.md#six-bundles-of-forty"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.1": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/1/",
+      "page": 24,
+      "summary": "Interpret 1/b as one of b equal parts of a whole and a/b as a such parts.",
+      "citations": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "worked": [
+        "examples/grade-3/shares-and-jumps.md#one-whole-sheet"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.2": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/2/",
+      "page": 24,
+      "summary": "Represent a fraction as a number on a number line.",
+      "citations": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "worked": [
+        "examples/grade-3/shares-and-jumps.md#six-spaces-between-seven-marks",
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.2.a": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/2/a/",
+      "page": 24,
+      "summary": "Partition 0–1 into b equal intervals and locate 1/b at the end of the first.",
+      "citations": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "worked": [
+        "examples/grade-3/shares-and-jumps.md#six-spaces-between-seven-marks"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.2.b": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/2/b/",
+      "page": 24,
+      "summary": "Iterate a lengths of 1/b from zero to locate a/b.",
+      "citations": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "worked": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.3": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/3/",
+      "page": 24,
+      "summary": "Explain simple equivalence and compare fractions through size.",
+      "citations": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "worked": [
+        "examples/grade-3/names-for-one-point.md#split-each-third-in-two",
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.3.a": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/3/a/",
+      "page": 24,
+      "summary": "Recognize equal fractions by equal magnitude or coincident number-line points.",
+      "citations": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "worked": [
+        "examples/grade-3/names-for-one-point.md#split-each-third-in-two"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.3.b": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/3/b/",
+      "page": 24,
+      "summary": "Recognize, generate, and explain simple equivalent fractions.",
+      "citations": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "worked": [
+        "examples/grade-3/names-for-one-point.md#split-each-third-in-two"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.3.c": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/3/c/",
+      "page": 24,
+      "summary": "Express whole numbers as fractions and recognize fractions equal to whole numbers.",
+      "citations": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "worked": [
+        "examples/grade-3/names-for-one-point.md#when-a-fraction-lands-on-a-whole-number"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.NF.A.3.d": {
+      "grade": "3",
+      "domain": "NF",
+      "subpart": "d",
+      "url": "https://www.thecorestandards.org/Math/Content/3/NF/A/3/d/",
+      "page": 24,
+      "summary": "Compare fractions with common numerator or common denominator using the same whole. Record >, = and < and justify.",
+      "citations": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "worked": [
+        "examples/grade-3/names-for-one-point.md#which-way-does-the-sign-point"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.A.1": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/A/1/",
+      "page": 24,
+      "summary": "Read/write time to the minute, measure intervals in minutes, and solve additive elapsed-time stories.",
+      "citations": [
+        "examples/grade-3/minutes-across-four.md#crossing-four-oclock"
+      ],
+      "worked": [
+        "examples/grade-3/minutes-across-four.md#reading-both-hands",
+        "examples/grade-3/minutes-across-four.md#crossing-four-oclock"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.A.2": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/A/2/",
+      "page": 24,
+      "summary": "Measure and estimate mass in g/kg and liquid volume in liters. Solve one-step same-unit stories across the four operations. Exclude compound units, geometric container volume, and multiplicative comparisons.",
+      "citations": [
+        "examples/grade-3/weighing-and-pouring.md#four-questions-about-measured-amounts"
+      ],
+      "worked": [
+        "examples/grade-3/weighing-and-pouring.md#three-sample-readings",
+        "examples/grade-3/weighing-and-pouring.md#four-questions-about-measured-amounts"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.B.3": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/B/3/",
+      "page": 25,
+      "summary": "Draw scaled picture and bar graphs for several categories. Use scaled bars to solve one- and two-step comparison questions.",
+      "citations": [
+        "examples/grade-3/birds-in-scaled-graphs.md#comparing-bar-heights"
+      ],
+      "worked": [
+        "examples/grade-3/birds-in-scaled-graphs.md#reading-the-two-scales",
+        "examples/grade-3/birds-in-scaled-graphs.md#comparing-bar-heights"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.B.4": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/B/4/",
+      "page": 25,
+      "summary": "Measure lengths with rulers marked in halves and fourths of an inch. Plot data on an appropriate whole-, half-, or quarter-unit scale.",
+      "citations": [
+        "examples/grade-3/strip-lengths.md#rebuild-the-list-from-the-plot"
+      ],
+      "worked": [
+        "examples/grade-3/strip-lengths.md#read-from-the-origin",
+        "examples/grade-3/strip-lengths.md#rebuild-the-list-from-the-plot"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.5": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/5/",
+      "page": 25,
+      "summary": "Understand area as a measurable property of a plane figure.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-square-to-measure-a-surface"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.5.a": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/5/a/",
+      "page": 25,
+      "summary": "A square one length unit on each side has area one square unit.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-square-to-measure-a-surface"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.5.b": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/5/b/",
+      "page": 25,
+      "summary": "A region tiled exactly by n unit squares has area n square units.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-square-to-measure-a-surface"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.6": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/6/",
+      "page": 25,
+      "summary": "Measure by counting unit squares, including square cm, m, in, ft, and improvised square units.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#what-changes-with-the-tile"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.7": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/7/",
+      "page": 25,
+      "summary": "Relate area to multiplication and addition.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.7.a": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/7/a/",
+      "page": 25,
+      "summary": "Tile a whole-number-sided rectangle and show that multiplying its side lengths gives the same area.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.7.b": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/7/b/",
+      "page": 25,
+      "summary": "Use side products in real and mathematical rectangle-area problems, and use rectangular areas to represent whole-number products.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.C.7.c": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/7/c/",
+      "page": 25,
+      "summary": "Tile a rectangle whose width splits into two parts. Explain the area as the sum of the two products.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover"
+      ],
+      "teaching": [
+        {
+          "source": "teaching/12-area-and-perimeter.md#what-does-one-tile-measure",
+          "worked": [
+            "examples/grade-3/tiles-and-floor.md#a-product-you-can-cover"
+          ],
+          "reason": "Splitting off one column leaves one square and three more in each row. The two areas add to the original twelve square centimeters."
+        }
+      ],
+      "boundary": false
+    },
+    "3.MD.C.7.d": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": "d",
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/C/7/d/",
+      "page": 25,
+      "summary": "Decompose rectilinear regions into non-overlapping rectangles and add areas, including in applied problems.",
+      "citations": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "worked": [
+        "examples/grade-3/tiles-and-floor.md#two-cuts-of-a-stepped-floor"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.MD.D.8": {
+      "grade": "3",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/MD/D/8/",
+      "page": 25,
+      "summary": "Solve polygon-perimeter problems, including a missing side. Exhibit rectangles with equal perimeter/different area and equal area/different perimeter.",
+      "citations": [
+        "examples/grade-3/fences-and-coverings.md#equal-fences-and-equal-coverings"
+      ],
+      "worked": [
+        "examples/grade-3/fences-and-coverings.md#one-trip-around-the-garden",
+        "examples/grade-3/fences-and-coverings.md#equal-fences-and-equal-coverings"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.G.A.1": {
+      "grade": "3",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/G/A/1/",
+      "page": 26,
+      "summary": "Classify by shared attributes. Recognize rhombuses, rectangles, and squares as quadrilaterals and draw a quadrilateral outside those subcategories.",
+      "citations": [
+        "examples/grade-3/four-sided-figures.md#four-closed-outlines"
+      ],
+      "worked": [
+        "examples/grade-3/four-sided-figures.md#four-closed-outlines"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "3.G.A.2": {
+      "grade": "3",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/3/G/A/2/",
+      "page": 26,
+      "summary": "Partition shapes into equal-area parts and express each part as a unit fraction of the whole area.",
+      "citations": [
+        "examples/grade-3/shares-and-jumps.md#a-fifth-quarter-jump"
+      ],
+      "worked": [
+        "examples/grade-3/shares-and-jumps.md#one-whole-sheet"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.OA.A.1": {
+      "grade": "4",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/OA/A/1/",
+      "page": 29,
+      "summary": "Read a product equation as a multiplicative comparison and translate a spoken comparison into an equation.",
+      "citations": [
+        "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference"
+      ],
+      "worked": [
+        "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.OA.A.2": {
+      "grade": "4",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/OA/A/2/",
+      "page": 29,
+      "summary": "Solve multiplication/division comparison stories and distinguish multiplicative from additive comparison.",
+      "citations": [
+        "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference"
+      ],
+      "worked": [
+        "examples/grade-4/bars-factors-and-patterns.md#g43--which-amount-is-the-reference"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.OA.A.3": {
+      "grade": "4",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/OA/A/3/",
+      "page": 29,
+      "summary": "Solve multistep whole-number stories with whole-number answers across the four operations. Interpret remainders, represent the unknown by a letter, and assess reasonableness mentally or through estimates including rounding.",
+      "citations": [
+        "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+        "examples/quotient-zero-and-capacity.md#a-zero-in-the-quotient-and-one-more-vehicle"
+      ],
+      "worked": [
+        "examples/grade-4/shipment-and-capacity.md#g49--follow-the-units-to-the-question",
+        "examples/quotient-zero-and-capacity.md#find-the-vehicles-needed"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.OA.B.4": {
+      "grade": "4",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/OA/B/4/",
+      "page": 29,
+      "summary": "For 1–100, find every positive factor pair, relate a number to its factors as a multiple, test for a given one-digit factor, and classify prime/composite where applicable.",
+      "citations": [
+        "examples/grade-4/bars-factors-and-patterns.md#g44--when-is-the-pair-list-finished"
+      ],
+      "worked": [
+        "examples/grade-4/bars-factors-and-patterns.md#g44--when-is-the-pair-list-finished"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.OA.C.5": {
+      "grade": "4",
+      "domain": "OA",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/OA/C/5/",
+      "page": 29,
+      "summary": "Generate a number or shape pattern from a rule, identify features the rule does not state, and explain their persistence informally.",
+      "citations": [
+        "examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating"
+      ],
+      "worked": [
+        "examples/grade-4/bars-factors-and-patterns.md#g45--what-keeps-alternating"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NBT.A.1": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/A/1/",
+      "page": 29,
+      "summary": "A digit has ten times the value it has one position to the right.",
+      "citations": [
+        "examples/grade-4/place-and-exchanges.md#g41--reading-the-places"
+      ],
+      "worked": [
+        "examples/grade-4/place-and-exchanges.md#g41--reading-the-places"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NBT.A.2": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/A/2/",
+      "page": 29,
+      "summary": "Read/write base-ten numerals, words, and expanded forms and compare using >, = and <.",
+      "citations": [
+        "examples/grade-4/place-and-exchanges.md#g41--reading-the-places"
+      ],
+      "worked": [
+        "examples/grade-4/place-and-exchanges.md#g41--reading-the-places"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NBT.A.3": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/A/3/",
+      "page": 29,
+      "summary": "Round multi-digit whole numbers to any place using place value. The Grade 4 domain extends through one million.",
+      "citations": [
+        "examples/grade-4/place-and-exchanges.md#g41--reading-the-places"
+      ],
+      "worked": [
+        "examples/grade-4/place-and-exchanges.md#nearest-multiple"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NBT.B.4": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/B/4/",
+      "page": 29,
+      "summary": "Fluently add and subtract multidigit whole numbers using the standard algorithm.",
+      "citations": [
+        "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/place-and-exchanges.md#g42--following-each-exchange"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NBT.B.5": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/B/5/",
+      "page": 29,
+      "summary": "Multiply up to four digits by one digit, and two digits by two digits. Use place value and operation properties. Illustrate and explain using equations, rectangular arrays, and/or area models.",
+      "citations": [
+        "examples/four-region-multiplication.md#four-region-multiplication",
+        "examples/grade-4/products-and-quotients.md#g46--reassemble-the-product"
+      ],
+      "worked": [
+        "examples/four-region-multiplication.md#area-model-for-23--14",
+        "examples/grade-4/products-and-quotients.md#g46--reassemble-the-product"
+      ],
+      "teaching": [
+        {
+          "source": "teaching/18-partial-products.md#trace-each-row-to-its-part-of-the-rectangle",
+          "worked": [
+            "examples/four-region-multiplication.md#area-model-for-23--14",
+            "examples/grade-4/products-and-quotients.md#g46--reassemble-the-product"
+          ],
+          "reason": "Pairing each width with both heights gives four partial products. Their areas add to 322 square units."
+        }
+      ],
+      "boundary": false
+    },
+    "4.NBT.B.6": {
+      "grade": "4",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NBT/B/6/",
+      "page": 30,
+      "summary": "Find whole-number quotients and remainders for up to four-digit dividends and one-digit nonzero divisors. Explain using place value, properties and/or the inverse relationship, with equations, arrays, and/or area models.",
+      "citations": [
+        "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+        "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+        "examples/quotient-zero-and-capacity.md#a-zero-in-the-quotient-and-one-more-vehicle"
+      ],
+      "worked": [
+        "examples/grade-4/products-and-quotients.md#g47--count-groups-as-amounts-come-off",
+        "examples/grade-4/products-and-quotients.md#g48--which-zero-occupies-the-tens-place",
+        "examples/quotient-zero-and-capacity.md#count-groups-of-four",
+        "examples/quotient-zero-and-capacity.md#write-the-quotient-by-place"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.A.1": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/A/1/",
+      "page": 30,
+      "summary": "Use a visual fraction model to explain generating equivalence by multiplying numerator and denominator by the same positive whole number.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g50--subdivide-and-compare"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g50--subdivide-and-compare"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.A.2": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/A/2/",
+      "page": 30,
+      "summary": "Compare fractions with different numerators and denominators for the same whole. Record >, = and < and justify.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g50--subdivide-and-compare"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#two-ways-to-compare"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.3": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/3/",
+      "page": 30,
+      "summary": "Understand a/b, for a>1, as a sum of a unit fractions.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.3.a": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/3/a/",
+      "page": 30,
+      "summary": "Interpret fraction addition/subtraction as joining/separating amounts that refer to the same whole.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.3.b": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/3/b/",
+      "page": 30,
+      "summary": "Decompose a fraction in more than one way with a common denominator, record equations, and justify.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#two-cuts-in-five-eighths"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.3.c": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/3/c/",
+      "page": 30,
+      "summary": "Add and subtract mixed numbers with like denominators.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#lengths-joined-and-cut"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.3.d": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "d",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/3/d/",
+      "page": 30,
+      "summary": "Solve like-denominator fraction addition/subtraction stories with a common whole.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g51--join-separate-and-exchange"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#lengths-joined-and-cut"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.4": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/4/",
+      "page": 30,
+      "summary": "Extend multiplication to a fraction times a whole number.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.4.a": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/4/a/",
+      "page": 30,
+      "summary": "Interpret a/b as a copies of 1/b.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.4.b": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/4/b/",
+      "page": 30,
+      "summary": "Use copies of a unit fraction to calculate a whole-number multiple of a fraction.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.B.4.c": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": "c",
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/B/4/c/",
+      "page": 30,
+      "summary": "Solve stories multiplying a fraction by a whole number.",
+      "citations": [
+        "examples/grade-4/fraction-strips.md#g52--count-copies-of-a-measured-length"
+      ],
+      "worked": [
+        "examples/grade-4/fraction-strips.md#cord-for-three-people"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.C.5": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/C/5/",
+      "page": 31,
+      "summary": "Rename tenths as hundredths and add a tenths fraction to a hundredths fraction.",
+      "citations": [
+        "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval"
+      ],
+      "worked": [
+        "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.C.6": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/C/6/",
+      "page": 31,
+      "summary": "Write fractions with denominator 10 or 100 in decimal notation.",
+      "citations": [
+        "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval"
+      ],
+      "worked": [
+        "examples/grade-4/decimal-places.md#read-the-point"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.NF.C.7": {
+      "grade": "4",
+      "domain": "NF",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/NF/C/7/",
+      "page": 31,
+      "summary": "Compare decimals through hundredths for the same whole. Record >, = and < and justify.",
+      "citations": [
+        "examples/grade-4/decimal-places.md#g53--a-grid-and-a-unit-interval"
+      ],
+      "worked": [
+        "examples/grade-4/decimal-places.md#compare-the-places"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.A.1": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/A/1/",
+      "page": 31,
+      "summary": "Use relative unit sizes within one system to express larger units in smaller ones. Organize equivalent measurements in a two-column table.",
+      "citations": [
+        "examples/grade-4/measuring-and-plotting.md#g54--read-across-a-conversion-table"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-and-plotting.md#g54--read-across-a-conversion-table"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.A.2": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/A/2/",
+      "page": 31,
+      "summary": "Use four operations in problems about distance, time intervals, liquid volume, mass, and money. Include simple fractions/decimals and conversions from larger units to smaller. Represent quantities with diagrams featuring a measurement scale.",
+      "citations": [
+        "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-and-plotting.md#g55--what-does-the-answer-measure"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.A.3": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/A/3/",
+      "page": 31,
+      "summary": "Apply rectangle area and perimeter formulas in applied and mathematical problems.",
+      "citations": [
+        "examples/grade-4/rectangle-measures.md#g57--recover-a-side-from-a-measure"
+      ],
+      "worked": [
+        "examples/grade-4/rectangle-measures.md#g57--recover-a-side-from-a-measure"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.B.4": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/B/4/",
+      "page": 31,
+      "summary": "Display measurement data in halves, quarters, and eighths on line plots. Use the displayed data for fraction sums/differences.",
+      "citations": [
+        "examples/grade-4/measuring-and-plotting.md#g56--which-marks-belong-to-which-ribbons"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-and-plotting.md#g56--which-marks-belong-to-which-ribbons"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.C.5": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/C/5/",
+      "page": 31,
+      "summary": "Recognize an angle from two rays sharing an endpoint and understand angle measure.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.C.5.a": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": "a",
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/C/5/a/",
+      "page": 31,
+      "summary": "Relate angle to a fraction of a circle centered at the vertex. One degree is 1/360 of a full turn.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#degrees-on-a-circle"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.C.5.b": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": "b",
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/C/5/b/",
+      "page": 31,
+      "summary": "A turn spanning n one-degree units measures n degrees.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#degrees-on-a-circle"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.C.6": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/C/6/",
+      "page": 32,
+      "summary": "Measure angles to whole-number degrees with a protractor and sketch angles of specified measure.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#read-and-construct-on-a-protractor"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.MD.C.7": {
+      "grade": "4",
+      "domain": "MD",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/MD/C/7/",
+      "page": 32,
+      "summary": "Use additivity of adjacent, non-overlapping angle parts to find unknowns in diagrams and applied problems.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g59--which-degree-intervals-belong-to-each-part"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#g59--which-degree-intervals-belong-to-each-part"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.G.A.1": {
+      "grade": "4",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/G/A/1/",
+      "page": 32,
+      "summary": "Draw and identify points, lines, segments, rays, right/acute/obtuse angles, and parallel/perpendicular lines in plane figures.",
+      "citations": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "worked": [
+        "examples/grade-4/measuring-turns.md#g58--lines-endpoints-and-turns"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.G.A.2": {
+      "grade": "4",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/G/A/2/",
+      "page": 32,
+      "summary": "Classify plane figures by presence or absence of stated line relationships or angle sizes. Identify right triangles.",
+      "citations": [
+        "examples/grade-4/sorting-and-folding.md#g60--sort-by-the-actual-corners"
+      ],
+      "worked": [
+        "examples/grade-4/sorting-and-folding.md#g60--sort-by-the-actual-corners"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "4.G.A.3": {
+      "grade": "4",
+      "domain": "G",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/4/G/A/3/",
+      "page": 32,
+      "summary": "Identify reflection symmetry, recognize figures having it, and draw lines of symmetry.",
+      "citations": [
+        "examples/grade-4/sorting-and-folding.md#g61--test-an-entire-boundary",
+        "examples/rectangle-reflection.md#which-folds-match-this-rectangle",
+        "examples/rectangle-reflection.md#which-folds-match-this-rectangle"
+      ],
+      "worked": [
+        "examples/grade-4/sorting-and-folding.md#g61--test-an-entire-boundary",
+        "examples/rectangle-reflection.md#test-the-folds",
+        "examples/rectangle-reflection.md#check-for-other-folds"
+      ],
+      "teaching": [],
+      "boundary": false
+    },
+    "5.NBT.B.5": {
+      "grade": "5",
+      "domain": "NBT",
+      "subpart": null,
+      "url": "https://www.thecorestandards.org/Math/Content/5/NBT/B/5/",
+      "page": 35,
+      "summary": "Multiply multidigit whole numbers fluently with the standard algorithm.",
+      "citations": [
+        "examples/four-region-multiplication.md#parent-bridge"
+      ],
+      "worked": [
+        "examples/four-region-multiplication.md#parent-bridge"
+      ],
+      "teaching": [],
+      "boundary": true
+    }
+  }
+}
